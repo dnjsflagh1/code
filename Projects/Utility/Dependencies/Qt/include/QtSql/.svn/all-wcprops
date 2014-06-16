@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql
+END
+QSqlRecord
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlRecord
+END
+QIBaseDriver
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QIBaseDriver
+END
+qsqlerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlerror.h
+END
+QSQLiteResult
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSQLiteResult
+END
+QSqlRelationalTableModel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlRelationalTableModel
+END
+QSqlRelationalDelegate
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlRelationalDelegate
+END
+QDB2Result
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QDB2Result
+END
+QTDSDriver
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QTDSDriver
+END
+qsql_sqlite.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_sqlite.h
+END
+QSqlError
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlError
+END
+QOCIResult
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QOCIResult
+END
+qsql_mysql.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_mysql.h
+END
+qsqlquery.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlquery.h
+END
+qsql_db2.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_db2.h
+END
+qsql_odbc.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_odbc.h
+END
+QSQLiteDriver
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSQLiteDriver
+END
+QPSQLResult
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QPSQLResult
+END
+qsqltablemodel.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqltablemodel.h
+END
+QSQLite2Result
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSQLite2Result
+END
+QDB2Driver
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QDB2Driver
+END
+QtSql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QtSql
+END
+qsqlresult.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlresult.h
+END
+QSqlQuery
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlQuery
+END
+qsql.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql.h
+END
+QOCIDriver
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QOCIDriver
+END
+qsqlfield.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlfield.h
+END
+QSqlDriverPlugin
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlDriverPlugin
+END
+QSqlDriverCreator
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlDriverCreator
+END
+QPSQLDriver
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QPSQLDriver
+END
+qsqlrelationaldelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlrelationaldelegate.h
+END
+QSqlRelation
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlRelation
+END
+QSqlResult
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlResult
+END
+QSQLite2Driver
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSQLite2Driver
+END
+qsql_tds.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_tds.h
+END
+qsqldriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqldriver.h
+END
+QSqlField
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlField
+END
+QMYSQLResult
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QMYSQLResult
+END
+QSqlQueryModel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlQueryModel
+END
+QODBCResult
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QODBCResult
+END
+qsqldatabase.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqldatabase.h
+END
+QSqlDriver
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlDriver
+END
+qsqlindex.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlindex.h
+END
+qsql_oci.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_oci.h
+END
+qsqldriverplugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqldriverplugin.h
+END
+QMYSQLDriver
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QMYSQLDriver
+END
+QIBaseResult
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QIBaseResult
+END
+QODBCDriver
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QODBCDriver
+END
+headers.pri
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/headers.pri
+END
+QSqlDriverFactoryInterface
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlDriverFactoryInterface
+END
+QSqlDatabase
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlDatabase
+END
+qsql_psql.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_psql.h
+END
+qsqlrecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlrecord.h
+END
+QSqlDriverCreatorBase
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlDriverCreatorBase
+END
+QSqlIndex
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlIndex
+END
+QSqlTableModel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QSqlTableModel
+END
+qsql_ibase.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_ibase.h
+END
+qsql_sqlite2.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsql_sqlite2.h
+END
+QTDSResult
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/QTDSResult
+END
+qsqlrelationaltablemodel.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlrelationaltablemodel.h
+END
+qsqlquerymodel.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtSql/qsqlquerymodel.h
+END

@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest
+END
+qtestdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestdata.h
+END
+qtestxunitstreamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestxunitstreamer.h
+END
+qtestcase.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestcase.h
+END
+qtesteventloop.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtesteventloop.h
+END
+QSpontaneKeyEvent
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QSpontaneKeyEvent
+END
+qtestelementattribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestelementattribute.h
+END
+qtestfilelogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestfilelogger.h
+END
+QtTestGui
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QtTestGui
+END
+qtest_gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtest_gui.h
+END
+QTestData
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestData
+END
+qtestbasicstreamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestbasicstreamer.h
+END
+qtestcorelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestcorelist.h
+END
+QTest
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTest
+END
+qtestelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestelement.h
+END
+qtestspontaneevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestspontaneevent.h
+END
+qtestlightxmlstreamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestlightxmlstreamer.h
+END
+QTestKeyClicksEvent
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestKeyClicksEvent
+END
+QEventSizeOfChecker
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QEventSizeOfChecker
+END
+qtestkeyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestkeyboard.h
+END
+QTestAccessibility
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestAccessibility
+END
+QTestElement
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestElement
+END
+QTestLightXmlStreamer
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestLightXmlStreamer
+END
+qsignalspy.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qsignalspy.h
+END
+QTestDelayEvent
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestDelayEvent
+END
+QTestCoreElement
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestCoreElement
+END
+QtTest
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QtTest
+END
+QTestXmlStreamer
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestXmlStreamer
+END
+qtest.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtest.h
+END
+qtestevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestevent.h
+END
+qtesttouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtesttouch.h
+END
+QSignalSpy
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QSignalSpy
+END
+QTestXunitStreamer
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestXunitStreamer
+END
+qtestsystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestsystem.h
+END
+QTestEventLoop
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestEventLoop
+END
+QTestElementAttribute
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestElementAttribute
+END
+QTestEventList
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestEventList
+END
+qtestmouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestmouse.h
+END
+QTestFileLogger
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestFileLogger
+END
+qbenchmark.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qbenchmark.h
+END
+QTestEvent
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestEvent
+END
+headers.pri
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/headers.pri
+END
+qtestaccessible.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestaccessible.h
+END
+QTestBasicStreamer
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestBasicStreamer
+END
+QTestCoreList
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestCoreList
+END
+qtest_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtest_global.h
+END
+qtestassert.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestassert.h
+END
+qtestcoreelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestcoreelement.h
+END
+QTestAccessibilityEvent
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestAccessibilityEvent
+END
+qtestxmlstreamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/qtestxmlstreamer.h
+END
+QTestMouseEvent
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestMouseEvent
+END
+QTestKeyEvent
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtTest/QTestKeyEvent
+END

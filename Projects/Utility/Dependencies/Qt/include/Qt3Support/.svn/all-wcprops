@@ -1,0 +1,1775 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support
+END
+q3ptrvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ptrvector.h
+END
+Q3VButtonGroup
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3VButtonGroup
+END
+Q3EditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3EditorFactory
+END
+q3progressbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3progressbar.h
+END
+Q3StrIVec
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StrIVec
+END
+q3sortedlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sortedlist.h
+END
+Q3SqlForm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlForm
+END
+Q3PtrDictIterator
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrDictIterator
+END
+Q3Dns
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Dns
+END
+Q3ProgressDialog
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ProgressDialog
+END
+Q3CanvasItemList
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasItemList
+END
+Q3CanvasSpline
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasSpline
+END
+Q3PtrVector
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrVector
+END
+Q3ValueListConstIterator
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ValueListConstIterator
+END
+Q3DropSite
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DropSite
+END
+Q3TextEdit
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TextEdit
+END
+q3memarray.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3memarray.h
+END
+Q3SimpleRichText
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SimpleRichText
+END
+Q3DataView
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DataView
+END
+q3mimefactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3mimefactory.h
+END
+q3gridview.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3gridview.h
+END
+Q3ListView
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListView
+END
+q3glist.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3glist.h
+END
+q3iconview.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3iconview.h
+END
+q3semaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3semaphore.h
+END
+Q3AsciiCache
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3AsciiCache
+END
+Q3SpinWidget
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SpinWidget
+END
+Q3CacheIterator
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CacheIterator
+END
+Q3WhatsThis
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3WhatsThis
+END
+Q3IntCache
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IntCache
+END
+Q3GridView
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GridView
+END
+Q3TextDrag
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TextDrag
+END
+Q3GridLayout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GridLayout
+END
+Q3GArray
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GArray
+END
+Q3ListViewItem
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListViewItem
+END
+Q3GListIterator
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GListIterator
+END
+q3strvec.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3strvec.h
+END
+q3gcache.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3gcache.h
+END
+Q3CheckTableItem
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CheckTableItem
+END
+q3vbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3vbox.h
+END
+Q3GListStdIterator
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GListStdIterator
+END
+Q3Button
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Button
+END
+Q3ColorDrag
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ColorDrag
+END
+Q3StrIList
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StrIList
+END
+q3dropsite.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dropsite.h
+END
+Q3Dict
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Dict
+END
+q3rangecontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3rangecontrol.h
+END
+Q3GCacheIterator
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GCacheIterator
+END
+Q3IconDrag
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IconDrag
+END
+q3toolbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3toolbar.h
+END
+Q3ValueStack
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ValueStack
+END
+Q3DateTimeEdit
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DateTimeEdit
+END
+q3http.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3http.h
+END
+Q3IconDragItem
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IconDragItem
+END
+Q3GVector
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GVector
+END
+Q3PtrQueue
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrQueue
+END
+Q3StrListIterator
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StrListIterator
+END
+q3ptrstack.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ptrstack.h
+END
+Q3Grid
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Grid
+END
+Q3CheckListItem
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CheckListItem
+END
+Q3UriDrag
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3UriDrag
+END
+Q3IntDict
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IntDict
+END
+headers.pri
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/headers.pri
+END
+q3networkprotocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3networkprotocol.h
+END
+Q3LNode
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3LNode
+END
+q3tl.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3tl.h
+END
+Q3PtrDict
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrDict
+END
+Q3HGroupBox
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HGroupBox
+END
+Q3Process
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Process
+END
+Q3CanvasPolygonalItem
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasPolygonalItem
+END
+q3textedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3textedit.h
+END
+Q3PtrCollection
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrCollection
+END
+Q3CanvasPolygon
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasPolygon
+END
+Q3GDict
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GDict
+END
+Q3CanvasPixmap
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasPixmap
+END
+Q3VGroupBox
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3VGroupBox
+END
+q3syntaxhighlighter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3syntaxhighlighter.h
+END
+q3gvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3gvector.h
+END
+Q3Cache
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Cache
+END
+Q3TimeEdit
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TimeEdit
+END
+Q3MainWindow
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3MainWindow
+END
+q3tabdialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3tabdialog.h
+END
+Q3Signal
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Signal
+END
+Q3CanvasText
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasText
+END
+Q3ImageDrag
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ImageDrag
+END
+q3sqlcursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqlcursor.h
+END
+q3sqlselectcursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqlselectcursor.h
+END
+Q3AsciiCacheIterator
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3AsciiCacheIterator
+END
+Q3IntCacheIterator
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IntCacheIterator
+END
+Q3Frame
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Frame
+END
+Q3AsciiDict
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3AsciiDict
+END
+q3shared.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3shared.h
+END
+Q3DateTimeEditBase
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DateTimeEditBase
+END
+q3combobox.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3combobox.h
+END
+q3ptrdict.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ptrdict.h
+END
+Q3HButtonGroup
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HButtonGroup
+END
+Q3PolygonScanner
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PolygonScanner
+END
+Q3TSFUNC
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TSFUNC
+END
+Q3NetworkProtocolFactory
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3NetworkProtocolFactory
+END
+q3sqlfieldinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqlfieldinfo.h
+END
+Q3StrVec
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StrVec
+END
+q3ptrcollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ptrcollection.h
+END
+Q3ComboBox
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ComboBox
+END
+q3sqlform.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqlform.h
+END
+Q3VBox
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3VBox
+END
+Q3Http
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Http
+END
+Q3PaintDeviceMetrics
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PaintDeviceMetrics
+END
+Q3LocalFs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3LocalFs
+END
+Q3PtrListStdIterator
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrListStdIterator
+END
+q3valuestack.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3valuestack.h
+END
+Q3ListBoxText
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListBoxText
+END
+q3dragobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dragobject.h
+END
+q3strlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3strlist.h
+END
+Q3StoredDrag
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StoredDrag
+END
+q3ptrqueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ptrqueue.h
+END
+Q3MimeSourceFactory
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3MimeSourceFactory
+END
+q3button.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3button.h
+END
+Q3Url
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Url
+END
+q3action.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3action.h
+END
+Q3FileIconProvider
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3FileIconProvider
+END
+qiconset.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/qiconset.h
+END
+q3gridlayout.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3gridlayout.h
+END
+q3dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dict.h
+END
+q3dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dns.h
+END
+Q3NetworkOperation
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3NetworkOperation
+END
+q3cleanuphandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3cleanuphandler.h
+END
+Q3MemArray
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3MemArray
+END
+q3popupmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3popupmenu.h
+END
+q3buttongroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3buttongroup.h
+END
+Q3SqlFieldInfo
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlFieldInfo
+END
+Q3DateEdit
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DateEdit
+END
+Q3ListBox
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListBox
+END
+Q3AsciiBucket
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3AsciiBucket
+END
+q3polygonscanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3polygonscanner.h
+END
+q3datetimeedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3datetimeedit.h
+END
+Q3ButtonGroup
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ButtonGroup
+END
+Q3PopupMenu
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PopupMenu
+END
+q3groupbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3groupbox.h
+END
+q3dockwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dockwindow.h
+END
+q3deepcopy.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3deepcopy.h
+END
+Q3CanvasRectangle
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasRectangle
+END
+Q3Painter
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Painter
+END
+q3databrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3databrowser.h
+END
+Q3ListBoxPixmap
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListBoxPixmap
+END
+q3textview.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3textview.h
+END
+Q3HttpResponseHeader
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HttpResponseHeader
+END
+Q3StyleSheetItem
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StyleSheetItem
+END
+Q3DockWindow
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DockWindow
+END
+Q3DeepCopy
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DeepCopy
+END
+Q3IntDictIterator
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IntDictIterator
+END
+q3progressdialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3progressdialog.h
+END
+q3table.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3table.h
+END
+q3textbrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3textbrowser.h
+END
+q3gdict.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3gdict.h
+END
+q3frame.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3frame.h
+END
+Q3ComboTableItem
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ComboTableItem
+END
+q3wizard.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3wizard.h
+END
+Q3TextBrowser
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TextBrowser
+END
+Q3CanvasEllipse
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasEllipse
+END
+q3dataview.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dataview.h
+END
+Q3SortedList
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SortedList
+END
+Q3DnsSocket
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DnsSocket
+END
+Q3RangeControl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3RangeControl
+END
+Qt3Support
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Qt3Support
+END
+q3asciicache.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3asciicache.h
+END
+Q3CanvasSprite
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasSprite
+END
+Q3GDictIterator
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GDictIterator
+END
+q3urloperator.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3urloperator.h
+END
+Q3SqlRecordInfo
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlRecordInfo
+END
+Q3Picture
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Picture
+END
+Q3PtrListIterator
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrListIterator
+END
+q3boxlayout.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3boxlayout.h
+END
+q3sqleditorfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqleditorfactory.h
+END
+Q3TabDialog
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TabDialog
+END
+q3textstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3textstream.h
+END
+Q3IntBucket
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IntBucket
+END
+q3url.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3url.h
+END
+q3cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3cache.h
+END
+q3simplerichtext.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3simplerichtext.h
+END
+Q3TableSelection
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TableSelection
+END
+Q3Wizard
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Wizard
+END
+Q3TextStream
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TextStream
+END
+Q3SqlPropertyMap
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlPropertyMap
+END
+Q3AsciiDictIterator
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3AsciiDictIterator
+END
+Q3DockArea
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DockArea
+END
+Q3Canvas
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Canvas
+END
+Q3VBoxLayout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3VBoxLayout
+END
+q3header.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3header.h
+END
+Q3TextView
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TextView
+END
+Q3CanvasLine
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasLine
+END
+q3valuevector.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3valuevector.h
+END
+q3painter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3painter.h
+END
+Q3Ftp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Ftp
+END
+Q3SqlSelectCursor
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlSelectCursor
+END
+q3valuelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3valuelist.h
+END
+q3objectdict.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3objectdict.h
+END
+Q3HttpRequestHeader
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HttpRequestHeader
+END
+Q3SyntaxHighlighter
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SyntaxHighlighter
+END
+Q3Shared
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Shared
+END
+q3paintdevicemetrics.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3paintdevicemetrics.h
+END
+Q3ValueList
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ValueList
+END
+Q3BaseBucket
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3BaseBucket
+END
+Q3WidgetStack
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3WidgetStack
+END
+q3garray.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3garray.h
+END
+q3pointarray.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3pointarray.h
+END
+q3network.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3network.h
+END
+q3ftp.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ftp.h
+END
+Q3NetworkProtocolDict
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3NetworkProtocolDict
+END
+Q3FilePreview
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3FilePreview
+END
+Q3DataTable
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DataTable
+END
+q3vgroupbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3vgroupbox.h
+END
+Q3IconView
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IconView
+END
+q3filedialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3filedialog.h
+END
+q3hbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3hbox.h
+END
+Q3Table
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Table
+END
+Q3SingleCleanupHandler
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SingleCleanupHandler
+END
+Q3Header
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Header
+END
+Q3PointArray
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PointArray
+END
+Q3StyleSheet
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StyleSheet
+END
+Q3SqlCursor
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlCursor
+END
+Q3HBoxLayout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HBoxLayout
+END
+q3dockarea.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3dockarea.h
+END
+Q3HBox
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HBox
+END
+q3editorfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3editorfactory.h
+END
+q3localfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3localfs.h
+END
+q3grid.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3grid.h
+END
+Q3Semaphore
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Semaphore
+END
+Q3HttpHeader
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3HttpHeader
+END
+q3listview.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3listview.h
+END
+Q3ObjectDictionary
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ObjectDictionary
+END
+q3accel.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3accel.h
+END
+Q3SqlEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlEditorFactory
+END
+Q3NetworkProtocolFactoryBase
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3NetworkProtocolFactoryBase
+END
+Q3ValueVector
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ValueVector
+END
+q3widgetstack.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3widgetstack.h
+END
+Q3PtrList
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrList
+END
+q3mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3mainwindow.h
+END
+q3intcache.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3intcache.h
+END
+Q3StringBucket
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StringBucket
+END
+q3whatsthis.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3whatsthis.h
+END
+q3serversocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3serversocket.h
+END
+q3datatable.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3datatable.h
+END
+Q3MultiLineEdit
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3MultiLineEdit
+END
+Q3SqlFieldInfoList
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SqlFieldInfoList
+END
+Q3UrlOperator
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3UrlOperator
+END
+q3stylesheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3stylesheet.h
+END
+q3asciidict.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3asciidict.h
+END
+Q3GList
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GList
+END
+Q3CleanupHandler
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CleanupHandler
+END
+Q3BoxLayout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3BoxLayout
+END
+Q3ScrollView
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ScrollView
+END
+Q3ActionGroup
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ActionGroup
+END
+Q3PtrStack
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrStack
+END
+q3multilineedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3multilineedit.h
+END
+Q3TextEditOptimPrivate
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TextEditOptimPrivate
+END
+Q3FileDialog
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3FileDialog
+END
+Q3ListViewItemIterator
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListViewItemIterator
+END
+q3sqlrecordinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqlrecordinfo.h
+END
+q3picture.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3picture.h
+END
+q3signal.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3signal.h
+END
+Q3GroupBox
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GroupBox
+END
+Q3CString
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CString
+END
+Q3GCache
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3GCache
+END
+Q3NetworkProtocol
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3NetworkProtocol
+END
+Q3DataBrowser
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DataBrowser
+END
+Q3Action
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Action
+END
+q3socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3socket.h
+END
+q3ptrlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3ptrlist.h
+END
+q3sqlpropertymap.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3sqlpropertymap.h
+END
+Q3CanvasPixmapArray
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasPixmapArray
+END
+Q3ProgressBar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ProgressBar
+END
+Q3CanvasItem
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasItem
+END
+Q3DictIterator
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DictIterator
+END
+q3socketdevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3socketdevice.h
+END
+q3canvas.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3canvas.h
+END
+Q3ToolBar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ToolBar
+END
+q3hgroupbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3hgroupbox.h
+END
+q3process.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3process.h
+END
+Q3StrList
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3StrList
+END
+Q3DragObject
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DragObject
+END
+Q3SocketDevice
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3SocketDevice
+END
+q3listbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3listbox.h
+END
+Q3ServerSocket
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ServerSocket
+END
+q3scrollview.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3scrollview.h
+END
+Q3ValueListIterator
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ValueListIterator
+END
+q3intdict.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3intdict.h
+END
+Q3Socket
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Socket
+END
+q3cstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/q3cstring.h
+END
+Q3IconViewItem
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3IconViewItem
+END
+Q3ListBoxItem
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3ListBoxItem
+END
+Q3PtrBucket
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3PtrBucket
+END
+Q3TableItem
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3TableItem
+END
+Q3CanvasView
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3CanvasView
+END
+Q3DockAreaLayout
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3DockAreaLayout
+END
+Q3Accel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/Q3Accel
+END

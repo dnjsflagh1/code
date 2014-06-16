@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMath/Src
+END
+MGGeometric.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMath/Src/MGGeometric.cpp
+END
+MGRandom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMath/Src/MGRandom.cpp
+END
+MGQuaternion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMath/Src/MGQuaternion.cpp
+END
+MGMd5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMath/Src/MGMd5.cpp
+END
+NumberToChinese.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMath/Src/NumberToChinese.cpp
+END

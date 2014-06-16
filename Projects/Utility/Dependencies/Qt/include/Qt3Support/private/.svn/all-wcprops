@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private
+END
+q3titlebar_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3titlebar_p.h
+END
+q3richtext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3richtext_p.h
+END
+q3sqlmanager_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3sqlmanager_p.h
+END
+q3membuf_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3membuf_p.h
+END
+q3mainwindow_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3mainwindow_p.h
+END
+qt_compat_pch.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/qt_compat_pch.h
+END
+q3paintengine_svg_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3paintengine_svg_p.h
+END
+q3syntaxhighlighter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/Qt3Support/private/q3syntaxhighlighter_p.h
+END

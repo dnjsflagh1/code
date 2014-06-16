@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus
+END
+QDBusConnectionInterface
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusConnectionInterface
+END
+QDBusPendingCall
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusPendingCall
+END
+qdbusreply.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusreply.h
+END
+QDBusArgument
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusArgument
+END
+QDBusObjectPath
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusObjectPath
+END
+QDBusContext
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusContext
+END
+qdbuspendingreply.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbuspendingreply.h
+END
+QDBusPendingReplyData
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusPendingReplyData
+END
+QDBusConnection
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusConnection
+END
+QDBusInterface
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusInterface
+END
+QDBusPendingReply
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusPendingReply
+END
+QDBusSignature
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusSignature
+END
+QDBusVariant
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusVariant
+END
+QDBusServer
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusServer
+END
+qdbusargument.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusargument.h
+END
+qdbuscontext.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbuscontext.h
+END
+qdbusabstractinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusabstractinterface.h
+END
+qdbusmetatype.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusmetatype.h
+END
+QDBusAbstractInterface
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusAbstractInterface
+END
+QDBusMessage
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusMessage
+END
+qdbusconnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusconnection.h
+END
+qdbusinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusinterface.h
+END
+QDBusMetaType
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusMetaType
+END
+QDBusError
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusError
+END
+QDBusReply
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusReply
+END
+qdbusserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusserver.h
+END
+qdbusextratypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusextratypes.h
+END
+QDBusPendingCallWatcher
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusPendingCallWatcher
+END
+QtDBus
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QtDBus
+END
+qdbusabstractadaptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusabstractadaptor.h
+END
+qdbusservicewatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusservicewatcher.h
+END
+headers.pri
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/headers.pri
+END
+qdbusconnectioninterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusconnectioninterface.h
+END
+qdbuspendingcall.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbuspendingcall.h
+END
+qdbusmacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusmacros.h
+END
+qdbusmessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbusmessage.h
+END
+QDBusServiceWatcher
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusServiceWatcher
+END
+QDBusAbstractAdaptor
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusAbstractAdaptor
+END
+qdbuserror.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/qdbuserror.h
+END
+QDBusAbstractInterfaceBase
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDBus/QDBusAbstractInterfaceBase
+END

@@ -1,0 +1,542 @@
+/******************************************************************************/
+#include "stdafx.h"
+
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
+
+#include "FrontServerMain.h"
+#include "ClientManager.h"
+#include "ServerManager.h"
+#include "LoginManager.h"
+#include "SLuaSkillSystem.h"
+#include "CharacterLvlTemplate.h"
+#include "CharacterArmyList.h"
+#include "CharacterBuildList.h"
+#include "CharacterGenrealList.h"
+#include "CharacterNpcList.h"
+#include "CharacterObjectList.h"
+#include "CharacterMonsterList.h"
+#include "CharacterList.h"
+#include "CharacterSkillTempLate.h"
+#include "AttributeAppend.h"
+#include "AttributeList.h"
+#include "AttributePara.h"
+#include "LineageTemplate.h"
+#include "SkillObject.h"
+#include "SkillDB.h"
+#include "AccountDB.h"
+#include "PlayerCharacterDB.h"
+#include "ClanDataBase.h"
+#include "ItemShopTemplate.h"
+#include "ItemTemplate.h"
+#include "ItemEquipTemplate.h"
+#include "ItemUseTemplate.h"
+#include "ItemMoneyTemplate.h"
+#include "ItemOtherTemplate.h"
+#include "ItemGroupTemplate.h"
+#include "ItemRandomTemplate.h"
+#include "ItemClanListCsv.h"
+#include "ItemExpListCsv.h"
+#include "SkillInfoList.h"
+#include "SingleTargetSkillTemplate.h"
+#include "ShortRangeGeneralAttackSkillTemplate.h"
+#include "LongRangeGeneralAttackSkillTemplate.h"
+#include "PassivenessSkillTemplate.h"
+#include "SingleEmitterSkillTemplate.h"
+#include "SelfAreaSkillTemplate.h"
+#include "TargetPosAreaSkillTemplate.h"
+#include "GoUpAndDownSkillTemplate.h"
+#include "ParabolaAreaSkillTemplate.h"
+#include "LongRangeAuxiliarySkillTemplate.h"
+#include "CharacterResourceConfig.h"
+#include "ItemDBOp.h"
+#include "ItemSiteTemplate.h"
+#include "District.h"
+#include "CalendarInfo.h"
+#include "FringeGameTimeSystem.h"
+#include "SWorldManager.h"
+#include "QuestText.h"
+#include "QuestValueChange.h"
+#include "QuestNormalList.h"
+#include "QuestList.h"
+#include "CDTemplate.h"
+#include "PrintDialog.h"
+#include "ThreadTaskManager.h"
+#include "InstanceTiroListCsv.h"
+#include "InstancePVEListCsv.h"
+#include "AttributeInit.h"
+#include "PrintWindowsCfg.h"
+#include "GeneralRandomCsv.h"
+#include "GeneralRecruitCsv.h"
+#include "CharacterRandNameCsv.h"
+#include "ClanJudgeTemplate.h"
+#include "CharacterJudgeTemplate.h"
+#include "SHeartBeatManager.h"
+
+/******************************************************************************/
+
+namespace MG
+{
+	//-----------------------------------------------------------------------------
+	FrontServerMain::FrontServerMain()
+        :mLuaMgr(NULL)
+	{
+        //调用这个函数来检测：
+        _CrtDumpMemoryLeaks();
+        mLuaMgr = MG_NEW LuaManager;
+	}
+
+	//-----------------------------------------------------------------------------
+	FrontServerMain::~FrontServerMain()
+	{
+        MG_SAFE_DELETE(mLuaMgr);
+	}
+
+	//-----------------------------------------------------------------------------
+	Bool FrontServerMain::initialize(ServerLauncherInterface* launcher)
+	{
+        //-------------------------------------------------------------------------------
+
+		Str16 str16KeyName = launcher->getConfigKeyName();
+		str16KeyName = L"..\\Log\\" + str16KeyName;
+		Str8 str8KeyName;
+		MGStrOp::toString(str16KeyName.c_str(),str8KeyName);
+
+		LogSystem::getInstance().setSysLogPath(str8KeyName.c_str());
+		LogSystem::getInstance().setGameLogicLogPath(str8KeyName.c_str());
+		LogSystem::getInstance().setPartName("FrontServer");
+		LogSystem::getInstance().setEnableConsole(launcher->getServerSetting()->getCoreInfo()->isOpenConsole);
+		LogSystem::getInstance().setLogLevel(launcher->getServerSetting()->getCoreInfo()->logLevel);
+		LogSystem::getInstance().setSaveToFile(true);
+		LogSystem::getInstance().setLogLevel( out_max );
+
+        //-------------------------------------------------------------------------------
+
+		DYNAMIC_ASSERT(launcher);
+		if ( launcher == NULL )
+			return false;
+		mServerLauncher = launcher;
+		
+        //-------------------------------------------------------------------------------
+		
+		//打印相关配置
+		if ( PrintWindowsCfg::getInstance().loadFile(getSettingFilePath() + L"PrintWindowsCfg.ini") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+        //-------------------------------------------------------------------------------
+
+        if ( loadFile() == false )        //加载公共资源。
+            return false;
+
+        //-------------------------------------------------------------------------------
+
+        if ( createDBTable() == false )
+            return false;
+
+        //-------------------------------------------------------------------------------
+
+        if ( mLuaMgr->initialize() == false )
+            return false;
+
+        //-------------------------------------------------------------------------------
+
+		if ( ServerManager::getInstance().initialize(launcher->getServerSetting()) == false )
+			return false;
+
+		if ( ClientManager::getInstance().initialize() == false )
+			return false;
+
+		if ( LoginManager::getInstance().initialize(launcher->getDBDriver(), launcher->getServerSetting()) == false )
+			return false;
+
+		if (SWorldManager::getInstance().initialize(launcher) == false)
+			return false;
+		
+		//-------------------------------------------------------------------------------
+
+		if (ThreadTaskManager::getInstance().initialize() == false)
+			return false;
+		
+        if (SHeartBeatManager::getInstance().initialize() == false)
+            return false;
+
+        //-------------------------------------------------------------------------------
+
+		PrintDialog::getInstance().createMainDialog();
+
+        //-------------------------------------------------------------------------------
+
+		return true;
+	}
+
+	//-----------------------------------------------------------------------------
+	Bool FrontServerMain::unInitialize()
+	{
+		//FUNDETECTION(__MG_FUNC__);
+
+        SHeartBeatManager::getInstance().unInitialize();
+		ThreadTaskManager::getInstance().unInitialize();
+
+		mLuaMgr->unInitialize();
+
+		LoginManager::getInstance().uninitialize();
+		ClientManager::getInstance().uninitialize();
+        ServerManager::getInstance().uninitialize();
+        SWorldManager::getInstance().unInitialize();
+
+		return true;
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::onClientConnected(I32 id,NetAddress*address, INetConnect* connect)
+	{
+		ClientManager::getInstance().onConnected(id,address);
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::onClientDisconnect(I32 id, INetConnect* connect)
+	{
+		ClientManager::getInstance().onDisconnect(id);
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::onClientRecvPacket(I32 id,NetEventRecv* packet, INetConnect* connect)
+	{
+        ClientManager::getInstance().processPacket(id, packet);
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::onServerConnected(I32 id,GameNetType type, U32 serverId, U64 serverUniqueFlag,NetAddress*address)
+	{
+		ServerManager::getInstance().onConnected(id,type,serverId,serverUniqueFlag,address);
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::onServerDisconnect(I32 id,NetAddress*address)
+	{
+		address = NULL;
+		ServerManager::getInstance().onDisconnect(id);
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::onServerRecvPacket(I32 id,NetEventRecv* packet)
+	{
+        ServerManager::getInstance().processPacket(id,packet);
+	}
+
+	//-----------------------------------------------------------------------------
+	void FrontServerMain::freeEvent(INetEvent* netEvent)
+	{
+		if ( mServerLauncher )
+		{
+			mServerLauncher->freeEvent( netEvent );
+		}
+	}
+
+    //-----------------------------------------------------------------------------
+    DBDriver* FrontServerMain::getDBDriver()
+    {
+        return mServerLauncher->getDBDriver();
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool FrontServerMain::loadFile()
+    {
+		//FUNDETECTION(__MG_FUNC__);
+		if (CharacterResourceConfig::getInstance().load(L"Config\\Game\\Character\\CharacterCreate.csv") == false)
+        {
+		   DYNAMIC_ASSERT(0);
+		   return false;
+        }
+        
+		if ( CharacterArmyList::getInstance().loadFile(L"Config\\Game\\Character\\CharacterArmyList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}										   
+		if ( CharacterBuildList::getInstance().loadFile(L"Config\\Game\\Character\\CharacterBuildList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( CharacterGenrealList::getInstance().loadFile(L"Config\\Game\\Character\\CharacterGeneralList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( CharacterNpcList::getInstance().loadFile(L"Config\\Game\\Character\\CharacterNpcList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( CharacterObjectList::getInstance().loadFile(L"Config\\Game\\Character\\CharacterObjectList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( CharacterMonsterList::getInstance().loadFile(L"Config\\Game\\Character\\CharacterMonsterList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        if ( CharacterTemplate::getInstance().loadFile(L"Config\\Game\\Character\\CharacterList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        if ( CharacterLvlTemplate::getInstance().load(L"Config\\Game\\Setting\\Level.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        if ( CharacterSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\CharacterTempLateSkill.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( AttributeList::getInstance().load(L"Config\\Game\\Setting\\Ability.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( AttributeInit::getInstance().load(L"Config\\Game\\Setting\\AbilityInit.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		} 
+        if ( AttributeAppend::getInstance().load(L"Config\\Game\\Setting\\AbilityAppend.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        if ( AttributePara::getInstance().load(L"Config\\Game\\Setting\\FormulaParameter.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        /*if ( LineageTemplate::getInstance().load(L"Config\\Game\\LineageTemplate.csv") == false )
+            return false;*/
+
+        /*if ( UIIconArtRecouse::getInstance().load(L"MapData\\ArtIconRes.csv") == false )
+            return false;*/
+        if ( ItemShopTemplate::getInstance().load(L"Config\\Game\\Item\\ItemShop.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( ItemClanListCsv::getInstance().load(L"Config\\Game\\Item\\ItemClanUseList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if ( ItemEquipTemplate::getInstance().load(L"Config\\Game\\Item\\ItemEquipList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if ( ItemExpListCsv::getInstance().load(L"Config\\Game\\Item\\ItemExpList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if ( ItemMoneyTemplate::getInstance().load(L"Config\\Game\\Item\\ItemMoneyList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if ( ItemOtherTemplate::getInstance().load(L"Config\\Game\\Item\\ItemOtherList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if ( ItemUseTemplate::getInstance().load(L"Config\\Game\\Item\\ItemGeneralUseList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if ( ItemTemplate::getInstance().load(L"Config\\Game\\Item\\ItemList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+        if ( ItemGroupTemplate::getInstance().load(L"Config\\Game\\Item\\ItemGroup.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        if ( ItemRandomTemplate::getInstance().load(L"Config\\Game\\Item\\ItemRandom.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+        if ( ItemSiteTemplate::getInstance().load(L"Config\\Game\\Clan\\ItemSite.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( CalendarInfos::getInstance().load(L"Config\\Game\\Text\\Calendar.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		
+		if ( PassivenessSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType002List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if (ShortRangeGeneralAttackSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType003List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if (LongRangeGeneralAttackSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType004List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if (SingleTargetSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType005List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( SingleEmitterSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType006List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( SelfAreaSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType007List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( TargetPosAreaSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType008List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( GoUpAndDownSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType013List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( ParabolaAreaSkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType014List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if ( LongRangeAuxiliarySkillTemplate::getInstance().load(L"Config\\Game\\Skill\\SkillType009List.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if (SkillInfoList::getInstance().load(L"Config\\Game\\Skill\\SkillList.csv") == false )
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		// 任务
+		if (QuestTextInfos::getInstance().load(L"Config\\Game\\Quest\\QuestText.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (QuestValueChangeInfos::getInstance().load(L"Config\\Game\\Quest\\QuestValueChange.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (QuestNormalInfos::getInstance().load(L"Config\\Game\\Quest\\QuestNormalList.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (ClanQuestInfos::getInstance().load(L"Config\\Game\\Quest\\QuestList.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (ClanQuestInfos::getInstance().setQuestInfoData() == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (CDTemplate::getInstance().load(L"Config\\Game\\Setting\\Timepiece.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (GeneralRandomCsv::getInstance().load(L"Config\\Game\\Character\\GeneralRandom.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (GeneralRecruitCsv::getInstance().load(L"Config\\Game\\Character\\GeneralRecruit.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (CharacterRandNameCsv::getInstance().load(L"Config\\Game\\Text\\CharacterRandName.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+
+		if (ClanJudgeTemplate::getInstance().load(L"Config\\Game\\Clan\\ClanJudge.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		if (CharacterJudgeTemplate::getInstance().load(L"Config\\Game\\Character\\CharacterJudge.csv") == false)
+		{
+			DYNAMIC_ASSERT(0);
+			return false;
+		}
+		
+        return true;
+    }
+
+    //-----------------------------------------------------------------------------
+    MG::Bool FrontServerMain::createDBTable()
+    {
+        if (mServerLauncher->getServerSetting()->getDbConnectInfo()->isCreate)
+        {
+            PlayerCharacterDBOp::checkOrCreatePlayerCharacterTable( *( mServerLauncher->getDBDriver() ) );
+
+            ClanDataBaseDBOp::checkOrCreateClanDataBaseTable( *( mServerLauncher->getDBDriver() ) );
+
+            SkillDBOp::checkOrCreateSkillTable( *( mServerLauncher->getDBDriver() ) );
+
+            return true;
+        }
+
+        return false;
+    }
+
+	//-----------------------------------------------------------------------------
+	MG::Str16 FrontServerMain::getSettingFilePath()
+	{
+         return mServerLauncher->getSettingPathName();
+	}
+}
+
+

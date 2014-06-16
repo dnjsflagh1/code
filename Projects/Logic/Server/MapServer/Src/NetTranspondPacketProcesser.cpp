@@ -1,0 +1,622 @@
+//******************************************************************************/
+#include "stdafx.h"
+#include "GameNetPacket.h"
+#include "NetTranspondNetPacket.h"
+#include "ServerManager.h"
+#include "MapServerMain.h"
+#include "NetTranspondPacketProcesser.h"
+#include "SPlayer.h"
+#include "SSceneGrid.h"
+#include "SSceneGridManager.h"
+#include "MapServerMain.h"
+//******************************************************************************/
+
+namespace MG
+{
+    /******************************************************************************/
+    // NetTranspondSendDataBufferPtr
+    /******************************************************************************/
+
+	//--------------------------------------------------------------------------
+	NetTranspondSendDataBufferPtr::NetTranspondSendDataBufferPtr()
+		:mUsedHeadSize(0)
+		,mEstimateTailSize(0)
+	{
+	}
+
+	//--------------------------------------------------------------------------
+    NetTranspondSendDataBufferPtr::NetTranspondSendDataBufferPtr(GameNetSendDataBufferPtr& dataPtr, Int usedHeadSize, Int estimateTailSize)
+        :mDataPtr(dataPtr)
+        ,mUsedHeadSize(usedHeadSize)
+        ,mEstimateTailSize(estimateTailSize)
+    {
+    }
+
+    //--------------------------------------------------------------------------
+    Char8* NetTranspondSendDataBufferPtr::getTranspondData()
+    {
+        return mDataPtr->getLogicData() + mUsedHeadSize;
+    }
+
+    //--------------------------------------------------------------------------
+    U32 NetTranspondSendDataBufferPtr::getTranspondDataMaxSize( UInt maxClientCount )
+    {
+        UInt transpondDefineNeedSize    = mUsedHeadSize + maxClientCount*mEstimateTailSize;
+        UInt sysLogicSize               = mDataPtr->getLogicDataMaxSize();
+        Int transponddataMaxSize        = sysLogicSize - transpondDefineNeedSize;
+
+        if ( transponddataMaxSize <= 0 )
+        {
+            //DYNAMIC_ASSERT_LOG("too much client!");
+            DYNAMIC_ASSERT(false);
+            return 0;
+        }
+
+        return transponddataMaxSize;
+    }
+
+    /******************************************************************************/
+    // NetTranspondPacketProcesser
+    /******************************************************************************/
+    NetTranspondPacketProcesser::NetTranspondPacketProcesser()
+    {
+    }
+
+    //--------------------------------------------------------------------------
+    NetTranspondPacketProcesser::~NetTranspondPacketProcesser()
+    {
+    }
+
+    //--------------------------------------------------------------------------
+    Bool NetTranspondPacketProcesser::processClientPacket(I32 id, NetEventRecv* packet)
+    {
+        return false;
+    }
+
+    //--------------------------------------------------------------------------
+    Bool NetTranspondPacketProcesser::processLoginServerPacket(I32 id, NetEventRecv* packet)
+    {
+        return false;
+    }
+
+    //--------------------------------------------------------------------------
+    Bool NetTranspondPacketProcesser::processMapServerPacket(I32 id, NetEventRecv* packet)
+    {
+        if (packet->getChannel() == GNPC_NET_TRANSPOND)
+        {
+            GameNetPacketData* data = (GameNetPacketData*)(packet->getData());
+
+            switch (data->type)
+            {
+            case PT_NETTRANPOND_F2S_FROM_CLIENT:
+                break;
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    //--------------------------------------------------------------------------
+    void NetTranspondPacketProcesser::getClientTranspondSendDataBuffer( NetTranspondSendDataBufferPtr& ptr, U32 buffSize )
+    {
+        // 获得一个发送【服务端】缓存
+        MapServerMain::getInstance().getServerLauncher()->getServerSendDataBuffer( ptr.mDataPtr, buffSize );
+        ptr.mUsedHeadSize = GameNetPacketData_INFO::headSize+PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::headSize;
+        ptr.mEstimateTailSize = PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::clientNetInfoSize;
+    }
+
+    //--------------------------------------------------------------------------
+    Bool NetTranspondPacketProcesser::sendClientTranspondSendDataToFrontServer( 
+		NetTranspondSendDataBufferPtr& dataPtr, Int dataSize,
+        I32 frontSvrNetID, I32 client_net_id, U64 account_id )
+    {
+        // 转换成标准包格式
+        GameNetPacketData* packet = (GameNetPacketData*) dataPtr.mDataPtr->getLogicData();
+        if ( packet )
+        {
+            // 设置标签
+            packet->channel = GNPC_NET_TRANSPOND;
+            packet->type    = PT_NETTRANPOND_M2F_GROUP_TO_CLIENT;
+
+            // 转换转发包结构
+            PT_NETTRANPOND_CLIENT_GROUP_DATA* clientGroupData = ( PT_NETTRANPOND_CLIENT_GROUP_DATA* )packet->data;
+            if ( clientGroupData )
+            {
+                // 填充转发包数据
+                clientGroupData->clientNetInfoCount = 1;
+                clientGroupData->dataSize = dataSize;
+
+                // 转换客户端数据
+                ClientNetInfo* clientData = (ClientNetInfo*)( dataPtr.getTranspondData() + dataSize );
+                if ( clientData )
+                {
+                    // 填充客户端数据
+                    clientData->account_id      = account_id;
+                    clientData->client_net_id   = client_net_id;
+                }
+
+                // 发送数据
+				MapServerMain::getInstance().getServerLauncher()->sendServer( 
+					dataPtr.mDataPtr,
+					GameNetPacketData_INFO::headSize + PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::dataSize(clientGroupData),
+					frontSvrNetID );
+
+				return true;
+            }
+        }
+
+		return true;
+    }
+
+	//-----------------------------------------------------------------------------------
+	void NetTranspondPacketProcesser::gridsBroadcastClientTranspondPackToFrontServer( 
+		SSceneGrid* currSceneGrid, 
+        SSceneGrid* lastSceneGrid,
+		NetTranspondSendDataBufferPtr& dataPtr, 
+        Int dataSize, 
+		PlayerIdType ignorePlayerId, 
+        GridsBroadcastType broadcastType )
+	{
+#if 0
+		//-----------------------------------------------------------------------------------
+		// 通过pos得到所在网格(一个)
+		// 通过这个网格得到需要广播的玩家列表(根据FrontServer分组)
+		//-----------------------------------------------------------------------------------
+		if (NULL == currSceneGrid && broadcastType == GBT_CURR)
+		{
+			/*DYNAMIC_ASSERT(0);*/
+			return;
+		}
+			
+		//-----------------------------------------------------------------------------------
+
+		// 转换成标准包格式
+		GameNetPacketData* packet = (GameNetPacketData*) dataPtr.mDataPtr->getLogicData();
+		if (NULL == packet)
+		{
+			DYNAMIC_ASSERT(0);
+			return;
+		}
+		// 设置标签
+		packet->channel = GNPC_NET_TRANSPOND;
+		packet->type    = PT_NETTRANPOND_M2F_GROUP_TO_CLIENT;
+
+		// 转换转发包结构
+		PT_NETTRANPOND_CLIENT_GROUP_DATA* clientGroupData = ( PT_NETTRANPOND_CLIENT_GROUP_DATA* )packet->data;
+		if (NULL == clientGroupData)
+		{
+			DYNAMIC_ASSERT(0);
+			return;
+		}
+
+		// 初始化逻辑数据大小
+		clientGroupData->dataSize			= dataSize;
+		clientGroupData->clientNetInfoCount = 0;
+
+		// 得到发送数据头大小
+		I32 sendDataHeadSize                = GameNetPacketData_INFO::headSize + PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::headSize + dataSize;
+		ClientNetInfo* clientNetInfoArray   = (ClientNetInfo*)( dataPtr.getTranspondData() + dataSize );
+		ClientNetInfo* clientNetInfo        = 0;
+
+		// 当前发送数据大小
+		I32 sendDataSize        = sendDataHeadSize;
+		// 准备发送数据大小
+		I32 prepareSendDataSize = 0;
+
+		//-----------------------------------------------------------------------------------
+
+		// 玩家对象
+		SPlayer* player = NULL;
+		// frontSvr网络编号
+		NetIdType frontServerID = 0;
+		// 玩家列表
+		std::map<PlayerIdType, SPlayer*>* playerList = NULL;
+		// 玩家列表iterator
+		std::map<PlayerIdType, SPlayer*>::iterator playerIter;
+
+		// 是否克隆新的发送数据对象
+		std::map<NetIdType, std::map<PlayerIdType, SPlayer*>> newPlayerListList;
+
+		//-----------------------------------------------------------------------------------
+
+		if(broadcastType == GBT_CURR || !lastSceneGrid)
+		{
+			std::map<NetIdType, PlayerListInGrid*>* currPlayerListList = 0;//currSceneGrid->getPlayerInteractionListList();
+
+
+			PlayerListInGrid* currGridPlayerList = NULL;
+			for(std::map<NetIdType, PlayerListInGrid*>::iterator currListIt = currPlayerListList->begin(); currListIt != currPlayerListList->end(); ++currListIt)
+			{
+	
+				currGridPlayerList = currListIt->second;
+				for(std::map<PlayerIdType, PlayerInGrid*>::iterator currIt = currGridPlayerList->mPlayerList.begin(); currIt != currGridPlayerList->mPlayerList.end(); ++currIt)
+				{
+					newPlayerListList[currListIt->first][currIt->first] = currIt->second->player;
+				}
+			}
+		}
+		else if((broadcastType == GBT_LAST))
+		{
+			std::map<NetIdType, PlayerListInGrid*>* lastPlayerListList = lastSceneGrid->getPlayerInteractionListList();
+
+			PlayerListInGrid* lastGridPlayerList = NULL;
+			for(std::map<NetIdType, PlayerListInGrid*>::iterator lastListIt = lastPlayerListList->begin(); lastListIt != lastPlayerListList->end(); ++lastListIt)
+			{
+				lastGridPlayerList = lastListIt->second;
+				for(std::map<PlayerIdType, PlayerInGrid*>::iterator lastIt = lastGridPlayerList->mPlayerList.begin(); lastIt != lastGridPlayerList->mPlayerList.end(); ++lastIt)
+				{
+					newPlayerListList[lastListIt->first][lastIt->first] = lastIt->second->player;
+				}
+			}
+		}
+		else if(broadcastType == GBT_FILTER_LAST)
+		{
+			subSceneGridsPlayerList(lastSceneGrid, currSceneGrid, newPlayerListList);
+		}
+		else if(broadcastType == GBT_FILTER_CURR)
+		{
+			subSceneGridsPlayerList(currSceneGrid, lastSceneGrid, newPlayerListList);
+		}
+		else
+		{
+			return;
+		}
+
+		//-----------------------------------------------------------------------------------
+
+		for (std::map<NetIdType, std::map<PlayerIdType, SPlayer*>>::iterator playerListIt = newPlayerListList.begin(); 
+			playerListIt != newPlayerListList.end(); 
+			++playerListIt)
+		{
+			// 获得玩家列表
+			playerList = &(playerListIt->second);
+
+			// 如果为空则跳出
+			if ( playerList == NULL )
+			{
+				continue;
+			}
+			if ( playerList->size() == 0 )
+			{
+				continue;
+			}
+
+			frontServerID = playerListIt->first;
+
+			// 遍历玩家列表
+			for ( playerIter = playerList->begin(); playerIter != playerList->end(); ++playerIter )
+			{
+
+				//-----------------------------------------------------------------------------------
+
+				// 获得玩家对象
+				player = playerIter->second;
+
+				if ( player->getAccountId() != (U64)playerIter->first )
+				{
+					//DYNAMIC_EEXCEPT_LOG("player->getAccountID != playerIter->first");
+					//DYNAMIC_ASSERT(false);
+					continue;
+				}
+
+				if(ignorePlayerId == player->getAccountId())
+				{
+					continue;
+				}
+
+				//-----------------------------------------------------------------------------------
+
+				if ( dataPtr.mDataPtr.isNull() == false )
+				{
+					// 递增一个玩家准备发送数据大小到发送数据缓存大小
+					prepareSendDataSize = sendDataSize + PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::clientNetInfoSize;
+
+					// 如果准备发送数据大于缓存最大容量则发送
+					if ( prepareSendDataSize >= dataPtr.mDataPtr->getLogicDataMaxSize() )
+					{
+						MapServerMain::getInstance().getServerLauncher()->sendServer( dataPtr.mDataPtr, sendDataSize, frontServerID );
+
+                        //------------------------------------------------------------------------------------
+
+                        // Clone
+                        {
+                            MapServerMain::getInstance().getServerLauncher()->cloneSendDataBuffer( dataPtr.mDataPtr , dataPtr.mDataPtr, UInt(sendDataHeadSize) );
+
+                            // 转换成标准包格式
+                            packet = (GameNetPacketData*) dataPtr.mDataPtr->getLogicData();
+                            if (NULL == packet)
+                            {
+                                DYNAMIC_ASSERT(0);
+                                return;
+                            }
+
+                            // 设置标签
+                            packet->channel = GNPC_NET_TRANSPOND;
+                            packet->type    = PT_NETTRANPOND_M2F_GROUP_TO_CLIENT;
+
+                            // 转换转发包结构
+                            clientGroupData = ( PT_NETTRANPOND_CLIENT_GROUP_DATA* )packet->data;
+                            if (NULL == clientGroupData)
+                            {
+                                DYNAMIC_ASSERT(0);
+                                return;
+                            }
+
+                            // 初始化逻辑数据大小
+                            clientGroupData->dataSize = dataSize;
+                            clientGroupData->clientNetInfoCount = 0;
+
+                            // 客户端信息
+                            clientNetInfoArray		= (ClientNetInfo*)( dataPtr.getTranspondData() + dataSize );
+
+                            // 当前发送数据大小
+                            sendDataSize			= sendDataHeadSize;
+                        }
+					}
+				}
+
+				//-----------------------------------------------------------------------------------
+
+				// 增加玩家记录
+				clientNetInfo					= clientNetInfoArray + clientGroupData->clientNetInfoCount;
+				clientNetInfo->account_id		= player->getAccountId();
+				clientNetInfo->client_net_id    = player->getClientNetIdInFrontServer();
+
+				// 递增参数
+				sendDataSize					+= PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::clientNetInfoSize;
+				clientGroupData->clientNetInfoCount++;
+			}
+
+			// 如果有剩余则发送
+			if ( dataPtr.mDataPtr.isNull() == false )
+			{
+				if ( clientGroupData->clientNetInfoCount > 0 )
+				{
+					MapServerMain::getInstance().getServerLauncher()->sendServer( 
+                        dataPtr.mDataPtr, 
+                        sendDataSize, 
+                        frontServerID );
+					dataPtr.mDataPtr.setNull();
+				}
+			}
+		}
+
+#endif
+	}
+
+	//-----------------------------------------------------------------------------------
+	void NetTranspondPacketProcesser::broadcastClientTranspondPackToFrontServer(
+																				NetTranspondSendDataBufferPtr& dataPtr,
+																				Int dataSize,
+																				SSceneGrid* currSceneGrid, 
+																				SSceneGrid* lastSceneGrid, 
+																				SRegionObjectBase* regionObjectBase,  
+																				PlayerIdType ignorepPlayerId,
+																				GridsBroadcastType broadcastType)
+	{
+#if 0
+		if(regionObjectBase->getGameType() == GameType_Rpg)
+		{
+			NetTranspondPacketProcesser::getInstance().gridsBroadcastClientTranspondPackToFrontServer(currSceneGrid, lastSceneGrid, dataPtr, 
+				dataSize, ignorepPlayerId, broadcastType);
+		}
+		else
+		{
+			NetTranspondPacketProcesser::getInstance().broadcastClientTranspondPackToFrontServer(dataPtr, dataSize, regionObjectBase);
+		}
+#endif
+	}
+
+	//-----------------------------------------------------------------------------------
+	void NetTranspondPacketProcesser::broadcastClientTranspondPackToFrontServer( 
+		NetTranspondSendDataBufferPtr& dataPtr, Int dataSize, SRegionObjectBase* region)
+	{
+#if 0
+		//---------------------------------------------------------------------
+
+		if (NULL == region)
+		{
+			DYNAMIC_EEXCEPT_LOG("NetTranspondPacketProcesser::broadcastClientTranspondPackToFrontServer : not find region!");
+			return;
+		}
+
+		//---------------------------------------------------------------------
+
+		// 转换成标准包格式
+		GameNetPacketData* packet = (GameNetPacketData*) dataPtr.mDataPtr->getLogicData();
+		if (NULL == packet)
+		{
+			DYNAMIC_ASSERT(0);
+			return;
+		}
+
+		// 设置标签
+		packet->channel = GNPC_NET_TRANSPOND;
+		packet->type    = PT_NETTRANPOND_M2F_GROUP_TO_CLIENT;
+
+		// 转换转发包结构
+		PT_NETTRANPOND_CLIENT_GROUP_DATA* clientGroupData = ( PT_NETTRANPOND_CLIENT_GROUP_DATA* )packet->data;
+		if (NULL == clientGroupData)
+		{
+			DYNAMIC_ASSERT(0);
+			return;
+		}
+
+		// 初始化逻辑数据大小
+		clientGroupData->dataSize = dataSize;
+		clientGroupData->clientNetInfoCount = 0;
+
+		// 得到发送数据头大小
+		I32 sendDataHeadSize                = GameNetPacketData_INFO::headSize + PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::headSize + dataSize;
+		ClientNetInfo* clientNetInfoArray   = (ClientNetInfo*)( dataPtr.getTranspondData() + dataSize );
+		ClientNetInfo* clientNetInfo        = NULL;
+
+		// 当前发送数据大小
+		I32 sendDataSize					= sendDataHeadSize;
+
+		// 准备发送数据大小
+		I32 prepareSendDataSize				= 0;
+
+		//---------------------------------------------------------------------
+
+		// 玩家对象
+		SPlayer* player = NULL;
+
+		// frontSvr网络编号
+		NetIdType frontServerID = 0;
+
+		// 玩家列表
+		std::map<AccountIdType, Player*>* playerList = NULL;
+		// 玩家列表iterator
+		std::map<AccountIdType, Player*>::iterator playerIter;
+
+		// 遍历玩家列表根据FrontServerSlot划分
+
+        std::vector<NetIdType> netList;
+        ServerManager::getInstance().getFrontServerList( netList );
+		for ( UInt i=0; i<netList.size(); i++ )
+		{
+			// frontSvr网络编号
+			frontServerID = netList[i];
+			// 获得玩家列表
+			playerList = region->getPlayerListByFronServerId(frontServerID);
+
+            // 如果为空则跳出
+            if ( playerList == NULL )
+            {
+                continue;
+            }
+			if ( playerList->size() == 0 )
+			{
+				continue;
+			}
+
+			// 遍历玩家列表
+			for ( playerIter = playerList->begin(); playerIter != playerList->end(); ++playerIter )
+			{
+				//---------------------------------------------------------------------
+
+				// 获得玩家对象
+				player = (SPlayer*)playerIter->second;
+
+				//---------------------------------------------------------------------
+
+				if ( dataPtr.mDataPtr.isNull() == false )
+				{
+					// 递增一个玩家准备发送数据大小到发送数据缓存大小
+					prepareSendDataSize = sendDataSize + PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::clientNetInfoSize;
+
+					// 如果准备发送数据大于缓存最大容量则发送
+					if ( prepareSendDataSize >= dataPtr.mDataPtr->getLogicDataMaxSize() )
+					{
+						MapServerMain::getInstance().getServerLauncher()->sendServer( dataPtr.mDataPtr, sendDataSize, frontServerID );
+
+
+                        //------------------------------------------------------------------------------------
+                        //Clone
+                        {
+                            // clone
+                            MapServerMain::getInstance().getServerLauncher()->cloneSendDataBuffer( dataPtr.mDataPtr, dataPtr.mDataPtr, UInt(sendDataHeadSize) );
+
+                            // 转换成标准包格式
+                            packet	= (GameNetPacketData*) dataPtr.mDataPtr->getLogicData();
+                            if (NULL == packet)
+                            {
+                                DYNAMIC_ASSERT(0);
+                                return;
+                            }
+
+                            // 设置标签
+                            packet->channel = GNPC_NET_TRANSPOND;
+                            packet->type    = PT_NETTRANPOND_M2F_GROUP_TO_CLIENT;
+
+                            // 转换转发包结构
+                            clientGroupData = ( PT_NETTRANPOND_CLIENT_GROUP_DATA* )packet->data;
+                            if (NULL == clientGroupData)
+                            {
+                                DYNAMIC_ASSERT(0);
+                                return;
+                            }
+
+                            // 初始化逻辑数据大小
+                            clientGroupData->dataSize = dataSize;
+                            clientGroupData->clientNetInfoCount = 0;
+
+                            // 得到发送数据头大小
+                            clientNetInfoArray   = (ClientNetInfo*)( dataPtr.getTranspondData() + dataSize );
+
+                            // 当前发送数据大小
+                            sendDataSize	= sendDataHeadSize;
+                        }
+					}
+				}
+
+				//---------------------------------------------------------------------
+
+				// 增加玩家记录
+				clientNetInfo = clientNetInfoArray + clientGroupData->clientNetInfoCount;
+				clientNetInfo->account_id       = player->getAccountId();
+				clientNetInfo->client_net_id    = player->getClientNetIdInFrontServer();
+
+				// 递增参数
+				sendDataSize += PT_NETTRANPOND_CLIENT_GROUP_DATA_INFO::clientNetInfoSize;
+				clientGroupData->clientNetInfoCount++;
+			}
+					
+
+			//---------------------------------------------------------------------
+
+			// 如果有剩余则发送
+			if ( dataPtr.mDataPtr.isNull() == false )
+			{
+				if ( clientGroupData->clientNetInfoCount > 0 )
+				{
+					MapServerMain::getInstance().getServerLauncher()->sendServer( 
+                        dataPtr.mDataPtr, 
+                        sendDataSize, 
+                        frontServerID );
+					dataPtr.mDataPtr.setNull();
+				}
+			}
+		}
+#endif
+	}
+
+	//-----------------------------------------------------------------------------------
+	void NetTranspondPacketProcesser::subSceneGridsPlayerList( SSceneGrid* regionGrids1, SSceneGrid* regionGrids2, std::map<NetIdType, std::map<PlayerIdType, SPlayer*>>& playerList )
+	{
+#if 0
+		playerList.clear();
+
+		PlayerListInGrid* gridPlayerList1 = NULL;
+		PlayerListInGrid* gridPlayerList2 = NULL;
+
+		std::map<NetIdType, PlayerListInGrid*>* playerListList1 = regionGrids1->getPlayerInteractionListList();
+		std::map<NetIdType, PlayerListInGrid*>* playerListList2 = regionGrids2->getPlayerInteractionListList();
+
+		for(std::map<NetIdType, PlayerListInGrid*>::iterator playerListIt1 = playerListList1->begin(); playerListIt1 != playerListList1->end(); ++playerListIt1)
+		{
+			std::map<NetIdType, PlayerListInGrid*>::iterator playerListIt2 = playerListList2->find(playerListIt1->first);
+			if(playerListIt2 == playerListList2->end())
+			{
+				continue;
+			}
+			
+			gridPlayerList1 = playerListIt1->second;
+			gridPlayerList2 = playerListIt2->second;
+			for(std::map<PlayerIdType, PlayerInGrid*>::iterator playerIt1 = gridPlayerList1->mPlayerList.begin(); playerIt1 != gridPlayerList1->mPlayerList.end(); ++playerIt1)
+			{
+				std::map<PlayerIdType, PlayerInGrid*>::iterator playerIt2 = gridPlayerList2->mPlayerList.find(playerIt1->first);
+				if(playerIt2 != gridPlayerList2->mPlayerList.end())
+				{
+					continue;
+				}
+
+				playerList[playerListIt1->first][playerIt1->first] = playerIt1->second->player;
+			}
+		}
+#endif
+	}
+}

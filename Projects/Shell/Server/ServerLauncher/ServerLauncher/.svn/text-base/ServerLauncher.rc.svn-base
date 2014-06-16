@@ -1,0 +1,349 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ServerLauncher.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServerLauncher.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LAUNCHER_DLG DIALOGEX 0, 0, 368, 294
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ServerLauncher"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB,"SysTabControl32",0x0,0,0,368,257
+    PUSHBUTTON      "OK",IDC_START,254,274,50,14
+    PUSHBUTTON      "Cancle",IDC_STOPE,309,273,50,14
+    CTEXT           "",IDC_ET_VERSION,14,261,232,13,0,WS_EX_STATICEDGE
+END
+
+IDD_LAUNCHER_SETTING_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Server Setting",IDC_STATIC,3,3,354,71
+    GROUPBOX        "Core Setting",IDC_STATIC,2,79,354,69
+    GROUPBOX        "Db Setting",IDC_STATIC,4,151,354,60
+    LTEXT           "ListenServerIp",IDC_STATIC,16,18,46,8
+    LTEXT           "ListenServerPort",IDC_STATIC,132,18,54,8
+    LTEXT           "MaxConnection",IDC_STATIC,239,18,50,8
+    LTEXT           "ListenClientIp",IDC_STATIC,19,37,43,8
+    LTEXT           "ListenClientPort",IDC_STATIC,136,37,50,8
+    LTEXT           "MaxConnection",IDC_STATIC,239,37,49,8
+    CTEXT           "",IDC_ET_SERVER_IP,73,18,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_PORT,191,18,38,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_CONNECTIONS,293,16,38,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_IP,73,37,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_PORT,191,37,38,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_CONNECTIONS,293,37,38,13,0,WS_EX_STATICEDGE
+    LTEXT           "Name",IDC_STATIC,43,93,19,8
+    CTEXT           "",IDC_ET_CORE_Name,73,91,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "ID",IDC_STATIC,178,93,8,8
+    CTEXT           "",IDC_ET_CORE_ID,191,91,38,13,0,WS_EX_STATICEDGE
+    LTEXT           "Type",IDC_STATIC,269,92,17,8
+    CTEXT           "",IDC_ET_CORE_TYPE,293,90,36,13,0,WS_EX_STATICEDGE
+    LTEXT           "UpdateTick",IDC_STATIC,26,115,36,8
+    CTEXT           "",IDC_ET_CORE_UPDATE_TICK,73,112,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "CloseTime",IDC_STATIC,153,115,33,8
+    CTEXT           "",IDC_ET_CORE_CLOSE_TIME,191,112,38,13,0,WS_EX_STATICEDGE
+    CONTROL         "SaveShellLog",IDC_CK_SAVE_SHELL_LOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,281,132,58,10
+    PUSHBUTTON      "OpenIni",IDC_BUTTON1,229,219,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "ReLoadIni",IDC_BUTTON2,292,219,50,14,NOT WS_VISIBLE
+    LTEXT           "Ip",IDC_STATIC,54,163,8,8
+    CTEXT           "",IDC_ET_DB_IP,73,163,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "Port",IDC_STATIC,167,163,14,8
+    CTEXT           "",IDC_ET_DB_PORT,191,163,36,13,0,WS_EX_STATICEDGE
+    LTEXT           "Name",IDC_STATIC,267,163,19,8
+    CTEXT           "",IDC_ET_DB_NAME,293,163,36,13,0,WS_EX_STATICEDGE
+    LTEXT           "Account",IDC_STATIC,35,182,27,8
+    CTEXT           "",IDC_ET_DB_ACCOUNT,73,182,58,13,0,WS_EX_STATICEDGE
+    CONTROL         "ServerEncrypt",IDC_CK_SERVER_ENCRYPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,198,58,62,10
+    CONTROL         "ClientEncrypt",IDC_CK_CLIENT_ENCRYPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,274,57,59,10
+    CONTROL         "SaveDbLog",IDC_CK_SAVE_DB_LOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,198,132,52,10
+    CONTROL         "SaveCoreLog",IDC_CK_SAVE_CORE_LOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,132,59,10
+    CONTROL         "CreatTable",IDC_CK_CREAT_DB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,171,185,51,10
+    CONTROL         "AutoStart",IDC_CK_AUTO_START,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,132,47,10
+    LTEXT           "LogLevel",IDC_STATIC,253,117,29,8
+    CTEXT           "",IDC_ET_CORE_LOG_LEVEL,291,112,38,13,0,WS_EX_STATICEDGE
+END
+
+IDD_LUANCHER_NET_STATES_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Server",IDC_STATIC,4,1,357,108
+    CTEXT           "",IDC_ET_SERVER_COUNT,263,84,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "ServerCount",IDC_STATIC,212,84,42,8
+    LTEXT           "SendSpeedBytes",IDC_STATIC,37,12,55,8
+    LTEXT           "SendBytes",IDC_STATIC,57,30,35,8
+    LTEXT           "SendSpeedPackets",IDC_STATIC,30,48,62,8
+    LTEXT           "SendPackets",IDC_STATIC,50,66,42,8
+    CTEXT           "",IDC_ET_SERVER_SEND_SPEED_BYTES,101,12,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_SEND_BYTES,101,30,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_SEND_SPEED_PACKETS,101,48,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_SEND_PACKETS,101,66,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "RecvSpeedBytes",IDC_STATIC,198,13,55,8
+    LTEXT           "RecvBytes",IDC_STATIC,218,31,35,8
+    LTEXT           "RecvSpeedPackets",IDC_STATIC,191,49,62,8
+    LTEXT           "RecvPackets",IDC_STATIC,211,67,42,8
+    CTEXT           "",IDC_ET_SERVER_RECV_SPEED_BYTES,262,13,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_RECV_BYTES,262,31,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_RECV_SPEED_PACKETS,262,49,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_SERVER_RECV_PACKETS,262,67,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "ClientCount",IDC_STATIC,214,204,38,8
+    LTEXT           "SendSpeedBytes",IDC_STATIC,39,130,55,8
+    CTEXT           "",IDC_ET_CLIENT_COUNT,265,204,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "SendBytes",IDC_STATIC,59,148,35,8
+    LTEXT           "SendSpeedPackets",IDC_STATIC,32,166,62,8
+    CTEXT           "",IDC_ET_CLIENT_SEND_SPEED_BYTES,103,130,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_SEND_BYTES,103,148,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "SendPackets",IDC_STATIC,52,184,42,8
+    CTEXT           "",IDC_ET_CLIENT_SEND_SPEED_PACKETS,103,166,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_SEND_PACKETS,103,184,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "RecvSpeedBytes",IDC_STATIC,200,131,55,8
+    LTEXT           "RecvSpeedPackets",IDC_STATIC,193,167,62,8
+    LTEXT           "RecvBytes",IDC_STATIC,220,149,35,8
+    CTEXT           "",IDC_ET_CLIENT_RECV_SPEED_BYTES,264,131,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "RecvPackets",IDC_STATIC,213,185,42,8
+    CTEXT           "",IDC_ET_CLIENT_RECV_BYTES,264,149,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_RECV_SPEED_PACKETS,264,167,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_ET_CLIENT_RECV_PACKETS,264,185,58,13,0,WS_EX_STATICEDGE
+    GROUPBOX        "Client",IDC_STATIC,3,122,357,108
+END
+
+IDD_LUANCHER_SERVER_STATES_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Connect",IDC_STATIC,0,2,361,116
+    GROUPBOX        "Accept",IDC_STATIC,0,125,361,116
+    CONTROL         "",IDC_LT_CONNECT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,10,356,106
+    CONTROL         "",IDC_LT_ACCEPT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,132,356,106
+END
+
+IDD_LUANCHER_SEARCH_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Result",IDC_STATIC,4,1,357,88
+    LTEXT           "SendSpeedBytes",IDC_STATIC,40,12,55,8
+    LTEXT           "SendBytes",IDC_STATIC,60,30,35,8
+    LTEXT           "SendSpeedPackets",IDC_STATIC,33,48,62,8
+    LTEXT           "SendPackets",IDC_STATIC,53,66,42,8
+    CTEXT           "",IDC_EDIT4,104,12,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_EDIT5,104,30,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_EDIT20,104,48,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_EDIT21,104,66,58,13,0,WS_EX_STATICEDGE
+    LTEXT           "SendSpeedBytes",IDC_STATIC,201,13,55,8
+    LTEXT           "SendBytes",IDC_STATIC,221,31,35,8
+    LTEXT           "SendSpeedPackets",IDC_STATIC,194,49,62,8
+    LTEXT           "SendPackets",IDC_STATIC,214,67,42,8
+    CTEXT           "",IDC_EDIT7,265,13,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_EDIT8,265,31,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_EDIT22,265,49,58,13,0,WS_EX_STATICEDGE
+    CTEXT           "",IDC_EDIT23,265,67,58,13,0,WS_EX_STATICEDGE
+    CONTROL         "IsServer",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,106,104,43,10
+    EDITTEXT        IDC_EDIT1,256,103,53,14,ES_AUTOHSCROLL
+    LTEXT           "NetID",IDC_STATIC,223,106,20,8
+    PUSHBUTTON      "Search",IDC_BUTTON3,259,134,50,14
+END
+
+IDD_LUANCHER_CORE_LOG_DLG DIALOGEX 0, 0, 360, 240
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LTX_CORE_LOG,0,0,360,240,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LUANCHER_DB_LOG_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LTX_DB_LOG,0,0,361,240,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LUANCHER_SHELL_LOG_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LTX_SHELL_LOG,0,0,361,240,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LUANCHER_THREAD_DLG DIALOGEX 0, 0, 361, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LT_THREAD,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,28,361,213
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ServerLauncher.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ServerLauncher.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LAUNCHER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_LAUNCHER_SETTING_DLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 240
+        HORZGUIDE, 76
+    END
+
+    IDD_LUANCHER_SEARCH_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_LUANCHER_DB_LOG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ServerLauncher.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

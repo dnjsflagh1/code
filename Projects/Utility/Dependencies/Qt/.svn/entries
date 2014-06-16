@@ -1,0 +1,43 @@
+10
+
+dir
+8081
+https://192.168.1.222/svn/MGCode/trunk/Projects/Utility/Dependencies/Qt
+https://192.168.1.222/svn/MGCode
+
+
+
+2012-11-23T03:05:37.308124Z
+6593
+chennan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b2c7a85-9ef0-4d4b-8450-bc75133c67ac
+
+win32-msvc2008
+dir
+
+include
+dir
+
+lib
+dir
+
+src
+dir
+
+bin
+dir
+

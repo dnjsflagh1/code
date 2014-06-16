@@ -1,0 +1,308 @@
+/******************************************************************************/
+#ifndef _PLAYERCHARACTERNETPACKET_H_
+#define _PLAYERCHARACTERNETPACKET_H_
+/******************************************************************************/
+#include "CommonGameDefine.h"
+#include "NetDefine.h"
+/******************************************************************************/
+
+namespace MG
+{
+    /******************************************************************************/
+    //玩家角色包类型
+    /******************************************************************************/
+    enum PlayerCharacterNetPacketType
+    {
+		PT_PLAYERCHARACTER_UNKNOWN = 0,
+
+		
+		PT_PLAYERCHARACTER_C2F_JUMP_REGION,		// [Client -> Server] 角色跳转区域
+		PT_PLAYERCHARACTER_F2M_JUMP_REGION,
+		PT_PLAYERCHARACTER_M2F_JUMP_REGION,
+		PT_PLAYERCHARACTER_F2C_JUMP_REGION,
+
+		PT_PLAYERCHARACTER_C2F_JUMP_OUT_REGION,			//从Place跳转到大地图
+		PT_PLAYERCHARACTER_F2M_JUMP_OUT_REGION,
+
+		PT_PLAYERCHARACTER_F2M_JUMP_CAMPAIGN_REGION,		//战斗副本地图
+
+		PT_PLAYERCHARACTER_C2F_JUMP_LAST_REGION,			//跳回上一个地图
+
+
+		PT_PLAYERCHARACTER_M2F_CHANGE_REGION,		//在MapServer改变了 副本信息， 同步到FrontServer
+
+
+		PT_PLAYERCHARACTER_C2S_MOVE_POS,		// [Client -> Server] 位置移动
+        PT_PLAYERCHARACTER_S2C_MOVE_POS,		// [Server -> Client] 位置移动
+		PT_PLAYERCHARACTER_C2S_STOP_MOVE,
+		PT_PLAYERCHARACTER_S2C_STOP_MOVE,
+
+		PT_PLAYERCHARACTER_F2C_SKILL_INFO,		//发送技能信息
+		PT_PLAYERCHARACTER_F2M_SKILL_INFO,		//发送技能信息
+
+
+		//PT_PLAYERCHARACTER_F2C_JUMP_REGION_ERROR,		// 错误信息
+    };
+
+#pragma pack (push)
+#pragma pack (1)
+//**********************************************************************
+
+	//-----------------------------------------------------
+	enum ChatarcterJumpRegionResult
+	{
+		ChatarcterJumpRegionResult_Succeed,
+		ChatarcterJumpRegionResult_Fail,
+
+		ChatarcterJumpRegionResult_Fail_Crash,
+	};
+
+
+    // 角色区域跳转:
+	//-----------------------------------------------------
+	struct PT_PLAYERCHARACTER_C2F_JUMP_REGION_DATA
+	{
+		PlayerCharacterIdType	playerCharacterId;
+		RegionIdType			toRegionId;
+		InstanceUIdType			toInstanceUId;			//0: 第一次进入该区域， >0: 进入指定的副本区域
+		//跳转点：
+	};
+    struct PT_PLAYERCHARACTER_C2F_JUMP_REGION_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_PLAYERCHARACTER_C2F_JUMP_REGION_DATA);
+    };
+
+
+	
+	struct PT_PLAYERCHARACTER_F2C_JUMP_REGION_DATA
+	{
+		Byte					jumpResult;
+		PlayerCharacterIdType	playerCharacterId;
+		//Byte					regionType;
+		RegionIdType			regionId;
+		InstanceUIdType			instanceUId;
+	};
+
+    struct PT_PLAYERCHARACTER_F2C_JUMP_REGION_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_PLAYERCHARACTER_F2C_JUMP_REGION_DATA);
+    };
+
+	//-----------------------------------------------------
+    struct PT_PLAYERCHARACTER_F2M_JUMP_REGION_DATA
+    {
+        PlayerCharacterIdType		playerCharacterId;
+		RegionIdType				toRegionId;
+		InstanceUIdType				toInstanceId;
+    };
+    struct PT_PLAYERCHARACTER_F2M_JUMP_REGION_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_PLAYERCHARACTER_F2M_JUMP_REGION_DATA);
+    };
+
+
+	//-----------------------------------------------------
+	struct PT_PLAYERCHARACTER_F2M_JUMP_CAMPAIGN_REGION_DATA
+	{
+		PlayerCharacterIdType		playerCharacterId;
+		RegionIdType				toRegionID;
+		InstanceIdType				toInstanceId;
+		Byte						jumpType;
+		Byte						jumpIndex;
+		Bool						isBattleLeader;		//是否是攻击方或 防守方的 队长
+
+		PT_PLAYERCHARACTER_F2M_JUMP_CAMPAIGN_REGION_DATA()
+		{
+			isBattleLeader = false;
+		}
+	};
+
+	struct PT_PLAYERCHARACTER_F2M_JUMP_CAMPAIGN_REGION_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_F2M_JUMP_CAMPAIGN_REGION_DATA);
+	};
+	////-----------------------------------------------------
+	//enum JumpResult
+	//{
+	//	JumpResult_Failed	= 0,
+	//	JumpResult_Success,
+	//};
+	struct PT_PLAYERCHARACTER_M2F_JUMP_REGION_DATA
+	{
+<<<<<<< .mine
+		U64							clientNetIdInFront;
+		U64							playerCharacterId;
+		Byte						toRegionType;
+		UInt						toRegionID;
+		I32							toInstanceId;			//所属副本id
+=======
+		PlayerCharacterIdType		playerCharacterId;
+		RegionIdType				toRegionId;
+		InstanceUIdType				toInstanceId;			//所属副本id
+>>>>>>> .r2368
+		ChatarcterJumpRegionResult	jumpResult;
+	};
+    struct PT_PLAYERCHARACTER_M2F_JUMP_REGION_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_PLAYERCHARACTER_M2F_JUMP_REGION_DATA);
+    };
+	
+	//**********************************************************************
+	struct PT_PLAYERCHARACTER_C2F_JUMP_OUT_REGION_DATA
+	{
+		PlayerCharacterIdType	playerCharacterId;
+	};
+
+	struct PT_PLAYERCHARACTER_C2F_JUMP_OUT_REGION_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_C2F_JUMP_OUT_REGION_DATA);
+	};
+
+	//**********************************************************************
+	struct PT_PLAYERCHARACTER_F2M_JUMP_OUT_REGION_DATA
+	{
+		PlayerCharacterIdType	playerCharacterId;
+	};
+
+	struct PT_PLAYERCHARACTER_F2M_JUMP_OUT_REGION_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_F2M_JUMP_OUT_REGION_DATA);
+	};
+
+
+	//**********************************************************************
+	struct PT_PLAYERCHARACTER_C2F_JUMP_LAST_REGION_DATA
+	{
+		PlayerCharacterIdType	playerCharacterId;
+	};
+
+	struct PT_PLAYERCHARACTER_C2F_JUMP_LAST_REGION_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_C2F_JUMP_LAST_REGION_DATA);
+	};
+	
+
+	//**********************************************************************
+	struct PT_PLAYERCHARACTER_M2F_CHANGE_REGION_DATA
+	{
+		U64				playerCharacterId;
+		Byte			toRegionType;
+		UInt			toRegionID;
+		I32				toInstanceId;			//所属副本id
+	};
+
+	struct PT_PLAYERCHARACTER_M2F_CHANGE_REGION_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_M2F_CHANGE_REGION_DATA);
+	};
+    //**********************************************************************
+	struct PT_PLAYERCHARACTER_C2S_MOVE_POS_DATA
+	{
+		U64				playercharacter_id;
+		GameNetPosData	startMovePos;
+		GameNetPosData	endMovePos;
+	};
+
+    struct PT_PLAYERCHARACTER_C2S_MOVE_POS_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_PLAYERCHARACTER_C2S_MOVE_POS_DATA);
+    };
+
+	//-----------------------------------------------------
+	struct PT_PLAYERCHARACTER_S2C_MOVE_POS_DATA
+	{
+		U64				playercharacter_id;
+		GameNetPosData	startMovePos;
+		GameNetPosData	endMovePos;
+		U64				startMoveTime;
+	};
+    struct PT_PLAYERCHARACTER_S2C_MOVE_POS_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_PLAYERCHARACTER_S2C_MOVE_POS_DATA);
+    };
+
+	//**********************************************************************
+	struct PT_PLAYERCHARACTER_C2S_STOP_MOVE_DATA
+	{
+		U64				playercharacter_id;
+	};
+
+	struct PT_PLAYERCHARACTER_C2S_STOP_MOVE_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_C2S_STOP_MOVE_DATA);
+	};
+
+	//-----------------------------------------------------
+	struct PT_PLAYERCHARACTER_S2C_STOP_MOVE_DATA
+	{
+		U64				playercharacter_id;
+	};
+
+	struct PT_PLAYERCHARACTER_S2C_STOP_MOVE_DATA_INFO
+	{
+		static const Int dataSize = sizeof (PT_PLAYERCHARACTER_S2C_STOP_MOVE_DATA);
+	};
+
+	//**********************************************************************
+	struct PT_PLAYERCHARACTER_F2C_SKILL_INFO_DATA
+	{
+		IdType			playercharacterId;
+		UInt			skillNum;
+		SkillNetData	skillList[1];
+	};
+    struct PT_PLAYERCHARACTER_F2C_SKILL_INFO_DATA_INFO
+    {
+        static const Int headSize   = sizeof (PT_PLAYERCHARACTER_F2C_SKILL_INFO_DATA) - sizeof (SkillNetData);
+        static const Int elemetSize = sizeof (SkillNetData);
+    };
+
+	//-------------------------------------------------------------------------------
+	struct PT_PLAYERCHARACTER_F2M_SKILL_INFO_DATA 
+	{
+		IdType			playercharacterId;
+		UInt			skillNum;
+		SkillNetData	skillList[1];
+	};
+	struct PT_PLAYERCHARACTER_F2M_SKILL_INFO_DATA_INFO
+	{
+		static const Int headSize   = sizeof (PT_PLAYERCHARACTER_F2M_SKILL_INFO_DATA) - sizeof (SkillNetData);
+		static const Int elemetSize = sizeof (SkillNetData);
+	};
+
+	//**********************************************************************
+	//角色信息
+	struct CharInfo 
+	{
+		UInt	id;
+		UInt	accountId;
+		UInt	serverId;
+		Char16	name[MAX_ACCOUNT_LONGIN_NAME_LEN];
+		U8		state;
+	};
+
+	//**********************************************************************
+	//FrontServer返回给Client的角色列表 
+	struct PT_LOGIN_F2C_CHARACTER_LIST_DATA
+	{
+		I8 charNum;
+		Char charList[1];//角色列表
+	};
+    struct PT_LOGIN_F2C_CHARACTER_LIST_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_LOGIN_F2C_CHARACTER_LIST_DATA);
+    };
+	//**********************************************************************
+	struct PT_LOGIN_C2F_SELECT_CHARACTER_DATA
+	{
+		UInt characterId;
+	};
+    struct PT_LOGIN_C2F_SELECT_CHARACTER_DATA_INFO
+    {
+        static const Int dataSize = sizeof (PT_LOGIN_C2F_SELECT_CHARACTER_DATA);
+    };
+#pragma pack (pop)
+}
+
+/******************************************************************************/
+
+#endif

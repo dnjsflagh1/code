@@ -1,0 +1,761 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/8014/trunk/Projects/Logic/Data/GameFileLib/Src
+END
+ItemEquipTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/ItemEquipTemplate.cpp
+END
+Dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/7881/trunk/Projects/Logic/Data/GameFileLib/Src/Dialog.cpp
+END
+SkillLearn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/SkillLearn.cpp
+END
+ItemMoneyTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/4202/trunk/Projects/Logic/Data/GameFileLib/Src/ItemMoneyTemplate.cpp
+END
+SingleEmitterSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/SingleEmitterSkillTemplate.cpp
+END
+QuestNormalList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7480/trunk/Projects/Logic/Data/GameFileLib/Src/QuestNormalList.cpp
+END
+ClanQuestInfoBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/ClanQuestInfoBase.cpp
+END
+CGameMessageConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7356/trunk/Projects/Logic/Data/GameFileLib/Src/CGameMessageConfig.cpp
+END
+BuildTemplateInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/BuildTemplateInfo.cpp
+END
+FightAITemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/4370/trunk/Projects/Logic/Data/GameFileLib/Src/FightAITemplate.cpp
+END
+InstanceListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/5146/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceListCsv.cpp
+END
+SCharacterQuestCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/SCharacterQuestCsv.cpp
+END
+BattleScoresRankListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/3865/trunk/Projects/Logic/Data/GameFileLib/Src/BattleScoresRankListCsv.cpp
+END
+CharacterRandNameCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/7787/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterRandNameCsv.cpp
+END
+StatusList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5754/trunk/Projects/Logic/Data/GameFileLib/Src/StatusList.cpp
+END
+BaseAITemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5111/trunk/Projects/Logic/Data/GameFileLib/Src/BaseAITemplate.cpp
+END
+CharacterArmyList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7626/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterArmyList.cpp
+END
+RelationBuildingMapCharacterCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationBuildingMapCharacterCsv.cpp
+END
+CharacterVisionEventList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/4370/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterVisionEventList.cpp
+END
+AttributeJudge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6229/trunk/Projects/Logic/Data/GameFileLib/Src/AttributeJudge.cpp
+END
+SingleTargetSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/SingleTargetSkillTemplate.cpp
+END
+ItemExpListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/3905/trunk/Projects/Logic/Data/GameFileLib/Src/ItemExpListCsv.cpp
+END
+CharacterGenrealList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6344/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterGenrealList.cpp
+END
+PrintWindowsCfg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/PrintWindowsCfg.cpp
+END
+RelationWorldMapAreaCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationWorldMapAreaCsv.cpp
+END
+BattleFieldNoticeListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/3865/trunk/Projects/Logic/Data/GameFileLib/Src/BattleFieldNoticeListCsv.cpp
+END
+InstanceAtkStrengthListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/5203/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceAtkStrengthListCsv.cpp
+END
+InstanceTimeListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/5569/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceTimeListCsv.cpp
+END
+TargetPosAreaSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/TargetPosAreaSkillTemplate.cpp
+END
+LongRangeGeneralAttackSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/LongRangeGeneralAttackSkillTemplate.cpp
+END
+ShortRangeGeneralAttackSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/ShortRangeGeneralAttackSkillTemplate.cpp
+END
+AttributeList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/AttributeList.cpp
+END
+LineageTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/LineageTemplate.cpp
+END
+CharacterMonsterList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6378/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterMonsterList.cpp
+END
+BattleConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7631/trunk/Projects/Logic/Data/GameFileLib/Src/BattleConfig.cpp
+END
+CreateClanResConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/CreateClanResConfig.cpp
+END
+DialogueVassal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/DialogueVassal.cpp
+END
+VideoResourceConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/VideoResourceConfig.cpp
+END
+RelationWorldMapPlaceCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationWorldMapPlaceCsv.cpp
+END
+ItemClanListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/ItemClanListCsv.cpp
+END
+VassalCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/VassalCsv.cpp
+END
+ParabolaAreaSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/ParabolaAreaSkillTemplate.cpp
+END
+CharacterBuildList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterBuildList.cpp
+END
+RelationPlaceMapCharacterCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationPlaceMapCharacterCsv.cpp
+END
+GameRadarConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/5927/trunk/Projects/Logic/Data/GameFileLib/Src/GameRadarConfig.cpp
+END
+InstanceAtkCampListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/5203/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceAtkCampListCsv.cpp
+END
+ColorResConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8014/trunk/Projects/Logic/Data/GameFileLib/Src/ColorResConfig.cpp
+END
+ResPackConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/ResPackConfig.cpp
+END
+NpcFucionDialogInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/NpcFucionDialogInfo.cpp
+END
+CDTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/CDTemplate.cpp
+END
+RelationCsvBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationCsvBase.cpp
+END
+NpcFuctionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/NpcFuctionInfo.cpp
+END
+MapListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7720/trunk/Projects/Logic/Data/GameFileLib/Src/MapListCsv.cpp
+END
+BigMapResCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/BigMapResCsv.cpp
+END
+ArtDecalResTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/ArtDecalResTemplate.cpp
+END
+District.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/District.cpp
+END
+SkillInfoList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7147/trunk/Projects/Logic/Data/GameFileLib/Src/SkillInfoList.cpp
+END
+CharacterGenrealTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterGenrealTemplate.cpp
+END
+SServerSetting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/SServerSetting.cpp
+END
+InstancePVEListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5575/trunk/Projects/Logic/Data/GameFileLib/Src/InstancePVEListCsv.cpp
+END
+GeneralRecruitCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6379/trunk/Projects/Logic/Data/GameFileLib/Src/GeneralRecruitCsv.cpp
+END
+ShortestPath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/ShortestPath.cpp
+END
+GeneralRandomCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6966/trunk/Projects/Logic/Data/GameFileLib/Src/GeneralRandomCsv.cpp
+END
+QuestList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/QuestList.cpp
+END
+LoginConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/6083/trunk/Projects/Logic/Data/GameFileLib/Src/LoginConfig.cpp
+END
+TroopTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/TroopTemplate.cpp
+END
+LongRangeAuxiliarySkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/LongRangeAuxiliarySkillTemplate.cpp
+END
+BuildObjectInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/BuildObjectInfo.cpp
+END
+ICharacterQuestCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/ICharacterQuestCsv.cpp
+END
+JobTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/JobTemplate.cpp
+END
+ItemUseTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/ItemUseTemplate.cpp
+END
+GameCameraConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6558/trunk/Projects/Logic/Data/GameFileLib/Src/GameCameraConfig.cpp
+END
+ArtMapResCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7597/trunk/Projects/Logic/Data/GameFileLib/Src/ArtMapResCsv.cpp
+END
+InstanceAtkListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5569/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceAtkListCsv.cpp
+END
+CharacterObjectList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterObjectList.cpp
+END
+ItemSiteTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5164/trunk/Projects/Logic/Data/GameFileLib/Src/ItemSiteTemplate.cpp
+END
+GoUpAndDownSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/GoUpAndDownSkillTemplate.cpp
+END
+AreaListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/AreaListCsv.cpp
+END
+RelationPlaceMapTriggerCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationPlaceMapTriggerCsv.cpp
+END
+RelationWorldMapTriggerCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationWorldMapTriggerCsv.cpp
+END
+FightAiGroupTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/FightAiGroupTemplate.cpp
+END
+SceneFileLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7647/trunk/Projects/Logic/Data/GameFileLib/Src/SceneFileLoader.cpp
+END
+InstanceHomeListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3814/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceHomeListCsv.cpp
+END
+CharacterVisionEvent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/5773/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterVisionEvent.cpp
+END
+ItemTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7186/trunk/Projects/Logic/Data/GameFileLib/Src/ItemTemplate.cpp
+END
+ItemRandomTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/3905/trunk/Projects/Logic/Data/GameFileLib/Src/ItemRandomTemplate.cpp
+END
+AttributeAppend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/AttributeAppend.cpp
+END
+ItemOtherTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/ItemOtherTemplate.cpp
+END
+PlaceListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/6965/trunk/Projects/Logic/Data/GameFileLib/Src/PlaceListCsv.cpp
+END
+StatusCharacterList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7438/trunk/Projects/Logic/Data/GameFileLib/Src/StatusCharacterList.cpp
+END
+BaseAIGroupTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/4030/trunk/Projects/Logic/Data/GameFileLib/Src/BaseAIGroupTemplate.cpp
+END
+PassivenessSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/PassivenessSkillTemplate.cpp
+END
+AudioResourceConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/AudioResourceConfig.cpp
+END
+CSelectServerConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/CSelectServerConfig.cpp
+END
+QuestValueChange.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/4048/trunk/Projects/Logic/Data/GameFileLib/Src/QuestValueChange.cpp
+END
+DistrictTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/DistrictTree.cpp
+END
+BanKeyword.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/672/trunk/Projects/Logic/Data/GameFileLib/Src/BanKeyword.cpp
+END
+CharacterLvlTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/3865/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterLvlTemplate.cpp
+END
+QuestText.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/QuestText.cpp
+END
+ItemGroupTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/ItemGroupTemplate.cpp
+END
+CharacterJudgeTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7684/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterJudgeTemplate.cpp
+END
+AttributePara.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/AttributePara.cpp
+END
+AccessListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/AccessListCsv.cpp
+END
+InstanceTiroListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/5146/trunk/Projects/Logic/Data/GameFileLib/Src/InstanceTiroListCsv.cpp
+END
+RelationPlaceMapBuildingCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationPlaceMapBuildingCsv.cpp
+END
+AudioRes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/AudioRes.cpp
+END
+RelationWorldMapCharacterCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationWorldMapCharacterCsv.cpp
+END
+SelfAreaSkillTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/7472/trunk/Projects/Logic/Data/GameFileLib/Src/SelfAreaSkillTemplate.cpp
+END
+DistrictList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/DistrictList.cpp
+END
+BattleScoresParamListCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/3865/trunk/Projects/Logic/Data/GameFileLib/Src/BattleScoresParamListCsv.cpp
+END
+ChannelInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/ChannelInfo.cpp
+END
+ItemShopTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/ItemShopTemplate.cpp
+END
+ArtIconResCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/ArtIconResCsv.cpp
+END
+CalendarInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3865/trunk/Projects/Logic/Data/GameFileLib/Src/CalendarInfo.cpp
+END
+PointTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/PointTemplate.cpp
+END
+CharacterGeneralList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/348/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterGeneralList.cpp
+END
+CharacterSkillTempLate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterSkillTempLate.cpp
+END
+AttributeInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/6229/trunk/Projects/Logic/Data/GameFileLib/Src/AttributeInit.cpp
+END
+ClanJudgeTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6990/trunk/Projects/Logic/Data/GameFileLib/Src/ClanJudgeTemplate.cpp
+END
+CharacterList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7626/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterList.cpp
+END
+CharacterNpcList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterNpcList.cpp
+END
+MapDistributionCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/MapDistributionCsv.cpp
+END
+RelationBuildingMapTriggerCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/RelationBuildingMapTriggerCsv.cpp
+END
+CharacterResourceConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/3800/trunk/Projects/Logic/Data/GameFileLib/Src/CharacterResourceConfig.cpp
+END
+GameSettingConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7690/trunk/Projects/Logic/Data/GameFileLib/Src/GameSettingConfig.cpp
+END
+CCharacterQuestCsv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameFileLib/Src/CCharacterQuestCsv.cpp
+END

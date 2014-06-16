@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+useRC = true/false -> Use a resource file to create the GUI and skin.
+RCFile = filename -> The name of the RC file to use.
+RCTopFrame = frame identifier -> The "name" of the frame to use.
+-->
+<Skin name="Launcher skin" author="" comment="" screenshot="" application="Launcher">
+	<!-- Define the transparency colour to use for all skined items.
+	The default, if none is provided, is 255,0,255.
+	-->
+	<Transparency red="255" green="0" blue="255" />
+	<!-- °´Å¥¶¨Òå -->
+	<Buttons>
+		<!-- A Button has two states: normal and pressed. -->
+		<!--<default normal="frame_button_min.bmp" pressed="frame_button_max.bmp" disabled="frame_button_min.bmp"/>-->
+		<!-- For assigning skins to specific buttons, create a node with the "name" of the button -->
+		<!--<button_1 normal="play_normal.png" pressed="play_pressed.png" coord="-1,-1,-1,-1"/>-->
+    <!-- ´ó°´Å¥ -->        		
+		<btn_run normal="run.png" pressed="run_act.png" over="run_over.png" disabled="run_dis.png" pos="889,452"/>
+		<btn_reg normal="reg.png" pressed="reg_act.png" over="reg_over.png" disabled="reg.png" pos="633,643"/>
+		<btn_recharge normal="recharge.png" pressed="recharge_act.png" over="recharge_over.png" disabled="recharge.png" pos="703,644"/>
+		<btn_set normal="set.png" pressed="set_act.png" over="set_over.png" disabled="set.png" pos="773,644"/>
+		<btn_close normal="close.png" pressed="close_act.png" over="close_over.png" disabled="close.png" pos="841,644" />
+		<!-- Ð¡°´Å¥  -->
+		<btn_web normal="web.png" pressed="web_act.png" pos="400,617"/>
+		<btn_forum normal="forum.png" pressed="forum_act.png" pos="500,617"/>
+    <btn_faq normal="faq.png" pressed="faq_act.png" pos="600,617"/>    
+    <btn_services normal="services.png" pressed="services_act.png" pos="700,617"/>
+    <btn_manual normal="manual.png" pressed="manual_act.png" over="manual_over.png" pos="815,583"/>
+    <!-- other -->    
+    <!--
+    over="web_over.png" disabled="web.png" 
+    over="forum_over.png" disabled="forum.png"
+    over="faq_over.png" disabled="faq.png"
+    pressed="services_act.png" over="services_over.png" disabled="services.png" 
+    pressed="manual.png" over="manual.png" disabled="manual.png" 
+    btn_news normal="news.png" pressed="news_act.png" over="news_over.png" disabled="news.png" pos="823,587"/        position_back.png
+    -->
+	</Buttons>
+	<!-- ½ø¶ÈÌõ¶¨Òå -->
+	<Sliders>
+	  <m_subProgress slider="sliderMark.png" background="sliderMark.png" over="sliderMark.png"  pos="388,577" shown="true"/>   <!--disabled="" -->
+	  <m_mainProgress slider="sliderMark.png" background="sliderMark.png" over="sliderMark.png" pos="403,597" shown="true"/>
+	</Sliders>
+	<!-- ´°Ìå¶¨Òå -->
+	<SimpleFrame name="LauncherFrame" skin="xindiban.png" movable="yes" >
+		<closebox measure="0,0,0,0" skin=""/>
+		<minimizebox measure="0,0,0,0" skin=""/>
+		<maximizebox measure="0,0,0,0" skin=""/>
+		<titlebar height="0" measure="0,0,0,0"/>
+		<titleposition placement="middle"/>				
+		<client_area measure="292,244,580,256" />
+	</SimpleFrame>
+</Skin>

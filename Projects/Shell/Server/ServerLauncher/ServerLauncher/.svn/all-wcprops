@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/16/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/stdafx.h
+END
+NetSearchTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/NetSearchTab.cpp
+END
+ShellMsgTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ShellMsgTab.cpp
+END
+ReportCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ReportCtrl.h
+END
+ThreadMsgTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ThreadMsgTab.cpp
+END
+ServerStatusTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerStatusTab.h
+END
+NetStatesTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2733/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/NetStatesTab.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/targetver.h
+END
+ServerLauncher.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6661/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncher.vcproj
+END
+ServerSetTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerSetTab.h
+END
+ServerMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7606/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerMain.h
+END
+TabCtrlSSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/TabCtrlSSL.h
+END
+ServerNetApplyManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/4834/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerNetApplyManager.h
+END
+ServerLauncherDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncherDlg.h
+END
+TabPageSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/TabPageSSL.cpp
+END
+DbMsgTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/DbMsgTab.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/stdafx.cpp
+END
+CoreMsgTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/CoreMsgTab.h
+END
+ServerLauncher.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncher.h
+END
+ReportCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ReportCtrl.cpp
+END
+NetStatesTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/2733/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/NetStatesTab.cpp
+END
+ServerStatusTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerStatusTab.cpp
+END
+LoginNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/4834/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/LoginNetPacketProcesser.h
+END
+NetSearchTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/NetSearchTab.h
+END
+ServerSetTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerSetTab.cpp
+END
+ThreadMsgTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ThreadMsgTab.h
+END
+ServerLauncher.rc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/7822/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncher.rc
+END
+ShellMsgTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ShellMsgTab.h
+END
+ServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7606/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerMain.cpp
+END
+TabCtrlSSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/TabCtrlSSL.cpp
+END
+ServerNetApplyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerNetApplyManager.cpp
+END
+ServerLauncherDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/7822/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncherDlg.cpp
+END
+DbMsgTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/DbMsgTab.cpp
+END
+CoreMsgTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/CoreMsgTab.cpp
+END
+ServerLauncher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/4178/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncher.cpp
+END
+ServerLauncher.aps
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ServerLauncher.aps
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/ReadMe.txt
+END
+TabPageSSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/TabPageSSL.h
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7822/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/Resource.h
+END
+LoginNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/7606/trunk/Projects/Shell/Server/ServerLauncher/ServerLauncher/LoginNetPacketProcesser.cpp
+END

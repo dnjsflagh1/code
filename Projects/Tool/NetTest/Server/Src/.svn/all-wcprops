@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Src
+END
+ServerNetApplyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Src/ServerNetApplyManager.cpp
+END
+ServerNetUdpApplyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Src/ServerNetUdpApplyManager.cpp
+END

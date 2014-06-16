@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1351515849</timestamp>
+  <hostname>kingwang-PC</hostname>
+  <os>windows</os>
+  <product>Intel® Parallel Inspector 2011</product>
+  <buildNumber type="s32_t">111926</buildNumber>
+  <variables>
+   <at>mi4</at>
+  </variables>
+ </rdmgr>
+</root>

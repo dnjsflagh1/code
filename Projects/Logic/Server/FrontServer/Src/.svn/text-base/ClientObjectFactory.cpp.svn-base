@@ -1,0 +1,63 @@
+
+/******************************************************************************/
+
+#include "stdafx.h"
+#include "ClientObjectFactory.h"
+
+/******************************************************************************/
+
+namespace MG
+{
+
+    //--------------------------------------------------------------------------------------
+    ClientObjectFactory::ClientObjectFactory()
+    {
+    }
+
+    //--------------------------------------------------------------------------------------
+    ClientObjectFactory::~ClientObjectFactory()
+    {
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientObjectFactory::creatClientObject( ClientObjectPtr& ptr, I32 client_id )
+    {
+        ClientObject* clientObject = NULL;
+        mClientObjectPoolCs.lock();
+        {
+            clientObject = MG_POOL_NEW_ONCE_CONSTRUCTION(mClientObjectPool, ClientObject, ());
+        }
+        mClientObjectPoolCs.unlock();
+
+        clientObject->clear();
+        clientObject->initialize();
+        clientObject->mNetID = client_id;
+
+        ptr.bind( clientObject );
+
+        ptr.mFactory = this;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientObjectFactory::destroyClientObject( ClientObjectPtr& ptr )
+    {
+        ClientObject* clientObject = ptr.getPointer();
+
+        if ( clientObject )
+        {
+            clientObject->clear();
+            clientObject->unInitialize();
+
+            mClientObjectPoolCs.lock();
+            {
+                MG_POOL_DELETE_ONCE_DESTRUCTOR(mClientObjectPool, clientObject);
+            }
+            mClientObjectPoolCs.unlock();
+        }else
+        {
+            DYNAMIC_EEXCEPT_LOG("clientObject pointer is null!");
+        }
+    }
+
+
+}

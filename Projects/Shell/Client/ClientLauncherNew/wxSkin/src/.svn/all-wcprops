@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5180/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src
+END
+wxSkinFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinFrame.cpp
+END
+wxSkinRadiobutton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinRadiobutton.cpp
+END
+wxSkinStaticText.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinStaticText.cpp
+END
+wxSkinPanel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinPanel.cpp
+END
+wxSkinChooser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinChooser.cpp
+END
+wxSkinSimpleFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinSimpleFrame.cpp
+END
+wxSkinEngine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinEngine.cpp
+END
+wxSkinWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinWindow.cpp
+END
+wxSkinButton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinButton.cpp
+END
+wxSkinBitmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinBitmap.cpp
+END
+wxSkinSlider.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/5180/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinSlider.cpp
+END
+wxSkinFrameBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinFrameBase.cpp
+END
+wxSkinCheckBox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinCheckBox.cpp
+END
+guibuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/guibuilder.cpp
+END
+wxSkinGauge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/wxSkin/src/wxSkinGauge.cpp
+END

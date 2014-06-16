@@ -1,0 +1,32 @@
+//*************************************************************************************************//
+#ifndef _H_CGAMEMESSAGECONFIG_
+#define _H_CGAMEMESSAGECONFIG_
+//*************************************************************************************************//
+namespace MG
+{
+    //*************************************************************************************************//
+    class CGameMessageConfig 
+    {
+    public:
+        CGameMessageConfig();
+        ~CGameMessageConfig();
+        SINGLETON_INSTANCE(CGameMessageConfig);
+    public:
+		// MG_CN_MODIFY
+        Bool                loadFile(std::wstring fileName, IMGExternalPackManager* packManager = NULL);
+        Int                 getMsgConfigNum();
+        //std::wstring        getStr(Int index);
+        void                setSection(std::wstring sectionname);
+        std::wstring        getStr( std::wstring sectionname, std::wstring keyname, std::wstring defaultVal );
+        std::wstring        getStr( std::wstring keyname, std::wstring defaultVal );
+		void				getMoneyString(Int money,Str16& strPrice);
+    protected:
+        void                unloadFile();
+    private:
+        UINI mUini;
+    };
+    //*************************************************************************************************//
+}
+//*************************************************************************************************//
+#endif
+//*************************************************************************************************//

@@ -1,0 +1,2123 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private
+END
+qemptysequencetype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qemptysequencetype_p.h
+END
+qsimplecontentconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsimplecontentconstructor_p.h
+END
+qprimitives_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qprimitives_p.h
+END
+qgmonth_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgmonth_p.h
+END
+qanynodetype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qanynodetype_p.h
+END
+qxsdschemaparsercontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemaparsercontext_p.h
+END
+qcastableas_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcastableas_p.h
+END
+qxsltsimplecontentconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsltsimplecontentconstructor_p.h
+END
+qdynamiccontextstore_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdynamiccontextstore_p.h
+END
+qtokenrevealer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtokenrevealer_p.h
+END
+qstaticbaseuricontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticbaseuricontext_p.h
+END
+qmultiitemtype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qmultiitemtype_p.h
+END
+qunparsedtextavailablefn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunparsedtextavailablefn_p.h
+END
+qquerytransformparser_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qquerytransformparser_p.h
+END
+qdocumentcontentvalidator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdocumentcontentvalidator_p.h
+END
+qreportcontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qreportcontext_p.h
+END
+qresolveurifn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qresolveurifn_p.h
+END
+qparentnodeaxis_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qparentnodeaxis_p.h
+END
+qinsertioniterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qinsertioniterator_p.h
+END
+qgday_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgday_p.h
+END
+qbooleanfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbooleanfns_p.h
+END
+qacceltree_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qacceltree_p.h
+END
+qtruthpredicate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtruthpredicate_p.h
+END
+qxmlschemavalidator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxmlschemavalidator_p.h
+END
+qpullbridge_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpullbridge_p.h
+END
+qnamespacesupport_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamespacesupport_p.h
+END
+qdistinctiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdistinctiterator_p.h
+END
+qnodebuilder_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnodebuilder_p.h
+END
+qdeduplicateiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdeduplicateiterator_p.h
+END
+qschematype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qschematype_p.h
+END
+qdocumentfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdocumentfn_p.h
+END
+qorderby_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qorderby_p.h
+END
+qdocumentprojector_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdocumentprojector_p.h
+END
+qqnamefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qqnamefns_p.h
+END
+qgeneralcomparison_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgeneralcomparison_p.h
+END
+qnumericfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnumericfns_p.h
+END
+qabstractxmlreceiver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractxmlreceiver_p.h
+END
+qtokenizer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtokenizer_p.h
+END
+qelementavailablefn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qelementavailablefn_p.h
+END
+qschematime_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qschematime_p.h
+END
+qexternalvariableloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexternalvariableloader_p.h
+END
+qnodecomparison_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnodecomparison_p.h
+END
+qdatetimefn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdatetimefn_p.h
+END
+qaggregator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qaggregator_p.h
+END
+qcomparingaggregator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcomparingaggregator_p.h
+END
+qxsdparticle_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdparticle_p.h
+END
+qxsdxpathexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdxpathexpression_p.h
+END
+qnodenamespaceresolver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnodenamespaceresolver_p.h
+END
+qxsdschemacontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemacontext_p.h
+END
+qxsdschemadebugger_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemadebugger_p.h
+END
+qliteralsequence_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qliteralsequence_p.h
+END
+qexpressionfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexpressionfactory_p.h
+END
+qbuiltinatomictypes_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbuiltinatomictypes_p.h
+END
+qxsddocumentation_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsddocumentation_p.h
+END
+qfunctionfactorycollection_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfunctionfactorycollection_p.h
+END
+qxsdannotation_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdannotation_p.h
+END
+qtemplateparameterreference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtemplateparameterreference_p.h
+END
+qinteger_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qinteger_p.h
+END
+qpaircontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpaircontainer_p.h
+END
+qstaticcurrentcontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticcurrentcontext_p.h
+END
+qexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexpression_p.h
+END
+qparsercontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qparsercontext_p.h
+END
+qemptycontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qemptycontainer_p.h
+END
+qtimezonefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtimezonefns_p.h
+END
+qreturnorderby_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qreturnorderby_p.h
+END
+qpositionalvariablereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpositionalvariablereference_p.h
+END
+qxmlpatternistcli_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxmlpatternistcli_p.h
+END
+qcommentconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcommentconstructor_p.h
+END
+qaccessorfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qaccessorfns_p.h
+END
+qargumentconverter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qargumentconverter_p.h
+END
+qresourcedelegator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qresourcedelegator_p.h
+END
+qxsdidchelper_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdidchelper_p.h
+END
+qoptimizerblocks_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qoptimizerblocks_p.h
+END
+qitemmappingiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qitemmappingiterator_p.h
+END
+qdocumentconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdocumentconstructor_p.h
+END
+qexpressionsequence_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexpressionsequence_p.h
+END
+qanytype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qanytype_p.h
+END
+qassemblestringfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qassemblestringfns_p.h
+END
+qitem_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qitem_p.h
+END
+qxsdschemaresolver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemaresolver_p.h
+END
+qanysimpletype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qanysimpletype_p.h
+END
+qdatetimefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdatetimefns_p.h
+END
+qsourcelocationreflection_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsourcelocationreflection_p.h
+END
+qatomiccomparator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccomparator_p.h
+END
+qcombinenodes_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcombinenodes_p.h
+END
+qattributenamevalidator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qattributenamevalidator_p.h
+END
+qreceiverdynamiccontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qreceiverdynamiccontext_p.h
+END
+qbuiltinnodetype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbuiltinnodetype_p.h
+END
+qunparsedentitypublicidfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunparsedentitypublicidfn_p.h
+END
+qfocus_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfocus_p.h
+END
+qexpressiondispatch_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexpressiondispatch_p.h
+END
+qtemplatemode_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtemplatemode_p.h
+END
+qapplytemplate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qapplytemplate_p.h
+END
+qschemanumeric_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qschemanumeric_p.h
+END
+qcachecells_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcachecells_p.h
+END
+qxsdcomplextype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdcomplextype_p.h
+END
+qbuiltintypes_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbuiltintypes_p.h
+END
+qvariabledeclaration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvariabledeclaration_p.h
+END
+qsubsequenceiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsubsequenceiterator_p.h
+END
+qaggregatefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qaggregatefns_p.h
+END
+qsequencemappingiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsequencemappingiterator_p.h
+END
+qqnamevalue_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qqnamevalue_p.h
+END
+qdeviceresourceloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdeviceresourceloader_p.h
+END
+qcopyof_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcopyof_p.h
+END
+qnetworkaccessdelegator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnetworkaccessdelegator_p.h
+END
+qdaytimeduration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdaytimeduration_p.h
+END
+qvalidationerror_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvalidationerror_p.h
+END
+quserfunctioncallsite_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/quserfunctioncallsite_p.h
+END
+qcommonsequencetypes_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcommonsequencetypes_p.h
+END
+qvaluecomparison_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvaluecomparison_p.h
+END
+qanyitemtype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qanyitemtype_p.h
+END
+qemptyiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qemptyiterator_p.h
+END
+qfunctionavailablefn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfunctionavailablefn_p.h
+END
+qreferencecountedvalue_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qreferencecountedvalue_p.h
+END
+qremovaliterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qremovaliterator_p.h
+END
+qsinglecontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsinglecontainer_p.h
+END
+qstaticcompatibilitycontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticcompatibilitycontext_p.h
+END
+quriloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/quriloader_p.h
+END
+quntyped_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/quntyped_p.h
+END
+qgmonthday_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgmonthday_p.h
+END
+qxsdattributegroup_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdattributegroup_p.h
+END
+qabstractfunctionfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractfunctionfactory_p.h
+END
+qtokensource_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtokensource_p.h
+END
+qgyear_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgyear_p.h
+END
+qatomicmathematicianlocators_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomicmathematicianlocators_p.h
+END
+qarithmeticexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qarithmeticexpression_p.h
+END
+qcollationchecker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcollationchecker_p.h
+END
+qstaticnamespacecontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticnamespacecontext_p.h
+END
+qabstractnodetest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractnodetest_p.h
+END
+qtemplate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtemplate_p.h
+END
+qyearmonthduration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qyearmonthduration_p.h
+END
+quntypedatomicconverter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/quntypedatomicconverter_p.h
+END
+qunparsedentityurifn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunparsedentityurifn_p.h
+END
+qxsdstatemachine_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdstatemachine_p.h
+END
+qxsdassertion_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdassertion_p.h
+END
+qstaticnamespacescontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticnamespacescontainer_p.h
+END
+qschematypefactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qschematypefactory_p.h
+END
+qcontextfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcontextfns_p.h
+END
+qnodesort_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnodesort_p.h
+END
+qatomictypedispatch_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomictypedispatch_p.h
+END
+qderivedinteger_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qderivedinteger_p.h
+END
+qxsltnodetest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsltnodetest_p.h
+END
+qdelegatingnamespaceresolver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdelegatingnamespaceresolver_p.h
+END
+qcomputednamespaceconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcomputednamespaceconstructor_p.h
+END
+qxsdelement_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdelement_p.h
+END
+qquantifiedexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qquantifiedexpression_p.h
+END
+qnamepool_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamepool_p.h
+END
+qifthenclause_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qifthenclause_p.h
+END
+qxsdnotation_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdnotation_p.h
+END
+qsystempropertyfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsystempropertyfn_p.h
+END
+qnamespaceresolver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamespaceresolver_p.h
+END
+qebvtype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qebvtype_p.h
+END
+qstaticbaseuristore_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticbaseuristore_p.h
+END
+qmaintainingreader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qmaintainingreader_p.h
+END
+qletclause_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qletclause_p.h
+END
+qtracefn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtracefn_p.h
+END
+qxsdattribute_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdattribute_p.h
+END
+qprocessinginstructionconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qprocessinginstructionconstructor_p.h
+END
+qdebug_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdebug_p.h
+END
+qbase64binary_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbase64binary_p.h
+END
+qstaticfocuscontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticfocuscontext_p.h
+END
+qpatternmatchingfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpatternmatchingfns_p.h
+END
+qitemtype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qitemtype_p.h
+END
+qtriplecontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtriplecontainer_p.h
+END
+qvariablereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvariablereference_p.h
+END
+qtypechecker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtypechecker_p.h
+END
+qqnameconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qqnameconstructor_p.h
+END
+qexternalvariablereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexternalvariablereference_p.h
+END
+qintersectiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qintersectiterator_p.h
+END
+qatomiccomparatorlocators_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccomparatorlocators_p.h
+END
+qxsdidentityconstraint_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdidentityconstraint_p.h
+END
+qcurrentitemstore_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcurrentitemstore_p.h
+END
+qpatternplatform_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpatternplatform_p.h
+END
+qemptysequence_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qemptysequence_p.h
+END
+qxpath10corefunctions_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxpath10corefunctions_p.h
+END
+qfunctionargument_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfunctionargument_p.h
+END
+qcommonnamespaces_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcommonnamespaces_p.h
+END
+qlocalnametest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qlocalnametest_p.h
+END
+qnodefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnodefns_p.h
+END
+qwithparam_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qwithparam_p.h
+END
+qsequencereceiver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsequencereceiver_p.h
+END
+qelementconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qelementconstructor_p.h
+END
+qorexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qorexpression_p.h
+END
+qxsdinstancereader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdinstancereader_p.h
+END
+qfunctionsignature_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfunctionsignature_p.h
+END
+qattributeconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qattributeconstructor_p.h
+END
+qxsdsimpletype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdsimpletype_p.h
+END
+qschemadatetime_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qschemadatetime_p.h
+END
+qdate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdate_p.h
+END
+qcastas_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcastas_p.h
+END
+qabstractdatetime_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractdatetime_p.h
+END
+qdelegatingstaticcontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdelegatingstaticcontext_p.h
+END
+qandexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qandexpression_p.h
+END
+qforclause_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qforclause_p.h
+END
+qxsdtypechecker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdtypechecker_p.h
+END
+qnamespacebinding_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamespacebinding_p.h
+END
+qatomiccomparators_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccomparators_p.h
+END
+qevaluationcache_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qevaluationcache_p.h
+END
+qstaticcontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticcontext_p.h
+END
+qpath_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpath_p.h
+END
+qliteral_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qliteral_p.h
+END
+qxsdannotated_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdannotated_p.h
+END
+qxsdschematypesfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschematypesfactory_p.h
+END
+qgenericpredicate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgenericpredicate_p.h
+END
+qautoptr_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qautoptr_p.h
+END
+qcoloroutput_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcoloroutput_p.h
+END
+qatomicmathematician_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomicmathematician_p.h
+END
+qatomiccasters_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccasters_p.h
+END
+qargumentreference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qargumentreference_p.h
+END
+qnumerictype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnumerictype_p.h
+END
+qncnameconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qncnameconstructor_p.h
+END
+qfunctionfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfunctionfactory_p.h
+END
+qxsdreference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdreference_p.h
+END
+qatomiccaster_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccaster_p.h
+END
+qxmlschema_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxmlschema_p.h
+END
+qtocodepointsiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtocodepointsiterator_p.h
+END
+qxsdvalidatedxmlnodemodel_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdvalidatedxmlnodemodel_p.h
+END
+qxslttokenlookup_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxslttokenlookup_p.h
+END
+qxpath20corefunctions_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxpath20corefunctions_p.h
+END
+qxquerytokenizer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxquerytokenizer_p.h
+END
+qabstractfloat_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractfloat_p.h
+END
+qdeepequalfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdeepequalfn_p.h
+END
+qvalidate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvalidate_p.h
+END
+qxmlserializer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxmlserializer_p.h
+END
+qcppcastinghelper_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcppcastinghelper_p.h
+END
+qbasictypesfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbasictypesfactory_p.h
+END
+qdecimal_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdecimal_p.h
+END
+qcallsite_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcallsite_p.h
+END
+qsorttuple_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsorttuple_p.h
+END
+qxsdattributereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdattributereference_p.h
+END
+qatomiccasterlocator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccasterlocator_p.h
+END
+qcardinality_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcardinality_p.h
+END
+qatomicstring_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomicstring_p.h
+END
+qacceliterators_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qacceliterators_p.h
+END
+qvaluefactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvaluefactory_p.h
+END
+qrangeiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qrangeiterator_p.h
+END
+qxsdparticlechecker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdparticlechecker_p.h
+END
+qderivedstring_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qderivedstring_p.h
+END
+qsequencetype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsequencetype_p.h
+END
+qsingletoniterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsingletoniterator_p.h
+END
+qvariableloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qvariableloader_p.h
+END
+qpatternistlocale_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qpatternistlocale_p.h
+END
+qxsdschemahelper_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemahelper_p.h
+END
+qiodevicedelegate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qiodevicedelegate_p.h
+END
+qabstractxmlforwarditerator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractxmlforwarditerator_p.h
+END
+qxpathhelper_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxpathhelper_p.h
+END
+qoperandsiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qoperandsiterator_p.h
+END
+qgenericdynamiccontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgenericdynamiccontext_p.h
+END
+qxsdapplicationinformation_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdapplicationinformation_p.h
+END
+qgenericstaticcontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgenericstaticcontext_p.h
+END
+qgenerateidfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgenerateidfn_p.h
+END
+qunlimitedcontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunlimitedcontainer_p.h
+END
+qxsdidcache_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdidcache_p.h
+END
+qaxisstep_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qaxisstep_p.h
+END
+qqnametest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qqnametest_p.h
+END
+qxmlresultitems_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxmlresultitems_p.h
+END
+qbuiltinatomictype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qbuiltinatomictype_p.h
+END
+qoutputvalidator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qoutputvalidator_p.h
+END
+qxsdvalidatinginstancereader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdvalidatinginstancereader_p.h
+END
+qrangeexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qrangeexpression_p.h
+END
+qerrorfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qerrorfn_p.h
+END
+qresourceloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qresourceloader_p.h
+END
+qabstractfloatmathematician_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractfloatmathematician_p.h
+END
+qxsdschema_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschema_p.h
+END
+qrangevariablereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qrangevariablereference_p.h
+END
+qxsdschemamerger_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemamerger_p.h
+END
+qexpressionvariablereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexpressionvariablereference_p.h
+END
+qatomicmathematicians_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomicmathematicians_p.h
+END
+qcomparescaseaware_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcomparescaseaware_p.h
+END
+qsubstringfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsubstringfns_p.h
+END
+qhexbinary_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qhexbinary_p.h
+END
+qdynamiccontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdynamiccontext_p.h
+END
+qxsdmodelgroup_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdmodelgroup_p.h
+END
+qnamespacenametest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamespacenametest_p.h
+END
+qxslt20corefunctions_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxslt20corefunctions_p.h
+END
+qcardinalityverifier_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcardinalityverifier_p.h
+END
+qxsdfacet_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdfacet_p.h
+END
+qunioniterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunioniterator_p.h
+END
+qstaticbaseuricontainer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticbaseuricontainer_p.h
+END
+qstackcontextbase_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstackcontextbase_p.h
+END
+qoptimizationpasses_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qoptimizationpasses_p.h
+END
+qanyuri_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qanyuri_p.h
+END
+qcommonvalues_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcommonvalues_p.h
+END
+qxsdwildcard_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdwildcard_p.h
+END
+qtemplateinvoker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtemplateinvoker_p.h
+END
+qxsdattributeterm_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdattributeterm_p.h
+END
+qgenericnamespaceresolver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgenericnamespaceresolver_p.h
+END
+qgyearmonth_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgyearmonth_p.h
+END
+qatomictype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomictype_p.h
+END
+qunaryexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunaryexpression_p.h
+END
+qsequencefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsequencefns_p.h
+END
+qxslttokenizer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxslttokenizer_p.h
+END
+qnamedschemacomponent_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamedschemacomponent_p.h
+END
+qitemverifier_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qitemverifier_p.h
+END
+qxsdstatemachinebuilder_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdstatemachinebuilder_p.h
+END
+qcastingplatform_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcastingplatform_p.h
+END
+qstaticcompatibilitystore_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstaticcompatibilitystore_p.h
+END
+qacceltreebuilder_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qacceltreebuilder_p.h
+END
+qprojectedexpression_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qprojectedexpression_p.h
+END
+qtextnodeconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtextnodeconstructor_p.h
+END
+qnonetype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnonetype_p.h
+END
+qcomparisonfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcomparisonfactory_p.h
+END
+qexceptiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qexceptiterator_p.h
+END
+qcontextitem_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcontextitem_p.h
+END
+qcalltemplate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcalltemplate_p.h
+END
+qebvextractor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qebvextractor_p.h
+END
+qabstractduration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractduration_p.h
+END
+qtemplatepattern_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtemplatepattern_p.h
+END
+qstringvaluefns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qstringvaluefns_p.h
+END
+qunparsedtextfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunparsedtextfn_p.h
+END
+qabstractfloatcasters_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractfloatcasters_p.h
+END
+qboolean_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qboolean_p.h
+END
+qcoloringmessagehandler_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcoloringmessagehandler_p.h
+END
+qcontextnodechecker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcontextnodechecker_p.h
+END
+qxsdschematoken_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschematoken_p.h
+END
+qxsduserschematype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsduserschematype_p.h
+END
+qatomiccasterlocators_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccasterlocators_p.h
+END
+qduration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qduration_p.h
+END
+quntypedatomic_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/quntypedatomic_p.h
+END
+qcalltargetdescription_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcalltargetdescription_p.h
+END
+qatomiccomparatorlocator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomiccomparatorlocator_p.h
+END
+qinstanceof_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qinstanceof_p.h
+END
+qabstractxmlpullprovider_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractxmlpullprovider_p.h
+END
+qxsdalternative_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdalternative_p.h
+END
+qxsdattributeuse_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdattributeuse_p.h
+END
+qtreatas_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtreatas_p.h
+END
+qconstructorfunctionsfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qconstructorfunctionsfactory_p.h
+END
+qcurrentfn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcurrentfn_p.h
+END
+qtypeavailablefn_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qtypeavailablefn_p.h
+END
+qcomparisonplatform_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcomparisonplatform_p.h
+END
+qcompressedwhitespace_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcompressedwhitespace_p.h
+END
+qsequencegeneratingfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qsequencegeneratingfns_p.h
+END
+qschemacomponent_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qschemacomponent_p.h
+END
+qatomicmathematicianlocator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomicmathematicianlocator_p.h
+END
+qacceltreeresourceloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qacceltreeresourceloader_p.h
+END
+qxmlquery_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxmlquery_p.h
+END
+qatomizer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qatomizer_p.h
+END
+qxsdschemaparser_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemaparser_p.h
+END
+qoptimizerframework_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qoptimizerframework_p.h
+END
+qnamespaceconstructor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qnamespaceconstructor_p.h
+END
+qxsdschemachecker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdschemachecker_p.h
+END
+qindexofiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qindexofiterator_p.h
+END
+qcachingiterator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcachingiterator_p.h
+END
+qcurrentitemcontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcurrentitemcontext_p.h
+END
+qgenericsequencetype_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qgenericsequencetype_p.h
+END
+qabstractxmlnodemodel_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qabstractxmlnodemodel_p.h
+END
+qunresolvedvariablereference_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qunresolvedvariablereference_p.h
+END
+qdelegatingdynamiccontext_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qdelegatingdynamiccontext_p.h
+END
+qfunctioncall_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfunctioncall_p.h
+END
+qcomparestringfns_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qcomparestringfns_p.h
+END
+quserfunction_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/quserfunction_p.h
+END
+qxsdterm_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qxsdterm_p.h
+END
+qfirstitempredicate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtXmlPatterns/private/qfirstitempredicate_p.h
+END

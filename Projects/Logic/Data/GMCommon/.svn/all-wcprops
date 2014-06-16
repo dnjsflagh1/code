@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/6296/trunk/Projects/Logic/Data/GMCommon
+END
+DataSetController.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6273/trunk/Projects/Logic/Data/GMCommon/DataSetController.h
+END
+ThreadControlable.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6273/trunk/Projects/Logic/Data/GMCommon/ThreadControlable.h
+END
+GMCommonData.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/6296/trunk/Projects/Logic/Data/GMCommon/GMCommonData.h
+END

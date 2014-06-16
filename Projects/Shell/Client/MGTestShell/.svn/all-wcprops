@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/1426/trunk/Projects/Shell/Client/MGTestShell
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/13/trunk/Projects/Shell/Client/MGTestShell/stdafx.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Client/MGTestShell/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Client/MGTestShell/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Shell/Client/MGTestShell/ReadMe.txt
+END
+MGTestShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/1426/trunk/Projects/Shell/Client/MGTestShell/MGTestShell.cpp
+END
+MGTestShell.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/13/trunk/Projects/Shell/Client/MGTestShell/MGTestShell.vcproj
+END

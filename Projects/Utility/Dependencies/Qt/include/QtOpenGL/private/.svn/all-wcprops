@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private
+END
+qgl_egl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qgl_egl_p.h
+END
+qwindowsurface_x11gl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qwindowsurface_x11gl_p.h
+END
+qglwindowsurface_qws_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglwindowsurface_qws_p.h
+END
+fragmentprograms_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/fragmentprograms_p.h
+END
+qglpixelbuffer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglpixelbuffer_p.h
+END
+qglframebufferobject_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglframebufferobject_p.h
+END
+qgl2pexvertexarray_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qgl2pexvertexarray_p.h
+END
+qglengineshadersource_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglengineshadersource_p.h
+END
+qgl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qgl_p.h
+END
+qwindowsurface_gl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qwindowsurface_gl_p.h
+END
+qgraphicsshadereffect_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qgraphicsshadereffect_p.h
+END
+qglgradientcache_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglgradientcache_p.h
+END
+qpixmapdata_x11gl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qpixmapdata_x11gl_p.h
+END
+qpaintengine_opengl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qpaintengine_opengl_p.h
+END
+qglcustomshaderstage_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglcustomshaderstage_p.h
+END
+qglengineshadermanager_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglengineshadermanager_p.h
+END
+qpixmapdata_gl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qpixmapdata_gl_p.h
+END
+qtextureglyphcache_gl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qtextureglyphcache_gl_p.h
+END
+qglpaintdevice_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglpaintdevice_p.h
+END
+qgl_cl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qgl_cl_p.h
+END
+qglextensions_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglextensions_p.h
+END
+qtriangulatingstroker_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qtriangulatingstroker_p.h
+END
+qpaintengineex_opengl2_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qpaintengineex_opengl2_p.h
+END
+qglpixmapfilter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qglpixmapfilter_p.h
+END
+qgraphicssystem_gl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtOpenGL/private/qgraphicssystem_gl_p.h
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/4913/trunk/Projects/Shell/Client/ClientLauncher/Include
+END
+Link.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Include/Link.h
+END
+RGNDLG.H
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Include/RGNDLG.H
+END
+Xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Include/Xml.h
+END
+explorer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Include/explorer.h
+END
+DllLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1518/trunk/Projects/Shell/Client/ClientLauncher/Include/DllLoader.h
+END
+LiveUpdate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/4913/trunk/Projects/Shell/Client/ClientLauncher/Include/LiveUpdate.hpp
+END
+UIConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Include/UIConfig.h
+END
+Config.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Include/Config.h
+END
+Thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1518/trunk/Projects/Shell/Client/ClientLauncher/Include/Thread.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/2079/trunk/Projects/Tool/NetTest/Server
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/stdafx.h
+END
+ServerDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/ServerDlg.h
+END
+Server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Server.cpp
+END
+Server.aps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Server.aps
+END
+Server.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Server.vcproj
+END
+Server.rc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Server.rc
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/ReadMe.txt
+END
+Server.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/Server.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/resource.h
+END
+ServerDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Server/ServerDlg.cpp
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private
+END
+qwebpage_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebpage_p.h
+END
+qwebsecurityorigin_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebsecurityorigin_p.h
+END
+qwebhistory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebhistory_p.h
+END
+qwebplugindatabase_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebplugindatabase_p.h
+END
+qwebdatabase_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebdatabase_p.h
+END
+qwebinspector_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebinspector_p.h
+END
+qwebframe_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtWebKit/private/qwebframe_p.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGFile/Src
+END
+CsvReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGFile/Src/CsvReader.cpp
+END
+FileOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGFile/Src/FileOp.cpp
+END
+Ini.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGFile/Src/Ini.cpp
+END
+XmlHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/4880/trunk/Projects/Utility/MGFile/Src/XmlHelper.cpp
+END

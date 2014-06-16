@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMisc/Src
+END
+Detection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMisc/Src/Detection.cpp
+END
+Debug_def.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/1043/trunk/Projects/Utility/MGMisc/Src/Debug_def.cpp
+END
+LogConsole.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2865/trunk/Projects/Utility/MGMisc/Src/LogConsole.cpp
+END
+DetectionMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMisc/Src/DetectionMgr.cpp
+END
+LogSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/4288/trunk/Projects/Utility/MGMisc/Src/LogSystem.cpp
+END
+MGStrOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/4323/trunk/Projects/Utility/MGMisc/Src/MGStrOp.cpp
+END
+LinedState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/6164/trunk/Projects/Utility/MGMisc/Src/LinedState.cpp
+END
+ExceptionHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/7007/trunk/Projects/Utility/MGMisc/Src/ExceptionHandler.cpp
+END

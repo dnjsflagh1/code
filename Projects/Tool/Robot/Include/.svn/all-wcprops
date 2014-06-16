@@ -1,0 +1,527 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MGCode/!svn/ver/7440/trunk/Projects/Tool/Robot/Include
+END
+ClientPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/5478/trunk/Projects/Tool/Robot/Include/ClientPreqs.h
+END
+LoginLoginServerState.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/LoginLoginServerState.h
+END
+OperateManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/3138/trunk/Projects/Tool/Robot/Include/OperateManager.h
+END
+CClientNew.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/6064/trunk/Projects/Tool/Robot/Include/CClientNew.h
+END
+CampaignOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2364/trunk/Projects/Tool/Robot/Include/CampaignOperate.h
+END
+CPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/3056/trunk/Projects/Tool/Robot/Include/CPlayer.h
+END
+RobotTaskThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/7440/trunk/Projects/Tool/Robot/Include/RobotTaskThread.h
+END
+PackNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/PackNetPacketProcesser.h
+END
+CampaignNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6137/trunk/Projects/Tool/Robot/Include/CampaignNetPacketProcesser.h
+END
+CreateCampaginState.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/CreateCampaginState.h
+END
+CMapObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CMapObject.h
+END
+CTiroObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CTiroObject.h
+END
+JumpingMapState.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/JumpingMapState.h
+END
+ConnectLoginServerState.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/ConnectLoginServerState.h
+END
+CPlayerCharacter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CPlayerCharacter.h
+END
+CRegionObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CRegionObject.h
+END
+CClan.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/CClan.h
+END
+OnceOpPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/OnceOpPage.h
+END
+PlayerNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6086/trunk/Projects/Tool/Robot/Include/PlayerNetPacketProcesser.h
+END
+FixedSplitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/FixedSplitter.h
+END
+CTroopSoldier.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/CTroopSoldier.h
+END
+ItemView.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/221/trunk/Projects/Tool/Robot/Include/ItemView.h
+END
+NewMainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/NewMainView.h
+END
+RandMoveOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2915/trunk/Projects/Tool/Robot/Include/RandMoveOperate.h
+END
+AccountCheckState.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/AccountCheckState.h
+END
+ServerConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/ServerConfig.h
+END
+ChatOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/3138/trunk/Projects/Tool/Robot/Include/ChatOperate.h
+END
+ClientMessageInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/ClientMessageInfo.h
+END
+AutoJoinGameOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/AutoJoinGameOperate.h
+END
+CreateClanState.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/CreateClanState.h
+END
+ClanCtrlState.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/ClanCtrlState.h
+END
+ChatNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3138/trunk/Projects/Tool/Robot/Include/ChatNetPacketProcesser.h
+END
+TestNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7440/trunk/Projects/Tool/Robot/Include/TestNetPacketProcesser.h
+END
+InTiroState.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/InTiroState.h
+END
+CloseState.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/CloseState.h
+END
+InCampaginState.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/InCampaginState.h
+END
+PlayCharacterNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/3349/trunk/Projects/Tool/Robot/Include/PlayCharacterNetPacketProcesser.h
+END
+NetPacketPackManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/2099/trunk/Projects/Tool/Robot/Include/NetPacketPackManager.h
+END
+LoginState.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/LoginState.h
+END
+CampaignOpPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/5819/trunk/Projects/Tool/Robot/Include/CampaignOpPage.h
+END
+RepeatetlyRandomOpPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/6023/trunk/Projects/Tool/Robot/Include/RepeatetlyRandomOpPage.h
+END
+UseSkillOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/UseSkillOperate.h
+END
+CCampaignManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/3056/trunk/Projects/Tool/Robot/Include/CCampaignManager.h
+END
+CreateClanOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/CreateClanOperate.h
+END
+CRegionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/5478/trunk/Projects/Tool/Robot/Include/CRegionManager.h
+END
+CloseOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/CloseOperate.h
+END
+ClientNetApplyManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7042/trunk/Projects/Tool/Robot/Include/ClientNetApplyManager.h
+END
+CCampaignManagerNew.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/5819/trunk/Projects/Tool/Robot/Include/CCampaignManagerNew.h
+END
+UIOperateManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/3747/trunk/Projects/Tool/Robot/Include/UIOperateManager.h
+END
+ThreadTask.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/ThreadTask.h
+END
+OperatePage.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/3138/trunk/Projects/Tool/Robot/Include/OperatePage.h
+END
+CTroopObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/CTroopObject.h
+END
+CCharacter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/CCharacter.h
+END
+CSkillOwnManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CSkillOwnManager.h
+END
+UIOperateSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/UIOperateSystem.h
+END
+SkillNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/5478/trunk/Projects/Tool/Robot/Include/SkillNetPacketProcesser.h
+END
+AccountLoginOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/AccountLoginOperate.h
+END
+NetTestOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/NetTestOperate.h
+END
+RegionNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/RegionNetPacketProcesser.h
+END
+LoginFrontServerState.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/LoginFrontServerState.h
+END
+JoinGameOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/JoinGameOperate.h
+END
+BaseState.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/BaseState.h
+END
+CAttributeSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/CAttributeSystem.h
+END
+CampaignPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2364/trunk/Projects/Tool/Robot/Include/CampaignPage.h
+END
+CPlaceObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CPlaceObject.h
+END
+MainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/MainView.h
+END
+State.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/State.h
+END
+DeleteClanOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/DeleteClanOperate.h
+END
+CreateCharacterState.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/CreateCharacterState.h
+END
+CHomeObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/4505/trunk/Projects/Tool/Robot/Include/CHomeObject.h
+END
+RepeatedlyOrderOpPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/4558/trunk/Projects/Tool/Robot/Include/RepeatedlyOrderOpPage.h
+END
+TroopNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/TroopNetPacketProcesser.h
+END
+MainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/MainFrm.h
+END
+ConnectFrontServerState.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/ConnectFrontServerState.h
+END
+LoginNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/4505/trunk/Projects/Tool/Robot/Include/LoginNetPacketProcesser.h
+END
+UIOperate.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/4558/trunk/Projects/Tool/Robot/Include/UIOperate.h
+END
+Operate.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/3138/trunk/Projects/Tool/Robot/Include/Operate.h
+END
+CAreaObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CAreaObject.h
+END
+LoginPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/LoginPage.h
+END
+ClientManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/ClientManager.h
+END
+SettingPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/5894/trunk/Projects/Tool/Robot/Include/SettingPage.h
+END
+CMapDistribution.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2608/trunk/Projects/Tool/Robot/Include/CMapDistribution.h
+END
+CClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/3404/trunk/Projects/Tool/Robot/Include/CClient.h
+END
+CCampaign.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/5818/trunk/Projects/Tool/Robot/Include/CCampaign.h
+END
+ClientMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/Robot/Include/ClientMessage.h
+END
+CPveObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/4505/trunk/Projects/Tool/Robot/Include/CPveObject.h
+END
+ThreadTaskManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/7440/trunk/Projects/Tool/Robot/Include/ThreadTaskManager.h
+END

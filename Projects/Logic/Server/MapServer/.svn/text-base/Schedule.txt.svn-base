@@ -1,0 +1,286 @@
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+SPlayerPtr player;
+if (false == SPlayerManager::getInstance().getPlayer(player, data->accountId))
+{
+	return;
+}
+
+DYNAMIC_ASSERT(false == player.isNull());
+if ( player.isNull() )
+{
+	return;
+}
+
+SPlayerCharacterPtr playerCharacter;
+if (false == player->retrievePlayerCharacter(playerCharacter, data->playerCharacterId))
+{
+	return;
+}
+
+DYNAMIC_ASSERT(false == playerCharacter.isNull());
+if ( playerCharacter.isNull() )
+    return;
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+		SPlayerCharacter* senderCharacter = (SPlayerCharacter*)sender;
+		NetIdType frontServerId = senderCharacter->getPlayerIdentifyInfo().frontServerId;
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//std::map 的删除
+for(pos = coll.begin(); pos != coll.end(); )
+{
+	if(pos->second == value)
+	{
+		//找到
+		coll.erase(pos++);
+	}
+	else
+	{
+		++pos;
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//数组型的拷贝
+	void SRegionNetPacketProcesser::sendPlayerCharacterListToPlayer_New( SPlayer* player, std::map<PlayerCharacterIdType, SCharacter*>* playerCharacterList )
+	{
+		NetTranspondSendDataBufferPtr dataPtr    = NetTranspondPacketProcesser::getInstance().getClientTranspondSendDataBuffer( MG_GAME_NET_PACKET_BIG_MAX_SIZE );
+		GameNetPacketData* packet       = (GameNetPacketData*) dataPtr.getTranspondData();
+		if ( packet )
+		{
+			packet->channel = GNPC_REGION;
+			packet->type    = PT_REGION_M2C_ADD_PLAYER_CHARACTER;
+			PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA* sendData = (PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA*)(packet->data);
+			sendData->addPlayerNum = 0;
+
+			// 当前发送数据头大小
+			I32 sendDataHeadSize    = GameNetPacketData_INFO::headSize + PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA_INFO::headSize;
+			// 当前发送数据大小
+			I32 sendDataSize        = sendDataHeadSize;
+			// 准备发送数据大小
+			I32 prepareSendDataSize = sendDataHeadSize;
+
+			// 遍历角色队列
+			std::map<PlayerCharacterIdType, SCharacter*>::iterator iter = playerCharacterList->begin();
+			while( playerCharacterList->end() != iter )
+			{
+				// 递增一个角色数据大小到发送数据缓存大小
+				prepareSendDataSize = sendDataSize + PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA_INFO::netAddPlayerCharacterInfoSize;
+
+				// 如果大于缓存最大大小则发送
+				if ( prepareSendDataSize >= dataPtr.getTranspondDataMaxSize(100) )
+				{
+					NetTranspondPacketProcesser::getInstance().sendClientTranspondSendDataToFrontServer(dataPtr, sendDataSize, player->getFrontServerId(), player->getClientNetIdInFrontServer(), player->getAccountID());
+					/*dataPtr->send( sendDataSize, netID );*/
+
+					// 清空
+					sendData->addPlayerNum  = 0;
+					sendDataSize    = sendDataHeadSize;
+				}
+
+				SPlayerCharacter* playerCharacter = (SPlayerCharacter*)iter->second;
+				if (false == playerCharacter->getCanSeeByCamera())
+				{
+					//这是看不到的武将信息
+					++iter;
+					continue;
+				}
+
+				NetAddPlayerCharacterInfo* tempSend = &(sendData->addPlayerInfo[sendData->addPlayerNum]);
+				tempSend->playerId = playerCharacter->getOwnerPlayer()->getAccountID();
+				tempSend->character_id = playerCharacter->getID();
+				WStrnCpyS(tempSend->name, playerCharacter->getName().c_str(), MAX_CHARACTER_NAME_LEN);
+				tempSend->characterTemplateID = 1001;//((SPlayerCharacter*)playerCharacter)->getData()->characterTemplateID;
+				tempSend->pos.x = playerCharacter->getPos().x;
+				tempSend->pos.z = playerCharacter->getPos().z;
+
+				tempSend->dir	= playerCharacter->getDir();
+
+				tempSend->hp	= playerCharacter->getPlayerCharacterData()->charHP;
+				tempSend->mp	= playerCharacter->getPlayerCharacterData()->charMP;
+
+				sendDataSize += PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA_INFO::netAddPlayerCharacterInfoSize;
+
+				++sendData->addPlayerNum;
+				++iter;
+			}
+
+			if ( sendData->addPlayerNum > 0 )
+			{
+				NetTranspondPacketProcesser::getInstance().sendClientTranspondSendDataToFrontServer(dataPtr, sendDataSize, player->getFrontServerId(), player->getClientNetIdInFrontServer(), player->getAccountID());
+				//dataPtr->send( sendDataSize, netID );
+				sendData->addPlayerNum = 0;
+			}
+		}
+	}
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//单个拷贝
+	//--------------------------------------------------------------------------
+	void SRegionNetPacketProcesser::broadcastPlayerCharacterEnterToRegion_New(SCharacter* playerCharacter, SRegionObjectBase* region)
+	{
+		NetTranspondSendDataBufferPtr dataPtr    = NetTranspondPacketProcesser::getInstance().getClientTranspondSendDataBuffer( MG_GAME_NET_PACKET_BIG_MAX_SIZE );
+		GameNetPacketData* packet       = (GameNetPacketData*) dataPtr.getTranspondData();
+		if ( packet )
+		{
+			packet->channel = GNPC_REGION;
+			packet->type    = PT_REGION_M2C_ADD_PLAYER_CHARACTER;
+			PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA* sendData = (PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA*)(packet->data);
+			if(sendData)
+			{
+				sendData->addPlayerNum = 1;
+
+				sendData->addPlayerInfo->playerId = playerCharacter->getOwnerPlayer()->getAccountID();
+				sendData->addPlayerInfo->character_id = playerCharacter->getID();
+				WStrnCpyS(sendData->addPlayerInfo->name, playerCharacter->getName().c_str(), MAX_CHARACTER_NAME_LEN);
+				sendData->addPlayerInfo->characterTemplateID = 1001;//((SPlayerCharacterNew*)playerCharacter)->getPlayerCharacterData()->characterTemplateID;
+				sendData->addPlayerInfo->pos.x	= playerCharacter->getPos().x;
+				sendData->addPlayerInfo->pos.z	= playerCharacter->getPos().z;
+				sendData->addPlayerInfo->dir	= playerCharacter->getDir();
+				//sendData->addPlayerInfo->hp		= playerCharacter->getData()->charHP;
+				//sendData->addPlayerInfo->mp		= playerCharacter->getData()->charMP;
+
+				NetTranspondPacketProcesser::getInstance().broadcastClientTranspondDataToFrontServer(dataPtr,
+															GameNetPacketData_INFO::headSize + PT_REGION_M2C_ADD_PLAYER_CHARACTER_DATA_INFO::dataSize(sendData), 
+															region);
+			}
+		}
+	}
+	
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1. 世界系统 RegionObject的管理						【 OK 】
+
+2. 战斗系统
+
+3. 副本
+
+4. 任务												【 OK 】
+
+5. 从控制台生成 窗口， 用来记录 【副本】，【地图的人数】等信息
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2012.4.17
+GOT_PLAYERCHARACTER
+GOT_ORDINARY_BUILDING		--只需读取xml就可以 MapServer 不需要加载
+
+---------------------新手副本-----------------------------------------------
+
+	--创建副本， 人数为0时 自动摧毁副本
+
+---------------------冒险副本-----------------------------------------------
+（冒险副本）
+GOT_THIRDPARTYCHARACTER（冒险副本）
+
+GOT_TROOP-- 冒险副本也有军队， 是从xml读取的
+
+----------------------攻城副本----------------------------------------------
+
+GOT_BATTLE_BUILDING
+GOT_TROOP				--军队 代码写死
+GOT_SOLDIER
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+1. FrontServer 和 MapServer dll 里 创建Windows 来显示 【区域】，【 player】 信息  模仿kop
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+				6月份
+				
+1. 战斗   【军队】， 【军营】，【UI】
+
+2. 副本重构， 
+
+3. 地图重构， 
+
+4. 创建Windows 来显示 【区域】，【 player】   打印信息
+
+5. 测试 多FrontServer 多MapServer     
+
+6. 机器人 
+
+7. 重构csv
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+			2012.6.14
+1. 进攻方全退位战场结束								【OK】
+
+2. 兵营分配界面,军队控制权分配 UI   防守方测试		【OK】
+
+3. 开战场界面信息补全								
+
+4. Troop死后 继续出兵								【OK】
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+			2012.8.1
+			
+1. MMO 部分完成， 布置怪物， 同步， 杀死， 掉落物品
+
+2. MapServer 重构  接口清晰
+
+3. 检测 内存泄漏
+
+4. 测试 多FrontServer 多MapServer
+
+5. 重构csv
+
+6. 重构战斗
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2012.9.17
+
+
+家园副本
+死亡复活
+地图编辑器上摆放怪物的类型(RPG,SLG)和游戏中的出现
+-------------------------------------------------------
+物品(装备、使用、丢弃) 
+物品数据的整理和拆分
+物品商店和仓库后台逻辑 氏族背包和氏族仓库的功能分离
+-------------------------------------------------------
+增加地点属性列表和地点属性附加表，并在地点和建筑数据上附加属性
+将领招募
+
+----------------------------------------------------------------------------------------
+
+2012.12.18
+
+# 增加MainLand
+# 修改Atk命名为place	【OK】
+# SWorldManager 初始化的时候通过 基类 RegionObjectManagerBase 和 CenterServer的通知
+创建5种类型地图的MapObject和主城的SceneObject
+
+# Player的生命周期开始是从FrontServer通知开始的，表示玩家进入游戏，结束也是FrontServer通知
+# Player 跳转地图 SJumpMapManager::playerJumpToScene 
+# 实现playerJumpOut 和 playerJumpInScene
+# 统一SPlayerIdentifyInfo
+
+# SPlayerCharacter的生命周期开始是从FrontServer通知开始的，表示玩家进入游戏，结束也是FrontServer通知
+# SPlayerCharacter 跳转地图 SJumpMapManager::playerCharacterJumpToScene 
+# 实现playerCharacterJumpOut 和 playerCharacterJumpInScene
+
+# 增加GameObjectInScene
+# 增加PlayerInScene
+
+
+# 拆分Monster对象为SMonsterXml模板对象和SMonster实例对象
+# 模板对象存放静态数据，实例对象会保存模板对象
+# Monster 的生命周期由 SMonsterSceneManager 管理 
+# SMonsterPtr 由 SMonsterXml 创建和析构 并设置SMonsterSceneManager 中的列表
+
+# SBuilding
+# SThirdPartCharacter
+# Item
+
+# 增加了SCampaignManager层
+# 增加了逻辑对象InCampaign 4个
+
+场景Campaign实例对象只有2个
+# Camp
+# Troop

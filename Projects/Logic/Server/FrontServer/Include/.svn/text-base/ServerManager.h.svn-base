@@ -1,0 +1,215 @@
+/******************************************************************************/
+#ifndef _SERVERMANAGER_H_
+#define _SERVERMANAGER_H_
+/******************************************************************************/
+
+#include "FrontServerPreqs.h"
+#include "DataSetManager.h"
+#include "CommonGameDefine.h"
+#include "ServerStateNetPacket.h"
+
+/******************************************************************************/
+
+class SServerSetting;
+
+namespace MG
+{
+    /******************************************************************************/
+
+	#define MAX_ACTIVE_MAP_SERVER_COUNT 10
+	#define NET_ID_ERROR		-1		//错误的NetId
+
+
+    /******************************************************************************/
+    //Server对象
+    /******************************************************************************/
+
+    class ServerConnectInfo 
+    {
+    public:
+
+        NetIdType volatile mNetId;
+
+        ServerConnectInfo();
+        virtual ~ServerConnectInfo();
+
+        virtual void    onConnected(I32 id);
+        virtual void    onDisConnected();
+        virtual Bool    isConnected();
+        virtual void    disConnected();
+    };
+
+    /******************************************************************************/
+    //MapServerInfo对象
+    /******************************************************************************/
+
+    class MapServerConnectInfo : public ServerConnectInfo
+	{
+    public:
+
+		UInt			mClientNum;
+		U32				nServerId;          //服务器编号 必须唯一
+		U64				mServerUniqueFlag;
+		Bool			mIsValid;
+
+		I32				mMapServerNum;		//mapserver 总数
+		I32				mMapServerIndex;    //当前mapserver在总mapserver列表中的索引
+
+		MapServerConnectInfo();
+		virtual ~MapServerConnectInfo();
+
+        virtual void    onConnected(I32 id);
+        virtual void    onDisConnected();
+
+	};
+
+    /******************************************************************************/
+    //服务器管理，负责与之连接的LoginServer和MapServer的相关操作
+    /******************************************************************************/
+    class ServerManager
+    {
+    public:
+
+        SINGLETON_INSTANCE(ServerManager);
+        ServerManager();
+        virtual ~ServerManager();
+
+    public:
+
+        //-----------------------------------------------------------------------------------
+        // Main
+        //-----------------------------------------------------------------------------------
+
+		//初始化和反初始化
+        Bool			    initialize(SServerSetting* setting);
+        void			    uninitialize();
+        //打印 服务器连接情况
+        void				printServer();
+
+        //-----------------------------------------------------------------------------------
+        // Connect Base
+        //-----------------------------------------------------------------------------------
+
+		//网络底层事件
+        void			    onConnected(I32 id, GameNetType type,U32 serverId,U64 serverUniqueFlag, NetAddress*address);
+        void			    onDisconnect(I32 id);
+        Bool			    processPacket(I32 id, NetEventRecv* packet);
+
+        void                onConnectLoginServer(I32 id);
+        void                onConnectMapServer(I32 id, U32 serverId, U64 serverUniqueFlag);
+        void                onConnectCenterServer(I32 id);
+        void                onConnectChatServer(I32 id);
+        void                onConnectSysLogServer(I32 id);
+
+        void                onDisconnectLoginServer(I32 id);
+        void                onDisconnectMapServer(I32 id);
+        void                onDisconnectCenterServer(I32 id);
+        void                onDisconnectChatServer(I32 id);
+        void                onDisconnectSysLogServer(I32 id);
+
+
+        //-----------------------------------------------------------------------------------
+        // Send Packet
+        //-----------------------------------------------------------------------------------
+
+        //发信息给 CenterServer
+        void                sendNetPacketToCenterServer(GameNetSendDataBufferPtr& dataPtr,I32 dataSize);
+        //发信息给 SysLogServer
+        void                sendNetPacketToSysLogServer(GameNetSendDataBufferPtr& dataPtr,I32 dataSize);
+        //发信息给 ChatServer
+        void                sendNetPacketToChatServer(GameNetSendDataBufferPtr& dataPtr,I32 dataSize);
+        //发信息给 LoginServer
+        void                sendNetPacketToLoginServer(GameNetSendDataBufferPtr& dataPtr,I32 dataSize);
+
+        // 广播数据包到ActiveMapServer
+        void                boardcastNetPacketToAcitveMapServer(GameNetSendDataBufferPtr& dataPtr,I32 dataSize);
+        // 发送数据包到ActiveMapServer 根据区域查找
+        void				sendNetPacketToActiveMapServerByRegionId(GameNetSendDataBufferPtr& dataPtr,I32 dataSize,REGION_OBJ_TYPE regionType, RegionIdType regionId);
+        // 发送数据包到ActiveMapServer 根据NetID查找
+        void				sendNetPacketToActiveMapServerByNetId(GameNetSendDataBufferPtr& dataPtr,I32 dataSize,NetIdType mapServerId);
+
+
+        //-----------------------------------------------------------------------------------
+        // Connect MapServer Manager
+        //-----------------------------------------------------------------------------------
+
+        //增加和移除ConnectMapServer对象
+        Bool                hasConnectMapServer(NetIdType netId);
+        void                addConnectMapServer(NetIdType netId, ServerIdType serverId,ServerUniqueFlagIdType serverUniqueFlag);
+        void                removeConnectMapServer(NetIdType netId);
+        void                removeAllConnectMapServer();
+
+        //-----------------------------------------------------------------------------------
+        // AcitveMapServer Manager
+        //-----------------------------------------------------------------------------------
+
+        //增加和移除ConnectMapServer对象
+        Bool                hasActiveMapServer(NetIdType netId);
+        void                addActiveMapServer(NetIdType netId, ServerIdType serverId,ServerUniqueFlagIdType serverUniqueFlag);
+        void                removeActiveMapServer(NetIdType netId);
+        void                removeAllActiveMapServer();
+
+        NetIdType			getActiveMapServerIdByUniqueFlag(const ServerUniqueFlagIdType serverUniqueFlag);
+        // 得到一个随机的ActiveMapServer
+        NetIdType			getRandActiveMapServerNetId();
+
+        //-----------------------------------------------------------------------------------
+        // AcitveMapServer Region Assign
+        // AcitveMapServer 中mapid和netid映射相关		
+        //-----------------------------------------------------------------------------------
+
+        // 划分区域根据所有的ActiveMapServer
+        void				divideRegionForActiveMapServer();
+        // 关闭部分区域 根据指定ActiveMapServer
+        void				freezePartRegionFromActiveMapServer(I32 netId);
+
+
+		void		        openReginObjectByDistrictId(const DistrictIdType districtId, const NetIdType mapServerNetId);
+		void		        openReginObjectBySlaveDistrictInfo(DistrictListCsvInfo* childDistrictListCsvInfo, const NetIdType mapServerNetId);
+
+		//管理此Region的MapServer是否当机
+		Bool				isMapServerCrash(const REGION_OBJ_TYPE reginType, const RegionIdType regionId);
+
+        //-----------------------------------------------------------------------------------
+        // Close Handle
+        //-----------------------------------------------------------------------------------
+
+		//MapServer异常关闭的时候清空FrontServer中属于该MapServer的所有内存
+		void				closeAllClientsByMapServerId(I32 netId);
+
+		//MapServer 掉线后 将相应的地图关闭掉
+		void				setAllMapObjectByDisConnectMapServer(const I32 mapServerNetId);
+
+		//重启MapServer后同步【Player】，【PlayerCharacter】，【TroopGroup】列表
+		void				syncAllListEndToMapServer(NetIdType mapServerId);
+
+
+		void				handleSyncServerStateNew(PT_SERVER_STATE_S2S_SYNC_MAPSERVER_STATE_NEW_DATA* data);
+		void				handleSyncServerStateNewStart(PT_SERVER_STATE_S2S_SYNC_MAPSERVER_STATE_NEW_START_DATA* data);
+
+	private:    
+
+        //
+        SServerSetting*				mServerSetting;
+
+        // LoginServer网络编号
+        ServerConnectInfo           mLoginServerConnect;
+        // CenterServer网络编号
+        ServerConnectInfo           mCenterServerConnect;
+        // SysLogServer网络编号
+        ServerConnectInfo           mSysLogServerConnect;
+        // ChatServer网络编号
+        ServerConnectInfo           mChatServerConnect;
+        
+        /*
+            # MapServer队列。
+        */
+        std::map<NetIdType, ServerConnectInfo> mConnectMapServerList;
+        RWLocker mConnectMapServerListCs;
+        std::map<ServerUniqueFlagIdType, ServerConnectInfo> mActiveMapServerList;
+        RWLocker mActiveMapServerListCs;
+		// 专门用于发送消息到随机MapServer， 提高效率
+		Int mMapServerNum;
+    };
+}
+#endif

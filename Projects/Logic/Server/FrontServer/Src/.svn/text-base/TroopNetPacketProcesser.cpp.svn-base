@@ -1,0 +1,102 @@
+
+/******************************************************************************/
+#include "stdafx.h"
+#include "TroopNetPacketProcesser.h"
+#include "GameNetPacket.h"
+#include "ServerManager.h"
+#include "TroopNetPacket.h"
+#include "STroop.h"
+#include "FrontServerMain.h"
+#include "SkillObject.h"
+#include "SSkillOwnManager.h"
+/******************************************************************************/
+
+namespace MG
+{
+	//--------------------------------------------------------------------------
+	TroopNetPacketProcesser::TroopNetPacketProcesser()
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	TroopNetPacketProcesser::~TroopNetPacketProcesser()
+	{
+
+	}
+
+	//--------------------------------------------------------------------------
+	Bool TroopNetPacketProcesser::processClientPacket(I32 id, NetEventRecv* packet)
+	{
+		if ( packet->getChannel() == GNPC_TROOP )
+		{   
+			//FUNDETECTION(__MG_FUNC__);
+			GameNetPacketData* data = (GameNetPacketData*)(packet->getData());
+
+			/*switch (data->type)
+			{
+			case PT_TROOP_GROUP_C2F_JUMP_REGION:
+				onRecvTroopJumpRegionFromClient( id , (PT_TROOP_GROUP_C2F_JUMP_REGION_DATA*)data->data);
+				break;
+			case PT_TROOP_GROUP_C2S_MOVE_POS:
+				onRecvTroopGroupMoveClient( id , (PT_TROOP_GROUP_C2S_MOVE_POS_DATA*)data->data);
+				break;
+			case PT_TROOP_GROUP_C2S_YAW_DIR:
+				onRecvTroopGroupYawToDirClient(id, (PT_TROOP_GROUP_C2S_YAW_DIR_DATA*)data->data);
+				break;
+			case PT_TROOP_GROUP_C2S_STOP_MOVE:
+				onRecvTroopGroupStopMoveClient(id, (PT_TROOP_GROUP_C2S_STOP_MOVE_DATA*)data->data);
+				break;
+			case PT_TROOP_C2S_MOVE_POS:
+				onRecvTroopMoveClient( id , (PT_TROOP_C2S_MOVE_POS_DATA*)data->data);
+				break;
+			case PT_TROOP_GROUP_C2S_MOVE_OBJECT:
+				onRecvTroopGroupMoveToObjectClient(id, (PT_TROOP_GROUP_C2S_MOVE_OBJECT_DATA*)data->data);
+				break;
+			case PT_TROOP_C2S_MOVE_OBJECT:
+				onRecvTroopMoveToObjectClient(id, (PT_TROOP_C2S_MOVE_OBJECT_DATA*)data->data);
+				break;
+			}*/
+
+			return true;
+		}
+		return false;
+
+
+		return false;
+	}
+
+	//--------------------------------------------------------------------------
+	Bool TroopNetPacketProcesser::processLoginServerPacket(I32 id, NetEventRecv* packet)
+	{
+
+		return false;
+	}
+
+	//--------------------------------------------------------------------------
+	Bool TroopNetPacketProcesser::processMapServerPacket(I32 id, NetEventRecv* packet)
+	{
+		if ( packet->getChannel() == GNPC_TROOP )
+		{   
+			//FUNDETECTION(__MG_FUNC__);
+			GameNetPacketData* data = (GameNetPacketData*)(packet->getData());
+			//switch (data->type)
+			//{
+			//case PT_TROOP_GROUP_M2F_ADD_TROOP:	//yuanlinhu
+			//	onRecvTroopRegion(id, (PT_TROOP_GROUP_M2F_ADD_TROOP_DATA*)data->data);
+			//	break;
+   //       
+			//}
+
+			return true;
+		}
+		return false;
+	}
+
+
+	//--------------------------------------------------------------------------
+	void TroopNetPacketProcesser::onRecvTroopSoldierMoveClient( I32 id , PT_TROOP_SOLDIER_C2S_MOVE_POS_DATA *data )
+	{
+		//sendTroopMoveToMapServer(id, data);
+	}
+}

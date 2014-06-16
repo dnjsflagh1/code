@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild
+END
+Doxygen.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/Doxygen.vcproj
+END
+Doxytag.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/Doxytag.vcproj
+END
+Lex.rules
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/Lex.rules
+END
+iconv.lib
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/iconv.lib
+END
+qtools.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/qtools.vcproj
+END
+iconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/iconv.h
+END
+runbison.bat
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/runbison.bat
+END
+Doxywizard.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/Doxywizard.vcproj
+END
+moc.rules
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/moc.rules
+END
+Doxygen.sln
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/Doxygen.sln
+END
+version.bat
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/version.bat
+END
+unistd.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/winbuild/unistd.h
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/6218/trunk/Projects/Tool/QtProperty/moc
+END
+qteditorfactory.moc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/qteditorfactory.moc
+END
+qtpropertymanager.moc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/qtpropertymanager.moc
+END
+moc_qteditorfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qteditorfactory.cpp
+END
+moc_qtgroupboxpropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qtgroupboxpropertybrowser.cpp
+END
+moc_qtpropertymanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qtpropertymanager.cpp
+END
+qrc_qtpropertybrowser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6218/trunk/Projects/Tool/QtProperty/moc/qrc_qtpropertybrowser.cxx
+END
+moc_ComplexProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6011/trunk/Projects/Tool/QtProperty/moc/moc_ComplexProperties.cpp
+END
+moc_qtbuttonpropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qtbuttonpropertybrowser.cpp
+END
+qttreepropertybrowser.moc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/qttreepropertybrowser.moc
+END
+moc_qtpropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qtpropertybrowser.cpp
+END
+moc_qtpropertybrowserutils_p.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qtpropertybrowserutils_p.cpp
+END
+moc_qttreepropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qttreepropertybrowser.cpp
+END
+moc_qtvariantproperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/moc/moc_qtvariantproperty.cpp
+END

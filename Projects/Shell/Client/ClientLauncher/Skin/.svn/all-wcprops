@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin
+END
+ExStaticCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/ExStaticCtrl.h
+END
+SkinStatic.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/SkinStatic.h
+END
+MemFileDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/MemFileDef.h
+END
+SkinProgressCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/SkinProgressCtrl.h
+END
+SkinButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/SkinButton.h
+END
+SkinTool.lib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/SkinTool.lib
+END
+SkinDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/SkinDialog.h
+END
+SkinTool_d.lib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1435/trunk/Projects/Shell/Client/ClientLauncher/Skin/SkinTool_d.lib
+END

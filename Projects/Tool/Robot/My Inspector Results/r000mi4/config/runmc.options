@@ -1,0 +1,12 @@
+-r
+I:\MG\Project\MGCode\Projects\Tool\Robot\My Inspector Results\r000mi4
+-analyze-stack
+-stack-depth
+32
+-check-resource-leaks
+--search-dir
+sym:p=i:/MG/Project/MGCode/Bin/Tool/Robot
+--search-dir
+sym=I:/MG/Project/MGCode/Build/Tool
+--
+I:\MG\Project\MGCode\Bin\Tool\Robot\MGRobot_d.exe

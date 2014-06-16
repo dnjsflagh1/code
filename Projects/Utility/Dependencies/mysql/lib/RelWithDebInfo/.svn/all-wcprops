@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1300/trunk/Projects/Utility/Dependencies/mysql/lib/RelWithDebInfo
+END
+libmysql.lib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/1300/trunk/Projects/Utility/Dependencies/mysql/lib/RelWithDebInfo/libmysql.lib
+END
+libmysql.dll
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/1300/trunk/Projects/Utility/Dependencies/mysql/lib/RelWithDebInfo/libmysql.dll
+END
+mysqlclient.lib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/1300/trunk/Projects/Utility/Dependencies/mysql/lib/RelWithDebInfo/mysqlclient.lib
+END
+clientlib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/1300/trunk/Projects/Utility/Dependencies/mysql/lib/RelWithDebInfo/clientlib.lib
+END

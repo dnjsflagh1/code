@@ -1,0 +1,127 @@
+/******************************************************************************/
+#ifndef _LOGINNETPACKETPROCESSER_H_
+#define _LOGINNETPACKETPROCESSER_H_
+/******************************************************************************/
+
+#include "LoginNetPacket.h"
+#include "SPlayer.h"
+/******************************************************************************/
+
+namespace MG
+{
+
+    /******************************************************************************/
+    //帐号相关网络消息处理
+    /******************************************************************************/
+    class SPlayer;
+    class SClan;
+    /******************************************************************************/
+	struct MapServerInfo;
+
+    class LoginNetPacketProcesser
+    {
+    public:
+        SINGLETON_INSTANCE(LoginNetPacketProcesser);
+        LoginNetPacketProcesser();
+        ~LoginNetPacketProcesser();
+
+        Bool	processClientPacket(I32 id, NetEventRecv* packet);
+        Bool	processLoginServerPacket(I32 id, NetEventRecv* packet);
+        Bool	processMapServerPacket(I32 id, NetEventRecv* packet);
+
+		
+	//************************************************************
+
+	//@{ LoginServer
+	public:
+		//发送客户端监听信息给LoginServer
+		void	sendClientListenInfoToLoginServer( CChar* clientListenIp, I32 clientListenPort );
+		//发送客户端登入验证请求给LoginServer
+		void	sendClientLoginCheckToLoginServer( I32 clientID, Char16* accName, Char16* accPsw );
+		//发送客户端登出请求给LoginServer
+		void	sendClientLogoutToLoginServer(CChar16* accName );
+		// 发送检测Client存在的结果给LoginServer
+		void	sendCheckClientInServerRelultToLs(I32 clientNetIdInLs,Bool result);
+
+	protected:
+		//当接受到客户端登入结果从LoginServer
+		void	onRecvClientLoginResultFromLoginServer( I32 id , PT_LOGIN_L2F_CLIENT_CHECKED_DATA* data);
+		//当收到LoginServer验证客户端是否在FrontServer
+		void	onRecvCheckClientInServerFromLs(I32 id,PT_LOGIN_L2F_CHECK_INFRONTSERVER_DATA* data);
+		
+	//@ }
+
+	//************************************************************
+	//@{ MapServer
+	public:
+		void	sendMapServerListToMapServer( I32 id, std::vector<MapServerInfo*>& mapVec  );
+		void	broadMapServerListToMapServer( std::map< I32, MapServerInfo* > &MapServerList );
+		void	sendCheckClientInServerRelultToMs(I32 mapServerNetId,I32 clientNetId,Bool result);
+
+		//当收到MapServer验证客户端是否在FrontServer
+		void	onRecvCheckClientInServerFromMs(I32 ,PT_LOGIN_M2F_CHECK_INFRONTSERVER_DATA* data);
+		//@ }
+	//************************************************************
+	//@{ ChatServer
+	public:
+		void	sendClientJoinGameToChatServer(I32 clientNetId,U64 accountId, CChar16* clanName);
+		void	sendClientExitGameToChatServer(CChar16* clanName);
+		void	sendClientListInGameToChatServer();
+	protected:
+		
+	//@ }
+	//************************************************************
+
+	//@{ Client
+	public:
+		
+		//发送客户端登入FrontServer结果
+		void	sendClientConnectFrontServerResult( I32 id, PT_LOGIN_F2C_LOGIN_RESULT_TYPE result, PlayerIdType accountId );
+        
+		//发送氏族信息给客户端
+		void    sendClientClanInfo( I32 id, ClanData* _pClanData );
+		//发送客户端氏族控制面板信息，并通知客户端打开面板
+        void    sendClientOpenClanControlUI( I32 id );
+        
+		
+		//通知客户端打开氏族创建面板
+        void    sendClientOpenClanCreateUI( I32 id );
+        //发送客户端创建氏族结果
+        void    sendClientClanCreateResult( I32 id, CreateClanResult result, const ClanData& _clandata);
+        //发送客户端创建氏族结果
+        void    sendClientClanSelectResult( I32 id, I32 index );
+        //发送客户端删除氏族结果
+        void    sendClientClanDeleteResult( I32 id, I32 index );
+        //发送客户端登入游戏的结果
+        void    sendClientOpenGenrealCreateUI( I32 id );
+        //发送客户端创建武将的结果
+        void    sendClientCreateGenrealResult( I32 id, I32 index, Bool isGenreal, IdType genrealID );
+		
+		//void	sendLoginQueueInfoToClient(I32 id, Byte type,I32 count = 0);
+	protected:
+
+		//当客户端登入
+		void	onClientLogin( I32 id, PT_LOGIN_C2F_LOGIN_DATA* data );
+        //当客户端登出
+        void	onClientLogout( I32 id );
+
+        //客户端创建氏族
+        void    onClientCreateClan( I32 id, PT_LOGIN_C2F_CREATE_CLAN_DATA* data );
+
+        //客户端选择氏族
+        //void    onClientSelectClan( I32 id, PT_LOGIN_C2F_SELECT_CLAN_DATA* data );
+
+        //客户端删除氏族
+        void    onClientDeleteClan( I32 id, PT_LOGIN_C2F_DELETE_CLAN_DATA* data );
+
+        //客户端请求进入游戏
+        void    onClientJoinGame( I32 id, PT_LOGIN_C2F_JOINGAME_DATA* data );
+
+        //客户端请求创建新武将
+        void    onClientCreateGenreal( I32 id, PT_LOGIN_C2F_CREATE_GENERAL_DATA* data );
+	//@ }
+
+    };
+}
+#endif
+

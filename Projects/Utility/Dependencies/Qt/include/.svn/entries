@@ -1,0 +1,103 @@
+10
+
+dir
+8081
+https://192.168.1.222/svn/MGCode/trunk/Projects/Utility/Dependencies/Qt/include
+https://192.168.1.222/svn/MGCode
+
+
+
+2012-11-17T09:59:08.075619Z
+6311
+chennan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b2c7a85-9ef0-4d4b-8450-bc75133c67ac
+
+ActiveQt
+dir
+
+Qt
+dir
+
+QtTest
+dir
+
+QtXmlPatterns
+dir
+
+QtDeclarative
+dir
+
+QtOpenGL
+dir
+
+QtGui
+dir
+
+QtScriptTools
+dir
+
+QtWebKit
+dir
+
+QtHelp
+dir
+
+QtCore
+dir
+
+QtNetwork
+dir
+
+QtMultimedia
+dir
+
+phonon
+dir
+
+QtDBus
+dir
+
+QtOpenVG
+dir
+
+QtUiTools
+dir
+
+Qt3Support
+dir
+
+QtSql
+dir
+
+QtSvg
+dir
+
+phonon_compat
+dir
+
+QtDesigner
+dir
+
+QtXml
+dir
+
+QtScript
+dir
+
+QtAssistant
+dir
+

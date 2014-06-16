@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/MGCode/!svn/ver/6840/trunk/Projects/Tool/PackMFCTool
+END
+FileSystemTreeCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/FileSystemTreeCtrl.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/4466/trunk/Projects/Tool/PackMFCTool/stdafx.h
+END
+PackMFCToolDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/PackMFCToolDlg.h
+END
+DirectPackDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/6840/trunk/Projects/Tool/PackMFCTool/DirectPackDlg.cpp
+END
+PackMFCTool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/3708/trunk/Projects/Tool/PackMFCTool/PackMFCTool.cpp
+END
+DirectPackDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/DirectPackDlg.h
+END
+PackMFCTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/3708/trunk/Projects/Tool/PackMFCTool/PackMFCTool.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/3708/trunk/Projects/Tool/PackMFCTool/targetver.h
+END
+SortStringArray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/SortStringArray.cpp
+END
+PackMFCTool.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/6840/trunk/Projects/Tool/PackMFCTool/PackMFCTool.ncb
+END
+SortStringArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/SortStringArray.h
+END
+PackMFCTool.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/6840/trunk/Projects/Tool/PackMFCTool/PackMFCTool.vcproj
+END
+PackMFCTool.rc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/5100/trunk/Projects/Tool/PackMFCTool/PackMFCTool.rc
+END
+CompPackDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/CompPackDlg.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/3708/trunk/Projects/Tool/PackMFCTool/stdafx.cpp
+END
+PackMFCToolDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/PackMFCToolDlg.cpp
+END
+FileSystemTreeCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/FileSystemTreeCtrl.cpp
+END
+CompPackDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/CompPackDlg.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/3708/trunk/Projects/Tool/PackMFCTool/ReadMe.txt
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/4698/trunk/Projects/Tool/PackMFCTool/resource.h
+END

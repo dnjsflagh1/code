@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/WorldCoreLib/Src
+END
+Formation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/Formation.cpp
+END
+MapDistributionObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2549/trunk/Projects/Logic/Data/WorldCoreLib/Src/MapDistributionObjectData.cpp
+END
+MapObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2546/trunk/Projects/Logic/Data/WorldCoreLib/Src/MapObjectData.cpp
+END
+AIFightTrigger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/4370/trunk/Projects/Logic/Data/WorldCoreLib/Src/AIFightTrigger.cpp
+END
+GameObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/WorldCoreLib/Src/GameObject.cpp
+END
+RegionObjectManagerBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6965/trunk/Projects/Logic/Data/WorldCoreLib/Src/RegionObjectManagerBase.cpp
+END
+FightMainManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2154/trunk/Projects/Logic/Data/WorldCoreLib/Src/FightMainManager.cpp
+END
+PlaceObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2546/trunk/Projects/Logic/Data/WorldCoreLib/Src/PlaceObjectData.cpp
+END
+RegionObjectBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2694/trunk/Projects/Logic/Data/WorldCoreLib/Src/RegionObjectBase.cpp
+END
+CharacterSceneEntity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/CharacterSceneEntity.cpp
+END
+AttributeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/WorldCoreLib/Src/AttributeSystem.cpp
+END
+DeletedItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/5239/trunk/Projects/Logic/Data/WorldCoreLib/Src/DeletedItems.cpp
+END
+BuffObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7484/trunk/Projects/Logic/Data/WorldCoreLib/Src/BuffObject.cpp
+END
+GameObjectGroup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/GameObjectGroup.cpp
+END
+ClanItems.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5164/trunk/Projects/Logic/Data/WorldCoreLib/Src/ClanItems.cpp
+END
+Items.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5285/trunk/Projects/Logic/Data/WorldCoreLib/Src/Items.cpp
+END
+SkillUseManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2647/trunk/Projects/Logic/Data/WorldCoreLib/Src/SkillUseManager.cpp
+END
+ClanQuestObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2484/trunk/Projects/Logic/Data/WorldCoreLib/Src/ClanQuestObject.cpp
+END
+FringeGameTimeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/110/trunk/Projects/Logic/Data/WorldCoreLib/Src/FringeGameTimeSystem.cpp
+END
+AI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/3505/trunk/Projects/Logic/Data/WorldCoreLib/Src/AI.cpp
+END
+ClanQuestManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7480/trunk/Projects/Logic/Data/WorldCoreLib/Src/ClanQuestManager.cpp
+END
+Player.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/WorldCoreLib/Src/Player.cpp
+END
+FightManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/6925/trunk/Projects/Logic/Data/WorldCoreLib/Src/FightManager.cpp
+END
+IDBuilderManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/WorldCoreLib/Src/IDBuilderManager.cpp
+END
+TiroObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2549/trunk/Projects/Logic/Data/WorldCoreLib/Src/TiroObjectData.cpp
+END
+BuyBackItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5239/trunk/Projects/Logic/Data/WorldCoreLib/Src/BuyBackItem.cpp
+END
+SCampaign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7612/trunk/Projects/Logic/Data/WorldCoreLib/Src/SCampaign.cpp
+END
+PlayerItemFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/4726/trunk/Projects/Logic/Data/WorldCoreLib/Src/PlayerItemFactory.cpp
+END
+RegionObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/3292/trunk/Projects/Logic/Data/WorldCoreLib/Src/RegionObjectData.cpp
+END
+SkillObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3824/trunk/Projects/Logic/Data/WorldCoreLib/Src/SkillObject.cpp
+END
+CharacterSceneObj.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/CharacterSceneObj.cpp
+END
+LuaClanQuestSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/LuaClanQuestSystem.cpp
+END
+LuaSkillObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/LuaSkillObject.cpp
+END
+HomeObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/3754/trunk/Projects/Logic/Data/WorldCoreLib/Src/HomeObjectData.cpp
+END
+CampaignManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5605/trunk/Projects/Logic/Data/WorldCoreLib/Src/CampaignManager.cpp
+END
+CDTimerForCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/CDTimerForCharacter.cpp
+END
+PlayerItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7484/trunk/Projects/Logic/Data/WorldCoreLib/Src/PlayerItem.cpp
+END
+PveObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2690/trunk/Projects/Logic/Data/WorldCoreLib/Src/PveObjectData.cpp
+END
+RegionDevideAlgorithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/RegionDevideAlgorithm.cpp
+END
+FightInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/4462/trunk/Projects/Logic/Data/WorldCoreLib/Src/FightInfo.cpp
+END
+Clan.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/WorldCoreLib/Src/Clan.cpp
+END
+BuffManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7484/trunk/Projects/Logic/Data/WorldCoreLib/Src/BuffManager.cpp
+END
+AttributeSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/6227/trunk/Projects/Logic/Data/WorldCoreLib/Src/AttributeSet.cpp
+END
+CDTimerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/CDTimerFactory.cpp
+END
+GenrealEquip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7409/trunk/Projects/Logic/Data/WorldCoreLib/Src/GenrealEquip.cpp
+END
+InstanceType2GameType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7615/trunk/Projects/Logic/Data/WorldCoreLib/Src/InstanceType2GameType.cpp
+END
+LuaSkillSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1738/trunk/Projects/Logic/Data/WorldCoreLib/Src/LuaSkillSystem.cpp
+END
+HeartBeatObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/8048/trunk/Projects/Logic/Data/WorldCoreLib/Src/HeartBeatObject.cpp
+END
+CDTimer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/7379/trunk/Projects/Logic/Data/WorldCoreLib/Src/CDTimer.cpp
+END
+IdManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7443/trunk/Projects/Logic/Data/WorldCoreLib/Src/IdManager.cpp
+END
+ItemManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7409/trunk/Projects/Logic/Data/WorldCoreLib/Src/ItemManager.cpp
+END
+FormationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/FormationManager.cpp
+END
+AreaObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2546/trunk/Projects/Logic/Data/WorldCoreLib/Src/AreaObjectData.cpp
+END
+AttributeFormula.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7364/trunk/Projects/Logic/Data/WorldCoreLib/Src/AttributeFormula.cpp
+END
+GenrealItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/GenrealItem.cpp
+END
+CDTimerForClan.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/CDTimerForClan.cpp
+END
+MapType2RegionObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/4346/trunk/Projects/Logic/Data/WorldCoreLib/Src/MapType2RegionObject.cpp
+END
+SkillManagerForCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/Src/SkillManagerForCharacter.cpp
+END
+SkillOwnManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2557/trunk/Projects/Logic/Data/WorldCoreLib/Src/SkillOwnManager.cpp
+END
+AIController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7332/trunk/Projects/Logic/Data/WorldCoreLib/Src/AIController.cpp
+END

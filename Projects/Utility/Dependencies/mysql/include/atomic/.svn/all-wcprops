@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic
+END
+solaris.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic/solaris.h
+END
+x86-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic/x86-gcc.h
+END
+rwlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic/rwlock.h
+END
+generic-msvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic/generic-msvc.h
+END
+gcc_builtins.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic/gcc_builtins.h
+END
+nolock.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/atomic/nolock.h
+END

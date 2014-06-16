@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MGCode/!svn/ver/4317/trunk/Projects/Utility/MGPack/Include
+END
+MGPackDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/3702/trunk/Projects/Utility/MGPack/Include/MGPackDefine.h
+END
+MGPackManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/4317/trunk/Projects/Utility/MGPack/Include/MGPackManager.h
+END
+MGPack.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/3700/trunk/Projects/Utility/MGPack/Include/MGPack.h
+END
+MGPackFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/4317/trunk/Projects/Utility/MGPack/Include/MGPackFile.h
+END
+IMGPackExterInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/4317/trunk/Projects/Utility/MGPack/Include/IMGPackExterInterface.h
+END
+IMGPackFileSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/4317/trunk/Projects/Utility/MGPack/Include/IMGPackFileSet.h
+END

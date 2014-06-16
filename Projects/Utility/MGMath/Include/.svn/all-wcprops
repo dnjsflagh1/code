@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MGCode/!svn/ver/7584/trunk/Projects/Utility/MGMath/Include
+END
+MGQuaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/6131/trunk/Projects/Utility/MGMath/Include/MGQuaternion.h
+END
+MGMd5.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/4818/trunk/Projects/Utility/MGMath/Include/MGMd5.h
+END
+MGMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/4817/trunk/Projects/Utility/MGMath/Include/MGMath.h
+END
+MGRect.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/6613/trunk/Projects/Utility/MGMath/Include/MGRect.h
+END
+MGColor.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/7005/trunk/Projects/Utility/MGMath/Include/MGColor.h
+END
+MGGeometric.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/3559/trunk/Projects/Utility/MGMath/Include/MGGeometric.h
+END
+MGRandom.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/4046/trunk/Projects/Utility/MGMath/Include/MGRandom.h
+END
+MGVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/7584/trunk/Projects/Utility/MGMath/Include/MGVector.h
+END

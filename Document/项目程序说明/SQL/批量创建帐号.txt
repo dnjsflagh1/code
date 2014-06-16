@@ -1,0 +1,12 @@
+//´æ´¢¹ý³Ì
+BEGIN   
+  DECLARE i INT DEFAULT 0;   
+  START TRANSACTION;  
+  WHILE i<1000 DO   
+  INSERT INTO account_info(acc_name, acc_psw)   
+  VALUES(CONCAT('robot',i),'1');   
+  SET i=i+1;   
+  END WHILE;   
+  COMMIT;
+END
+

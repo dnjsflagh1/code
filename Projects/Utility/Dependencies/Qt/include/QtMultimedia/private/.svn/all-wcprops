@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private
+END
+qmemoryvideobuffer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qmemoryvideobuffer_p.h
+END
+qaudiodeviceinfo_alsa_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiodeviceinfo_alsa_p.h
+END
+qaudioinput_mac_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudioinput_mac_p.h
+END
+qaudiooutput_mac_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiooutput_mac_p.h
+END
+qaudioinput_win32_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudioinput_win32_p.h
+END
+qaudioinput_symbian_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudioinput_symbian_p.h
+END
+qabstractvideosurface_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qabstractvideosurface_p.h
+END
+qimagevideobuffer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qimagevideobuffer_p.h
+END
+qaudiooutput_symbian_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiooutput_symbian_p.h
+END
+qaudiooutput_win32_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiooutput_win32_p.h
+END
+qaudiodevicefactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiodevicefactory_p.h
+END
+qaudiodeviceinfo_mac_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiodeviceinfo_mac_p.h
+END
+qaudiodeviceinfo_win32_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiodeviceinfo_win32_p.h
+END
+qaudiodeviceinfo_symbian_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiodeviceinfo_symbian_p.h
+END
+qaudioinput_alsa_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudioinput_alsa_p.h
+END
+qaudio_mac_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudio_mac_p.h
+END
+qaudiooutput_alsa_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudiooutput_alsa_p.h
+END
+qaudio_symbian_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qaudio_symbian_p.h
+END
+qabstractvideobuffer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtMultimedia/private/qabstractvideobuffer_p.h
+END

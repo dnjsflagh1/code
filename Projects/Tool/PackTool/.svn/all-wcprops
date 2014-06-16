@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool/stdafx.h
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/app.rc
+END
+Utility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/Utility.cpp
+END
+Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/Utility.h
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/app.ico
+END
+PackTool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool/PackTool.cpp
+END
+GlobalOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/GlobalOptions.h
+END
+CoreManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool/CoreManager.cpp
+END
+Form1.resX
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/Form1.resX
+END
+Form1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool/Form1.cpp
+END
+CoreManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool/CoreManager.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/stdafx.cpp
+END
+Form1.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/Form1.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/ReadMe.txt
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/AssemblyInfo.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/resource.h
+END
+PackToolPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/3147/trunk/Projects/Tool/PackTool/PackToolPreqs.h
+END
+PackTool.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/3706/trunk/Projects/Tool/PackTool/PackTool.vcproj
+END

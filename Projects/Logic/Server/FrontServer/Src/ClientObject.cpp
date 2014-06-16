@@ -1,0 +1,175 @@
+/******************************************************************************/
+
+#include "stdafx.h"
+#include "ClientObject.h"
+#include "ClientObjectFactory.h"
+/******************************************************************************/
+namespace MG
+{
+
+    /******************************************************************************/
+    //ClientConnectInfo
+    /******************************************************************************/
+
+    //-----------------------------------------------------------------------------
+    ClientConnectInfo::ClientConnectInfo()
+        :mNetId(-1)
+    {
+    }
+
+    //-----------------------------------------------------------------------------
+    ClientConnectInfo::~ClientConnectInfo()
+    {
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientConnectInfo::onConnected(I32 id)
+    {
+        DYNAMIC_ASSERT_LOG(id!=-1,"invalid netid connect  client");
+        DYNAMIC_ASSERT_LOG(mNetId!=id,"reduplicate connect client");
+        DYNAMIC_ASSERT_LOG(mNetId==-1,"already connect client");
+        mNetId = id;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientConnectInfo::onDisConnected()
+    {
+        mNetId = -1;
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool ClientConnectInfo::isConnected()
+    {
+        return mNetId >= 0;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientConnectInfo::disConnected()
+    {
+        if ( isConnected() )
+        {
+            //FrontServerMain::getInstance().getServerLauncher()->closeServer(mNetId);
+            mNetId = -1;
+        }
+    }
+
+    //-----------------------------------------------------------------------------
+    NetIdType ClientConnectInfo::getNetID()
+    {
+        return mNetId;
+    }
+
+    /******************************************************************************/
+    //ClientObject
+    /******************************************************************************/
+
+    //-----------------------------------------------------------------------------
+    ClientObject::ClientObject()
+    {
+        mAccName.reserve( 64 );
+        mAccPsw.reserve( 64 );
+    }
+
+    //-----------------------------------------------------------------------------
+    ClientObject::~ClientObject()
+    {
+
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool ClientObject::initialize()
+    {
+
+
+        return true;
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool ClientObject::unInitialize()
+    {
+        
+
+        return true;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientObject::update(Flt delta)
+    {
+        
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientObject::clear()
+    {
+        mNetId = -1;
+        mAccName = L"";
+        mAccPsw  = L"";
+        mAccountActive = false;
+        mIpAddress = 0;
+
+        mPlayerPtr.setNull();
+
+        mConnectTime = 0;
+    }
+    
+    //-----------------------------------------------------------------------------
+    void ClientObject::setAccountInfo( Char16* accName, Char16* accPsw )
+    {
+        mAccName    = accName;
+        mAccPsw     = accPsw;
+    }
+
+    //-----------------------------------------------------------------------------
+    Str16& ClientObject::getAccountNAme()
+    {
+        return mAccName;
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool ClientObject::isMatchAccount( Char16* accName, Char16* accPsw )
+    {
+        if ( ( mAccName == accName )&&
+            ( mAccPsw == accPsw ) )
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientObject::setAccountActive( Bool isActive )
+    {
+        mAccountActive = isActive;
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool ClientObject::isAccountActive()
+    {
+        return mAccountActive;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClientObject::setPlayer( SPlayerPtr& ptr )
+    {
+        mPlayerPtr = ptr;
+    }
+    
+    //-----------------------------------------------------------------------------
+    void ClientObject::getPlayer( SPlayerPtr& ptr )
+    {
+        ptr = mPlayerPtr;
+    }
+
+    
+    /******************************************************************************/
+    //ClientObject
+    /******************************************************************************/
+    void ClientObjectPtr::destroy(void)
+    {
+        mFactory->destroyClientObject( *this );
+    }
+    
+    
+
+}

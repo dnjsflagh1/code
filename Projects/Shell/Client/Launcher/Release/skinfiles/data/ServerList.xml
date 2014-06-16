@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+useRC = true/false -> Use a resource file to create the GUI and skin.
+RCFile = filename -> The name of the RC file to use.
+RCTopFrame = frame identifier -> The "name" of the frame to use.
+-->
+<Skin name="Server skin" author="" comment="" screenshot="" application="Launcher">
+	<!-- Define the transparency colour to use for all skined items.
+	The default, if none is provided, is 255,0,255.
+	-->
+	<Transparency red="255" green="0" blue="255" />
+	<!-- °´Å¥¶¨Òå -->
+	<Buttons>
+		<!-- A Button has two states: normal and pressed. -->
+		<!--<default normal="frame_button_min.bmp" pressed="frame_button_max.bmp" disabled="frame_button_min.bmp"/>-->
+		<!-- For assigning skins to specific buttons, create a node with the "name" of the button -->
+		<!--<button_1 normal="play_normal.png" pressed="play_pressed.png" coord="-1,-1,-1,-1"/>-->
+    <!-- ´ó°´Å¥ -->        		
+		<btn_run normal="run.png" pressed="run_act.png" over="run_over.png" disabled="run_dis.png" pos="889,452"/>
+		<btn_reg normal="reg.png" pressed="reg_act.png" over="reg_over.png" disabled="reg.png" pos="633,643"/>
+		<btn_recharge normal="recharge.png" pressed="recharge_act.png" over="recharge_over.png" disabled="recharge.png" pos="703,644"/>
+		<btn_set normal="set.png" pressed="set_act.png" over="set_over.png" disabled="set.png" pos="773,644"/>
+		<btn_close normal="close.png" pressed="close_act.png" over="close_over.png" disabled="close.png" pos="843,646" />
+		<!-- ·þÎñÇø  -->
+		<btn_part0 normal="part.png" pressed="part_act.png" over="part_over.png" pos="330,340"/>
+		<btn_part1 normal="part.png" pressed="part_act.png" over="part_over.png" pos="468,340"/>
+		<btn_part2 normal="part.png" pressed="part_act.png" over="part_over.png" pos="606,340"/>
+		<btn_part3 normal="part.png" pressed="part_act.png" over="part_over.png" pos="744,340"/>
+	  <btn_part4 normal="part.png" pressed="part_act.png" over="part_over.png" pos="330,370"/>
+		<btn_part5 normal="part.png" pressed="part_act.png" over="part_over.png" pos="468,370"/>
+		<btn_part6 normal="part.png" pressed="part_act.png" over="part_over.png" pos="606,370"/>
+		<btn_part7 normal="part.png" pressed="part_act.png" over="part_over.png" pos="744,370"/>
+		<btn_part8 normal="part.png" pressed="part_act.png" over="part_over.png" pos="330,400"/>
+		<btn_part9 normal="part.png" pressed="part_act.png" over="part_over.png" pos="468,400"/>
+		<btn_part10 normal="part.png" pressed="part_act.png" over="part_over.png" pos="606,400"/>
+		<btn_part11 normal="part.png" pressed="part_act.png" over="part_over.png" pos="744,400"/>
+    <!-- ·þÎñÆ÷ËÄÌ¬,±È½ÏËÀ°å£¬µ½Ê±ºòÒª¸ÄÒ»ÏÂ¿â -->
+    <btn_fullest0 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="370,465"/>
+		<btn_full0 normal="full.png" pressed="full_act.png" over="full_over.png" pos="370,465"/>
+    <btn_free0 normal="free.png" pressed="free_act.png" over="free_over.png" pos="370,465"/>    
+    <btn_servicing0 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="370,465"/>    
+    <btn_fullest1 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="545,465"/>
+		<btn_full1 normal="full.png" pressed="full_act.png" over="full_over.png" pos="545,465"/>
+    <btn_free1 normal="free.png" pressed="free_act.png" over="free_over.png" pos="545,465"/>    
+    <btn_servicing1 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="545,465"/>    
+    <btn_fullest2 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="720,465"/>
+		<btn_full2 normal="full.png" pressed="full_act.png" over="full_over.png" pos="720,465"/>
+    <btn_free2 normal="free.png" pressed="free_act.png" over="free_over.png" pos="720,465"/>    
+    <btn_servicing2 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="720,465"/>
+    <!-- µÚ¶þÅÅ -->
+    <btn_fullest3 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="370,505"/>
+		<btn_full3 normal="full.png" pressed="full_act.png" over="full_over.png" pos="370,505"/>
+    <btn_free3 normal="free.png" pressed="free_act.png" over="free_over.png" pos="370,505"/>    
+    <btn_servicing3 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="370,505"/>    
+    <btn_fullest4 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="545,505"/>
+		<btn_full4 normal="full.png" pressed="full_act.png" over="full_over.png" pos="545,505"/>
+    <btn_free4 normal="free.png" pressed="free_act.png" over="free_over.png" pos="545,505"/>    
+    <btn_servicing4 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="545,505"/>    
+    <btn_fullest5 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="720,505"/>
+		<btn_full5 normal="full.png" pressed="full_act.png" over="full_over.png" pos="720,505"/>
+    <btn_free5 normal="free.png" pressed="free_act.png" over="free_over.png" pos="720,505"/>    
+    <btn_servicing5 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="720,505"/>
+    <!-- µÚÈýÅÅ -->
+    <btn_fullest6 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="370,544"/>
+		<btn_full6 normal="full.png" pressed="full_act.png" over="full_over.png" pos="370,544"/>
+    <btn_free6 normal="free.png" pressed="free_act.png" over="free_over.png" pos="370,544"/>    
+    <btn_servicing6 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="370,544"/>    
+    <btn_fullest7 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="545,544"/>
+		<btn_full7 normal="full.png" pressed="full_act.png" over="full_over.png" pos="545,544"/>
+    <btn_free7 normal="free.png" pressed="free_act.png" over="free_over.png" pos="545,544"/>    
+    <btn_servicing7 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="545,544"/>    
+    <btn_fullest8 normal="fullest.png" pressed="fullest_act.png" over="fullest_over.png" pos="720,544"/>
+		<btn_full8 normal="full.png" pressed="full_act.png" over="full_over.png" pos="720,544"/>
+    <btn_free8 normal="free.png" pressed="free_act.png" over="free_over.png" pos="720,544"/>    
+    <btn_servicing8 normal="servicing.png" pressed="servicing_act.png" over="servicing_over.png" pos="720,544"/>
+            
+    <!-- ·þÎñÆ÷×´Ì¬±êÇ© -->
+    <btn_hot0 normal="hot.png" pos="352,466"/>
+    <btn_recomment0 normal="recomment.png" pos="352,466"/>
+    <btn_new0 normal="new.png" pos="352,466"/>
+    <btn_hot1 normal="hot.png" pos="526,466"/>
+    <btn_recomment1 normal="recomment.png" pos="526,466"/>
+    <btn_new1 normal="new.png" pos="526,466"/>
+    <btn_hot2 normal="hot.png" pos="701,466"/>
+    <btn_recomment2 normal="recomment.png" pos="701,466"/>
+    <btn_new2 normal="new.png" pos="701,466"/>
+    <!-- µÚ¶þÅÅ -->
+    <btn_hot3 normal="hot.png" pos="352,506"/>
+    <btn_recomment3 normal="recomment.png" pos="352,506"/>
+    <btn_new3 normal="new.png" pos="352,506"/>
+    <btn_hot4 normal="hot.png" pos="526,506"/>
+    <btn_recomment4 normal="recomment.png" pos="526,506"/>
+    <btn_new4 normal="new.png" pos="526,506"/>
+    <btn_hot5 normal="hot.png" pos="701,506"/>
+    <btn_recomment5 normal="recomment.png" pos="701,506"/>
+    <btn_new5 normal="new.png" pos="701,506"/>
+    <!-- µÚÈýÅÅ -->
+    <btn_hot6 normal="hot.png" pos="352,545"/>
+    <btn_recomment6 normal="recomment.png" pos="352,545"/>
+    <btn_new6 normal="new.png" pos="352,545"/>
+    <btn_hot7 normal="hot.png" pos="526,545"/>
+    <btn_recomment7 normal="recomment.png" pos="526,545"/>
+    <btn_new7 normal="new.png" pos="526,545"/>
+    <btn_hot8 normal="hot.png" pos="701,545"/>
+    <btn_recomment8 normal="recomment.png" pos="701,545"/>
+    <btn_new8 normal="new.png" pos="701,545"/>                        
+
+	</Buttons>
+	<!-- ´°Ìå¶¨Òå -->
+	<SimpleFrame name="ServerFrame" skin="Server.png" movable="yes" >
+		<closebox measure="0,0,0,0" skin=""/>
+		<minimizebox measure="0,0,0,0" skin=""/>
+		<maximizebox measure="0,0,0,0" skin=""/>
+		<titlebar height="0" measure="0,0,0,0"/>
+		<titleposition placement="middle"/>				
+		<client_area measure="292,244,580,256" />
+	</SimpleFrame>
+</Skin>

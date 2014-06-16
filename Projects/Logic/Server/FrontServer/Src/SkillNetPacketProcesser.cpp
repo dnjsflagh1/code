@@ -1,0 +1,462 @@
+/******************************************************************************/
+#include "stdafx.h"
+#include "SkillNetPacketProcesser.h"
+#include "SPlayerCharacter.h"
+#include "SSkillUseManager.h"
+#include "SSkillObject.h"
+#include "ServerManager.h"
+#include "SLuaSkillSystem.h"
+//#include "STroop.h"
+#include "RegionNetPacket.h"
+#include "FrontServerMain.h"
+#include "SWorldManager.h"
+#include "SSkillOwnManager.h"
+#include "SkillInfoList.h"
+/******************************************************************************/
+namespace MG
+{
+    //--------------------------------------------------------------------------
+	SkillNetPacketProcesser::SkillNetPacketProcesser()
+	{
+
+	}
+
+    //--------------------------------------------------------------------------
+	SkillNetPacketProcesser::~SkillNetPacketProcesser()
+	{
+	}
+
+    //--------------------------------------------------------------------------
+	Bool SkillNetPacketProcesser::processClientPacket(I32 id, NetEventRecv* packet)
+	{
+		if(packet->getChannel() == GNPC_SKILL)
+		{
+			//FUNDETECTION(__MG_FUNC__);
+			GameNetPacketData* data = (GameNetPacketData*)(packet->getData());
+
+			switch (data->type)
+			{
+			case PT_SKILL_C2F_LEARN:
+				onRecvPlayerCharacterLearnSkill(id, (PT_SKILL_C2F_LEARN_DATA*)(data->data));
+				break;
+
+			}
+		}
+
+		return false;
+	}
+
+    //--------------------------------------------------------------------------
+    void SkillNetPacketProcesser::onRecvPlayerCharacterLearnSkill(I32 id, PT_SKILL_C2F_LEARN_DATA* data)
+    {
+#if 0
+		SPlayerPtr playerPtr = SWorldManager::getInstance().getPlayerByClientNetId(id);
+		if (playerPtr.isNull())
+		{
+			return;
+		}
+		SPlayerCharacter* playerCharacter = playerPtr->getPlayerCharacter(data->characterId);
+        
+		if(playerCharacter)
+        {
+            playerCharacter->getSkillOwnManager()->learnSkill(data->skillId);
+			sendPlayerCharacterLearnSkillToMapServer(
+				playerCharacter->getBelongPlayer()->getMapServerNetID()
+				,data->characterId
+				, data->skillId
+				, data->skillLevel
+				);
+        }
+#endif
+    }
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayCharacterClantSkillRequire( I32 id, PT_SKILL_C2M_PLAYERCHARACTER_CLANT_DATA* data )
+	{	
+#if 0
+		SPlayerPtr playerPtr;// = SWorldManager::getInstance().getGameObjectManager()->getPlayerByClientNetId(id);
+		if (playerPtr.isNull())
+		{
+			return;
+		}
+		SPlayerCharacter* playerCharacter = playerPtr->getPlayerCharacter(data->characterId);
+        if(!playerCharacter)
+        {
+            DYNAMIC_ASSERT(0);
+            return;
+        }
+
+		SClan* clan = (SClan*)playerCharacter->getParentClan();
+
+		SkillInfo* skillInfo = (SkillInfo*)SkillInfoList::getInstance().getSkillInfo(data->skillId);
+		if(!skillInfo)
+		{
+			return;	
+		}
+
+		InitiativeSkillBasicInfo* initiativeSkillBasicInfo = (InitiativeSkillBasicInfo*)skillInfo->skillInfo;
+		if(!initiativeSkillBasicInfo)
+		{
+			return;
+		}
+
+		///判定释放技能的角色是否符合释放条件 未添加
+
+
+		///判定点击的目标是否为可作用 未添加
+
+		SSkillOwnManager* skillOwnManager = playerCharacter->getSkillOwnManager();
+		if(!skillOwnManager->isOwnSkill(data->skillId))
+		{
+			return;
+		}
+
+		SSkillUseManager* skillUseManager = playerCharacter->getSkillUseManager();
+		SSkillObject* skillObject = (SSkillObject*)skillUseManager->prepareUseSkill(data->skillId);
+		if(data->targetId != 0)
+		{
+			skillObject->setTargetObject((GAMEOBJ_TYPE)data->targetType, data->targetId, data->targetIndex);
+		}
+		else
+		{
+			skillObject->setTargetPosition(NetVec2(data->targetPos));
+		}
+		skillObject->startClant(true);
+
+        ///////////////////////////////////////////////////////////////////////////
+
+        // 获得一个发送【服务端】缓存
+
+#endif
+       
+
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayCharacterInjectEmitterSkillRequire( I32 id, PT_SKILL_C2M_PLAYERCHARACTER_INJECT_EMITTER_DATA* data )
+	{
+#if 0
+		SPlayerPtr playerPtr = SWorldManager::getInstance().getGameObjectManager()->getPlayerByClientNetId(id);
+		SPlayerCharacter* playerCharacter = playerPtr->getPlayerCharacter(data->characterIndex);
+		if(!playerCharacter)
+		{
+			return;
+		}
+
+		if(!playerCharacter->getSkillUseManager()->isCanUseSkill( data->skillId ))
+		{
+			return;
+		}
+
+		if(!playerCharacter->getSkillOwnManager()->isOwnSkill( data->skillId ))
+		{
+			return;
+		}
+
+		SkillInfo* skillInfo = (SkillInfo*)SkillInfoList::getInstance().getSkillInfo(data->skillId);
+		if(!skillInfo)
+		{
+			return;
+		}
+
+		//xukaichao 加发送属性
+		//playerCharacter->sendAttrBySkillType(SKILL_OWNER_TYPE_SELF, skillInfo->skillInfo->attackType, skillInfo->skillInfo->formulaParameterId);
+
+		///判定释放技能的角色是否符合释放条件 未添加
+
+
+		///判定点击的目标是否为可作用 未添加
+
+#endif
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayCharacterInjectPointSkillRequire( I32 id, PT_SKILL_C2M_PLAYERCHARACTER_INJECT_POINT_DATA* data )
+	{
+#if 0
+		SPlayerPtr playerPtr = SWorldManager::getInstance().getGameObjectManager()->getPlayerByClientNetId(id);
+		if (playerPtr.isNull())
+		{
+			return;
+		}
+		
+		SPlayerCharacter* playerCharacter = playerPtr->getPlayerCharacter(data->characterIndex);
+		if(!playerCharacter)
+		{
+			return;
+		}
+
+		if(!playerCharacter->getSkillUseManager()->isCanUseSkill( data->skillId ))
+		{
+			return;
+		}
+
+		if(!playerCharacter->getSkillOwnManager()->isOwnSkill( data->skillId ))
+		{
+			return;
+		}
+
+		SkillInfo* skillInfo = (SkillInfo*)SkillInfoList::getInstance().getSkillInfo(data->skillId);
+		if(!skillInfo)
+		{
+			return;
+		}
+
+		//xukaichao 加发送属性
+		//playerCharacter->sendAttrBySkillType(SKILL_OWNER_TYPE_SELF, skillInfo->skillInfo->attackType, skillInfo->skillInfo->formulaParameterId);
+
+		///判定释放技能的角色是否符合释放条件 未添加
+
+
+		///判定点击的目标是否为可作用 未添加
+#endif
+
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayCharacterInjectObjectSkillRequire( I32 id, PT_SKILL_C2M_PLAYERCHARACTER_INJECT_OBJECT_DATA* data )
+	{
+#if 0
+		SPlayerPtr playerPtr = SWorldManager::getInstance().getGameObjectManager()->getPlayerByClientNetId(id);
+		if (playerPtr.isNull())
+		{
+			return;
+		}
+
+		SPlayerCharacter* playerCharacter = playerPtr->getPlayerCharacter(data->characterIndex);
+		if(!playerCharacter)
+		{
+			return;
+		}
+
+		if(!playerCharacter->getSkillUseManager()->isCanUseSkill( data->skillId ))
+		{
+			return;
+		}
+
+		if(!playerCharacter->getSkillOwnManager()->isOwnSkill( data->skillId ))
+		{
+			return;
+		}
+		
+		SkillInfo* skillInfo = (SkillInfo*)SkillInfoList::getInstance().getSkillInfo(data->skillId);
+		if(!skillInfo)
+		{
+			return;
+		}
+
+		//xukaichao 加发送属性
+		//playerCharacter->sendAttrBySkillType(SKILL_OWNER_TYPE_SELF, skillInfo->skillInfo->attackType, skillInfo->skillInfo->formulaParameterId);
+
+		///判定释放技能的角色是否符合释放条件 未添加
+
+
+		///判定点击的目标是否为可作用 未添加
+#endif
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayCharacterEndInjectSkill(I32 id, PT_SKILL_C2M_PLAYERCHARACTER_END_INJECT_DATA* data)
+	{
+#if 0
+		SPlayerPtr playerPtr = SWorldManager::getInstance().getGameObjectManager()->getPlayerByClientNetId(id);
+		if (playerPtr.isNull())
+		{
+			return;
+		}
+
+		SPlayerCharacter* playerCharacter = playerPtr->getPlayerCharacter(data->characterIndex);
+		if(!playerCharacter)
+		{
+			return;
+		}
+
+		if ( playerCharacter->getSkillOwnManager()->isOwnSkill( data->skillId ) )
+		{
+			SSkillObject* skillObject = (SSkillObject*)playerCharacter->getSkillUseManager()->getPreparedUseSkill();
+			if(	!skillObject || skillObject->getSkillInfo()->skillId != data->skillId )
+			{
+				return;
+			}
+
+			skillObject->stopUse();
+		}
+#endif
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvTroopInjectPointSkillRequire( I32 id, PT_SKILL_C2M_TROOP_INJECT_POINT_DATA* data )
+	{
+	
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvTroopEndInjectSkill(I32 id, PT_SKILL_C2M_TROOP_END_INJECT_DATA* data)
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingClantSkillRequire( I32 id, PT_SKILL_C2M_BUILDING_CLANT_DATA* data )
+	{	
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingInjectEmitterSkillRequire( I32 id, PT_SKILL_C2M_BUILDING_INJECT_EMITTER_DATA* data )
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingInjectPointSkillRequire( I32 id, PT_SKILL_C2M_BUILDING_INJECT_POINT_DATA* data )
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingInjectObjectSkillRequire( I32 id, PT_SKILL_C2M_BUILDING_INJECT_OBJECT_DATA* data )
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingEndInjectSkill(I32 id, PT_SKILL_C2F_BUILDING_END_INJECT_DATA* data)
+	{
+#if 0
+		SPlayerPtr player = SWorldManager::getInstance().getPlayerByClientNetId(id);
+
+		if(player.isNull())
+		{
+			return;
+		}
+#endif
+	}
+
+    //--------------------------------------------------------------------------
+    void SkillNetPacketProcesser::onRecvPlayerCharacterAffectCollisonPlayerCharacter(I32 id, PT_SKILL_C2M_PLAYERCHARACTER_AFFECT_COLLISION_PLAYERCHARACTER_DATA* data)
+    {
+		
+    }
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvTroopAffectCollisonPlayerCharacter(I32 id, PT_SKILL_C2M_TROOP_AFFECT_COLLISION_PLAYERCHARACTER_DATA* data)
+	{
+		
+	}
+
+    //--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayerCharacterAffectCollisonBuilding(I32 id, PT_SKILL_C2M_PLAYERCHARACTER_AFFECT_COLLISION_BUILDING_DATA* data)
+	{
+		
+
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvPlayerCharacterAffectCollisonMonster(I32 id, PT_SKILL_C2M_PLAYERCHARACTER_AFFECT_COLLISION_MONSTER_DATA* data)
+	{
+
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvMonsterAffectCollisonPlayerCharacter(I32 id, PT_SKILL_C2M_MONSTER_AFFECT_COLLISION_PLAYERCHARACTER_DATA* data)
+	{
+
+	}
+
+	//--------------------------------------------------------------------------
+
+	void SkillNetPacketProcesser::onRecvMonsterAffectCollisonTroop(I32 id, PT_SKILL_C2M_MONSTER_AFFECT_COLLISION_TROOP_DATA* data)
+	{
+
+	}
+
+	//--------------------------------------------------------------------------
+
+	void SkillNetPacketProcesser::onRecvMonsterAffectCollisonBuilding(I32 id, PT_SKILL_C2M_MONSTER_AFFECT_COLLISION_BUILDING_DATA* data)
+	{
+
+	}
+
+	//--------------------------------------------------------------------------
+
+	void SkillNetPacketProcesser::onRecvMonsterAffectCollisonMonster(I32 id, PT_SKILL_C2M_MONSTER_AFFECT_COLLISION_MONSTER_DATA* data)
+	{
+
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvTroopAffectCollisonBuilding(I32 id, PT_SKILL_C2M_TROOP_AFFECT_COLLISION_BUILDING_DATA* data)
+	{
+
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvTroopAffectCollisonMonster(I32 id, PT_SKILL_C2M_TROOP_AFFECT_COLLISION_MONSTER_DATA* data)
+	{
+
+	}
+	
+    //--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingAffectCollisonBuilding(I32 id, PT_SKILL_C2M_BUILDING_AFFECT_COLLISION_BUILDING_DATA* data)
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingAffectCollisonTroop(I32 id, PT_SKILL_C2M_BUILDING_AFFECT_COLLISION_TROOP_DATA* data)
+	{
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingAffectCollisonPlayerCharacter(I32 id, PT_SKILL_C2M_BUILDING_AFFECT_COLLISION_PLAYERCHARACTER_DATA* data)
+	{
+
+		
+	}
+
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvBuildingAffectCollisonMonster(I32 id, PT_SKILL_C2M_BUILDING_AFFECT_COLLISION_MONSTER_DATA* data)
+	{
+
+	}
+	
+	//--------------------------------------------------------------------------
+	void SkillNetPacketProcesser::onRecvSkillSummonBuilding(I32 id, PT_SKILL_C2M_SUMMON_BUILDING_DATA* data)
+	{
+
+	}
+	//-----------------------------------------------------------------------------------
+	void SkillNetPacketProcesser::sendPlayerCharacterLearnSkillToMapServer( I32 mapserverNetid, IdType characterId, IdType skillId, UInt skillLevel )
+	{
+		// 获得一个发送【客户端】缓存
+		GameNetSendDataBufferPtr dataPtr ;
+        FrontServerMain::getInstance().getServerLauncher()->getServerSendDataBuffer( dataPtr );
+
+		// 转换成标准包格式
+		GameNetPacketData* packet = (GameNetPacketData*) dataPtr->getLogicData();
+		if ( packet )
+		{
+			// 设置标签
+			packet->channel = GNPC_SKILL;
+			packet->type    = PT_SKILL_F2M_LEARN;
+
+			// 转换逻辑包
+			PT_SKILL_F2M_LEARN_DATA* sendData = (PT_SKILL_F2M_LEARN_DATA*)(packet->data);
+			if ( sendData )
+			{
+				// 填充逻辑包
+				sendData->characterId = characterId;
+				sendData->skillId = skillId;
+				sendData->skillLevel = skillLevel;
+				
+				// 发送客户端
+				FrontServerMain::getInstance().getServerLauncher()->sendServer(dataPtr,
+					GameNetPacketData_INFO::headSize + PT_SKILL_F2M_LEARN_DATA_INFO::dataSize, mapserverNetid);
+			}
+		}
+	}
+}

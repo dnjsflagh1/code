@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc
+END
+luavs.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/luavs.bat
+END
+lua.pc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/lua.pc
+END
+min.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/min.c
+END
+premake.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/premake.lua
+END
+lua.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/lua.hpp
+END
+strict.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/strict.lua
+END
+all.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/all.c
+END
+lua.ico
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/lua.ico
+END
+noparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/noparser.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/README
+END
+bin2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/etc/bin2c.c
+END

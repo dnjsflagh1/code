@@ -1,0 +1,100 @@
+
+/******************************************************************************/
+#ifndef _S_CAMPAIGN_IN_REGION_H_
+#define _S_CAMPAIGN_IN_REGION_H_
+/******************************************************************************/
+
+#include "MapServerPreqs.h"
+
+/******************************************************************************/
+namespace MG
+{
+    /******************************************************************************/
+    // SCampaignInRegion
+    /******************************************************************************/
+    class SCampaignInRegion
+    {
+    public:
+        SCampaignInRegion();
+        ~SCampaignInRegion();
+
+
+        //-----------------------------------------------------------------------------------
+        // Main
+        //-----------------------------------------------------------------------------------
+
+        virtual Bool                    initialize( SSceneObject& sceneObj );
+        virtual Bool                    unInitialize();
+        virtual void                    clear();
+
+        virtual	void					update(Flt delta);
+
+        //-----------------------------------------------------------------------------------
+        // Scene
+        //-----------------------------------------------------------------------------------
+
+        void                            checkSceneLifeTime();
+        void                            createScene();
+        void                            destroyScene();
+
+        //-----------------------------------------------------------------------------------
+        // Logic
+        //-----------------------------------------------------------------------------------
+
+
+        void                            createLogicObject();
+
+        void                            createLogicCampInCampaign();
+        void                            createLogicArmyInCampaign();
+        void                            createLogicTroopGroupInCampaign();
+        void                            createLogicTroopInCampaign();
+    };
+
+	/******************************************************************************/
+	//SCampaignInRegion÷«ƒ‹÷∏’Î
+	/******************************************************************************/
+
+	class SCampaignInRegionPtr : public SharedPtr<SCampaignInRegion> 
+	{
+		friend class SCampaignInRegionPtrFactory;
+
+	protected:
+
+		SCampaignInRegionPtrFactory* mFactory;
+
+	public:
+
+		virtual ~SCampaignInRegionPtr() { release(); }
+		SCampaignInRegionPtr() : SharedPtr<SCampaignInRegion>(),mFactory(NULL){}
+		explicit SCampaignInRegionPtr(SCampaignInRegion* rep) : SharedPtr<SCampaignInRegion>(rep),mFactory(NULL){}
+		SCampaignInRegionPtr(const SCampaignInRegionPtr& r) : SharedPtr<SCampaignInRegion>(r),mFactory(r.mFactory) {} 
+
+		SCampaignInRegionPtr& operator=(const SCampaignInRegionPtr& r) 
+		{
+			if (pRep == r.pRep)
+				return *this;
+
+			SCampaignInRegionPtr tmp(r);
+			if ( isNull() == false )
+			{
+				tmp.mFactory = mFactory;
+			}
+
+			swap(tmp);
+
+			mFactory = r.mFactory;
+
+			return *this;
+		}
+
+	protected:
+
+		virtual void    destroy(void);
+
+	};
+
+
+
+}
+
+#endif	//_S_CAMPAIGN_IN_REGION_H_

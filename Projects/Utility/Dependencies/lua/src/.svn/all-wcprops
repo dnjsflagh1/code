@@ -1,0 +1,497 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src
+END
+wlua.mak
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/wlua.mak
+END
+ldebug.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ldebug.c
+END
+dllproxy.mak
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/dllproxy.mak
+END
+ldebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ldebug.h
+END
+ltablib.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ltablib.c
+END
+luac.mak
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/luac.mak
+END
+lstrlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lstrlib.c
+END
+lualib.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lualib.h
+END
+lua51.dll
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua51.dll
+END
+make_uname
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/make_uname
+END
+luac.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/luac.c
+END
+lundump.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lundump.c
+END
+lundump.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lundump.h
+END
+lmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lmem.c
+END
+wlua.rc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/wlua.rc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/Makefile
+END
+lvm.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lvm.c
+END
+lcoco.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lcoco.c
+END
+lmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lmem.h
+END
+ltable.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ltable.c
+END
+lvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lvm.h
+END
+lcoco.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lcoco.h
+END
+tecmake_compact.mak
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/tecmake_compact.mak
+END
+lfunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lfunc.c
+END
+ltable.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ltable.h
+END
+lparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lparser.c
+END
+wmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/wmain.c
+END
+lfunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lfunc.h
+END
+lparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lparser.h
+END
+lbaselib.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lbaselib.c
+END
+lzio.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lzio.c
+END
+wlua_dll8.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/wlua_dll8.manifest
+END
+lua.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua.c
+END
+lstring.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lstring.c
+END
+lobject.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lobject.c
+END
+lzio.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lzio.h
+END
+lapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lapi.c
+END
+lua.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua.h
+END
+lstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lstring.h
+END
+lobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lobject.h
+END
+lapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lapi.h
+END
+config.mak
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/config.mak
+END
+lua_dll.rc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua_dll.rc
+END
+lauxlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lauxlib.c
+END
+lauxlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lauxlib.h
+END
+liolib.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/liolib.c
+END
+ldo.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ldo.c
+END
+lua.exe
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua.exe
+END
+wlua_dll9.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/wlua_dll9.manifest
+END
+ldump.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ldump.c
+END
+lua.aps
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua.aps
+END
+ldo.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ldo.h
+END
+loslib.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/loslib.c
+END
+make_uname.bat
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/make_uname.bat
+END
+lua_dll8.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua_dll8.manifest
+END
+ldblib.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ldblib.c
+END
+ltm.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ltm.c
+END
+lstate.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lstate.c
+END
+lmathlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lmathlib.c
+END
+ltm.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/ltm.h
+END
+lstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lstate.h
+END
+lua.rc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua.rc
+END
+llex.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/llex.c
+END
+lgc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lgc.c
+END
+loadlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/loadlib.c
+END
+lua.mak
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua.mak
+END
+lopcodes.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lopcodes.c
+END
+llex.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/llex.h
+END
+lgc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lgc.h
+END
+lua_simple.rc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua_simple.rc
+END
+lua_conf.inc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua_conf.inc
+END
+lopcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lopcodes.h
+END
+linit.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/linit.c
+END
+lua5.1.def
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua5.1.def
+END
+llimits.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/llimits.h
+END
+luac.exe
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/luac.exe
+END
+bin2c.mak
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/bin2c.mak
+END
+lcode.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lcode.c
+END
+lua_dll9.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lua_dll9.manifest
+END
+lcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/lcode.h
+END
+luaconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/luaconf.h
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/src/print.c
+END

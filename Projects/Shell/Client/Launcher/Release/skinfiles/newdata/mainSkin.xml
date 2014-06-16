@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+useRC = true/false -> Use a resource file to create the GUI and skin.
+RCFile = filename -> The name of the RC file to use.
+RCTopFrame = frame identifier -> The "name" of the frame to use.
+-->
+<Skin name="Launcher skin" author="" comment="" screenshot="" application="Launcher">
+	<!-- Define the transparency colour to use for all skined items.
+	The default, if none is provided, is 255,0,255.
+	-->
+	<Transparency red="255" green="0" blue="255" />
+	<!-- °´Å¥¶¨Òå -->
+	<Buttons>
+		<!-- A Button has two states: normal and pressed. -->
+		<!--<default normal="frame_button_min.bmp" pressed="frame_button_max.bmp" disabled="frame_button_min.bmp"/>-->
+		<!-- For assigning skins to specific buttons, create a node with the "name" of the button -->
+		<!--<button_1 normal="play_normal.png" pressed="play_pressed.png" coord="-1,-1,-1,-1"/>-->
+		<!-- Í·¶¥°´Å¥-start  -->
+		<!-- ¹Ù·½ÍøÕ¾  -->
+		<btn_web normal="web.jpg" pressed="web_act.jpg" over="web_over.jpg" pos="28,120"/>
+		<!-- ³£¼ûÎÊÌâ  -->
+    <btn_faq normal="faq.jpg" pressed="faq_act.jpg" over="faq_over.jpg" pos="121,120"/> 
+    <!-- ¿Í»§·þÎñ  -->   
+    <btn_services normal="services.jpg" pressed="services_act.jpg" over="services_over.jpg" pos="213,120"/>
+    <!-- ÓÎÏ·ÂÛÌ³  -->
+		<btn_forum normal="forum.jpg" pressed="forum_act.jpg" over="forum_over.jpg" pos="304,120"/>
+    <!-- ³äÖµ  -->
+    <btn_recharge normal="recharge.jpg" pressed="recharge_act.jpg" over="recharge_over.jpg" disabled="recharge.jpg" pos="395,120"/>
+    <!-- ×¢²á  -->
+    <btn_reg normal="reg.jpg" pressed="reg_act.jpg" over="reg_over.jpg" disabled="reg.jpg" pos="449,120"/>
+    <!-- Í·¶¥°´Å¥-end  -->
+    <!-- ±êÇ©°´Å¥-start  -->
+    <!-- ×îÐÂ¶¯Ì¬,ÐÂÎÅ»î¶¯,ÓÎÏ·¹«¸æ  -->
+    <!--
+    <btn_latestnew normal="latestnew.jpg" pressed="latestnew_act.jpg" over="latestnew_over.jpg" stateflag = "act" pos="30,170"/>   
+    <btn_newsevent normal="newsevent.jpg" pressed="newsevent_act.jpg" over="newsevent_over.jpg" pos="116,170"/>
+    <btn_gamenote normal="gamenote.jpg" pressed="gamenote_act.jpg" over="gamenote_over.jpg" pos="202,170"/>
+    -->
+    <!--°æ±¾ÐÅÏ¢ÏÔÊ¾-->
+    <btn_version normal="version.png" pressed="version.png" over="version.png" pos="15,170" shown="true"/>
+    <btn_serverVersion normal="version.png" pressed="version.png" over="version.png" pos="180,170" shown="true"/>  
+    <!-- ±êÇ©°´Å¥-end  -->
+    <!-- ×óÏÂ½Ç°´Å¥-start -->
+		<btn_set normal="set.jpg" pressed="set_act.jpg" over="set_over.jpg" disabled="set_dis.jpg" pos="28,497"/>
+		<btn_close normal="close.jpg" pressed="close_act.jpg" over="close_over.jpg" disabled="close.jpg" pos="28,497" />  <!--108,497-->
+		<!-- ×óÏÂ½Ç°´Å¥-end -->
+    <!-- ÓÒÏÂ½Ç°´Å¥-start  -->
+    <!--    
+    <btn_version normal="version.png" pressed="version.png" over="version.png" pos="387,455" shown="true"/>
+    <btn_serverVersion normal="version.png" pressed="version.png" over="version.png" pos="387,473" shown="true"/>
+    -->
+    <btn_manual normal="manual.jpg" pressed="manual_act.jpg" over="manual_over.jpg" pos="392,468"/>
+    <btn_run normal="run.jpg" pressed="run_act.jpg" over="run_over.jpg" disabled="run_dis.jpg" pos="462,458"/>
+    <!-- ÓÒÏÂ½Ç°´Å¥-end  -->
+    <!-- other -->
+	</Buttons>
+	<!-- ½ø¶ÈÌõ¶¨Òå -->
+	<Sliders>	  
+	  <m_mainProgress slider="sliderMark2.jpg" background="sliderMark2.jpg" over="sliderMark2.jpg" pos="29,481" shown="true"/>
+	</Sliders>
+	<!-- ´°Ìå¶¨Òå -->
+	<SimpleFrame name="LauncherFrame" skin="xindiban.jpg" movable="yes" >
+		<closebox measure="0,0,0,0" skin=""/>
+		<minimizebox measure="0,0,0,0" skin=""/>
+		<maximizebox measure="0,0,0,0" skin=""/>
+		<titlebar height="0" measure="0,0,0,0"/>
+		<titleposition placement="middle"/>				
+		<client_area measure="25,202,585,225" />
+	</SimpleFrame>
+</Skin>

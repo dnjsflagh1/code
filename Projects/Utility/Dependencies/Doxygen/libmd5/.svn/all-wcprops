@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5
+END
+libmd5.pro.in
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/libmd5.pro.in
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/Makefile.in
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/md5.c
+END
+Makefile.libmd5
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/Makefile.libmd5
+END
+md5_loc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/md5_loc.h
+END
+libmd5.pro
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/libmd5.pro
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/md5.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/libmd5/Makefile
+END

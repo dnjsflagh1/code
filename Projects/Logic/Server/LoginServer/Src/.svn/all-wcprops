@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/LoginServer/Src
+END
+PlatformCheckAccount.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6082/trunk/Projects/Logic/Server/LoginServer/Src/PlatformCheckAccount.cpp
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/LoginServer/Src/ServerManager.cpp
+END
+LineUpNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/LoginServer/Src/LineUpNetPacketProcesser.cpp
+END
+LoginManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7683/trunk/Projects/Logic/Server/LoginServer/Src/LoginManager.cpp
+END
+LoginServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/LoginServer/Src/LoginServerMain.cpp
+END
+TestNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/LoginServer/Src/TestNetPacketProcesser.cpp
+END
+SysLogNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/LoginServer/Src/SysLogNetPacketProcesser.cpp
+END
+ThreadTaskManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/5981/trunk/Projects/Logic/Server/LoginServer/Src/ThreadTaskManager.cpp
+END
+ClientManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/6082/trunk/Projects/Logic/Server/LoginServer/Src/ClientManager.cpp
+END
+ThreadTask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/3882/trunk/Projects/Logic/Server/LoginServer/Src/ThreadTask.cpp
+END
+LoginNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7683/trunk/Projects/Logic/Server/LoginServer/Src/LoginNetPacketProcesser.cpp
+END

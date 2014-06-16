@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/7683/trunk/Projects/Logic/Server/GMServerManager
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/dllmain.cpp
+END
+GMServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/GMServerManager.cpp
+END
+GMServerManager.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6297/trunk/Projects/Logic/Server/GMServerManager/GMServerManager.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/ReadMe.txt
+END

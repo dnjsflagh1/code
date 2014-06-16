@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/4250/trunk/Projects/Logic/Server/ErrorReportServer
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/16/trunk/Projects/Logic/Server/ErrorReportServer/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ErrorReportServer/dllmain.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ErrorReportServer/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ErrorReportServer/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ErrorReportServer/ReadMe.txt
+END
+ErrorReportServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ErrorReportServer/ErrorReportServer.cpp
+END
+ErrorReportServer.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/4250/trunk/Projects/Logic/Server/ErrorReportServer/ErrorReportServer.vcproj
+END

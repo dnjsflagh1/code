@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/LoginServer
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/4829/trunk/Projects/Logic/Server/LoginServer/stdafx.h
+END
+LoginServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/LoginServer/LoginServer.cpp
+END
+LoginServer.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5844/trunk/Projects/Logic/Server/LoginServer/LoginServer.vcproj
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/LoginServer/dllmain.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/LoginServer/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/LoginServer/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/LoginServer/ReadMe.txt
+END

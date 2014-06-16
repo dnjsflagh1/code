@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon
+END
+AudioChannelDescriptionModel
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioChannelDescriptionModel
+END
+SubtitleDescriptionModel
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/SubtitleDescriptionModel
+END
+EffectDescriptionModel
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/EffectDescriptionModel
+END
+AudioOutput
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioOutput
+END
+MediaController
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/MediaController
+END
+AudioOutputDeviceModel
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioOutputDeviceModel
+END
+ObjectDescriptionModelData
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/ObjectDescriptionModelData
+END
+AudioCaptureDeviceModel
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioCaptureDeviceModel
+END
+VolumeFaderEffect
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/VolumeFaderEffect
+END
+SeekSlider
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/SeekSlider
+END
+VolumeFaderInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/VolumeFaderInterface
+END
+ObjectDescriptionModel
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/ObjectDescriptionModel
+END
+VideoWidgetInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/VideoWidgetInterface
+END
+Effect
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/Effect
+END
+Path
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/Path
+END
+EffectParameter
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/EffectParameter
+END
+SubtitleDescription
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/SubtitleDescription
+END
+PlatformPlugin
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/PlatformPlugin
+END
+AudioCaptureDevice
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioCaptureDevice
+END
+AbstractAudioOutput
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AbstractAudioOutput
+END
+AddonInterface
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AddonInterface
+END
+AudioOutputInterface40
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioOutputInterface40
+END
+AudioOutputInterface42
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioOutputInterface42
+END
+VideoWidget
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/VideoWidget
+END
+VolumeSlider
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/VolumeSlider
+END
+AbstractVideoOutput
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AbstractVideoOutput
+END
+AbstractMediaStream
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AbstractMediaStream
+END
+VideoPlayer
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/VideoPlayer
+END
+MediaNode
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/MediaNode
+END
+MediaObjectInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/MediaObjectInterface
+END
+AudioChannelDescription
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioChannelDescription
+END
+MediaSource
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/MediaSource
+END
+Global
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/Global
+END
+EffectWidget
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/EffectWidget
+END
+EffectDescription
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/EffectDescription
+END
+BackendCapabilities
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/BackendCapabilities
+END
+Phonon
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/Phonon
+END
+AudioOutputDevice
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioOutputDevice
+END
+AudioOutputInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/AudioOutputInterface
+END
+ObjectDescriptionData
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/ObjectDescriptionData
+END
+MediaObject
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/MediaObject
+END
+BackendInterface
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/BackendInterface
+END
+ObjectDescription
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/ObjectDescription
+END
+StreamInterface
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/StreamInterface
+END
+EffectInterface
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/phonon_compat/Phonon/EffectInterface
+END

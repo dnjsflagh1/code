@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard
+END
+Makefile.doxywizard
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/Makefile.doxywizard
+END
+wizard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/wizard.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/Makefile.in
+END
+doxywizard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.cpp
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/input.h
+END
+wizard.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/wizard.h
+END
+expert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/expert.cpp
+END
+doxywizard.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.qrc
+END
+doxywizard.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/config.h
+END
+inputint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputint.cpp
+END
+inputbool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputbool.cpp
+END
+expert.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/expert.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/README
+END
+config.l
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/config.l
+END
+inputint.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputint.h
+END
+inputbool.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputbool.h
+END
+doxywizard.pro
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.pro
+END
+inputstrlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputstrlist.cpp
+END
+doxywizard.rc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.rc
+END
+inputstring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputstring.cpp
+END
+doxywizard.pro.in
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.pro.in
+END
+inputstrlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputstrlist.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/version.h
+END
+inputstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/inputstring.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/Makefile
+END
+doxywizard.ico
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/doxywizard.ico
+END
+helplabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxywizard/helplabel.h
+END

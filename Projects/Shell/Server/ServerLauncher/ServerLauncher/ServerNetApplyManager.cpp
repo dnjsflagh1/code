@@ -1,0 +1,618 @@
+/******************************************************************************/
+#include "stdafx.h"
+#include "ServerNetApplyManager.h"
+#include "ServerMain.h"
+#include "SServerSetting.h"
+#include "LoginNetPacketProcesser.h"
+#include "VersionSwitch.h"
+/******************************************************************************/
+namespace MG
+{
+    //-----------------------------------------------------------------------------
+    ServerNetApplyManager::ServerNetApplyManager()
+		:mClientDriver(-1),
+		mServerDriver(-1),
+		mUniqueFlag(0)
+    {
+		
+    }
+
+    //-----------------------------------------------------------------------------
+    ServerNetApplyManager::~ServerNetApplyManager()
+    {
+    }
+
+    //-----------------------------------------------------------------------------
+    Bool ServerNetApplyManager::initialize()
+    {
+        if ( GameNetPacketManager::initialize() == false )
+            return false;
+
+		SServerSetting& setting = SServerSetting::getInstance();
+
+		if ( setting.isClientLisiten() )
+		{
+			mClientDriver = createDriver(   "Client",
+                                            setting.getClientListenInfo()->maxConnects,
+                                            false, 
+                                            MG_NET_CLIENT_TIMEOUT_TOUCH_TIME,
+                                            MG_NET_CLIENT_TIMEOUT_DURATION,
+                                            true, 
+                                            MG_GAME_NET_PACKET_NORMAL_MAX_SIZE, 
+                                            MG_GAME_NET_PACKET_BIG_MAX_SIZE,
+                                            MG_NET_BUFFER_SIZE_CLIENT,
+											MG_NET_MAX_CLIENT_SOCKET_SENDBUFF_SIZE,
+											MG_NET_MAX_CLIENT_SOCKET_RECVBUFF_SIZE,
+											DRIVER_TYPE_CLIENT);
+			if ( mClientDriver < 0 )
+			{
+				return false;
+			}
+			NetAddress addr(setting.getClientListenInfo()->addr);
+			if ( lisiten( mClientDriver, &addr ) == false )
+			{
+				return false;
+			}
+
+            GameNetDriveConfig config;
+            config.OnceHandlePacketCount        = 1;
+            config.SendCombinePacketMaxSize     = 1024*10;
+            config.ReplaceEnableInSendQueue     = true;
+            config.ReplaceEnableInRecvQueue     = true;
+            config.DiscardEnableInSendQueue     = true;
+            config.DiscardEnableInRecvQueue     = true;
+            config.BlockWaitEnableInSendQueue   = true;
+            config.BlockWaitEnableInRecvQueue   = true;
+            configDrive( mClientDriver, config );
+		}
+		
+		if (setting.getServerListenInfo())
+		{	
+			mServerDriver = createDriver(   "Server",
+                                            setting.getServerListenInfo()->maxConnects,
+                                            false, 
+                                            MG_NET_SERVER_TIMEOUT_TOUCH_TIME,
+                                            MG_NET_SERVER_TIMEOUT_DURATION,
+                                            false, 
+                                            MG_GAME_NET_PACKET_NORMAL_MAX_SIZE, 
+                                            MG_GAME_NET_PACKET_BIG_MAX_SIZE,
+                                            MG_NET_BUFFER_SIZE_SERVER,
+											MG_NET_MAX_SERVER_SOCKET_SENDBUFF_SIZE,
+											MG_NET_MAX_SERVER_SOCKET_RECVBUFF_SIZE,
+											DRIVER_TYPE_SERVER);
+			if (mServerDriver < 0)
+			{
+				return false;
+			}
+
+            GameNetDriveConfig config;
+            config.OnceHandlePacketCount        = -1;
+            config.SendCombinePacketMaxSize     = 1024*10;
+            config.ReplaceEnableInSendQueue     = false;
+            config.ReplaceEnableInRecvQueue     = false;
+            config.DiscardEnableInSendQueue     = false;
+            config.DiscardEnableInRecvQueue     = false;
+            config.BlockWaitEnableInSendQueue   = false;
+            config.BlockWaitEnableInRecvQueue   = false;
+            configDrive( mServerDriver, config );
+		}
+		else
+		{
+			return false;
+		}
+		
+		if (!setting.getCoreInfo())
+		{
+			return false;
+		}
+		ServerMain::getInstance().addServer(setting.getCoreInfo()->id,-1);
+
+		if ( setting.isServerLisiten())
+		{
+
+			if ( lisiten( mServerDriver,&(setting.getServerListenInfo()->addr) ) == false )
+			{
+				return false;
+			}
+			mUniqueFlag = setting.getServerListenInfo()->addr.getIP() * ::GetCurrentProcessId();
+			if (setting.getConnectServers()->maxConnects > 0)
+			{
+				SServerSetting::ConnectionIt it = setting.getConnectServers()->connectServers.begin();
+				for (; it != setting.getConnectServers()->connectServers.end(); it++)
+				{
+                    ConnectRemoteInfo* connectInfo = it->second;
+					I32 netID = connect( mServerDriver, &(connectInfo->addr),true );
+				}
+			}
+		}
+
+        // 开启重新连接线程
+		//Ptr ptr1;
+        mReConnectThread.create(reConnectThread, this);
+#ifdef _DEBUG
+		Thread::SetThreadName(mReConnectThread.getThreadId(),"ServerNetApplyManager::mReConnectThread");
+#endif // _DEBUG
+		return true;
+	}
+    //-----------------------------------------------------------------------------
+    I32 ServerNetApplyManager::update()
+    {
+		//FUNDETECTION( __MG_FUNC__ )
+        GameNetPacketManager::update();
+
+        I32 res = 0;
+
+        if ( isThreadAutoHandle() == false )
+        {
+            if ( mClientDriver >= 0 )
+            {
+                res += manualDoOneL2NHandle( mClientDriver );
+                res += manualDoOneN2LHandle( mClientDriver );
+            }
+            if ( mServerDriver >= 0 )
+            {
+                res += manualDoOneL2NHandle( mServerDriver );
+                res += manualDoOneN2LHandle( mServerDriver );
+            }
+        }
+
+        return res;
+    }
+
+    //-----------------------------------------------------------------------------
+    I32 ServerNetApplyManager::unInitialize()
+    {
+        mReConnectThread.destory();
+
+        I32 res = NetManager::unInitialize();
+		mReConnectThread.destory();
+		ServerMain::getInstance().removeServerById(SServerSetting::getInstance().getCoreInfo()->id);
+        return res;
+    }
+
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::loginServer( I32 id ,U64 serverUniqueFlag )
+    {
+        SServerSetting& setting = SServerSetting::getInstance();
+		CoreInfo* coreInfo = setting.getCoreInfo();
+		if (!coreInfo)
+		{
+			DYNAMIC_ASSERT(false);
+			return;
+		}
+
+        U8 serverType =  (U8)coreInfo->type;
+        U32 code = 0;
+		Char16* name = (Char16*)coreInfo->name.c_str();
+		U32 serverId = coreInfo->id;
+
+        LoginNetPacketProcesser::getInstance().sendS2SLoginPacket( id, name,serverType,serverUniqueFlag ,serverId,code,SERVER_VERSION_NUMBER);
+    }
+
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::onRecvServerConncectLogin( I32 id, Char16* name, GameNetType type, U64 serverUniqueFlag, U32 serverId,U32 code ,Char8* serverVersion)
+    {
+		// 服务器版本验证
+		if (StrCmp(serverVersion,SERVER_VERSION_NUMBER))
+		{
+			Char8 desc[256] = {0};
+			//服务器版本不一致
+			SServerSetting& setting = SServerSetting::getInstance();
+			CoreInfo* coreInfo = setting.getCoreInfo();
+			if (!coreInfo)
+			{
+				DYNAMIC_ASSERT(false);
+			}
+			MGStrOp::sprintf(desc,256,"版本验证错误，当前程序版本为%s，对方版本为%s",serverVersion,SERVER_VERSION_NUMBER);
+			LoginNetPacketProcesser::getInstance().sendLoginVersionErrorInfo(id,(Char16*)coreInfo->name.c_str(),(Byte)coreInfo->type,desc,StrLen(desc));
+			
+			MGStrOp::sprintf(desc,256,"版本验证错误，当前程序版本为%s，对方版本为%s",SERVER_VERSION_NUMBER,serverVersion);
+			MG::MsgBox::show(desc,"版本验证");
+			return;
+		}
+		
+        IServerDllInterface* serverInterface = ServerMain::getInstance().getServerDllInterface();
+		
+		if (!ServerMain::getInstance().addServer(serverId,id))
+		{
+			//ServerMain::getInstance().closeServer(id);
+			//DYNAMIC_ASSERT(false);
+			//Char16 temp[256] = {0};
+			//MGStrOp::sprintf(temp,256,L"有重复的服务器id，请检查%s的ServerConfig.txt文件！",name);
+			//MG::MsgBox::show(temp,L"配置错误");
+			return;
+		}
+
+		NetAddress address = getAddress( getServerHandle(), id );
+
+		setConnectServerLoginState(address.getUin(),id,true,true);
+		//MG_LOG(out_error,"onLogin %s %d \n",address.getIPStr(),address.getPort());
+		Sleep(5);
+		serverInterface->onServerConnected( id, type, serverId, serverUniqueFlag, &address );
+
+		I32 len = WStrLen(name);
+		Char16* postName = MG_NEW Char16[MAX_SERVER_NAME_LEN];
+		WStrnCpyS(postName,MAX_SERVER_NAME_LEN,name,len);
+		NetAddress* postAddr = new NetAddress(address);
+		::PostMessage(ServerMain::getInstance().getDialogHandle(),LAUNCH_SERVER_CONNECT,(WPARAM)postName,(LPARAM)postAddr);
+		
+    }
+    
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::onAccept(NetEventAccept* netEvent)
+    {
+        IServerDllInterface* serverInterface = ServerMain::getInstance().getServerDllInterface();
+        if (serverInterface)
+        {
+            if (netEvent->getHandle() == mClientDriver)
+            {
+                serverInterface->onClientConnected(netEvent->getID(),&netEvent->getNetAddress(),netEvent->getNetConnect());
+            }else
+            if (netEvent->getHandle() == mServerDriver)
+            {				
+				if (isAllowedConnect(netEvent->getNetAddress().getIPStr()))
+				{
+					//setConnectServerLoginState(netEvent->getNetAddress().getUin(),true,false);
+					loginServer( netEvent->getID(),mUniqueFlag);
+				}
+				else
+				{
+					closeServer(netEvent->getID());
+				}  
+            }
+        }
+    }
+
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::onConnected(NetEventConnect* netEvent)
+    {
+        IServerDllInterface* serverInterface = ServerMain::getInstance().getServerDllInterface();
+        if (serverInterface)
+        {
+            if (netEvent->getHandle()==mServerDriver)
+            {
+				//U64 serverUniqueFlag = netEvent->getNetAddress().getIP() * ::GetCurrentProcessId();
+				setConnectServerLoginState(netEvent->getNetAddress().getUin(),netEvent->getID(),true,false);
+				Sleep(5);
+				loginServer( netEvent->getID(),mUniqueFlag);
+				//MG_LOG(out_error,"onConnect %s %d \n",netEvent->getNetAddress().getIPStr(),netEvent->getNetAddress().getPort());
+            }
+        }
+    }
+    
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::onClose(NetEventClose* netEvent) 
+    {
+        IServerDllInterface* serverInterface = ServerMain::getInstance().getServerDllInterface();
+        if (serverInterface)
+        {
+            if (netEvent->getHandle()==mClientDriver)
+            {
+                serverInterface->onClientDisconnect(netEvent->getID(),netEvent->getNetConnect());
+            }else
+            if (netEvent->getHandle()==mServerDriver)
+            {
+				U64* uin = MG_NEW U64(netEvent->getNetAddress().getUin());
+				::PostMessage(ServerMain::getInstance().getDialogHandle(),LAUNCH_SERVER_DISCONNECT,(WPARAM)uin,(LPARAM)0);
+				ServerMain::getInstance().removeServerByNetId(netEvent->getID());
+				setConnectServerLoginState(netEvent->getNetAddress().getUin(),-1,false,false);
+                //没有验证通过的服务器断开需要通知上层逻辑否?
+                serverInterface->onServerDisconnect(netEvent->getID(),&netEvent->getNetAddress());
+				//MG_LOG(out_error,"onClose %s %d \n",netEvent->getNetAddress().getIPStr(),netEvent->getNetAddress().getPort());
+            }
+        }
+    }
+
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::onRecv(NetEventRecv* netEvent)
+    {
+        IServerDllInterface* serverInterface = ServerMain::getInstance().getServerDllInterface();
+        if (serverInterface)
+        {
+            if (netEvent->getHandle()==mClientDriver)
+            {
+                if ( LoginNetPacketProcesser::getInstance().processClientPacket( netEvent->getID(), netEvent ) == false )
+                {
+                    serverInterface->onClientRecvPacket(netEvent->getID(),netEvent,netEvent->getNetConnect());
+                }
+            }else
+            if (netEvent->getHandle()==mServerDriver)
+            {
+                if ( LoginNetPacketProcesser::getInstance().processServerPacket( netEvent->getID(), netEvent ) == false )
+                {
+                    serverInterface->onServerRecvPacket(netEvent->getID(),netEvent);
+                }
+            }
+        }
+    }
+
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::onError(NetEventErr* netEvent) 
+    {
+        
+    }
+
+	//-----------------------------------------------------------------------------
+	I32 ServerNetApplyManager::getServerHandle()
+	{
+		return mServerDriver;
+	}
+
+    //-----------------------------------------------------------------------------
+	I32 ServerNetApplyManager::getClientHandle()
+	{
+		return mClientDriver;
+	}
+
+    //-----------------------------------------------------------------------------
+    void ServerNetApplyManager::closeAllClient()
+    {
+        closeAll(mClientDriver);
+    }
+
+    //-----------------------------------------------------------------------------
+	void ServerNetApplyManager::closeClient( I32 id )
+	{
+		close(mClientDriver,id);
+	}
+
+	//-----------------------------------------------------------------------------
+	void ServerNetApplyManager::closeServer(I32 id)
+	{
+		close(mServerDriver,id);
+	}
+
+    //-----------------------------------------------------------------------------
+	U64 ServerNetApplyManager::getClientUid(I32 id)
+	{
+        return getAddressUin(mClientDriver,id);
+	}
+
+    //-----------------------------------------------------------------------------
+	U64 ServerNetApplyManager::getServerUid( I32 id )
+	{
+        return getAddressUin(mServerDriver,id);
+	}
+	//-----------------------------------------------------------------------------
+	void ServerNetApplyManager::reConnectThread( Ptr ptr )
+	{
+		DYNAMIC_ASSERT(ptr);
+		OneThreadHandle* thd = (OneThreadHandle*)ptr;	
+		if (thd)
+		{
+			if (thd->getParam())
+			{
+				ServerNetApplyManager* netApplyManager = (ServerNetApplyManager*)thd->getParam();
+				while(thd->isRun())
+				{
+                    Sleep(5000);
+
+					netApplyManager->mReConnectLock.lock();
+					{
+						if (netApplyManager->mReConnectServerMap.empty())
+						{
+							netApplyManager->mReConnectLock.unlock();
+							Sleep(10000);
+							continue;
+						}
+
+						std::vector<ServerDeclare>::iterator it = netApplyManager->mReConnectServerMap.begin();
+						for (; it != netApplyManager->mReConnectServerMap.end(); it++)
+						{
+							ServerDeclare* server = &(*it); 
+							U64	currTime = MGTimeOp::getCurrTimestamp();
+							
+							if (server->isLogined)
+							{
+								continue;
+							}
+
+							if (server->isConnected)
+							{
+								// 登录以后再做考虑
+								//if (server->isLogined)
+								//{
+								//	continue;
+								//}
+								//else
+								//{
+								//	if (currTime - server->lastConnectTimeTick >  10)
+								//	{
+								//		netApplyManager->closeServer(server->netId);
+								//		/*netApplyManager->connect(server->handle,&(server->address),false);
+								//		server->connectTimes++;*/
+								//		server->lastConnectTimeTick = MGTimeOp::getCurrTimestamp();
+								//	}
+								//}
+							}
+							else
+							{	
+								if (server->netId == -1)
+								{
+									if (currTime - server->lastConnectTimeTick >  1)
+									{
+										netApplyManager->connect(server->handle,&(server->address),false);
+										server->connectTimes++;
+										server->lastConnectTimeTick = MGTimeOp::getCurrTimestamp();
+									}
+								}
+                                // 超过连接验证时间限制，则关闭连接
+								else if (currTime - server->lastConnectTimeTick >  1000)
+								{
+									netApplyManager->closeServer(server->netId);
+									server->lastConnectTimeTick = MGTimeOp::getCurrTimestamp();
+								}
+							}
+	
+						}
+
+					}
+					netApplyManager->mReConnectLock.unlock();
+				}
+			}
+		
+		}
+	}
+	//-----------------------------------------------------------------------------
+	I32 ServerNetApplyManager::connect( I32 handle,NetAddress* addr,Bool reConnect )
+	{
+		I32 res = -1;
+		if (reConnect)
+		{
+			mReConnectLock.lock();
+			std::vector<ServerDeclare>::iterator it = mReConnectServerMap.begin();
+			for (; it != mReConnectServerMap.end(); it++)
+			{
+				if ((*it).address.getUin() == addr->getUin())
+				{
+					res = NetManager::connect(handle,addr);
+					(*it).lastConnectTimeTick = MGTimeOp::getCurrTimestamp();
+					(*it).connectTimes = 1;
+					(*it).isConnected = false;
+					(*it).handle = handle;
+					(*it).netId = res;
+					mReConnectLock.unlock();
+					return res;
+				}
+				
+			}
+			mReConnectLock.unlock();
+
+			ServerDeclare server;
+			server.handle = handle;
+			server.address = *addr;	 
+			res = NetManager::connect(handle,addr);
+			server.netId = res;
+			server.lastConnectTimeTick = MGTimeOp::getCurrTimestamp();
+			server.connectTimes = 1;
+			server.isConnected = false;
+			server.isLogined = false;
+			MG_LOG(out_error,"connect %s %d \n",addr->getIPStr(),addr->getPort());
+			mReConnectLock.lock();
+			mReConnectServerMap.push_back(server);
+			mReConnectLock.unlock();
+		}
+		else
+		{
+			res = NetManager::connect(handle,addr);
+			MG_LOG(out_error,"connect %s %d \n",addr->getIPStr(),addr->getPort());
+		}
+
+        Sleep( 10 );
+
+		return res;
+	}
+	//-----------------------------------------------------------------------------
+	Bool ServerNetApplyManager::isAllowedConnect( CChar16* ip )
+	{
+		SServerSetting& setting = SServerSetting::getInstance();
+		if (!setting.getAllowedServerIpCollection()->isValid)
+		{
+			return true;
+		}
+		else
+		{
+			std::vector<Str16>::iterator it = setting.getAllowedServerIpCollection()->allowedIps.begin();
+			for (; it != setting.getAllowedServerIpCollection()->allowedIps.end(); it++)
+			{
+				if ((*it).compare(ip) == 0)
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	//-----------------------------------------------------------------------------
+	Bool ServerNetApplyManager::isAllowedConnect( CChar8* ip )
+	{
+		SServerSetting& setting = SServerSetting::getInstance();
+		if (!setting.getAllowedServerIpCollection()->isValid)
+		{
+			return true;
+		}
+		else
+		{
+			Str16 wIp;
+			MGStrOp::toString(ip,wIp);
+			std::vector<Str16>::iterator it = setting.getAllowedServerIpCollection()->allowedIps.begin();
+			for (; it != setting.getAllowedServerIpCollection()->allowedIps.end(); it++)
+			{
+				if ((*it).compare(wIp.c_str()) == 0)
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	//-----------------------------------------------------------------------------
+	void ServerNetApplyManager::setConnectServerLoginState(U64 uin,I32 netId,Bool isConnected,Bool isLogined)
+	{
+		mReConnectLock.lock();
+		{
+			std::vector<ServerDeclare>::iterator it = mReConnectServerMap.begin();
+			for (; it != mReConnectServerMap.end(); it++)
+			{
+				if ((*it).address.getUin() == uin)
+				{
+					(*it).isConnected = isConnected;
+					(*it).isLogined = isLogined;
+					(*it).netId = netId;
+					if (isConnected)
+					{
+						(*it).loginTimes++;
+					}
+					else
+					{
+						(*it).loginTimes = 0;
+					}
+
+					mReConnectLock.unlock();
+					return;
+
+				}
+			}
+		}
+		mReConnectLock.unlock();
+	}
+	//-----------------------------------------------------------------------------
+	NetConnectInfo* ServerNetApplyManager::getClientNetInfo()
+	{
+		return getNetInfo(mClientDriver);
+	}
+	//-----------------------------------------------------------------------------
+	NetConnectInfo* ServerNetApplyManager::getServerNetInfo()
+	{
+		return getNetInfo(mServerDriver);
+	}
+	//-----------------------------------------------------------------------------
+	NetConnectInfo* ServerNetApplyManager::getClientConnectInfo( I32 id )
+	{
+		return getConnectInfo(mClientDriver,id);
+	}
+	//-----------------------------------------------------------------------------
+	NetConnectInfo* ServerNetApplyManager::getServerConnectInfo( I32 id )
+	{
+		return getConnectInfo(mServerDriver,id);
+	}
+	//-----------------------------------------------------------------------------
+	I32 ServerNetApplyManager::getServerCurrConnectionCount()
+	{
+		return getCurrConnectionCount(mServerDriver);	
+	}
+	//-----------------------------------------------------------------------------
+	I32 ServerNetApplyManager::getClientCurrConnectionCount()
+	{
+		return getCurrConnectionCount(mClientDriver);
+	}
+	//-----------------------------------------------------------------------------
+	U64 ServerNetApplyManager::getUniqueFlag()
+	{
+		return mUniqueFlag;
+	}
+
+    
+}
+
+

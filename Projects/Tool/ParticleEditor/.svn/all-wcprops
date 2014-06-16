@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/stdafx.h
+END
+OperationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/OperationManager.h
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/app.rc
+END
+Utility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/Utility.cpp
+END
+ModelEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/ModelEditor.cpp
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/MainForm.resx
+END
+MainForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/MainForm.cpp
+END
+Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/Utility.h
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/app.ico
+END
+MainForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/MainForm.h
+END
+SceneForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/SceneForm.resx
+END
+SceneForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/SceneForm.cpp
+END
+GlobalOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/GlobalOptions.h
+END
+XmlPropertySet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/XmlPropertySet.cpp
+END
+CoreManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/CoreManager.cpp
+END
+SceneEditorPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/SceneEditorPreqs.h
+END
+SceneForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/SceneForm.h
+END
+XmlPropertySet.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/XmlPropertySet.h
+END
+CoreManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/CoreManager.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/ReadMe.txt
+END
+ParticleEditor.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/ParticleEditor.vcproj
+END
+OperationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/OperationManager.cpp
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/AssemblyInfo.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ParticleEditor/resource.h
+END

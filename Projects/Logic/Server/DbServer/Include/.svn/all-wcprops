@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/2096/trunk/Projects/Logic/Server/DbServer/Include
+END
+LoginNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/2096/trunk/Projects/Logic/Server/DbServer/Include/LoginNetPacketProcesser.h
+END
+DbServerMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2096/trunk/Projects/Logic/Server/DbServer/Include/DbServerMain.h
+END
+ServerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2096/trunk/Projects/Logic/Server/DbServer/Include/ServerManager.h
+END
+DbServerPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2096/trunk/Projects/Logic/Server/DbServer/Include/DbServerPreqs.h
+END

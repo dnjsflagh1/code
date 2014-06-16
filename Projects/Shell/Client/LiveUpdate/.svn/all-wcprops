@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/6329/trunk/Projects/Shell/Client/LiveUpdate
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/4912/trunk/Projects/Shell/Client/LiveUpdate/stdafx.h
+END
+LiveUpdate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6329/trunk/Projects/Shell/Client/LiveUpdate/LiveUpdate.cpp
+END
+LiveUpdate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5083/trunk/Projects/Shell/Client/LiveUpdate/LiveUpdate.vcproj
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/4912/trunk/Projects/Shell/Client/LiveUpdate/md5.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/4912/trunk/Projects/Shell/Client/LiveUpdate/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/4912/trunk/Projects/Shell/Client/LiveUpdate/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/4912/trunk/Projects/Shell/Client/LiveUpdate/ReadMe.txt
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/4912/trunk/Projects/Shell/Client/LiveUpdate/md5.h
+END

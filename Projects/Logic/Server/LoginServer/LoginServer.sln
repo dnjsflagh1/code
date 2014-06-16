@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoginServer", "LoginServer.vcproj", "{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_cn|Win32 = Release_cn|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}.Debug|Win32.Build.0 = Debug|Win32
+		{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}.Release_cn|Win32.ActiveCfg = Release_cn|Win32
+		{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}.Release_cn|Win32.Build.0 = Release_cn|Win32
+		{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}.Release|Win32.ActiveCfg = Release|Win32
+		{D3B04AD7-4F1B-441C-A2F5-FE5642D167B0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,581 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private
+END
+qdesigner_formeditorcommand_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_formeditorcommand_p.h
+END
+qdesigner_tabwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_tabwidget_p.h
+END
+qdesigner_formbuilder_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_formbuilder_p.h
+END
+qdesigner_propertysheet_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_propertysheet_p.h
+END
+plugindialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/plugindialog_p.h
+END
+spacer_widget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/spacer_widget_p.h
+END
+lib_pch.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/lib_pch.h
+END
+qdesigner_integration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_integration_p.h
+END
+qdesigner_widget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_widget_p.h
+END
+qdesigner_dockwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_dockwidget_p.h
+END
+qdesigner_dnditem_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_dnditem_p.h
+END
+invisible_widget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/invisible_widget_p.h
+END
+abstractdialoggui_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/abstractdialoggui_p.h
+END
+qdesigner_formwindowcommand_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_formwindowcommand_p.h
+END
+qdesigner_widgetbox_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_widgetbox_p.h
+END
+scripterrordialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/scripterrordialog_p.h
+END
+qdesigner_introspection_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_introspection_p.h
+END
+qdesigner_utils_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_utils_p.h
+END
+sheet_delegate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/sheet_delegate_p.h
+END
+dialoggui_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/dialoggui_p.h
+END
+qscripthighlighter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qscripthighlighter_p.h
+END
+qdesigner_menu_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_menu_p.h
+END
+promotionmodel_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/promotionmodel_p.h
+END
+newactiondialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/newactiondialog_p.h
+END
+morphmenu_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/morphmenu_p.h
+END
+widgetfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/widgetfactory_p.h
+END
+abstractoptionspage_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/abstractoptionspage_p.h
+END
+layout_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/layout_p.h
+END
+formbuilderextra_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/formbuilderextra_p.h
+END
+iconloader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/iconloader_p.h
+END
+qdesigner_qsettings_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_qsettings_p.h
+END
+formscriptrunner_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/formscriptrunner_p.h
+END
+qtresourceeditordialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qtresourceeditordialog_p.h
+END
+abstractintrospection_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/abstractintrospection_p.h
+END
+scriptdialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/scriptdialog_p.h
+END
+grid_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/grid_p.h
+END
+formlayoutmenu_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/formlayoutmenu_p.h
+END
+qdesigner_formwindowmanager_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_formwindowmanager_p.h
+END
+qdesigner_toolbox_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_toolbox_p.h
+END
+qtresourceview_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qtresourceview_p.h
+END
+qdesigner_stackedbox_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_stackedbox_p.h
+END
+pluginmanager_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/pluginmanager_p.h
+END
+iconselector_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/iconselector_p.h
+END
+qdesigner_menubar_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_menubar_p.h
+END
+codedialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/codedialog_p.h
+END
+qdesigner_propertyeditor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_propertyeditor_p.h
+END
+properties_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/properties_p.h
+END
+stylesheeteditor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/stylesheeteditor_p.h
+END
+ui4_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/ui4_p.h
+END
+qdesigner_widgetitem_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_widgetitem_p.h
+END
+script_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/script_p.h
+END
+previewconfigurationwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/previewconfigurationwidget_p.h
+END
+actionrepository_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/actionrepository_p.h
+END
+qtresourcemodel_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qtresourcemodel_p.h
+END
+qdesigner_command_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_command_p.h
+END
+deviceprofile_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/deviceprofile_p.h
+END
+qsimpleresource_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qsimpleresource_p.h
+END
+abstractsettings_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/abstractsettings_p.h
+END
+formwindowbase_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/formwindowbase_p.h
+END
+qdesigner_promotion_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_promotion_p.h
+END
+actionprovider_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/actionprovider_p.h
+END
+textbuilder_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/textbuilder_p.h
+END
+qdesigner_objectinspector_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_objectinspector_p.h
+END
+promotiontaskmenu_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/promotiontaskmenu_p.h
+END
+signalslotdialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/signalslotdialog_p.h
+END
+qlayout_widget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qlayout_widget_p.h
+END
+propertylineedit_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/propertylineedit_p.h
+END
+qdesigner_toolbar_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_toolbar_p.h
+END
+abstractnewformwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/abstractnewformwidget_p.h
+END
+widgetdatabase_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/widgetdatabase_p.h
+END
+metadatabase_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/metadatabase_p.h
+END
+previewmanager_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/previewmanager_p.h
+END
+shared_enums_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/shared_enums_p.h
+END
+plaintexteditor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/plaintexteditor_p.h
+END
+newformwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/newformwidget_p.h
+END
+htmlhighlighter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/htmlhighlighter_p.h
+END
+qdesigner_propertycommand_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_propertycommand_p.h
+END
+actioneditor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/actioneditor_p.h
+END
+shared_global_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/shared_global_p.h
+END
+shared_settings_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/shared_settings_p.h
+END
+qdesigner_taskmenu_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_taskmenu_p.h
+END
+zoomwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/zoomwidget_p.h
+END
+filterwidget_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/filterwidget_p.h
+END
+layoutinfo_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/layoutinfo_p.h
+END
+orderdialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/orderdialog_p.h
+END
+resourcebuilder_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/resourcebuilder_p.h
+END
+textpropertyeditor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/textpropertyeditor_p.h
+END
+qdesigner_membersheet_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_membersheet_p.h
+END
+qdesigner_command2_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_command2_p.h
+END
+richtexteditor_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/richtexteditor_p.h
+END
+scriptcommand_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/scriptcommand_p.h
+END
+extensionfactory_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/extensionfactory_p.h
+END
+connectionedit_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/connectionedit_p.h
+END
+gridpanel_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/gridpanel_p.h
+END
+qdesigner_promotiondialog_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/qdesigner_promotiondialog_p.h
+END
+csshighlighter_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/private/csshighlighter_p.h
+END

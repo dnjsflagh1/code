@@ -1,0 +1,182 @@
+/******************************************************************************/
+#ifndef _CLAN_H_
+#define _CLAN_H_
+/******************************************************************************/
+
+#include "WorldCorePreqs.h"
+#include "CLuaBinder.h"
+
+/******************************************************************************/
+
+namespace MG
+{
+	/******************************************************************************/
+	//家族对象，一个账号对应一个家族对象
+	/******************************************************************************/
+    //家族数据
+    struct ClanData
+    {
+		AccountIdType				accountId;                 //帐号ID
+		ClanIdType					clanId;                    //氏族ID
+		ClanTemplateIDType			ClanTemplateId;			   //氏族模板ID	
+		CLAN_STATUS_TYPE      		status;                    //状态
+		UInt    					loginnum;                  //登陆次数
+		U64     					createtime;                //创建时间
+		U64     					deletetime;                //删除时间
+		U64     					onlinetime;                //在线时间
+		U64     					logintime;                 //登录时间
+		U64     					logouttime;                //登出时间
+		Str16						clanHomeLandName;          //氏族郡望名
+        Str16						clanName;                  //氏族名
+		Str16						clanMainName;			   //族长名
+		UInt						clanLevel;				   //氏族等级
+		UInt						clanExp[4];				   //当前氏族经验
+		UInt						clanMoney[16];				//当前氏族拥有的金钱
+		U8      					ConstellationId;           //守护星宿
+		U8      					armyemblem;                //旗徽
+		U8      					bg;                        //背景图案
+		U8      					armyemblemcolor;           //旗徽颜色	
+		U8      					bgcolor;                   //背景颜色 
+        PlayerCharacterIdType		mainGenrealId;             //主武将ID
+		PlayerCharacterIdType		wiseGenrealId;             //军师ID
+		PlayerCharacterIdType		commanderGenrealId;        //统领ID
+		PlayerCharacterIdType		curGenrealId;              //当前武将ID
+        RegionIdType				regionID;                  //当前关注的地图编号
+		REGION_OBJ_TYPE				regionType;                //地图类型 
+        U32     					clanbagSize;               //氏族背包的大小
+		U32							clanGameMoney;
+        
+        ClanData()
+            :accountId(0)         
+			,clanId(0)              
+			,ClanTemplateId(0)		
+			,status(CLAN_STATUS_TYPE_NOMAL)              
+			,loginnum(0)            
+			,createtime(0)         
+			,deletetime(0)          
+			,onlinetime(0)          
+			,logintime(0)           
+			,logouttime(0)         	
+			,clanLevel(1)						
+			,ConstellationId(0)           
+			,armyemblem(0)        
+			,bg(0)                 
+			,armyemblemcolor(0)   
+			,bgcolor(0)            
+			,mainGenrealId(0)     
+			,wiseGenrealId(0)     
+			,commanderGenrealId(0) 
+			,curGenrealId(0)       
+			,regionID(0)                    
+			,clanbagSize(0)  
+        {    
+			for (UInt i=0; i<4; i++)
+			{
+				clanExp[i] = 0;
+			}
+			for (UInt i=0; i<16; i++)
+			{
+				clanMoney[i] = 0;
+			}
+        }
+
+        ClanData& operator = (const ClanData& A)
+        {
+			accountId						= A.accountId;           
+			clanId							= A.clanId;             
+			ClanTemplateId					= A.ClanTemplateId;		
+			status							= A.status;             
+			loginnum						= A.loginnum;           
+			createtime						= A.createtime;         
+			deletetime						= A.deletetime;         
+			onlinetime						= A.onlinetime;         
+			logintime						= A.logintime;          
+			logouttime						= A.logouttime;         
+			clanHomeLandName				= A.clanHomeLandName;   
+			clanName						= A.clanName;           
+			clanMainName					= A.clanMainName;		
+			clanLevel						= A.clanLevel;							
+			ConstellationId					= A.ConstellationId;           
+			armyemblem						= A.armyemblem;         
+			bg								= A.bg;                 
+			armyemblemcolor					= A.armyemblemcolor;    
+			bgcolor							= A.bgcolor;            
+			mainGenrealId					= A.mainGenrealId;      
+			wiseGenrealId					= A.wiseGenrealId;      
+			commanderGenrealId				= A.commanderGenrealId; 
+			curGenrealId					= A.curGenrealId;       
+			regionID						= A.regionID;           
+			regionType						= A.regionType;         
+			clanbagSize						= A.clanbagSize;  
+			
+			for (UInt i=0; i<4; i++)
+			{
+				clanExp[i] = A.clanExp[i];
+			}
+			for (UInt i=0; i<16; i++)
+			{
+				clanMoney[i] = A.clanMoney[i];
+			}
+           
+            return *this;
+        }
+    };
+    /******************************************************************************/
+	class Clan : public CLuaReference
+	{   
+	public:
+		Clan();
+		virtual ~Clan();
+
+		//@{
+		//家族信息
+        //获得家族整体信息
+        ClanData*                   getData(){return &mClanData;}
+
+        //获得家族个别信息
+		ClanIdType			        getClanID();
+		void			            setClanID(const ClanIdType& id);
+
+        PlayerIdType			    getAccountID();
+        void			            setAccountID(const PlayerIdType& id);
+
+        PlayerCharacterIdType		getMainGenrealID();
+        void			            setMainGenrealID(const PlayerCharacterIdType& id);
+
+        IdType                      getFocusRegionID();
+		REGION_OBJ_TYPE	            getFocusRegionType();
+        void	                    setFocusRegionAttr( RegionIdType regionId, REGION_OBJ_TYPE regionType);
+
+		Str16&	                    getName();
+		void			            setName(const Char16*& name);
+        void                        setName(const Str16& name);
+
+        Str16&                      getClanHomeLandName();
+        void                        setClanHomeLandName(const Char16*& homelandname);
+        void                        setClanHomeLandName(const Str16& homelandname);
+
+        U8                          getStatus();
+        void	                    setStatus(const U8& status);
+
+		//设置家族整体信息，一般只会在读取数据库之后用它
+		void                        setData(ClanData* clandata);
+
+    protected:
+
+        //初始化物品格位的大小。
+        void			            initItemSiteSize();
+        
+	    //打印信息
+		virtual		void			print();
+
+	protected:
+
+        ClanData mClanData;
+
+		//战役相关属性
+		U64		mLastCampaignTime;		//上次发起战役时间
+		U64		mCampaignNumToday;		//今天已经发起战役的次数
+	};
+
+}
+#endif

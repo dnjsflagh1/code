@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/ChatServer/Src
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7275/trunk/Projects/Logic/Server/ChatServer/Src/ServerManager.cpp
+END
+ChatNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/ChatServer/Src/ChatNetPacketProcesser.cpp
+END
+ClientManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ChatServer/Src/ClientManager.cpp
+END
+ChatServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/ChatServer/Src/ChatServerMain.cpp
+END
+LoginNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/ChatServer/Src/LoginNetPacketProcesser.cpp
+END
+NetTranspondPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/ChatServer/Src/NetTranspondPacketProcesser.cpp
+END

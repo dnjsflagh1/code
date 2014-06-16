@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <column>
+    <active type="string_vector">
+      <item>asdpdata_diag_time</item>
+      <item>asdpdata_severity_and_type</item>
+      <item>asdpdata_multi_modules</item>
+      <item>asdpdata_multi_filenames</item>
+    </active>
+    <rules type="string_string_map">
+      <item key="asdpdata_diag_time" value=""/>
+      <item key="asdpdata_multi_filenames" value=""/>
+      <item key="asdpdata_multi_modules" value=""/>
+      <item key="asdpdata_severity_and_type" value=""/>
+    </rules>
+    <widths type="int_vector">
+      <item>10</item>
+      <item>25</item>
+      <item>15</item>
+      <item>50</item>
+    </widths>
+  </column>
+</root>

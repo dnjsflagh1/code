@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005
+END
+wlua5.1_exe.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/wlua5.1_exe.vcproj
+END
+lua5.1.sln
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/lua5.1.sln
+END
+lua5.1_dll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/lua5.1_dll.vcproj
+END
+bin2c5.1_exe.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/bin2c5.1_exe.vcproj
+END
+lua5.1_exe.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/lua5.1_exe.vcproj
+END
+luac5.1_exe.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/luac5.1_exe.vcproj
+END
+lua5.1_lib.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/lua/mak.vs2005/lua5.1_lib.vcproj
+END

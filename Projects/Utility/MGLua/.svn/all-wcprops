@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/MGCode/!svn/ver/3803/trunk/Projects/Utility/MGLua
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGLua/stdafx.h
+END
+MGLua.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/3803/trunk/Projects/Utility/MGLua/MGLua.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGLua/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGLua/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGLua/ReadMe.txt
+END

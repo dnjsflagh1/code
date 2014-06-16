@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/6325/trunk/Projects/Tool/GMTool/GMClient/Source
+END
+GMManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/6325/trunk/Projects/Tool/GMTool/GMClient/Source/GMManager.cpp
+END
+GMClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/Source/GMClient.cpp
+END
+GMManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6325/trunk/Projects/Tool/GMTool/GMClient/Source/GMManager.h
+END
+GMAccountOpNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/Source/GMAccountOpNetPacketProcesser.cpp
+END
+ClientNetApplyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/Source/ClientNetApplyManager.cpp
+END
+GMClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/Source/GMClient.h
+END
+ThreadStatusEventManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6325/trunk/Projects/Tool/GMTool/GMClient/Source/ThreadStatusEventManager.cpp
+END
+GMAccountOpNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/Source/GMAccountOpNetPacketProcesser.h
+END
+ClientNetApplyManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/Source/ClientNetApplyManager.h
+END
+ThreadStatusEventManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6325/trunk/Projects/Tool/GMTool/GMClient/Source/ThreadStatusEventManager.h
+END

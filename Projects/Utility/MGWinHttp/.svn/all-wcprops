@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MGCode/!svn/ver/5765/trunk/Projects/Utility/MGWinHttp
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/4854/trunk/Projects/Utility/MGWinHttp/stdafx.h
+END
+MGWinHttp.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/5765/trunk/Projects/Utility/MGWinHttp/MGWinHttp.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/4854/trunk/Projects/Utility/MGWinHttp/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/4854/trunk/Projects/Utility/MGWinHttp/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/4854/trunk/Projects/Utility/MGWinHttp/ReadMe.txt
+END

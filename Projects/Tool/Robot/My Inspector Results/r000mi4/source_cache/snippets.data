@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="d:\worksoft\vs\vc\include\xtree" md5="8923b35e26916d11c1a54fcd4dbab0d0">
+    <snippet line="1268">
+      <line line="1265"/>
+      <line line="1266">		while (!_Isnil(_Pnode))</line>
+      <line line="1267">			if (_DEBUG_LT_PRED(this-&gt;comp, _Key(_Pnode), _Keyval))</line>
+      <line line="1268">				_Pnode = _Right(_Pnode);	// descend right subtree</line>
+      <line line="1269">			else</line>
+    </snippet>
+    <snippet line="1004">
+      <line line="1001">	iterator lower_bound(const key_type&amp; _Keyval)</line>
+      <line line="1002">		{	// find leftmost node not less than _Keyval in mutable tree</line>
+      <line line="1003">		return (_TREE_ITERATOR(_Lbound(_Keyval)));</line>
+      <line line="1004">		}</line>
+      <line line="1005"/>
+    </snippet>
+    <snippet line="978">
+      <line line="975">	iterator find(const key_type&amp; _Keyval)</line>
+      <line line="976">		{	// find an element in mutable sequence that matches _Keyval</line>
+      <line line="977">		iterator _Where = lower_bound(_Keyval);</line>
+      <line line="978">		return (_Where == end()</line>
+      <line line="979">			|| _DEBUG_LT_PRED(this-&gt;comp,</line>
+    </snippet>
+  </file>
+  <file name="i:\mg\project\mgcode\projects\utility\mgnet\src\netmanager.cpp" md5="1de1f1a4aeb01f1dede627e166790976">
+    <snippet line="71">
+      <line line="68">	{	</line>
+      <line line="69">		I32 handle = mDrivers.size();	//此处需要测试</line>
+      <line line="70">		NetDriver* driver = MG_NEW Win32IocpNetDriver;</line>
+      <line line="71">		if ( driver )</line>
+      <line line="72">		{</line>
+    </snippet>
+    <snippet line="111">
+      <line line="108">		if ( driver )</line>
+      <line line="109">		{</line>
+      <line line="110">			res = driver-&gt;connect(addr);</line>
+      <line line="111">		}</line>
+      <line line="112">		return res;</line>
+    </snippet>
+    <snippet line="137">
+      <line line="134">        if ( driver )</line>
+      <line line="135">        {</line>
+      <line line="136">            dataBuffObj = driver-&gt;getSendDataBuffer(buffSize);</line>
+      <line line="137">        }</line>
+      <line line="138">        return dataBuffObj;</line>
+    </snippet>
+    <snippet line="91">
+      <line line="88">				parameter.driverType			    = dirverType;</line>
+      <line line="89"/>
+      <line line="90">				if (!driver-&gt;initialize(parameter,this))</line>
+      <line line="91">				{</line>
+      <line line="92">					driver-&gt;closeAll();</line>
+    </snippet>
+  </file>
+  <file name="i:\mg\project\mgcode\projects\utility\mgnet\src\win32netiocpdriver.cpp" md5="e5df9a4810169b523bf2a01eb28a9723">
+    <snippet line="254">
+      <line line="251"/>
+      <line line="252">			Int rc;</line>
+      <line line="253">			rc = ::connect( netConnect-&gt;mSocket, (struct sockaddr*)&amp;inAddr, sizeof(inAddr) );</line>
+      <line line="254">			if ( rc == SOCKET_ERROR )</line>
+      <line line="255">			{</line>
+    </snippet>
+    <snippet line="1965">
+      <line line="1962">        {</line>
+      <line line="1963">			// 获得对应缓存大小的对象池</line>
+      <line line="1964">			ObjectPool&lt;NetIocpSendDataBuffer, false&gt;&amp; dataBuffPool = mNetIocpSendBuffPoolMap[ buffSize ];</line>
+      <line line="1965"/>
+      <line line="1966">            DYNAMIC_ASSERT( dataBuffPool.activeCount() &gt;= 0 );</line>
+    </snippet>
+    <snippet line="407">
+      <line line="404"/>
+      <line line="405">        //得到发送数据缓存对象</line>
+      <line line="406">        buffObject = createNetIocpSendDataBuffer( buffSize );</line>
+      <line line="407"/>
+      <line line="408">         //绑定缓存对象到智能指针上</line>
+    </snippet>
+    <snippet line="79">
+      <line line="76">		{</line>
+      <line line="77">			WSADATA   wsd;</line>
+      <line line="78">			if ( WSAStartup(MAKEWORD(2,2), &amp;wsd) != 0 )</line>
+      <line line="79">			{</line>
+      <line line="80">				return false;</line>
+    </snippet>
+    <snippet line="1428">
+      <line line="1425">		if ( mCompletionPort != NULL )</line>
+      <line line="1426">		{</line>
+      <line line="1427">			hrc = CreateIoCompletionPort( (HANDLE)socket, mCompletionPort, (ULONG_PTR)key, 0 );</line>
+      <line line="1428">		}</line>
+      <line line="1429"/>
+    </snippet>
+    <snippet line="237">
+      <line line="234">		if ( isContinue )</line>
+      <line line="235">		{</line>
+      <line line="236">			HANDLE hrc = associateSocketWithIOCP( netConnect-&gt;mSocket, (ULONG_PTR)netConnect.getPointer() );</line>
+      <line line="237">			if ( hrc == NULL )</line>
+      <line line="238">			{</line>
+    </snippet>
+  </file>
+  <file name="i:\mg\project\mgcode\projects\tool\robot\src\threadtaskmanager.cpp" md5="ad900d242d21d291be50fa8090f16e01">
+    <snippet line="28">
+      <line line="25">	{</line>
+      <line line="26">		mThreadClientVec.clear();</line>
+      <line line="27">		mTaskThread = MG_NEW RobotTaskThread[threadCount];</line>
+      <line line="28">		mThreadCount = threadCount;</line>
+      <line line="29">		for (Int i = 0; i &lt; threadCount; i++)</line>
+    </snippet>
+    <snippet line="94">
+      <line line="91">			client-&gt;setTaskNumber();</line>
+      <line line="92">			task-&gt;setNumber(client-&gt;getTaskNumber());</line>
+      <line line="93">			mTaskThread[client-&gt;getThreadIndex()].addTask(task);</line>
+      <line line="94">		}</line>
+      <line line="95">		else</line>
+    </snippet>
+  </file>
+  <file name="i:\mg\project\mgcode\projects\tool\robot\src\cplayer.cpp" md5="339625570a5713f45331dd019609501f">
+    <snippet line="91">
+      <line line="88">        else</line>
+      <line line="89">        {</line>
+      <line line="90">            CClan* tempClan = MG_NEW CClan;</line>
+      <line line="91">            tempClan-&gt;init( pData );</line>
+      <line line="92">            mClanList[pData-&gt;clanId] = tempClan;</line>
+    </snippet>
+    <snippet line="161">
+      <line line="158">		   return NULL;</line>
+      <line line="159"/>
+      <line line="160">		return myClan-&gt;getPlayerCharacter(playerCharacterId);</line>
+      <line line="161">	}</line>
+      <line line="162">}</line>
+    </snippet>
+  </file>
+  <file name="f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\wincore.cpp" md5="721219fb7c201060a07cc8932d82a81f">
+    <snippet line="1043">
+      <line line="1040">{</line>
+      <line line="1041">	if (m_pfnSuper != NULL)</line>
+      <line line="1042">		return ::CallWindowProc(m_pfnSuper, m_hWnd, nMsg, wParam, lParam);</line>
+      <line line="1043"/>
+      <line line="1044">	WNDPROC pfnWndProc;</line>
+    </snippet>
+    <snippet line="1756">
+      <line line="1753">	LRESULT lResult = 0;</line>
+      <line line="1754">	if (!OnWndMsg(message, wParam, lParam, &amp;lResult))</line>
+      <line line="1755">		lResult = DefWindowProc(message, wParam, lParam);</line>
+      <line line="1756">	return lResult;</line>
+      <line line="1757">}</line>
+    </snippet>
+    <snippet line="240">
+      <line line="237"/>
+      <line line="238">		// delegate to object's WindowProc</line>
+      <line line="239">		lResult = pWnd-&gt;WindowProc(nMsg, wParam, lParam);</line>
+      <line line="240"/>
+      <line line="241">		// more special case for WM_INITDIALOG</line>
+    </snippet>
+    <snippet line="402">
+      <line line="399">	if (pWnd == NULL || pWnd-&gt;m_hWnd != hWnd)</line>
+      <line line="400">		return ::DefWindowProc(hWnd, nMsg, wParam, lParam);</line>
+      <line line="401">	return AfxCallWndProc(pWnd, hWnd, nMsg, wParam, lParam);</line>
+      <line line="402">}</line>
+      <line line="403"/>
+    </snippet>
+  </file>
+  <file name="i:\mg\project\mgcode\projects\utility\mgthread\src\lock.cpp" md5="d90b07e8bf0a8cb719b3e5cf2c7af5a3">
+    <snippet line="37">
+      <line line="34">        {</line>
+      <line line="35">            //创建临界区</line>
+      <line line="36">            InitializeCriticalSectionAndSpinCount(&amp;mCriticalSection,0x80000000 + mSpinCount);</line>
+      <line line="37">            //设置标志位</line>
+      <line line="38">            mCreate	= true;</line>
+    </snippet>
+    <snippet line="16">
+      <line line="13">	{</line>
+      <line line="14">        // 创建临界区</line>
+      <line line="15">		create();</line>
+      <line line="16">	}</line>
+      <line line="17">	//-----------------------------------------------------------------------------</line>
+    </snippet>
+  </file>
+</snippets>

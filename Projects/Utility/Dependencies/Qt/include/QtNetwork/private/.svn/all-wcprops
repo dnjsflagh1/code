@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private
+END
+qsslconfiguration_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslconfiguration_p.h
+END
+qnetworkproxy_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkproxy_p.h
+END
+qsslcipher_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslcipher_p.h
+END
+qnetworkaccessftpbackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccessftpbackend_p.h
+END
+qabstractnetworkcache_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qabstractnetworkcache_p.h
+END
+qabstractsocketengine_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qabstractsocketengine_p.h
+END
+qhttpnetworkconnectionchannel_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhttpnetworkconnectionchannel_p.h
+END
+qhttpnetworkheader_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhttpnetworkheader_p.h
+END
+qlocalsocket_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qlocalsocket_p.h
+END
+qhttpnetworkreply_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhttpnetworkreply_p.h
+END
+qnetworkreply_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkreply_p.h
+END
+qnetworkaccessmanager_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccessmanager_p.h
+END
+qsocks5socketengine_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsocks5socketengine_p.h
+END
+qnetworkaccesscachebackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccesscachebackend_p.h
+END
+qnetworkaccessdebugpipebackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccessdebugpipebackend_p.h
+END
+qauthenticator_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qauthenticator_p.h
+END
+qsslkey_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslkey_p.h
+END
+qabstractsocket_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qabstractsocket_p.h
+END
+qsslsocket_openssl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslsocket_openssl_p.h
+END
+qhttpsocketengine_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhttpsocketengine_p.h
+END
+qnetworkaccesshttpbackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccesshttpbackend_p.h
+END
+qnetworkaccessbackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccessbackend_p.h
+END
+qnativesocketengine_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnativesocketengine_p.h
+END
+qnetworkinterface_win_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkinterface_win_p.h
+END
+qnetworkreplyimpl_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkreplyimpl_p.h
+END
+qnet_unix_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnet_unix_p.h
+END
+qhostinfo_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhostinfo_p.h
+END
+qnetworkaccesscache_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccesscache_p.h
+END
+qtcpsocket_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qtcpsocket_p.h
+END
+qhttpnetworkrequest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhttpnetworkrequest_p.h
+END
+qnetworkrequest_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkrequest_p.h
+END
+qsslcertificate_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslcertificate_p.h
+END
+qfilenetworkreply_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qfilenetworkreply_p.h
+END
+qhttpnetworkconnection_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhttpnetworkconnection_p.h
+END
+qnetworkinterface_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkinterface_p.h
+END
+qsslsocket_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslsocket_p.h
+END
+qnetworkaccessdatabackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccessdatabackend_p.h
+END
+qnetworkcookiejar_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkcookiejar_p.h
+END
+qlocalserver_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qlocalserver_p.h
+END
+qnetworkcookie_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkcookie_p.h
+END
+qnetworkaccessfilebackend_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkaccessfilebackend_p.h
+END
+qhostaddress_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qhostaddress_p.h
+END
+qsslsocket_openssl_symbols_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qsslsocket_openssl_symbols_p.h
+END
+qnetworkdiskcache_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtNetwork/private/qnetworkdiskcache_p.h
+END

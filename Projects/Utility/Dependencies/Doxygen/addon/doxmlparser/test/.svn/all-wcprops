@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test
+END
+xmlparse.pro.in
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test/xmlparse.pro.in
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test/Makefile.in
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test/main.cpp
+END
+Makefile.xmlparse
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test/Makefile.xmlparse
+END
+xmlparse.pro
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test/xmlparse.pro
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/test/Makefile
+END

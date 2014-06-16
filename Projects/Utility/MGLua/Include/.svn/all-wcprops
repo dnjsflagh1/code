@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/3803/trunk/Projects/Utility/MGLua/Include
+END
+LuaManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/3803/trunk/Projects/Utility/MGLua/Include/LuaManager.h
+END
+MGLua.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/13/trunk/Projects/Utility/MGLua/Include/MGLua.h
+END
+CLuaBinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/MGLua/Include/CLuaBinder.h
+END

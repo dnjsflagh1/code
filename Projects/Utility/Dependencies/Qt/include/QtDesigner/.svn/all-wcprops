@@ -1,0 +1,485 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner
+END
+QDesignerWidgetBoxInterface
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerWidgetBoxInterface
+END
+QDesignerDynamicPropertySheetExtension
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerDynamicPropertySheetExtension
+END
+QDesignerLayoutDecorationExtension
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerLayoutDecorationExtension
+END
+extrainfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/extrainfo.h
+END
+QDesignerComponents
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerComponents
+END
+abstractbrushmanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractbrushmanager.h
+END
+QFormBuilder
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QFormBuilder
+END
+abstractlanguage.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractlanguage.h
+END
+abstractformwindowmanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformwindowmanager.h
+END
+QDesignerCustomWidgetInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerCustomWidgetInterface
+END
+QDesignerBrushManagerInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerBrushManagerInterface
+END
+customwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/customwidget.h
+END
+abstractresourcebrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractresourcebrowser.h
+END
+QDesignerDnDItemInterface
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerDnDItemInterface
+END
+QAbstractExtensionFactory
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QAbstractExtensionFactory
+END
+QDesignerPromotionInterface
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerPromotionInterface
+END
+layoutdecoration.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/layoutdecoration.h
+END
+QDesignerMetaDataBaseItemInterface
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerMetaDataBaseItemInterface
+END
+QDesignerPropertyEditorInterface
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerPropertyEditorInterface
+END
+qextensionmanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/qextensionmanager.h
+END
+QDesignerObjectInspectorInterface
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerObjectInspectorInterface
+END
+QDesignerContainerExtension
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerContainerExtension
+END
+abstractwidgetdatabase.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractwidgetdatabase.h
+END
+abstractformbuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformbuilder.h
+END
+abstractwidgetfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractwidgetfactory.h
+END
+membersheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/membersheet.h
+END
+QDesignerExportWidget
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerExportWidget
+END
+QExtensionManager
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QExtensionManager
+END
+qdesigner_components_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/qdesigner_components_global.h
+END
+abstractdnditem.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractdnditem.h
+END
+abstractactioneditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractactioneditor.h
+END
+QDesignerMetaDataBaseInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerMetaDataBaseInterface
+END
+formbuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/formbuilder.h
+END
+abstractformwindowtool.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformwindowtool.h
+END
+abstractformwindowcursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformwindowcursor.h
+END
+abstractformeditorplugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformeditorplugin.h
+END
+propertysheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/propertysheet.h
+END
+abstractpropertyeditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractpropertyeditor.h
+END
+QDesignerIntegrationInterface
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerIntegrationInterface
+END
+abstractobjectinspector.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractobjectinspector.h
+END
+QDesignerFormWindowManagerInterface
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerFormWindowManagerInterface
+END
+QDesignerWidgetDataBaseItemInterface
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerWidgetDataBaseItemInterface
+END
+uilib_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/uilib_global.h
+END
+QDesignerFormWindowCursorInterface
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerFormWindowCursorInterface
+END
+QDesignerFormEditorPluginInterface
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerFormEditorPluginInterface
+END
+QDesignerFormWindowToolInterface
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerFormWindowToolInterface
+END
+taskmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/taskmenu.h
+END
+QDesignerFormWindowInterface
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerFormWindowInterface
+END
+QDesignerResourceBrowserInterface
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerResourceBrowserInterface
+END
+abstractpromotioninterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractpromotioninterface.h
+END
+QExtensionFactory
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QExtensionFactory
+END
+sdk_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/sdk_global.h
+END
+QDesignerWidgetDataBaseInterface
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerWidgetDataBaseInterface
+END
+QDesignerWidgetFactoryInterface
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerWidgetFactoryInterface
+END
+extension.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/extension.h
+END
+abstractformwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformwindow.h
+END
+dynamicpropertysheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/dynamicpropertysheet.h
+END
+QDesignerPropertySheetExtension
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerPropertySheetExtension
+END
+qdesigner_components.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/qdesigner_components.h
+END
+QAbstractFormBuilder
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QAbstractFormBuilder
+END
+QDesignerLanguageExtension
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerLanguageExtension
+END
+extension_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/extension_global.h
+END
+abstractformeditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractformeditor.h
+END
+abstractmetadatabase.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractmetadatabase.h
+END
+abstracticoncache.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstracticoncache.h
+END
+QDesignerTaskMenuExtension
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerTaskMenuExtension
+END
+abstractintegration.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractintegration.h
+END
+QDesignerFormEditorInterface
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerFormEditorInterface
+END
+default_extensionfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/default_extensionfactory.h
+END
+QDesignerExtraInfoExtension
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerExtraInfoExtension
+END
+QDesignerIconCacheInterface
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerIconCacheInterface
+END
+QDesignerMemberSheetExtension
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerMemberSheetExtension
+END
+headers.pri
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/headers.pri
+END
+QtDesigner
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QtDesigner
+END
+abstractwidgetbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/abstractwidgetbox.h
+END
+QDesignerActionEditorInterface
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerActionEditorInterface
+END
+container.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/container.h
+END
+QAbstractExtensionManager
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QAbstractExtensionManager
+END
+QDesignerCustomWidgetCollectionInterface
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/QDesignerCustomWidgetCollectionInterface
+END
+qdesignerexportwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/include/QtDesigner/qdesignerexportwidget.h
+END

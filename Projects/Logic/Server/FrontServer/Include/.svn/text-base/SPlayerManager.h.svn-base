@@ -1,0 +1,48 @@
+
+/******************************************************************************/
+#ifndef _S_PLAYER_MANAGER_H_
+#define _S_PLAYER_MANAGER_H_
+/******************************************************************************/
+
+#include "FrontServerPreqs.h"
+#include "SPlayerObjectFactory.h"
+
+/******************************************************************************/
+
+namespace MG
+{
+    /******************************************************************************/
+    //Playerπ‹¿Ì’ﬂ
+    /******************************************************************************/
+    class SPlayerManager
+    {
+    public:
+        SPlayerManager();
+        ~SPlayerManager();
+        SINGLETON_INSTANCE(SPlayerManager);
+
+        //-----------------------------------------------------------------------------
+
+        Bool            initialize(ServerLauncherInterface* launcher);
+        Bool            unInitialize();
+        void            update(Flt delta);
+
+        //-----------------------------------------------------------------------------
+
+        Bool            addPlayer( SPlayerPtr& player, AccountIdType accountId, I32 client_id, Str& accName );
+        void            removePlayer(AccountIdType accountId);
+        Bool            getPlayer(SPlayerPtr& player, AccountIdType accountId);
+        void            removeAllPlayer();
+
+        //-----------------------------------------------------------------------------
+
+    protected:
+
+        SPlayerFactory*  mSPlayerFactory;
+        std::map<AccountIdType,SPlayerPtr> mPlayerMap;
+        RWLocker    mPlayerMapCs;
+
+    };
+}
+
+#endif	//_S_PLAYER_MANAGER_H_

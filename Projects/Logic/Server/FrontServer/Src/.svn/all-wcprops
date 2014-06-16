@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src
+END
+SClan.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/SClan.cpp
+END
+FGameTimeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/744/trunk/Projects/Logic/Server/FrontServer/Src/FGameTimeSystem.cpp
+END
+TestNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/TestNetPacketProcesser.cpp
+END
+ChatNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/ChatNetPacketProcesser.cpp
+END
+SSkillUseManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2558/trunk/Projects/Logic/Server/FrontServer/Src/SSkillUseManager.cpp
+END
+ClientManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/ClientManager.cpp
+END
+SPlayerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/8048/trunk/Projects/Logic/Server/FrontServer/Src/SPlayerManager.cpp
+END
+SGameObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/SGameObjectFactory.cpp
+END
+MonsterNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/7958/trunk/Projects/Logic/Server/FrontServer/Src/MonsterNetPacketProcesser.cpp
+END
+ItemPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/ItemPacketProcesser.cpp
+END
+PrintDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8046/trunk/Projects/Logic/Server/FrontServer/Src/PrintDialog.cpp
+END
+SHeartBeatManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/8048/trunk/Projects/Logic/Server/FrontServer/Src/SHeartBeatManager.cpp
+END
+GeneralRecruitSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6991/trunk/Projects/Logic/Server/FrontServer/Src/GeneralRecruitSystem.cpp
+END
+ClanDBProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/ClanDBProcessor.cpp
+END
+ThreadTaskManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7275/trunk/Projects/Logic/Server/FrontServer/Src/ThreadTaskManager.cpp
+END
+SSkillObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2624/trunk/Projects/Logic/Server/FrontServer/Src/SSkillObject.cpp
+END
+SRegionObjectBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/FrontServer/Src/SRegionObjectBase.cpp
+END
+ThreadTask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/ThreadTask.cpp
+END
+ServerStateNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6087/trunk/Projects/Logic/Server/FrontServer/Src/ServerStateNetPacketProcesser.cpp
+END
+ClientObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/FrontServer/Src/ClientObjectFactory.cpp
+END
+SBuffManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5925/trunk/Projects/Logic/Server/FrontServer/Src/SBuffManager.cpp
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8046/trunk/Projects/Logic/Server/FrontServer/Src/ServerManager.cpp
+END
+PlayerDBProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/PlayerDBProcessor.cpp
+END
+LoginManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/LoginManager.cpp
+END
+PackNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7290/trunk/Projects/Logic/Server/FrontServer/Src/PackNetPacketProcesser.cpp
+END
+SPlayerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/SPlayerFactory.cpp
+END
+RegionNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/RegionNetPacketProcesser.cpp
+END
+SAttributeNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/SAttributeNetPacketProcesser.cpp
+END
+SClanQuestManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/SClanQuestManager.cpp
+END
+SPlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/SPlayer.cpp
+END
+SSkillOwnManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6231/trunk/Projects/Logic/Server/FrontServer/Src/SSkillOwnManager.cpp
+END
+PlayerNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7814/trunk/Projects/Logic/Server/FrontServer/Src/PlayerNetPacketProcesser.cpp
+END
+SBuffPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/SBuffPacketProcesser.cpp
+END
+ShopPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/ShopPacketProcesser.cpp
+END
+SMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/FrontServer/Src/SMapObject.cpp
+END
+STiroObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/FrontServer/Src/STiroObject.cpp
+END
+TroopNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/TroopNetPacketProcesser.cpp
+END
+SLuaClanQuestSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/FrontServer/Src/SLuaClanQuestSystem.cpp
+END
+SLuaSkillObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2525/trunk/Projects/Logic/Server/FrontServer/Src/SLuaSkillObject.cpp
+END
+SPlaceObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/FrontServer/Src/SPlaceObject.cpp
+END
+SCDNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7292/trunk/Projects/Logic/Server/FrontServer/Src/SCDNetPacketProcesser.cpp
+END
+LevelManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7366/trunk/Projects/Logic/Server/FrontServer/Src/LevelManager.cpp
+END
+SHomeObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/3755/trunk/Projects/Logic/Server/FrontServer/Src/SHomeObject.cpp
+END
+ItemDBProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/ItemDBProcessor.cpp
+END
+SysLogNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/SysLogNetPacketProcesser.cpp
+END
+SWorldManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8046/trunk/Projects/Logic/Server/FrontServer/Src/SWorldManager.cpp
+END
+SItemShopManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5604/trunk/Projects/Logic/Server/FrontServer/Src/SItemShopManager.cpp
+END
+SLuaSkillSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/FrontServer/Src/SLuaSkillSystem.cpp
+END
+MyListView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/789/trunk/Projects/Logic/Server/FrontServer/Src/MyListView.cpp
+END
+SAreaObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/FrontServer/Src/SAreaObject.cpp
+END
+QuestNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/QuestNetPacketProcesser.cpp
+END
+SLuaCharacterForSkill.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/FrontServer/Src/SLuaCharacterForSkill.cpp
+END
+SRegionObjectManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/4181/trunk/Projects/Logic/Server/FrontServer/Src/SRegionObjectManager.cpp
+END
+GameJudge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7683/trunk/Projects/Logic/Server/FrontServer/Src/GameJudge.cpp
+END
+SLuaClanForClanQuest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/FrontServer/Src/SLuaClanForClanQuest.cpp
+END
+SGeneralRecruitNetPacketProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/SGeneralRecruitNetPacketProcessor.cpp
+END
+PlayerCharacterNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/PlayerCharacterNetPacketProcesser.cpp
+END
+SMapDistribution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/FrontServer/Src/SMapDistribution.cpp
+END
+SkillNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7955/trunk/Projects/Logic/Server/FrontServer/Src/SkillNetPacketProcesser.cpp
+END
+SPveObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/2691/trunk/Projects/Logic/Server/FrontServer/Src/SPveObject.cpp
+END
+CampaignNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/7609/trunk/Projects/Logic/Server/FrontServer/Src/CampaignNetPacketProcesser.cpp
+END
+ClientObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8046/trunk/Projects/Logic/Server/FrontServer/Src/ClientObject.cpp
+END
+QuestDBProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7977/trunk/Projects/Logic/Server/FrontServer/Src/QuestDBProcessor.cpp
+END
+SItemShop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/4728/trunk/Projects/Logic/Server/FrontServer/Src/SItemShop.cpp
+END
+SPveNetPacketProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/SPveNetPacketProcessor.cpp
+END
+FrontLoginManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/FrontServer/Src/FrontLoginManager.cpp
+END
+SItemManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7683/trunk/Projects/Logic/Server/FrontServer/Src/SItemManager.cpp
+END
+SGameObjectManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/6061/trunk/Projects/Logic/Server/FrontServer/Src/SGameObjectManager.cpp
+END
+SCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/SCharacter.cpp
+END
+PlayerCharacterDBProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/PlayerCharacterDBProcessor.cpp
+END
+LineUpNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/LineUpNetPacketProcesser.cpp
+END
+TimeNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/TimeNetPacketProcesser.cpp
+END
+SAttributeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7187/trunk/Projects/Logic/Server/FrontServer/Src/SAttributeSystem.cpp
+END
+SPlayerCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/SPlayerCharacter.cpp
+END
+SPlaceNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/SPlaceNetPacketProcesser.cpp
+END
+NetTranspondPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/FrontServer/Src/NetTranspondPacketProcesser.cpp
+END
+LoginNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/8081/trunk/Projects/Logic/Server/FrontServer/Src/LoginNetPacketProcesser.cpp
+END

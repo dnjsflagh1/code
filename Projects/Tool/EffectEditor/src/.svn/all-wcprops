@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/8028/trunk/Projects/Tool/EffectEditor/src
+END
+TimeLineWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/TimeLineWindow.cpp
+END
+EffectWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/8025/trunk/Projects/Tool/EffectEditor/src/EffectWidget.cpp
+END
+ExModelWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/8025/trunk/Projects/Tool/EffectEditor/src/ExModelWidget.cpp
+END
+EffectFadeProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8028/trunk/Projects/Tool/EffectEditor/src/EffectFadeProWidget.cpp
+END
+ExComponentWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/ExComponentWidget.cpp
+END
+ModelVisibleProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/ModelVisibleProWidget.cpp
+END
+WeaponLightProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/WeaponLightProWidget.cpp
+END
+PUBindProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/PUBindProWidget.cpp
+END
+RenderWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6594/trunk/Projects/Tool/EffectEditor/src/RenderWindow.cpp
+END
+TimeLineWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/6301/trunk/Projects/Tool/EffectEditor/src/TimeLineWidget.cpp
+END
+MainWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/8025/trunk/Projects/Tool/EffectEditor/src/MainWindow.cpp
+END
+ModelAniProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8025/trunk/Projects/Tool/EffectEditor/src/ModelAniProWidget.cpp
+END
+PUStopProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/PUStopProWidget.cpp
+END
+EntityWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6368/trunk/Projects/Tool/EffectEditor/src/EntityWidget.cpp
+END
+AddEventDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/8028/trunk/Projects/Tool/EffectEditor/src/AddEventDlg.cpp
+END
+SlidersGroup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6216/trunk/Projects/Tool/EffectEditor/src/SlidersGroup.cpp
+END
+ModelBindProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/ModelBindProWidget.cpp
+END
+CoreManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/CoreManager.cpp
+END
+RenderWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6368/trunk/Projects/Tool/EffectEditor/src/RenderWidget.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/6368/trunk/Projects/Tool/EffectEditor/src/main.cpp
+END
+EventWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/8028/trunk/Projects/Tool/EffectEditor/src/EventWidget.cpp
+END
+AddObjectTabDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/AddObjectTabDialog.cpp
+END
+PUStartProWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/PUStartProWidget.cpp
+END
+OperationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/7993/trunk/Projects/Tool/EffectEditor/src/OperationManager.cpp
+END

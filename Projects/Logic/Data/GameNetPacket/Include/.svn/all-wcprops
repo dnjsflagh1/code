@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/GameNetPacket/Include
+END
+PveNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7376/trunk/Projects/Logic/Data/GameNetPacket/Include/PveNetPacket.h
+END
+PlayerNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7508/trunk/Projects/Logic/Data/GameNetPacket/Include/PlayerNetPacket.h
+END
+LineUpNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/6454/trunk/Projects/Logic/Data/GameNetPacket/Include/LineUpNetPacket.h
+END
+GameNetL2NEventHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7455/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetL2NEventHandler.h
+END
+GameNetN2LEventHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7103/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetN2LEventHandler.h
+END
+BuildNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/6085/trunk/Projects/Logic/Data/GameNetPacket/Include/BuildNetPacket.h
+END
+QuestNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7684/trunk/Projects/Logic/Data/GameNetPacket/Include/QuestNetPacket.h
+END
+GameNetEventsHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6660/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetEventsHandler.h
+END
+GameNetPacketCheatProtecter.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/6660/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetPacketCheatProtecter.h
+END
+ServerStateNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6085/trunk/Projects/Logic/Data/GameNetPacket/Include/ServerStateNetPacket.h
+END
+NetVec2.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/6010/trunk/Projects/Logic/Data/GameNetPacket/Include/NetVec2.h
+END
+LoginNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/GameNetPacket/Include/LoginNetPacket.h
+END
+PlayerCharacterNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/7954/trunk/Projects/Logic/Data/GameNetPacket/Include/PlayerCharacterNetPacket.h
+END
+ShopNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6305/trunk/Projects/Logic/Data/GameNetPacket/Include/ShopNetPacket.h
+END
+CampaignNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/7542/trunk/Projects/Logic/Data/GameNetPacket/Include/CampaignNetPacket.h
+END
+SysLogNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7243/trunk/Projects/Logic/Data/GameNetPacket/Include/SysLogNetPacket.h
+END
+GMAccountNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/6321/trunk/Projects/Logic/Data/GameNetPacket/Include/GMAccountNetPacket.h
+END
+BuffNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6638/trunk/Projects/Logic/Data/GameNetPacket/Include/BuffNetPacket.h
+END
+RegionNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7959/trunk/Projects/Logic/Data/GameNetPacket/Include/RegionNetPacket.h
+END
+PlaceNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/4281/trunk/Projects/Logic/Data/GameNetPacket/Include/PlaceNetPacket.h
+END
+DbNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/4061/trunk/Projects/Logic/Data/GameNetPacket/Include/DbNetPacket.h
+END
+GameNetL2NEventData.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetL2NEventData.h
+END
+GameNetPacketAttackProtecter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/MGCode/!svn/ver/6660/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetPacketAttackProtecter.h
+END
+GameNetPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7000/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetPreqs.h
+END
+ItemNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7684/trunk/Projects/Logic/Data/GameNetPacket/Include/ItemNetPacket.h
+END
+NetCommonGameStruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6010/trunk/Projects/Logic/Data/GameNetPacket/Include/NetCommonGameStruct.h
+END
+TroopNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7964/trunk/Projects/Logic/Data/GameNetPacket/Include/TroopNetPacket.h
+END
+AttributeNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7367/trunk/Projects/Logic/Data/GameNetPacket/Include/AttributeNetPacket.h
+END
+GameNetPacketManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetPacketManager.h
+END
+BattleScoreNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6085/trunk/Projects/Logic/Data/GameNetPacket/Include/BattleScoreNetPacket.h
+END
+GameNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6454/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetPacket.h
+END
+GeneralRecruitNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/7419/trunk/Projects/Logic/Data/GameNetPacket/Include/GeneralRecruitNetPacket.h
+END
+MapNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/6085/trunk/Projects/Logic/Data/GameNetPacket/Include/MapNetPacket.h
+END
+SkillNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7964/trunk/Projects/Logic/Data/GameNetPacket/Include/SkillNetPacket.h
+END
+PackNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7964/trunk/Projects/Logic/Data/GameNetPacket/Include/PackNetPacket.h
+END
+GameNetPacketFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6660/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetPacketFilter.h
+END
+TestNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6454/trunk/Projects/Logic/Data/GameNetPacket/Include/TestNetPacket.h
+END
+ChatNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6454/trunk/Projects/Logic/Data/GameNetPacket/Include/ChatNetPacket.h
+END
+GameNetEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetEvent.h
+END
+CDNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/6305/trunk/Projects/Logic/Data/GameNetPacket/Include/CDNetPacket.h
+END
+MonsterNetPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/7959/trunk/Projects/Logic/Data/GameNetPacket/Include/MonsterNetPacket.h
+END
+GameNetDriverManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Data/GameNetPacket/Include/GameNetDriverManager.h
+END

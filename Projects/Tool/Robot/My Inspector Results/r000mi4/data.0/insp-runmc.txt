@@ -1,0 +1,97 @@
+
+=== Start: [2012/10/29 21:04:09] ===
+Memory error analysis: started
+Result file: [I:\MG\Project\MGCode\Projects\Tool\Robot\My Inspector Results\r000mi4\r000mi4.insp]
+Analysis started for I:\MG\Project\MGCode\Bin\Tool\Robot\MGRobot_d.exe 
+Loaded module: I:\MG\Project\MGCode\Bin\Tool\Robot\MGRobot_d.exe, address range [0x00360000-0x00d32fff] 
+Loaded module: C:\Windows\WinSxS\x86_microsoft.vc90.debugmfc_1fc8b3b9a1e18e3b_9.0.30729.1_none_bfff6c932d60651e\mfc90d.dll, address range [0x529e0000-0x52f8efff] 
+Loaded module: C:\Windows\WinSxS\x86_microsoft.vc90.debugcrt_1fc8b3b9a1e18e3b_9.0.30729.1_none_bb1f6aa1308c35eb\MSVCP90D.dll, address range [0x65cd0000-0x65da6fff] 
+Loaded module: C:\Windows\WinSxS\x86_microsoft.vc90.debugcrt_1fc8b3b9a1e18e3b_9.0.30729.1_none_bb1f6aa1308c35eb\MSVCR90D.dll, address range [0x66060000-0x66182fff] 
+Loaded module: C:\Windows\system32\dbghelp.dll, address range [0x70290000-0x7037afff] 
+Loaded module: C:\Windows\WinSxS\x86_microsoft.vc90.mfcloc_1fc8b3b9a1e18e3b_9.0.30729.5570_none_4977a39175471b31\MFC90CHS.DLL, address range [0x71ee0000-0x71ee8fff] 
+Loaded module: C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16661_none_ebfb56996c72aefc\COMCTL32.dll, address range [0x722e0000-0x72363fff] 
+Loaded module: C:\Windows\system32\MSIMG32.dll, address range [0x72620000-0x72624fff] 
+Loaded module: C:\Windows\system32\dwmapi.dll, address range [0x73bc0000-0x73bd2fff] 
+Loaded module: C:\Windows\system32\UxTheme.dll, address range [0x73d40000-0x73d7ffff] 
+Loaded module: C:\Windows\system32\apphelp.dll, address range [0x75330000-0x7537afff] 
+Loaded module: C:\Windows\system32\KERNELBASE.dll, address range [0x754b0000-0x754f9fff] 
+Loaded module: C:\Windows\system32\ole32.dll, address range [0x75930000-0x75a8bfff] 
+Loaded module: C:\Windows\system32\MSCTF.dll, address range [0x75a90000-0x75b5bfff] 
+Loaded module: C:\Windows\system32\NSI.dll, address range [0x75b60000-0x75b65fff] 
+Loaded module: C:\Windows\system32\LPK.dll, address range [0x75b70000-0x75b79fff] 
+Loaded module: C:\Windows\system32\GDI32.dll, address range [0x75d00000-0x75d4dfff] 
+Loaded module: C:\Windows\system32\OLEAUT32.dll, address range [0x75d50000-0x75ddefff] 
+Loaded module: C:\Windows\system32\SHELL32.dll, address range [0x75de0000-0x76a28fff] 
+Loaded module: C:\Windows\system32\USP10.dll, address range [0x76a30000-0x76accfff] 
+Loaded module: C:\Windows\system32\IMM32.DLL, address range [0x76ad0000-0x76aeefff] 
+Loaded module: C:\Windows\SYSTEM32\sechost.dll, address range [0x76af0000-0x76b08fff] 
+Loaded module: C:\Windows\system32\msvcrt.dll, address range [0x76b60000-0x76c0bfff] 
+Loaded module: C:\Windows\system32\kernel32.dll, address range [0x76c10000-0x76ce3fff] 
+Loaded module: C:\Windows\system32\USER32.dll, address range [0x76eb0000-0x76f78fff] 
+Loaded module: C:\Windows\system32\WS2_32.dll, address range [0x770a0000-0x770d4fff] 
+Loaded module: C:\Windows\system32\ADVAPI32.dll, address range [0x770e0000-0x7717ffff] 
+Loaded module: C:\Windows\system32\SHLWAPI.dll, address range [0x77210000-0x77266fff] 
+Loaded module: C:\Windows\SYSTEM32\ntdll.dll, address range [0x77270000-0x773abfff] 
+Loaded module: C:\Windows\system32\RPCRT4.dll, address range [0x773f0000-0x77490fff] 
+Loaded module: C:\Windows\system32\RICHED32.DLL, address range [0x6ca60000-0x6ca65fff] 
+Loaded module: C:\Windows\system32\RICHED20.dll, address range [0x6c730000-0x6c7a5fff] 
+Loaded module: C:\Windows\system32\mswsock.dll, address range [0x74e70000-0x74eabfff] 
+Loaded module: C:\Windows\System32\wshtcpip.dll, address range [0x748e0000-0x748e4fff] 
+Loaded module: C:\Program Files\360\360Safe\safemon\safemon.dll, address range [0x70f10000-0x70feafff] 
+Loaded module: C:\Windows\system32\PSAPI.DLL, address range [0x75920000-0x75924fff] 
+Loaded module: C:\Windows\system32\VERSION.dll, address range [0x749f0000-0x749f8fff] 
+Loaded module: C:\Windows\system32\WININET.dll, address range [0x76f80000-0x7709afff] 
+Loaded module: C:\Windows\system32\Normaliz.dll, address range [0x773e0000-0x773e2fff] 
+Loaded module: C:\Windows\system32\iertutil.dll, address range [0x76cf0000-0x76ea7fff] 
+Loaded module: C:\Windows\system32\urlmon.dll, address range [0x75b80000-0x75c90fff] 
+Loaded module: C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.20787_none_2b43b51e45274037\comctl32.DLL, address range [0x73fa0000-0x7413dfff] 
+Loaded module: C:\Windows\system32\CRYPTBASE.dll, address range [0x75380000-0x7538bfff] 
+Unloaded module: I:\MG\Project\MGCode\Bin\Tool\Robot\MGRobot_d.exe 
+Unloaded module: C:\Windows\WinSxS\x86_microsoft.vc90.debugmfc_1fc8b3b9a1e18e3b_9.0.30729.1_none_bfff6c932d60651e\mfc90d.dll 
+Unloaded module: C:\Windows\WinSxS\x86_microsoft.vc90.debugcrt_1fc8b3b9a1e18e3b_9.0.30729.1_none_bb1f6aa1308c35eb\MSVCP90D.dll 
+Unloaded module: C:\Windows\WinSxS\x86_microsoft.vc90.debugcrt_1fc8b3b9a1e18e3b_9.0.30729.1_none_bb1f6aa1308c35eb\MSVCR90D.dll 
+Unloaded module: C:\Windows\system32\dbghelp.dll 
+Unloaded module: C:\Windows\WinSxS\x86_microsoft.vc90.mfcloc_1fc8b3b9a1e18e3b_9.0.30729.5570_none_4977a39175471b31\MFC90CHS.DLL 
+Unloaded module: C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16661_none_ebfb56996c72aefc\COMCTL32.dll 
+Unloaded module: C:\Windows\system32\MSIMG32.dll 
+Unloaded module: C:\Windows\system32\dwmapi.dll 
+Unloaded module: C:\Windows\system32\UxTheme.dll 
+Unloaded module: C:\Windows\system32\apphelp.dll 
+Unloaded module: C:\Windows\system32\KERNELBASE.dll 
+Unloaded module: C:\Windows\system32\ole32.dll 
+Unloaded module: C:\Windows\system32\MSCTF.dll 
+Unloaded module: C:\Windows\system32\NSI.dll 
+Unloaded module: C:\Windows\system32\LPK.dll 
+Unloaded module: C:\Windows\system32\GDI32.dll 
+Unloaded module: C:\Windows\system32\OLEAUT32.dll 
+Unloaded module: C:\Windows\system32\SHELL32.dll 
+Unloaded module: C:\Windows\system32\USP10.dll 
+Unloaded module: C:\Windows\system32\IMM32.DLL 
+Unloaded module: C:\Windows\SYSTEM32\sechost.dll 
+Unloaded module: C:\Windows\system32\msvcrt.dll 
+Unloaded module: C:\Windows\system32\kernel32.dll 
+Unloaded module: C:\Windows\system32\USER32.dll 
+Unloaded module: C:\Windows\system32\WS2_32.dll 
+Unloaded module: C:\Windows\system32\ADVAPI32.dll 
+Unloaded module: C:\Windows\system32\SHLWAPI.dll 
+Unloaded module: C:\Windows\SYSTEM32\ntdll.dll 
+Unloaded module: C:\Windows\system32\RPCRT4.dll 
+Unloaded module: C:\Windows\system32\RICHED32.DLL 
+Unloaded module: C:\Windows\system32\RICHED20.dll 
+Unloaded module: C:\Windows\system32\mswsock.dll 
+Unloaded module: C:\Windows\System32\wshtcpip.dll 
+Unloaded module: C:\Program Files\360\360Safe\safemon\safemon.dll 
+Unloaded module: C:\Windows\system32\PSAPI.DLL 
+Unloaded module: C:\Windows\system32\VERSION.dll 
+Unloaded module: C:\Windows\system32\WININET.dll 
+Unloaded module: C:\Windows\system32\Normaliz.dll 
+Unloaded module: C:\Windows\system32\iertutil.dll 
+Unloaded module: C:\Windows\system32\urlmon.dll 
+Unloaded module: C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.20787_none_2b43b51e45274037\comctl32.DLL 
+Unloaded module: C:\Windows\system32\CRYPTBASE.dll 
+Process I:\MG\Project\MGCode\Bin\Tool\Robot\MGRobot_d.exe exited with code 0. Leak analysis starting. Please wait... 
+Analysis complete for I:\MG\Project\MGCode\Bin\Tool\Robot\MGRobot_d.exe 
+Application exit code: [3]
+Result file: [I:\MG\Project\MGCode\Projects\Tool\Robot\My Inspector Results\r000mi4\r000mi4.insp]
+Memory error analysis: completed
+=== End: [2012/10/29 21:25:56] ===

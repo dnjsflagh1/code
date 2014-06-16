@@ -1,0 +1,99 @@
+//******************************************************************************************
+#ifndef _QUESTVALUECHANGE_H_
+#define _QUESTVALUECHANGE_H_
+//******************************************************************************************
+namespace MG
+{
+	enum CHANGE_TYPE
+	{
+		CHANGE_TYPE_NULL,								//无意义
+		CHANGE_TYPE_RECIVE_THEN_FINISHED		= 1,	//接受即完成
+		CHANGE_TYPE_TALK_TO_NPC					= 2,	//和某一Npc对话
+		CHANGE_TYPE_KILL_MONSTER				= 3,	//杀死某一怪物
+		CHANGE_TYPE_KILLMONSTER_AND_GETITEM		= 4,	//杀死某一怪物获得某一物品
+		CHANGE_TYPE_GET_ITEM					= 5,	//获得某一物品
+		CHANGE_TYPE_GET_GENERAL					= 6,	//获得某一将领
+		CHANGE_TYPE_PLAY_TIME				    = 7,    //经过一定游戏时间
+		CHANGE_TYPE_LEAVE_MAP					= 8,	//离开某一地图
+		CHANGE_TYPE_GET_ARMY					= 9,	//获得某一军队
+		CHANGE_TYPE_CREATE_BUILDING				= 10,	//建设某一建筑
+		CHANGE_TYPE_CALL_MONSTER				= 11,	//召唤某一怪物
+		CHANGE_TYPE_DESTORY_BUILDING			= 12,	//摧毁某一建筑
+		CHANGE_TYPE_WIN_ARMY					= 13,	//击败某一军队
+		CHANGE_TYPE_CLAN_LEVEL_CHANGE			= 14,	//氏族等级变化
+		CHANGE_TYPE_MAIN_GENERAL_LEVEL_CHANGE	= 15,	//主将等级变化
+		CHANGE_TYPE_USE_ITEM				    = 16,	//使用某一物品
+
+	};
+	enum VALUECHANGE_TYPE	
+	{   
+		VALUECHANGE_TYPE_1,	//任务记录的changeValue1
+		VALUECHANGE_TYPE_2,	//...
+		VALUECHANGE_TYPE_3,
+		VALUECHANGE_TYPE_4,
+	};
+	//-----------------------------------------------------------------------
+	//对应策划文档QuestValueChange一条记录
+	struct QuestValueChangeInfo
+	{
+		U32					id;				//任务目标id
+		U32					groupId;		//任务目标的组id
+		CHANGE_TYPE			type;			//任务目标的类型
+		U32					param1;			//任务目标的参数1
+		U32					param2;			//任务目标的参数2
+		U32					param3;			//任务目标的参数3
+		U32					param4;			//任务目标的参数4
+		VALUECHANGE_TYPE	valueChangeType;//对应任务的valueChange参数
+		I32					valueChangeNum;	//任务valueChange改变值
+		QuestValueChangeInfo()
+		{
+			id = 0;				
+			groupId = 0;		
+			type = CHANGE_TYPE_NULL;			
+			param1 = 0;			
+			param2 = 0;	
+			param3 = 0;			
+			param4 = 0;	
+			valueChangeType = VALUECHANGE_TYPE_1;
+			valueChangeNum = 0;	
+		}
+	};
+	enum
+	{
+		questvaluechangeinfoid,			
+		questvaluechangeinfogroupid = 2,	//filter Note field
+		questvaluechangeinfotype,			
+		questvaluechangeinfoparam1,		
+		questvaluechangeinfoparam2,
+		questvaluechangeinfoparam3,		
+		questvaluechangeinfoparam4,
+		questvaluechangeinfovaluechangetype,
+		questvaluechangeinfovaluechangenum,
+	};
+	//-----------------------------------------------------------------------
+	//对应策划文档QuestValueChange表
+	class QuestValueChangeInfos                       
+	{
+	public:
+		QuestValueChangeInfos();
+		~QuestValueChangeInfos();
+		SINGLETON_INSTANCE(QuestValueChangeInfos);
+
+	public:
+		// MG_CN_MODIFY
+		///加载 QuestValueChange.csv 
+		Bool								load(Str16 fileName, IMGExternalPackManager* packManager = NULL);
+
+		//根据ID获得  QuestValueChangeInfo
+		QuestValueChangeInfo*				getQuestValueChangeInfo(U32 id);
+		Int									getQuestValueChangeInfoByGroupId(U32 groupId,std::vector<QuestValueChangeInfo*>& changeValues);
+
+	protected:
+		void								clear();
+
+	private:
+		std::map<U32, QuestValueChangeInfo*>			mQuestValueChangeInfoMap;
+
+	};
+}
+#endif

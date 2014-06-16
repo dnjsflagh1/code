@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/WorldCoreLib
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/13/trunk/Projects/Logic/Data/WorldCoreLib/stdafx.h
+END
+WorldCoreLib.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8048/trunk/Projects/Logic/Data/WorldCoreLib/WorldCoreLib.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/WorldCoreLib/ReadMe.txt
+END

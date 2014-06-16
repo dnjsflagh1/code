@@ -1,0 +1,255 @@
+//**************************************************************************************************************
+#include "stdafx.h"
+#include "ShopPacketProcesser.h"
+#include "GameNetPacket.h"
+#include "ClientManager.h"
+#include "ServerManager.h"
+#include "FrontServerMain.h"
+#include "SItemShopManager.h"
+#include "SPlayer.h"
+#include "SClan.h"
+#include "PlayerItem.h"
+#include "SItemManager.h"
+#include "ItemPacketProcesser.h"
+#include "SWorldManager.h"
+//**************************************************************************************************************
+namespace MG
+{
+	//-------------------------------------------------------------------------------
+    MG::Bool ShopPacketProcesser::processClientPacket( I32 id, NetEventRecv* packet )
+    {
+        if ( packet->getChannel() == GNPC_SHOP )
+        {
+			//FUNDETECTION(__MG_FUNC__);
+            GameNetPacketData* data = (GameNetPacketData*)( packet->getData() );
+            DYNAMIC_ASSERT( data );
+
+            switch (data->type)
+            {
+            case PT_SHOP_C2S_OPEN:
+                recvClientOpenShop(id, ( PT_SHOP_C2S_OPEN_DATA* )data->data);
+                break;
+            /*case PT_SHOP_C2S_CLOSE:
+                recvClientCloseShop(id, ( PT_SHOP_C2S_CLOSE_DATA* )data->data);
+                break;*/
+            case PT_SHOP_C2M_BUY_ITEM:
+                recvClientBuyItem(id, ( PT_SHOP_C2M_BUY_ITEM_DATA* )data->data);
+                break;
+            case PT_SHOP_C2F_SELL_ITEM:
+                recvClientSellItem(id, ( PT_SHOP_C2F_SELL_ITEM_DATA* )data->data);
+                break;
+            case PT_SHOP_C2F_REPAIR_ITEM:
+                recvClientRepairItem(id, ( PT_SHOP_C2F_REPAIR_ITEM_DATA* )data->data);
+                break;
+			default:
+				DYNAMIC_ASSERT(0);
+				break;
+            }
+            return true;
+        }
+        
+        return false;
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::sendOpenShopToClient( I32 id, U32 shopID, Bool isOpen )
+    {
+        // 获得一个发送【服务器】缓存
+        GameNetSendDataBufferPtr dataPtr ;
+        FrontServerMain::getInstance().getServerLauncher()->getClientSendDataBuffer( dataPtr );
+
+        // 转换成标准包格式
+        GameNetPacketData* packet = (GameNetPacketData*) dataPtr->getLogicData();
+        if ( packet )
+        {
+            packet->channel = GNPC_SHOP;
+            packet->type = PT_SHOP_S2C_OPEN;
+            // 转换逻辑包
+            PT_SHOP_S2C_OPEN_DATA* sendData = (PT_SHOP_S2C_OPEN_DATA*)(packet->data);
+            if (sendData)
+            {
+                sendData->isOpen = isOpen;
+                sendData->shopID = shopID;
+
+				FrontServerMain::getInstance().getServerLauncher()->sendClient(dataPtr,
+					GameNetPacketData_INFO::headSize + PT_SHOP_S2C_OPEN_DATA_INFO::dataSize, id);
+            }
+        }
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::sendShopBuyItemToClient( I32 id, U32 shopID, U32 itemTempID, U32 num, shop_buy_res res )
+    {
+        // 获得一个发送【服务器】缓存
+        GameNetSendDataBufferPtr dataPtr;
+        FrontServerMain::getInstance().getServerLauncher()->getClientSendDataBuffer( dataPtr );
+
+        // 转换成标准包格式
+        GameNetPacketData* packet = (GameNetPacketData*) dataPtr->getLogicData();
+        if ( packet )
+        {
+            packet->channel = GNPC_SHOP;
+            packet->type = PT_SHOP_F2C_BUY_ITEM;
+            // 转换逻辑包
+            PT_SHOP_F2C_BUY_ITEM_DATA* sendData = (PT_SHOP_F2C_BUY_ITEM_DATA*)(packet->data);
+            if (sendData)
+            {
+                sendData->shopID = shopID;
+                sendData->itemNum.itemTemplate = itemTempID;
+                sendData->itemNum.num = num;
+                sendData->res = res;
+				FrontServerMain::getInstance().getServerLauncher()->sendClient(dataPtr,
+					GameNetPacketData_INFO::headSize + PT_SHOP_F2C_BUY_ITEM_DATA_INFO::dataSize, id);
+            }
+        }
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::sendShopSellItemToClient( I32 id, U32 shopID, IdType itemDBID, shop_sell_item_res res )
+    {
+        // 获得一个发送【服务器】缓存
+        GameNetSendDataBufferPtr dataPtr;
+        FrontServerMain::getInstance().getServerLauncher()->getClientSendDataBuffer( dataPtr );
+
+        // 转换成标准包格式
+        GameNetPacketData* packet = (GameNetPacketData*) dataPtr->getLogicData();
+        if ( packet )
+        {
+            packet->channel = GNPC_SHOP;
+            packet->type = PT_SHOP_F2C_SELL_ITEM;
+            // 转换逻辑包
+            PT_SHOP_F2C_SELL_ITEM_DATA* sendData = (PT_SHOP_F2C_SELL_ITEM_DATA*)(packet->data);
+            if (sendData)
+            {
+                sendData->shopID = shopID;
+                sendData->itemDBID = itemDBID;
+                sendData->res = res;
+
+				FrontServerMain::getInstance().getServerLauncher()->sendClient(dataPtr,
+					GameNetPacketData_INFO::headSize + PT_SHOP_F2C_SELL_ITEM_DATA_INFO::dataSize,id);
+            }
+        }
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::sendShopRepairItemToClient( I32 id, U32 shopID, IdType itemDBID, ITEM_SITE_TYPE type, PlayerCharacterIdType charid, shop_repair_res res )
+    {
+        // 获得一个发送【服务器】缓存
+        GameNetSendDataBufferPtr dataPtr ;
+        FrontServerMain::getInstance().getServerLauncher()->getClientSendDataBuffer( dataPtr );
+
+        // 转换成标准包格式
+        GameNetPacketData* packet = (GameNetPacketData*) dataPtr->getLogicData();
+        if ( packet )
+        {
+            packet->channel = GNPC_SHOP;
+            packet->type = PT_SHOP_F2C_REPAIR_ITEM;
+            // 转换逻辑包
+            PT_SHOP_F2C_REPAIR_ITEM_DATA* sendData = (PT_SHOP_F2C_REPAIR_ITEM_DATA*)(packet->data);
+            if (sendData)
+            {
+                sendData->shopID = shopID;
+                sendData->itemDBID = itemDBID;
+                sendData->res = res;
+                sendData->itemSiteType = type;
+                sendData->charid = charid;
+
+				FrontServerMain::getInstance().getServerLauncher()->sendClient(dataPtr,
+					GameNetPacketData_INFO::headSize + PT_SHOP_F2C_REPAIR_ITEM_DATA_INFO::dataSize, id);
+            }
+        }
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::recvClientOpenShop( I32 id, PT_SHOP_C2S_OPEN_DATA* pData )
+    {
+        //获得MapServer的NetID
+        SPlayerPtr pPlayer = SWorldManager::getInstance().getPlayerByAccountId(pData->accountID);
+		if ( pPlayer.isNull() )
+			return;
+		Bool isOpen = SItemShopManager::getInstance().checkShopExist(pData->shopID);
+		sendOpenShopToClient(id, pData->shopID, isOpen);
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::recvClientBuyItem( I32 id, PT_SHOP_C2M_BUY_ITEM_DATA* pData )
+    {
+        SPlayerPtr pPlayer = SWorldManager::getInstance().getPlayerByAccountId(pData->accountID);
+		if ( pPlayer.isNull() )
+			return;
+        SClan* pSClan = pPlayer->getMainClan();
+        DYNAMIC_ASSERT(pSClan);
+        shop_buy_res res = SItemShopManager::getInstance().handleClientBuyItem(pSClan, pData->shopID, pData->itemNum.itemTemplate, pData->itemNum.num);
+        /*if ( res == shop_buy_res_item_not_found )
+            sendShopBuyItemToMapServer(pPlayer->getMapServerNetID(), pData->shopID, pData->itemNum.itemTemplate, pData->itemNum.num, pData->accountID);
+        else*/
+            sendShopBuyItemToClient(pPlayer->getClientNetID(), pData->shopID, pData->itemNum.itemTemplate, pData->itemNum.num, res);
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::recvClientSellItem( I32 id, PT_SHOP_C2F_SELL_ITEM_DATA* pData )
+    {
+        SPlayerPtr pPlayer = SWorldManager::getInstance().getPlayerByClientNetId(id);
+		if ( pPlayer.isNull() )
+			return;
+        SClan* pSClan = pPlayer->getMainClan();
+        DYNAMIC_ASSERT(pSClan);
+
+        shop_sell_item_res res = SItemShopManager::getInstance().handleClientSellItem(pSClan, pData->shopID, pData->itemDBID);
+        sendShopSellItemToClient(id, pData->shopID, pData->itemDBID, res);
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::recvClientRepairItem( I32 id, PT_SHOP_C2F_REPAIR_ITEM_DATA* pData )
+    {
+        SPlayerPtr pPlayer = SWorldManager::getInstance().getPlayerByClientNetId(id);
+		if ( pPlayer.isNull() )
+			return;
+        SClan* pSClan = pPlayer->getMainClan();
+        DYNAMIC_ASSERT(pSClan);
+
+        shop_repair_res res = SItemShopManager::getInstance().handleClientRepairItem(pSClan, pData->shopID, pData->itemDBID, (ITEM_SITE_TYPE)pData->itemSiteType, pData->charid);
+        sendShopRepairItemToClient(id, pData->shopID, pData->itemDBID, (ITEM_SITE_TYPE)pData->itemSiteType, pData->charid, res);
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::sendShopBuybackItemToClient( I32 id, U32 shopID, IdType itemDBID, U32 index, shop_buyback_res res )
+    {
+        // 获得一个发送【服务器】缓存
+        GameNetSendDataBufferPtr dataPtr;
+        FrontServerMain::getInstance().getServerLauncher()->getClientSendDataBuffer( dataPtr );
+
+        // 转换成标准包格式
+        GameNetPacketData* packet = (GameNetPacketData*) dataPtr->getLogicData();
+        if ( packet )
+        {
+            packet->channel = GNPC_SHOP;
+            packet->type = PT_SHOP_F2C_BUYBACK_ITEM;
+            // 转换逻辑包
+            PT_SHOP_F2C_BUYBACK_ITEM_DATA* sendData = (PT_SHOP_F2C_BUYBACK_ITEM_DATA*)(packet->data);
+            if (sendData)
+            {
+                sendData->shopID = shopID;
+                sendData->itemDBID = itemDBID;
+                sendData->index = index;
+                sendData->res = res;
+				FrontServerMain::getInstance().getServerLauncher()->sendServer(dataPtr,
+					GameNetPacketData_INFO::headSize + PT_SHOP_F2C_BUYBACK_ITEM_DATA_INFO::dataSize, id);
+            }
+        }
+    }
+
+    //---------------------------------------------------------------------------------------------
+    void ShopPacketProcesser::recvClientBuybackItem( I32 id, PT_SHOP_C2F_BUYBACK_ITEM_DATA* pData )
+    {
+        SPlayerPtr pPlayer = SWorldManager::getInstance().getPlayerByClientNetId(id);
+		if ( pPlayer.isNull() )
+			return;
+        SClan* pSClan = pPlayer->getMainClan();
+        DYNAMIC_ASSERT(pSClan);
+
+        U32 index = 0;
+        shop_buyback_res res = SItemShopManager::getInstance().handleClientBuybackItem(pSClan, pData->shopID, pData->itemDBID, index);
+        sendShopBuybackItemToClient(id, pData->shopID, pData->itemDBID, index, res);
+    }
+}

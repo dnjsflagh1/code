@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/LoginServer/Include
+END
+ClientManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6082/trunk/Projects/Logic/Server/LoginServer/Include/ClientManager.h
+END
+ThreadTask.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2735/trunk/Projects/Logic/Server/LoginServer/Include/ThreadTask.h
+END
+LoginNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/7683/trunk/Projects/Logic/Server/LoginServer/Include/LoginNetPacketProcesser.h
+END
+PlatformCheckAccount.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/6082/trunk/Projects/Logic/Server/LoginServer/Include/PlatformCheckAccount.h
+END
+ServerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/16/trunk/Projects/Logic/Server/LoginServer/Include/ServerManager.h
+END
+LineUpNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/4416/trunk/Projects/Logic/Server/LoginServer/Include/LineUpNetPacketProcesser.h
+END
+LoginManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7240/trunk/Projects/Logic/Server/LoginServer/Include/LoginManager.h
+END
+LoginServerMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/LoginServer/Include/LoginServerMain.h
+END
+TestNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/2913/trunk/Projects/Logic/Server/LoginServer/Include/TestNetPacketProcesser.h
+END
+SysLogNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/7240/trunk/Projects/Logic/Server/LoginServer/Include/SysLogNetPacketProcesser.h
+END
+ThreadTaskManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2735/trunk/Projects/Logic/Server/LoginServer/Include/ThreadTaskManager.h
+END

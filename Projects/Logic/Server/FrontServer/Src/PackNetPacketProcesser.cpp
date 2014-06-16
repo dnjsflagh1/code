@@ -1,0 +1,82 @@
+//--------------------------------------------------------------------------
+#include "stdafx.h"
+#include "PackNetPacketProcesser.h"
+#include "FrontServerMain.h"
+#include "ServerManager.h"
+#include "SWorldManager.h"
+#include "SkillNetPacketProcesser.h"
+#include "NetTranspondPacketProcesser.h"
+//--------------------------------------------------------------------------
+
+namespace MG
+{
+	//--------------------------------------------------------------------------
+	PackNetPacketProcesser::PackNetPacketProcesser()
+	{
+	}
+
+	//--------------------------------------------------------------------------
+	PackNetPacketProcesser::~PackNetPacketProcesser()
+	{
+	}
+
+	//--------------------------------------------------------------------------
+	Bool PackNetPacketProcesser::processClientPacket(I32 id, NetEventRecv *packet)
+	{
+		if ( packet->getChannel() == GNPC_PACK )
+		{   
+			//FUNDETECTION(__MG_FUNC__);
+			GameNetPacketData* data = (GameNetPacketData*)(packet->getData());
+
+			switch (data->type)
+			{
+			case PT_CHARACTER_C2S_PACK:
+				onRecvCharacterPack( id , packet);
+				break;
+			}
+
+			return true;
+		}
+
+		return false;
+	}
+
+	//--------------------------------------------------------------------------
+	Bool PackNetPacketProcesser::processLoginServerPacket(I32 id, NetEventRecv* packet)
+	{
+		return false;
+	}
+
+	//--------------------------------------------------------------------------
+	Bool PackNetPacketProcesser::processMapServerPacket(I32 id, NetEventRecv* packet)
+	{
+		return false;
+	}
+
+	//--------------------------------------------------------------------------
+	void PackNetPacketProcesser::onRecvCharacterPack( I32 id, NetEventRecv *packet )
+	{
+		GameNetPacketData* data = (GameNetPacketData*)(packet->getData());
+		PT_PACK_C2S_CHARACTER_DATA* tempData = (PT_PACK_C2S_CHARACTER_DATA*)(data->data);
+
+		SPlayerPtr player;// = SWorldManager::getInstance().getPlayerByClientNetId(id);
+
+		if(player.isNull())
+		{
+			return;
+		}
+
+		if(player->getAccountID() == tempData->playerId)
+		{
+
+			NetTranspondPacketProcesser::getInstance().sendClientTranspondDataToMapServer(
+				tempData->regionId 
+				,id
+				, player->getAccountID()
+				, data
+				, packet->getDataSize()
+				, player->getMapServerNetID()
+				);
+		}
+	}
+}

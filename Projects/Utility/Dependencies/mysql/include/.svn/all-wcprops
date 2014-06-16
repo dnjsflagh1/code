@@ -1,0 +1,419 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/1322/trunk/Projects/Utility/Dependencies/mysql/include
+END
+sha2.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/sha2.h
+END
+my_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_alloc.h
+END
+mysql_embed.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql_embed.h
+END
+my_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_time.h
+END
+my_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_tree.h
+END
+myisammrg.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/myisammrg.h
+END
+thr_lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/thr_lock.h
+END
+sql_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/sql_common.h
+END
+probes_mysql.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/probes_mysql.h
+END
+my_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_list.h
+END
+my_nosys.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_nosys.h
+END
+my_sys.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_sys.h
+END
+hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/hash.h
+END
+my_stacktrace.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_stacktrace.h
+END
+my_pthread.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_pthread.h
+END
+my_alarm.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_alarm.h
+END
+lf.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/lf.h
+END
+mysql_com.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql_com.h
+END
+my_libwrap.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_libwrap.h
+END
+typelib.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/typelib.h
+END
+violite.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/violite.h
+END
+m_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/m_string.h
+END
+my_bit.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_bit.h
+END
+my_dir.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_dir.h
+END
+my_net.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_net.h
+END
+sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/sha1.h
+END
+sslopt-case.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/sslopt-case.h
+END
+myisampack.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/myisampack.h
+END
+decimal.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/decimal.h
+END
+myisam.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/myisam.h
+END
+password.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/password.h
+END
+mysql.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql.h
+END
+my_xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/mysql/include/my_xml.h
+END
+my_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_global.h
+END
+queues.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/queues.h
+END
+heap.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/heap.h
+END
+my_compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_compiler.h
+END
+my_atomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_atomic.h
+END
+my_bitmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_bitmap.h
+END
+mysql.h.pp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql.h.pp
+END
+my_rdtsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_rdtsc.h
+END
+welcome_copyright_notice.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/welcome_copyright_notice.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/CMakeLists.txt
+END
+service_versions.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/service_versions.h
+END
+ft_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/ft_global.h
+END
+my_md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_md5.h
+END
+my_compare.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_compare.h
+END
+mysys_err.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysys_err.h
+END
+sslopt-vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/sslopt-vars.h
+END
+probes_mysql_nodtrace.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/probes_mysql_nodtrace.h
+END
+errmsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/errmsg.h
+END
+m_ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/m_ctype.h
+END
+my_getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_getopt.h
+END
+t_ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/t_ctype.h
+END
+my_attribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_attribute.h
+END
+thr_alarm.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/thr_alarm.h
+END
+mysql_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/1322/trunk/Projects/Utility/Dependencies/mysql/include/mysql_version.h
+END
+keycache.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/keycache.h
+END
+my_aes.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_aes.h
+END
+my_uctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_uctype.h
+END
+mysql_version.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql_version.h.in
+END
+my_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_base.h
+END
+my_user.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_user.h
+END
+mysql_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/mysql/include/mysql_time.h
+END
+probes_mysql.d.base
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/probes_mysql.d.base
+END
+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/base64.h
+END
+my_dbug.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/my_dbug.h
+END
+sslopt-longopts.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/sslopt-longopts.h
+END
+rijndael.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/rijndael.h
+END

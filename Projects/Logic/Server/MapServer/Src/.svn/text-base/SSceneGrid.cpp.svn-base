@@ -1,0 +1,422 @@
+///******************************************************************************/
+#include "stdafx.h"
+//#include "SSceneGrid.h"
+//#include "SPlayerCharacter.h"
+//#include "SMonster.h"
+//#include "SBuilding.h"
+//#include "DropItemManager.h"
+//#include "STroop.h"
+//#include "SPlayer.h"
+///******************************************************************************/
+//namespace MG
+//{
+//
+//	//--------------------------------------------------------------------------
+//	SSceneGrid::SSceneGrid()
+//		:mSceneGridManager(0)
+//	{
+//
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	SSceneGrid::~SSceneGrid()
+//	{
+//		//removeAll();
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addPlayerInteraction( SPlayerPtr& player )
+//	{
+//		PlayerListInGrid* gridPlayerList = NULL;
+//		NetIdType netId = player->getFrontServerId();
+//
+//		std::map<NetIdType, PlayerListInGrid*>::iterator playerListListIt = mPlayerListInGridDivideByFrontServer.find(netId);
+//		if(playerListListIt != mPlayerListInGridDivideByFrontServer.end())
+//		{
+//			gridPlayerList = playerListListIt->second;
+//		}
+//		else
+//		{
+//			gridPlayerList = MG_NEW PlayerListInGrid;
+//			mPlayerListInGridDivideByFrontServer[netId] = gridPlayerList;
+//		}
+//		PlayerInGrid* gridPlayer = NULL;
+//		U64 accountId = player->getAccountId();
+//
+//		std::map<PlayerIdType, PlayerInGrid*>::iterator playerListIt = gridPlayerList->mPlayerList.find(accountId);
+//		if(playerListIt != gridPlayerList->mPlayerList.end())
+//		{
+//			gridPlayer = playerListIt->second;
+//		}
+//		else
+//		{
+//			gridPlayer = MG_NEW PlayerInGrid();
+//			//gridPlayer->player = player;
+//			gridPlayerList->mPlayerList[accountId] = gridPlayer;
+//		}
+//
+//		//gridPlayer->ownerPlayerNum++;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removePlayerInteraction( SPlayerPtr& player )
+//	{
+//		PlayerListInGrid* gridPlayerList = NULL;
+//		NetIdType netId = player->getFrontServerId();
+//
+//		std::map<NetIdType, PlayerListInGrid*>::iterator playerListListIt = mPlayerListInGridDivideByFrontServer.find(netId);
+//		if(playerListListIt == mPlayerListInGridDivideByFrontServer.end())
+//		{
+//			return;
+//		}
+//
+//		gridPlayerList = playerListListIt->second;
+//
+//		PlayerInGrid* gridPlayer = NULL;
+//		U64 accountId = player->getAccountId();
+//
+//		std::map<PlayerIdType, PlayerInGrid*>::iterator playerListIt = gridPlayerList->mPlayerList.find(accountId);
+//		if(playerListIt == gridPlayerList->mPlayerList.end())
+//		{
+//			return;
+//		}
+//
+//		gridPlayer = playerListIt->second;
+//		gridPlayer->ownerPlayerNum--;
+//
+//		if(gridPlayer->ownerPlayerNum <= 0)
+//		{
+//			gridPlayerList->mPlayerList.erase(playerListIt);
+//			MG_SAFE_DELETE(gridPlayer);
+//		}
+//
+//		if(gridPlayerList->mPlayerList.size() == 0)
+//		{
+//			mPlayerListInGridDivideByFrontServer.erase(playerListListIt);
+//			MG_SAFE_DELETE(gridPlayerList);
+//		}
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllPlayerInteraction()
+//	{
+//		PlayerListInGrid* gridPlayerList = NULL;
+//		PlayerInGrid* gridPlayer = NULL;
+//
+//		//for(std::map<NetIdType, PlayerListInGrid*>::iterator playerListListIt = mPlayerListInGridDivideByFrontServer.begin(); playerListListIt != mPlayerListInGridDivideByFrontServer.end(); ++playerListListIt)
+//		//{
+//		//	gridPlayerList = playerListListIt->second;
+//
+//		//	for(std::map<PlayerIdType, PlayerInGrid*>::iterator playerListIt = gridPlayerList->mPlayerList.begin(); playerListIt != gridPlayerList->mPlayerList.end(); ++playerListIt)
+//		//	{
+//		//		gridPlayer = playerListIt->second;
+//		//		MG_SAFE_DELETE(gridPlayer);
+//		//	}
+//
+//		//	gridPlayerList->mPlayerList.clear();
+//		//	MG_SAFE_DELETE(gridPlayerList);
+//		//}
+//
+//		mPlayerListInGridDivideByFrontServer.clear();
+//	}
+//
+//	////--------------------------------------------------------------------------
+//	//void SSceneGrid::removeAllInteraction()
+//	//{
+//	//	removeAllPlayerInteraction();
+//	//}
+//
+//	////--------------------------------------------------------------------------
+//	//std::map<NetIdType, PlayerListInGrid*>* SSceneGrid::getPlayerInteractionListList()
+//	//{
+//	//	return &mPlayerListInGridDivideByFrontServer;
+//	//}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addCharacter( SCharacter* character )
+//	{
+//		switch(character->getType())
+//		{
+//		case GOT_PLAYERCHARACTER:
+//			addCharacter((SPlayerCharacter*)character);
+//			break;
+//		case GOT_SOLDIER:
+//			addTroopSoldier((STroopSoldier*)character);
+//			break;
+//		case GOT_MONSTER:
+//			addMonster((SMonster*)character);
+//			break;
+//		case GOT_BUILDING:
+//			addBuilding((SBuilding*)character);
+//			break;
+//		}
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addCharacter( SPlayerCharacter* playercharacter )
+//	{
+//		PlayerCharacterIdType id = playercharacter->getID();
+//		std::map<PlayerCharacterIdType, SPlayerCharacter*>::iterator it = mPlayercharacterList.find(id);
+//		if(it != mPlayercharacterList.end())
+//		{
+//			return;
+//		}
+//
+//		mPlayercharacterList[id] = playercharacter;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addTroopSoldier( STroopSoldier* troopSoldier )
+//	{
+//		GridTroop* troop = NULL;
+//		TroopIdType id = troopSoldier->getOwnerTroop()->getID();
+//		std::map<TroopIdType, GridTroop*>::iterator it = mTroopList.find(id);
+//		if(it != mTroopList.end())
+//		{
+//			troop = it->second;
+//		}
+//		else
+//		{
+//			troop = MG_NEW GridTroop;
+//			mTroopList[id] = troop;
+//		}
+//
+//		troop->mTroopSoldierList[troopSoldier->getID()] = troopSoldier;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addBuilding( SBuilding* building )
+//	{
+//		BuildingIdType id = building->getID();
+//		std::map<BuildingIdType, SBuilding*>::iterator it = mBuildingList.find(id);
+//		if(it != mBuildingList.end())
+//		{
+//			return;
+//		}
+//
+//		mBuildingList[id] = building;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addMonster( SMonster* monster )
+//	{
+//		MonsterIdType id = monster->getID();
+//		std::map<MonsterIdType, SMonster*>::iterator it = mMonsterList.find(id);
+//		if(it != mMonsterList.end())
+//		{
+//			return;
+//		}
+//
+//		mMonsterList[id] = monster;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::addDropItem( dropItemData* dropItem )
+//	{
+//		ItemIdType id = dropItem->index;
+//		std::map<ItemIdType, dropItemData*>::iterator it = mDropItemList.find(id);
+//		if(it != mDropItemList.end())
+//		{
+//			return;
+//		}
+//
+//		mDropItemList[id] = dropItem;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeCharacter( SCharacter* character )
+//	{
+//		switch(character->getType())
+//		{
+//		case GOT_PLAYERCHARACTER:
+//			removePlayerCharacter((SPlayerCharacter*)character);
+//			break;
+//		case GOT_SOLDIER:
+//			removeTroopSoldier((STroopSoldier*)character);
+//			break;
+//		case GOT_MONSTER:
+//			removeMonster((SMonster*)character);
+//			break;
+//		case GOT_BUILDING:
+//			removeBuilding((SBuilding*)character);
+//			break;
+//		}
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removePlayerCharacter( SPlayerCharacter* playercharacter )
+//	{
+//		PlayerCharacterIdType id = playercharacter->getID();
+//		std::map<PlayerCharacterIdType, SPlayerCharacter*>::iterator it = mPlayercharacterList.find(id);
+//		if(it == mPlayercharacterList.end())
+//		{
+//			return;
+//		}
+//
+//		mPlayercharacterList.erase(it);
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeTroopSoldier( STroopSoldier* troopSoldier )
+//	{
+//		GridTroop* troop = NULL;
+//		TroopIdType id = troopSoldier->getOwnerTroop()->getID();
+//		std::map<TroopIdType, GridTroop*>::iterator troopIt = mTroopList.find(id);
+//		if(troopIt == mTroopList.end())
+//		{
+//			return;
+//		}
+//
+//		troop = troopIt->second;
+//		std::map<TroopSoldierIdType, STroopSoldier*>::iterator soldierIt = troop->mTroopSoldierList.find(troopSoldier->getID());
+//		if(soldierIt == troop->mTroopSoldierList.end())
+//		{
+//			return;
+//		}
+//
+//		troop->mTroopSoldierList.erase(soldierIt);
+//		DYNAMIC_ASSERT(0);
+//		//removePlayerInteraction(troopSoldier->getOwnerPlayer());
+//
+//		if(troop->mTroopSoldierList.size() != 0)
+//		{
+//			return;
+//		}
+//
+//		MG_SAFE_DELETE(troop);
+//		mTroopList.erase(troopIt);
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeBuilding( SBuilding* building )
+//	{
+//		BuildingIdType id = building->getID();
+//		std::map<BuildingIdType, SBuilding*>::iterator it = mBuildingList.find(id);
+//		if(it == mBuildingList.end())
+//		{
+//			return;
+//		}
+//
+//		mBuildingList.erase(it);	
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeMonster( SMonster* monster )
+//	{
+//		MonsterIdType id = monster->getID();
+//		std::map<MonsterIdType, SMonster*>::iterator it = mMonsterList.find(id);
+//		if(it == mMonsterList.end())
+//		{
+//			return;
+//		}
+//
+//		mMonsterList.erase(it);
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeDropItem( dropItemData* dropItem )
+//	{
+//		ItemIdType id = dropItem->index;
+//		std::map<ItemIdType, dropItemData*>::iterator it = mDropItemList.find(id);
+//		if(it == mDropItemList.end())
+//		{
+//			return;
+//		}
+//
+//		mDropItemList.erase(it);
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllTroop()
+//	{
+//		std::map<TroopIdType, GridTroop*>::iterator troopIt = mTroopList.begin();
+//		for(; troopIt != mTroopList.end(); ++troopIt)
+//		{
+//			MG_SAFE_DELETE(troopIt->second);
+//			mTroopList.erase(troopIt);
+//		}
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllPlayerCharacter()
+//	{
+//		mPlayercharacterList.clear();
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllMonster()
+//	{
+//		mMonsterList.clear();
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllBuilding()
+//	{
+//		mBuildingList.clear();
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllDropItem()
+//	{
+//		mDropItemList.clear();
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::removeAllCharacter()
+//	{
+//		removeAllTroop();
+//		removeAllPlayerCharacter();
+//		removeAllMonster();
+//		removeAllBuilding();
+//		removeAllDropItem();
+//	}
+//
+//	////--------------------------------------------------------------------------
+//	//void SSceneGrid::removeAll()
+//	//{
+//	//	removeAllInteraction();
+//	//	removeAllCharacter();
+//	//}
+//
+//	//--------------------------------------------------------------------------
+//	std::map<PlayerCharacterIdType, SPlayerCharacter*>* SSceneGrid::getPlayerCharacterList()
+//	{
+//		return &mPlayercharacterList;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	std::map<TroopIdType, GridTroop*>* SSceneGrid::getTroopList()
+//	{
+//		return &mTroopList;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	std::map<MonsterIdType, SMonster*>*	SSceneGrid::getMonsterList()
+//	{
+//		return &mMonsterList;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	std::map<BuildingIdType, SBuilding*>* SSceneGrid::getBuildingList()
+//	{
+//		return &mBuildingList;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	std::map<ItemIdType, dropItemData*>* SSceneGrid::getDropItemList()
+//	{
+//		return &mDropItemList;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	void SSceneGrid::setSceneGridManager( SSceneGridManager* regionGridManager )
+//	{
+//		mSceneGridManager = regionGridManager;
+//	}
+//
+//	//--------------------------------------------------------------------------
+//	SSceneGridManager* SSceneGrid::getSceneGridManager()
+//	{
+//		return mSceneGridManager;
+//	}
+//}

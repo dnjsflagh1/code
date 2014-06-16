@@ -1,0 +1,76 @@
+/******************************************************************************/
+#ifndef _SERVERMANAGER_H_
+#define _SERVERMANAGER_H_
+/******************************************************************************/
+
+/******************************************************************************/
+class SServerSetting;
+namespace MG
+{
+
+	/******************************************************************************/
+	//FrontServer对象
+	/******************************************************************************/
+	struct FrontServerInfo 
+	{
+		I32		netId;
+		UInt	clientNum;
+		Str		listenClientIp;
+		I32		listenClientPort;
+        Bool	isValid;
+		FrontServerInfo()
+		{
+			listenClientPort	= 0;
+			clientNum			= 0;	
+            isValid             = false;
+		}
+	};
+	/******************************************************************************/
+	//服务器管理，负责与之连接的FrontServer的相关操作
+	/******************************************************************************/
+	class ServerManager
+	{
+	public:
+		SINGLETON_INSTANCE(ServerManager);
+		ServerManager();
+		virtual ~ServerManager();
+	public:
+
+		//初始化和反初始化
+		Bool				initialize();
+		void				uninitialize();
+
+		//主进程更新
+		void				update();
+	
+		//网络底层事件
+		void				onConnected(I32 id,GameNetType type,U32 serverId, U64 serverUniqueFlag, NetAddress*address);
+		void				onDisconnect(I32 id);
+		Bool				processPacket(I32 id,NetEventRecv* packet);
+
+		//增加和移除FrontServer对象
+        FrontServerInfo*    getFrontServer(I32 netId);                
+        void				addFrontServer(I32 netId);
+		void				addFrontServer(I32 netId, CChar*	ip, I32 port);
+		void				removeFrontServer(I32 netId);
+
+		//分配一个人数最少的FrontServer，用于客户端登入
+		FrontServerInfo*	allocClientConnect();
+		void				freeClientConnect(I32 netId);
+
+        //设置日志服务器的网络ID；
+        void                setSysLogServerNetID(I32 netID);
+        I32                 getSysLogServerNetID(){return mSysLogServerNetID;}
+
+	protected:
+
+		/*
+			# FrontServer队列。
+			# 当FrontServer断开时需要清空客户端所有队列相关此FrontServer的所有客户端对象
+		*/
+		std::map< I32, FrontServerInfo >    mFrontServerList;
+        //日志服务器的网络ID
+        I32                                 mSysLogServerNetID;
+	};
+}
+#endif

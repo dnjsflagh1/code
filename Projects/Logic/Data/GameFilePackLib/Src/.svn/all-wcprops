@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/6841/trunk/Projects/Logic/Data/GameFilePackLib/Src
+END
+MGExternalPackManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/4316/trunk/Projects/Logic/Data/GameFilePackLib/Src/MGExternalPackManager.cpp
+END
+MGPackUpdateManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/5209/trunk/Projects/Logic/Data/GameFilePackLib/Src/MGPackUpdateManager.cpp
+END
+ExternalOgreResourceManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/3723/trunk/Projects/Logic/Data/GameFilePackLib/Src/ExternalOgreResourceManager.cpp
+END
+GameFilePackManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/6841/trunk/Projects/Logic/Data/GameFilePackLib/Src/GameFilePackManager.cpp
+END
+ExternalSTPackManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/6841/trunk/Projects/Logic/Data/GameFilePackLib/Src/ExternalSTPackManager.cpp
+END
+MGPackToolManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/5118/trunk/Projects/Logic/Data/GameFilePackLib/Src/MGPackToolManager.cpp
+END

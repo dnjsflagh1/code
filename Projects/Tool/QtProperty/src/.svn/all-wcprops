@@ -1,0 +1,419 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/6011/trunk/Projects/Tool/QtProperty/src
+END
+QtSizePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtSizePropertyManager
+END
+QtDateEditFactory
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtDateEditFactory
+END
+QtScrollBarFactory
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtScrollBarFactory
+END
+qtpropertybrowser.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertybrowser.qrc
+END
+QtKeySequenceEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtKeySequenceEditorFactory
+END
+QtSizeFPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtSizeFPropertyManager
+END
+QtProperty
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtProperty
+END
+QtLineEditFactory
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtLineEditFactory
+END
+qttreepropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/6011/trunk/Projects/Tool/QtProperty/src/qttreepropertybrowser.cpp
+END
+qtvariantproperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtvariantproperty.cpp
+END
+QtDateTimeEditFactory
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtDateTimeEditFactory
+END
+QtSizePolicyPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtSizePolicyPropertyManager
+END
+QtBoolPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtBoolPropertyManager
+END
+QtTimeEditFactory
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtTimeEditFactory
+END
+QtAbstractEditorFactoryBase
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtAbstractEditorFactoryBase
+END
+QtLocalePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtLocalePropertyManager
+END
+QtPointFPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtPointFPropertyManager
+END
+QtEnumEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtEnumEditorFactory
+END
+qteditorfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qteditorfactory.h
+END
+QtEnumPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtEnumPropertyManager
+END
+qtpropertymanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertymanager.h
+END
+QtDoubleSpinBoxFactory
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtDoubleSpinBoxFactory
+END
+QtFontEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtFontEditorFactory
+END
+QtStringPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtStringPropertyManager
+END
+QtFontPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtFontPropertyManager
+END
+QtTreePropertyBrowser
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtTreePropertyBrowser
+END
+qtbuttonpropertybrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtbuttonpropertybrowser.h
+END
+QtCursorEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtCursorEditorFactory
+END
+QtDatePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtDatePropertyManager
+END
+QtCharPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtCharPropertyManager
+END
+QtCheckBoxFactory
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtCheckBoxFactory
+END
+qtpropertybrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertybrowser.h
+END
+QtPointPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtPointPropertyManager
+END
+QtDateTimePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtDateTimePropertyManager
+END
+QtTimePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtTimePropertyManager
+END
+qtvariantproperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtvariantproperty.h
+END
+qteditorfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qteditorfactory.cpp
+END
+QtRectFPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtRectFPropertyManager
+END
+QtVariantEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtVariantEditorFactory
+END
+QtVariantPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtVariantPropertyManager
+END
+qtgroupboxpropertybrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtgroupboxpropertybrowser.h
+END
+qtbuttonpropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtbuttonpropertybrowser.cpp
+END
+QtFlagPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtFlagPropertyManager
+END
+QtVariantProperty
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtVariantProperty
+END
+qtpropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertybrowser.cpp
+END
+QtDoublePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtDoublePropertyManager
+END
+QtAbstractPropertyBrowser
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtAbstractPropertyBrowser
+END
+QtGroupBoxPropertyBrowser
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtGroupBoxPropertyBrowser
+END
+qtpropertybrowserutils_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertybrowserutils_p.h
+END
+QtKeySequencePropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtKeySequencePropertyManager
+END
+qtpropertybrowser.pri
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertybrowser.pri
+END
+QtButtonPropertyBrowser
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtButtonPropertyBrowser
+END
+QtIntPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtIntPropertyManager
+END
+QtGroupPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtGroupPropertyManager
+END
+QtRectPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtRectPropertyManager
+END
+qtgroupboxpropertybrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtgroupboxpropertybrowser.cpp
+END
+ComplexProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/6011/trunk/Projects/Tool/QtProperty/src/ComplexProperties.cpp
+END
+QtSliderFactory
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtSliderFactory
+END
+QtSpinBoxFactory
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtSpinBoxFactory
+END
+QtCharEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtCharEditorFactory
+END
+QtColorEditorFactory
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtColorEditorFactory
+END
+QtCursorPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtCursorPropertyManager
+END
+QtColorPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtColorPropertyManager
+END
+qtpropertybrowserutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertybrowserutils.cpp
+END
+qttreepropertybrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/6011/trunk/Projects/Tool/QtProperty/src/qttreepropertybrowser.h
+END
+qtpropertymanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/qtpropertymanager.cpp
+END
+QtBrowserItem
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtBrowserItem
+END
+QtAbstractPropertyManager
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5857/trunk/Projects/Tool/QtProperty/src/QtAbstractPropertyManager
+END
+ComplexProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6011/trunk/Projects/Tool/QtProperty/src/ComplexProperties.h
+END

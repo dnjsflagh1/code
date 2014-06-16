@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/MGCode/!svn/ver/158/trunk/Projects/Tool/ModelEditor
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/stdafx.h
+END
+OperationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/OperationManager.h
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/app.rc
+END
+Utility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/Utility.cpp
+END
+ModelEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/ModelEditor.cpp
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/MainForm.resx
+END
+MainForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/MainForm.cpp
+END
+Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/Utility.h
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/app.ico
+END
+MainForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/MainForm.h
+END
+SceneForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/SceneForm.resx
+END
+SceneForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/SceneForm.cpp
+END
+GlobalOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/GlobalOptions.h
+END
+XmlPropertySet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/XmlPropertySet.cpp
+END
+CoreManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/CoreManager.cpp
+END
+SceneEditorPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/SceneEditorPreqs.h
+END
+SceneForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/SceneForm.h
+END
+XmlPropertySet.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/XmlPropertySet.h
+END
+ModelEditor.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/158/trunk/Projects/Tool/ModelEditor/ModelEditor.vcproj
+END
+CoreManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/CoreManager.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/ReadMe.txt
+END
+OperationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/OperationManager.cpp
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/AssemblyInfo.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/92/trunk/Projects/Tool/ModelEditor/resource.h
+END

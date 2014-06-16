@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/MGCode/!svn/ver/7825/trunk/Projects/Utility/MGMemory
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/7447/trunk/Projects/Utility/MGMemory/stdafx.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGMemory/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGMemory/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/8/trunk/Projects/Utility/MGMemory/ReadMe.txt
+END
+MGMemory.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2538/trunk/Projects/Utility/MGMemory/MGMemory.vcproj
+END

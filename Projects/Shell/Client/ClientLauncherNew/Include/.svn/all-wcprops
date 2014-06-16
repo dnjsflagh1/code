@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/5198/trunk/Projects/Shell/Client/ClientLauncherNew/Include
+END
+MyThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5140/trunk/Projects/Shell/Client/ClientLauncherNew/Include/MyThread.h
+END
+wxActiveXFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/Include/wxActiveXFrame.h
+END
+IEHtmlWin.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/Include/IEHtmlWin.h
+END
+launcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5196/trunk/Projects/Shell/Client/ClientLauncherNew/Include/launcher.h
+END
+wxIEFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/Include/wxIEFrm.h
+END
+LiveUpdate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/5180/trunk/Projects/Shell/Client/ClientLauncherNew/Include/LiveUpdate.hpp
+END
+wxactivex.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/Include/wxactivex.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/5198/trunk/Projects/Shell/Client/ClientLauncherNew/Include/config.h
+END
+VersionUpdate.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/5072/trunk/Projects/Shell/Client/ClientLauncherNew/Include/VersionUpdate.h
+END

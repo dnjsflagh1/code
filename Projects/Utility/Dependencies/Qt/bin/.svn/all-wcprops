@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/6593/trunk/Projects/Utility/Dependencies/Qt/bin
+END
+QtCored4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/bin/QtCored4.dll
+END
+QtGui4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/bin/QtGui4.dll
+END
+rcc.exe
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/6593/trunk/Projects/Utility/Dependencies/Qt/bin/rcc.exe
+END
+QtCore4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/bin/QtCore4.dll
+END
+QtGuid4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6311/trunk/Projects/Utility/Dependencies/Qt/bin/QtGuid4.dll
+END
+moc.exe
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/6593/trunk/Projects/Utility/Dependencies/Qt/bin/moc.exe
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/MGCode/!svn/ver/7584/trunk/Projects/Utility/MGMath
+END
+MGMath.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/4826/trunk/Projects/Utility/MGMath/MGMath.vcproj
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/4817/trunk/Projects/Utility/MGMath/stdafx.h
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/4919/trunk/Projects/Utility/MGMath/configure.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/4919/trunk/Projects/Utility/MGMath/Makefile.am
+END

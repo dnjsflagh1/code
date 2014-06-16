@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MGCode/!svn/ver/8072/trunk/Projects/Tool/GameMapEditor
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/36/trunk/Projects/Tool/GameMapEditor/stdafx.h
+END
+GameMapEditor.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/3817/trunk/Projects/Tool/GameMapEditor/GameMapEditor.vcproj
+END
+MapLoadForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/MapLoadForm.resx
+END
+OperationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/4239/trunk/Projects/Tool/GameMapEditor/OperationManager.h
+END
+MapLoadForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/7710/trunk/Projects/Tool/GameMapEditor/MapLoadForm.cpp
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/app.rc
+END
+Utility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/Utility.cpp
+END
+GameMapEditor.vcproj.XH-XUYADONG.Administrator.user
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/538/trunk/Projects/Tool/GameMapEditor/GameMapEditor.vcproj.XH-XUYADONG.Administrator.user
+END
+MapLoadForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/7710/trunk/Projects/Tool/GameMapEditor/MapLoadForm.h
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2348/trunk/Projects/Tool/GameMapEditor/MainForm.resx
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/app.ico
+END
+Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/Utility.h
+END
+MainForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/7791/trunk/Projects/Tool/GameMapEditor/MainForm.cpp
+END
+MainForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/4239/trunk/Projects/Tool/GameMapEditor/MainForm.h
+END
+GameMapEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/7793/trunk/Projects/Tool/GameMapEditor/GameMapEditor.cpp
+END
+SceneForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/SceneForm.resx
+END
+GlobalOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/GlobalOptions.h
+END
+SceneForm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/SceneForm.cpp
+END
+XmlPropertySet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/XmlPropertySet.cpp
+END
+app.aps
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/app.aps
+END
+CoreManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/8072/trunk/Projects/Tool/GameMapEditor/CoreManager.cpp
+END
+SceneForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/SceneForm.h
+END
+XmlPropertySet.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/XmlPropertySet.h
+END
+CoreManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/1214/trunk/Projects/Tool/GameMapEditor/CoreManager.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/ReadMe.txt
+END
+OperationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/6018/trunk/Projects/Tool/GameMapEditor/OperationManager.cpp
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/AssemblyInfo.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/resource.h
+END
+GameDataEditorForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/2/trunk/Projects/Tool/GameMapEditor/GameDataEditorForm.resx
+END

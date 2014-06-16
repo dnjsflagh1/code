@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/GameDBLib
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/15/trunk/Projects/Logic/Data/GameDBLib/stdafx.h
+END
+GameDBLib.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/7910/trunk/Projects/Logic/Data/GameDBLib/GameDBLib.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/ReadMe.txt
+END

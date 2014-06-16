@@ -1,0 +1,475 @@
+
+#include <windows.h>
+#include <string.h>
+
+#include <wx/thread.h>
+#include <wx/file.h>
+#include <wx/url.h>
+#include <wx/protocol/ftp.h>
+#include <wx/app.h>
+#include <wx/xml/xml.h>
+#include <wx/thread.h>
+
+#include "LiveUpdate.hpp"
+#include "md5.h"
+
+static TCHAR s_szModuleFileName[MAX_PATH];
+
+BOOL APIENTRY DllMain( HMODULE hModule,
+	DWORD  ul_reason_for_call,
+	LPVOID lpReserved
+	)
+{
+	switch (ul_reason_for_call)
+	{
+	case DLL_PROCESS_ATTACH:
+		::GetModuleFileName(hModule, s_szModuleFileName, MAX_PATH);
+	case DLL_THREAD_ATTACH:
+	case DLL_THREAD_DETACH:
+	case DLL_PROCESS_DETACH:
+		break;
+	}
+	return TRUE;
+}
+
+class CDownLoadApp : public wxAppConsole
+{
+public:
+	bool Initialize(int& argcOrig, wxChar **argvOrig)
+	{
+		return true;
+	}
+	void OnAssertFailure(const wxChar *file,
+		int line,
+		const wxChar *func,
+		const wxChar *cond,
+		const wxChar *msg)
+	{
+	}
+
+	void OnAssert(const wxChar *file,
+		int line,
+		const wxChar *cond,
+		const wxChar *msg)
+	{}
+
+	int OnRun(void)
+	{
+		return 0;
+	};
+};
+
+static CDownLoadApp theApp;
+
+class CLivePatchImp : public CLivePatch
+{
+private:
+	CLivePatchImp(const CLivePatchImp&);
+	CLivePatchImp& operator=(const CLivePatchImp&);
+
+	CLivePatchImp(void)
+	{
+		m_nXmlDocument.SetRoot(NULL);
+	};
+
+public:
+	~CLivePatchImp(void)
+	{
+		m_nXmlDocument.SetRoot(NULL);
+	};
+
+	static CLivePatchImp& getSingleton(void)
+	{
+		static CLivePatchImp s_nLivePatchImp;
+		return s_nLivePatchImp;
+	}
+
+	//检查LiveUpdate是否需要进行自我更新
+	virtual bool checkLiveUpdate(void) const;
+
+	//获取版本配置信息
+	virtual bool setUpdateVersion(const char* lpszURL, const char*  szCurrentVersion);
+
+	//更新下载资源信息
+	virtual bool updateResource(void) const;
+
+	virtual void destroy(void);
+
+	//获取更新后的最新版本号
+	virtual wxString  getCurrentVersion(void) const
+	{
+		return m_szServerCurrentVersion;
+	};
+	
+	virtual wxString getLatestVersion(void) const;
+private:
+	bool verifyLiveUpdate(const char* lpszMd5) const;
+
+	bool httpDownload(const wxString& strURL, const wxString& strFile, bool bShowProcess) const;
+	bool ftpDownload(const wxString& strURL, const wxString& strFile, bool bShowProcess) const;
+	bool saveFile(wxInputStream* lpDownload,  size_t nStreamSize, wxFile& stream, bool bShowProcess) const;
+
+	bool downloadResourcePatch(const wxXmlNode* lpXmlNode) const;
+private:
+	wxString				m_szCurrentVersion;					//客户端当前版本
+	mutable wxString		m_szServerCurrentVersion;			//服务器当前版本
+	mutable wxString		m_szServerLatestVersion;
+	wxXmlDocument m_nXmlDocument;								//配置配置数据
+};
+
+extern "C" LIVEUPDATE_EXPORT CLivePatch* GetLivePatch(void)
+{
+	static CLivePatchImp& s_nLivePatchImp = CLivePatchImp::getSingleton();
+	return &s_nLivePatchImp;
+}
+
+bool CLivePatchImp::checkLiveUpdate(void) const
+{
+	assert(m_nXmlDocument.GetRoot() != NULL);
+	const wxXmlNode* lpXmlNode = m_nXmlDocument.GetRoot();
+	if (lpXmlNode != NULL)
+	{
+		lpXmlNode = lpXmlNode->GetChildren();
+		while (lpXmlNode != NULL)
+		{
+			if (lpXmlNode->GetName() == "LiveUpdate")
+			{
+				break;
+			}
+			lpXmlNode = lpXmlNode->GetNext();
+		}
+	}
+
+	if (lpXmlNode != NULL)
+	{
+		wxString strVal;
+		if (lpXmlNode->GetAttribute("hash", &strVal) != false)
+		{//配置版本验证
+			if (verifyLiveUpdate(strVal.c_str()) == false)
+			{//下载补丁包进行更新
+				wxString szFile, szURL;
+				lpXmlNode->GetAttribute("local", &szFile);
+				lpXmlNode->GetAttribute("url", &szURL);
+				if ((szFile != "") && (szURL != ""))
+				{
+					int nPos = szFile.Find('/', true);
+					if (nPos == -1)
+					{
+						nPos = szFile.Find('\\', true);
+					}
+					if (nPos > 0)
+					{
+						wxString strPath = szFile.SubString(0, nPos - 1);
+						DWORD dwFileAttributes = ::GetFileAttributesA(strPath.c_str());
+						if (dwFileAttributes == (DWORD)-1)
+						{
+							wxMkdir(strPath);
+						}
+						else if ((dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) == 0)
+						{
+							return false;
+						}
+					}
+
+					return httpDownload(szURL, szFile, false);
+				}
+			}
+		}
+	}
+
+	return false;
+};
+
+bool CLivePatchImp::setUpdateVersion(const char* lpszURL,const char*  szCurrentVersion)
+{
+	assert(lpszURL != NULL);
+	assert(lpszURL[0] != 0);
+
+	if ((lpszURL != NULL) && (lpszURL[0] != 0))
+	{
+		wxURL url(wxString(lpszURL, lpszURL + ::strlen(lpszURL)));
+		wxInputStream *in = url.GetInputStream();
+		if (in != NULL)
+		{
+			//解析配置文件
+			if (m_nXmlDocument.Load(*in) != false)
+			{
+				m_szServerCurrentVersion = m_szCurrentVersion = szCurrentVersion;
+				const wxXmlNode* lpXmlNode = m_nXmlDocument.GetRoot();
+				if (lpXmlNode != NULL)
+				{
+					lpXmlNode = lpXmlNode->GetChildren();
+				}
+				else
+				{
+					return false;
+				}
+				wxString strVersion;
+				while (lpXmlNode != NULL)
+				{
+					lpXmlNode->GetAttribute("version", &strVersion);
+					lpXmlNode = lpXmlNode->GetNext();
+				}
+				m_szServerLatestVersion = strVersion;
+				return true;
+			}
+		}
+	}
+
+	return false;
+};
+
+bool CLivePatchImp::updateResource(void) const
+{
+	assert(m_nXmlDocument.GetRoot() != NULL);
+	const wxXmlNode* lpXmlNode = m_nXmlDocument.GetRoot();
+	if (lpXmlNode != NULL)
+	{
+		lpXmlNode = lpXmlNode->GetChildren();
+	}
+
+	while (lpXmlNode != NULL)
+	{
+		if (lpXmlNode->GetName() == "patch")
+		{//获取需要更新的版本配置
+			wxString strVal;
+			wxString strVersion;
+			if ((lpXmlNode->GetAttribute("version", &strVersion) != false)
+				&& strVersion.compare(m_szCurrentVersion.c_str()) > 0)
+			{
+				if (lpXmlNode->GetAttribute("url", &strVal) != false)
+				{
+					wxURL url(strVal);
+					wxInputStream* in = url.GetInputStream();
+					if (in != NULL)
+					{
+						wxXmlDocument doc;
+						if (doc.Load(*in) == false)
+						{//配置文件格式错误
+							::strcpy_s((char*)m_szDownLoadFile, sizeof(m_szDownLoadFile), strVal.c_str());
+							return false;
+						}
+
+						//解析更新配置文件信息
+						const wxXmlNode* lpXmlPatch = doc.GetRoot() != NULL ? doc.GetRoot()->GetChildren() : NULL;
+						while (lpXmlPatch != NULL)
+						{
+							if (lpXmlPatch->GetName() == "patch")
+							{//获取到版本补丁信息
+								if (downloadResourcePatch(lpXmlPatch) == false)
+								{
+									sprintf_s((char*)m_szDownLoadFile, sizeof(m_szDownLoadFile), "更新版本%s发生错误", strVersion.c_str());
+									return false;
+								}
+							}
+							lpXmlPatch = lpXmlPatch->GetNext();
+						}
+
+						//成功更新至此版本
+						m_szServerCurrentVersion = strVersion.c_str();
+						m_lpLiveUpdateProcess(NULL,1.0f,true,m_updateManager);
+					}
+					else
+					{//下载配置文件发生错误
+						::strcpy_s((char*)m_szDownLoadFile, sizeof(m_szDownLoadFile), strVal.c_str());
+						return false;
+					}
+				}
+				else
+				{
+					return false;
+				}
+			}
+		}
+
+		lpXmlNode = lpXmlNode->GetNext();
+	}
+
+	return true;
+};
+
+void CLivePatchImp::destroy(void)
+{
+	m_nXmlDocument.SetRoot(NULL);
+};
+
+bool CLivePatchImp::verifyLiveUpdate(const char* lpszMd5) const
+{
+	assert(lpszMd5 != NULL);
+	MD5 md5;
+	wxFile stream(s_szModuleFileName);
+	assert(stream.Error() == false);
+	static char s_szBuffer[4096];
+	size_t nLength = stream.Read(s_szBuffer, sizeof(s_szBuffer));
+	while (nLength != 0)
+	{
+		md5.update(s_szBuffer, nLength);
+		nLength = stream.Eof() == false ? stream.Read(s_szBuffer, sizeof(s_szBuffer)) : 0;
+	}
+	md5.finalize();
+
+	return _stricmp(md5.hexdigest().c_str(), lpszMd5) == 0;
+};
+
+bool CLivePatchImp::httpDownload(const wxString& strURL, const wxString& strFile, bool bShowProcess) const
+{
+	assert(strURL.Len() > 0);
+	assert(strFile.Len() > 0);
+
+	wxFile stream(strFile, wxFile::write);
+	if (stream.IsOpened() != false)
+	{
+		wxURL url(strURL);
+		wxInputStream* lpDownload = url.GetInputStream();
+
+		::strcpy_s((char*)m_szDownLoadFile, sizeof(m_szDownLoadFile), strFile.c_str());
+		if (lpDownload != NULL)
+		{
+			return saveFile(lpDownload, lpDownload->GetSize(), stream, bShowProcess);
+		}
+	}
+
+	return false;
+};
+
+bool CLivePatchImp::ftpDownload(const wxString& strURL, const wxString& strFile, bool bShowProcess) const
+{
+	wxURI uri(strURL);
+	wxFTP ftp;
+
+	//设置ftp登录信息
+	if (uri.GetUser() != "")
+	{
+		ftp.SetUser(uri.GetUser());
+	}
+	else
+	{
+		ftp.SetUser("guest");
+	}
+	if (uri.GetPassword() != "")
+	{
+		ftp.SetPassword(uri.GetPassword());
+	}
+
+	wxIPV4address ftpServer;
+	unsigned long nPort;
+	ftpServer.Hostname(uri.GetServer());
+	if ((uri.GetPort().ToULong(&nPort) != false) && (nPort != 0))
+	{
+		ftpServer.Service(nPort);
+	}
+	else
+	{
+		ftpServer.Service(21);
+	}
+
+	wxFile stream(strFile, wxFile::write);
+	if (stream.IsOpened() != false)
+	{
+		::strcpy_s((char*)m_szDownLoadFile, sizeof(m_szDownLoadFile), strFile.c_str());
+
+		if (ftp.Connect(ftpServer) != false)
+		{//成功完成服务器连接
+			const wxString& strFile = uri.GetPath().SubString(1, -1);
+			int nFileSize = ftp.GetFileSize(strFile);
+			if (nFileSize > 0)
+			{
+				wxInputStream* lpDownload = ftp.GetInputStream(strFile);
+				if (lpDownload != NULL)
+				{
+					return saveFile(lpDownload, nFileSize, stream, bShowProcess);
+				}
+			}
+		}
+	}
+	
+
+	return false;
+};
+
+bool CLivePatchImp::saveFile(wxInputStream* lpDownload,  size_t nStreamSize, wxFile& stream, bool bShowProcess) const
+{
+	m_fPercent = .0f;
+
+	if ((lpDownload != NULL) && (nStreamSize > 0))
+	{
+		static char s_szBuffer[1024];
+		float nDownloadSize = 0;
+
+		lpDownload->Read(s_szBuffer, sizeof(s_szBuffer));
+		while (lpDownload->LastRead() > 0)
+		{
+			stream.Write(s_szBuffer, lpDownload->LastRead());
+			nDownloadSize += lpDownload->LastRead();
+			m_fPercent = nDownloadSize / nStreamSize;
+			if ((bShowProcess) && (m_lpLiveUpdateProcess != NULL))
+			{
+				m_lpLiveUpdateProcess((char*)m_szDownLoadFile, m_fPercent, false, m_updateManager );
+			}
+			lpDownload->Read(s_szBuffer, sizeof(s_szBuffer));
+		}
+		stream.Close();
+
+		//下载完成
+		if ((bShowProcess) && (m_lpLiveUpdateProcess != NULL))
+		{
+			m_lpLiveUpdateProcess((const char*)m_szDownLoadFile, 1.0f, true, m_updateManager );
+		} 
+
+		return true;
+	}
+	return false;
+};
+
+bool CLivePatchImp::downloadResourcePatch(const wxXmlNode* lpXmlNode) const
+{
+	assert(lpXmlNode != NULL);
+	if (lpXmlNode != NULL)
+	{
+		wxString strFile, strPath, strUrl;
+		lpXmlNode->GetAttribute("local", &strPath);
+		if ((lpXmlNode->GetAttribute("name", &strFile) != false) && (strFile.Len() > 0)
+			&& (lpXmlNode->GetAttribute("url", &strUrl) != false) && (strUrl.Len() > 0))
+		{
+			if (strPath.Len() > 0)
+			{
+				if (::wxDirExists(strPath) == false)
+				{
+					::wxMkdir(strPath);
+				}
+				strFile = strPath + "/" + strFile;
+			}
+
+			DWORD dwFileAttributes = ::GetFileAttributesA(strFile.c_str());
+			if (dwFileAttributes != (DWORD)-1)
+			{
+				if ((dwFileAttributes & (FILE_ATTRIBUTE_READONLY | FILE_ATTRIBUTE_HIDDEN | FILE_ATTRIBUTE_SYSTEM)) != 0)
+				{
+					dwFileAttributes &= ~(FILE_ATTRIBUTE_READONLY | FILE_ATTRIBUTE_HIDDEN | FILE_ATTRIBUTE_SYSTEM);
+					::SetFileAttributesA(strFile.c_str(), dwFileAttributes);
+				}
+
+				if (::DeleteFileA(strFile.c_str()) == FALSE)
+				{
+					return false;
+				}
+			}
+
+			if (_strnicmp(strUrl.c_str(), "ftp", 3) == 0)
+			{//ftp服务器下载
+				return ftpDownload(strUrl, strFile, true);
+			}
+			else
+			{//http下载
+				return httpDownload(strUrl, strFile, true);
+			}
+		}
+	}
+
+	return false;
+};
+
+wxString CLivePatchImp::getLatestVersion( void ) const
+{
+	return m_szServerLatestVersion;
+}

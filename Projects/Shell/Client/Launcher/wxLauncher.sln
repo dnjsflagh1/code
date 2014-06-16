@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wxSkin", "wxSkin.vcproj", "{95E12361-9737-4F73-A46B-C55CED1BA45A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "launcher", "launcher.vcproj", "{4697D080-D46B-49A7-B25C-7DBCFE27F643}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95E12361-9737-4F73-A46B-C55CED1BA45A} = {95E12361-9737-4F73-A46B-C55CED1BA45A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wx3", "..\wx3\wx3.vcproj", "{1B44A722-F5E4-480F-B11B-BBD7F70C1068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Release|Win32 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Debug|Win32.Build.0 = Debug|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Release|Win32.ActiveCfg = Release|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Release|Win32.Build.0 = Release|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Unicode Debug|Win32.Build.0 = Debug|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Unicode Release|Win32.ActiveCfg = Release|Win32
+		{95E12361-9737-4F73-A46B-C55CED1BA45A}.Unicode Release|Win32.Build.0 = Release|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Debug|Win32.Build.0 = Debug|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Release|Win32.ActiveCfg = Release|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Release|Win32.Build.0 = Release|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Unicode Debug|Win32.Build.0 = Debug|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Unicode Release|Win32.ActiveCfg = Release|Win32
+		{4697D080-D46B-49A7-B25C-7DBCFE27F643}.Unicode Release|Win32.Build.0 = Release|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Debug|Win32.Build.0 = Debug|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Release|Win32.ActiveCfg = Release|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Release|Win32.Build.0 = Release|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Unicode Debug|Win32.Build.0 = Debug|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Unicode Release|Win32.ActiveCfg = Release|Win32
+		{1B44A722-F5E4-480F-B11B-BBD7F70C1068}.Unicode Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

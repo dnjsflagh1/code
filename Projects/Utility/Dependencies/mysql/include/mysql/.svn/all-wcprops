@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql
+END
+client_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/client_plugin.h
+END
+plugin_auth.h.pp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_auth.h.pp
+END
+plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin.h
+END
+thread_pool_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/thread_pool_priv.h
+END
+plugin_audit.h.pp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_audit.h.pp
+END
+plugin_ftparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_ftparser.h
+END
+service_thd_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/service_thd_alloc.h
+END
+innodb_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/innodb_priv.h
+END
+client_plugin.h.pp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/client_plugin.h.pp
+END
+plugin_auth.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_auth.h
+END
+plugin_ftparser.h.pp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_ftparser.h.pp
+END
+service_thd_wait.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/service_thd_wait.h
+END
+services.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/services.h
+END
+plugin_audit.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_audit.h
+END
+service_thread_scheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/service_thread_scheduler.h
+END
+plugin_auth_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/plugin_auth_common.h
+END
+service_my_snprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/1297/trunk/Projects/Utility/Dependencies/mysql/include/mysql/service_my_snprintf.h
+END

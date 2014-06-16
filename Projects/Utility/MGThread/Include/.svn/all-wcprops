@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MGCode/!svn/ver/7823/trunk/Projects/Utility/MGThread/Include
+END
+Task.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/7160/trunk/Projects/Utility/MGThread/Include/Task.h
+END
+Thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/7439/trunk/Projects/Utility/MGThread/Include/Thread.h
+END
+Lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/7823/trunk/Projects/Utility/MGThread/Include/Lock.h
+END

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MMO>
+  <area name=" 华东电信【1区】" pid="1">    
+    <server name="东归幻境【空闲】" sid="1" address="shzgame00.kx1d.com" flag="hot" state="0"/>
+    <server name="蛮荒狼虏【空闲】" sid="2" address="shzgame01.kx1d.com" flag="hot" state="1"/>
+    <server name="野道麒麟【空闲】" sid="3" address="shzgame02.kx1d.com" flag="hot" state="2"/>
+    <server name="寒夜狼虏" sid="4" address="shzgame03.kx1d.com" flag="hot" state="3"/>
+    <server name="血宗密令" sid="5" address="shzgame04.kx1d.com" flag="hot" state="2"/>      
+  </area>
+  <area name=" 华南电信【1区】" pid="2">
+    <server name="开天辟地【空闲2】" sid="1" address="shzgame00.kx1d.com" flag="hot" state="3"/>
+    <server name="女娲补天" sid="2" address="shzgame01.kx1d.com" flag="hot" state="3"/>
+    <server name="命运之轮" sid="3" address="shzgame02.kx1d.com" flag="hot" state="2"/>
+    <server name="王都密室" sid="4" address="shzgame03.kx1d.com" flag="hot" state="1"/>
+    <server name="昆仑吞云" sid="5" address="shzgame04.kx1d.com" flag="hot" state="1"/>      
+  </area>  
+  <area name=" 华西电信【1区】" pid="3">
+    <server name="天魔屠戮【空闲3】" sid="1" address="shzgame00.kx1d.com" flag="hot" state="1"/>
+    <server name="百鬼之祭" sid="2" address="shzgame01.kx1d.com" flag="new" state="1"/>
+    <server name="浴血荒原" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="雷泽魔障" sid="4" address="shzgame03.kx1d.com" flag="new" state="2"/>
+    <server name="刑天猛志" sid="5" address="shzgame04.kx1d.com" flag="new" state="1"/>
+    <server name="夸父逐日" sid="6" address="shzgame05.kx1d.com" flag="new" state="1"/>      
+  </area>    
+  <area name=" 华北网通【1区】" pid="4">
+    <server name="天魔屠戮【空闲4】" sid="1" address="shzgame00.kx1d.com" flag="new" state="2"/>
+    <server name="百鬼之祭" sid="2" address="shzgame01.kx1d.com" flag="new" state="2"/>
+    <server name="浴血荒原" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="雷泽魔障" sid="4" address="shzgame03.kx1d.com" flag="new" state="2"/>
+    <server name="刑天猛志" sid="5" address="shzgame04.kx1d.com" flag="new" state="3"/>
+    <server name="夸父逐日" sid="6" address="shzgame05.kx1d.com" flag="new" state="1"/>      
+  </area> 
+  <area name=" 华东电信【2区】" pid="5">    
+    <server name="东归幻境【空闲5】" sid="1" address="shzgame00.kx1d.com" flag="new" state="0"/>
+    <server name="蛮荒狼虏" sid="2" address="shzgame01.kx1d.com" flag="new" state="1"/>
+    <server name="野道麒麟" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="寒夜狼虏" sid="4" address="shzgame03.kx1d.com" flag="new" state="3"/>
+    <server name="血宗密令" sid="5" address="shzgame04.kx1d.com" flag="new" state="2"/>      
+  </area>
+  <area name=" 华南电信【2区】" pid="6">
+    <server name="开天辟地【空闲6】" sid="1" address="shzgame00.kx1d.com" flag="new" state="3"/>
+    <server name="女娲补天" sid="2" address="shzgame01.kx1d.com" flag="new" state="3"/>
+    <server name="命运之轮" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="王都密室" sid="4" address="shzgame03.kx1d.com" flag="new" state="1"/>
+    <server name="昆仑吞云" sid="5" address="shzgame04.kx1d.com" flag="new" state="1"/>      
+  </area>  
+  <area name=" 华西电信【2区】" pid="7">
+    <server name="天魔屠戮【空闲7】" sid="1" address="shzgame00.kx1d.com" flag="new" state="1"/>
+    <server name="百鬼之祭" sid="2" address="shzgame01.kx1d.com" flag="new" state="1"/>
+    <server name="浴血荒原" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="雷泽魔障" sid="4" address="shzgame03.kx1d.com" flag="new" state="2"/>
+    <server name="刑天猛志" sid="5" address="shzgame04.kx1d.com" flag="new" state="1"/>
+    <server name="夸父逐日" sid="6" address="shzgame05.kx1d.com" flag="new" state="1"/>      
+  </area>    
+  <area name=" 华北网通【2区】" pid="8">
+    <server name="天魔屠戮【空闲8】" sid="1" address="shzgame00.kx1d.com" flag="new" state="2"/>
+    <server name="百鬼之祭" sid="2" address="shzgame01.kx1d.com" flag="new" state="2"/>
+    <server name="浴血荒原" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="雷泽魔障" sid="4" address="shzgame03.kx1d.com" flag="new" state="2"/>
+    <server name="刑天猛志" sid="5" address="shzgame04.kx1d.com" flag="new" state="3"/>
+    <server name="夸父逐日" sid="6" address="shzgame05.kx1d.com" flag="new" state="1"/>      
+  </area> 
+  <area name=" 华东电信【3区】" pid="9">    
+    <server name="东归幻境【空闲9】" sid="1" address="shzgame00.kx1d.com" flag="new" state="0"/>
+    <server name="蛮荒狼虏" sid="2" address="shzgame01.kx1d.com" flag="new" state="1"/>
+    <server name="野道麒麟" sid="3" address="shzgame02.kx1d.com" flag="new" state="2"/>
+    <server name="寒夜狼虏" sid="4" address="shzgame03.kx1d.com" flag="new" state="3"/>
+    <server name="血宗密令" sid="5" address="shzgame04.kx1d.com" flag="new" state="2"/>      
+  </area>
+  <area name=" 华南电信【3区】" pid="10">
+    <server name="开天辟地【空闲a】" sid="1" address="shzgame00.kx1d.com" flag="recomment" state="3"/>
+    <server name="女娲补天" sid="2" address="shzgame01.kx1d.com" flag="recomment" state="3"/>
+    <server name="命运之轮" sid="3" address="shzgame02.kx1d.com" flag="recomment" state="2"/>
+    <server name="王都密室" sid="4" address="shzgame03.kx1d.com" flag="recomment" state="1"/>
+    <server name="昆仑吞云" sid="5" address="shzgame04.kx1d.com" flag="recomment" state="1"/>      
+  </area>  
+  <area name=" 华西电信【3区】" pid="11">
+    <server name="天魔屠戮【空闲b】" sid="1" address="shzgame00.kx1d.com" flag="recomment" state="1"/>
+    <server name="百鬼之祭" sid="2" address="shzgame01.kx1d.com" flag="recomment" state="1"/>
+    <server name="浴血荒原" sid="3" address="shzgame02.kx1d.com" flag="recomment" state="2"/>
+    <server name="雷泽魔障" sid="4" address="shzgame03.kx1d.com" flag="recomment" state="2"/>
+    <server name="刑天猛志" sid="5" address="shzgame04.kx1d.com" flag="recomment" state="1"/>
+    <server name="夸父逐日" sid="6" address="shzgame05.kx1d.com" flag="recomment" state="1"/>      
+  </area>    
+  <area name=" 华北网通【3区】" pid="12">
+    <server name=" 天魔屠戮【空闲】" sid="1" address="shzgame00.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 百鬼之祭【空闲】" sid="2" address="shzgame01.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 浴血荒原【空闲】" sid="3" address="shzgame02.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 雷泽魔障【空闲】" sid="4" address="shzgame03.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 刑天猛志【空闲】" sid="5" address="shzgame04.kx1d.com" flag="recomment" state="3"/>
+    <server name=" 夸父逐日【空闲】" sid="6" address="shzgame05.kx1d.com" flag="recomment" state="1"/>
+    <server name=" 天魔屠戮【空闲】" sid="7" address="shzgame00.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 百鬼之祭【空闲】" sid="8" address="shzgame01.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 浴血荒原【空闲】" sid="9" address="shzgame02.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 雷泽魔障【空闲】" sid="10" address="shzgame03.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 刑天猛志【空闲】" sid="11" address="shzgame04.kx1d.com" flag="recomment" state="3"/>
+    <server name=" 夸父逐日【空闲】" sid="12" address="shzgame05.kx1d.com" flag="recomment" state="1"/>   
+    <server name=" 天魔屠戮【空闲】" sid="13" address="shzgame00.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 百鬼之祭【空闲】" sid="14" address="shzgame01.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 浴血荒原【空闲】" sid="15" address="shzgame02.kx1d.com" flag="recomment" state="2"/>
+    <server name=" 雷泽魔障【空闲】" sid="16" address="shzgame03.kx1d.com" flag="recomment" state="2"/>                 
+  </area>          
+</MMO>

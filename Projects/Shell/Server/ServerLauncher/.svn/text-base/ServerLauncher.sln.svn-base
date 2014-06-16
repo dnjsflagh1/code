@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerLauncher", "ServerLauncher\ServerLauncher.vcproj", "{3561FA8D-ECA3-4C4D-A989-2C54BA7DAFBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MGUtility", "..\..\..\Common\Utility\MGUtility\MGUtility.vcproj", "{16CC7E53-F61E-4EE5-B857-4D2FFD0A959E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3561FA8D-ECA3-4C4D-A989-2C54BA7DAFBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3561FA8D-ECA3-4C4D-A989-2C54BA7DAFBA}.Debug|Win32.Build.0 = Debug|Win32
+		{3561FA8D-ECA3-4C4D-A989-2C54BA7DAFBA}.Release|Win32.ActiveCfg = Release|Win32
+		{3561FA8D-ECA3-4C4D-A989-2C54BA7DAFBA}.Release|Win32.Build.0 = Release|Win32
+		{16CC7E53-F61E-4EE5-B857-4D2FFD0A959E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16CC7E53-F61E-4EE5-B857-4D2FFD0A959E}.Debug|Win32.Build.0 = Debug|Win32
+		{16CC7E53-F61E-4EE5-B857-4D2FFD0A959E}.Release|Win32.ActiveCfg = Release|Win32
+		{16CC7E53-F61E-4EE5-B857-4D2FFD0A959E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMShell
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/6250/trunk/Projects/Tool/GMTool/GMShell/stdafx.h
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMShell/app.rc
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMShell/app.ico
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMShell/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMShell/ReadMe.txt
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMShell/AssemblyInfo.cpp
+END
+GMShell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMShell/GMShell.cpp
+END
+GMShell.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/6298/trunk/Projects/Tool/GMTool/GMShell/GMShell.vcproj
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMShell/resource.h
+END

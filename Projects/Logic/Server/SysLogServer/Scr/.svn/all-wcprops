@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/SysLogServer/Scr
+END
+DbManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7240/trunk/Projects/Logic/Server/SysLogServer/Scr/DbManager.cpp
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7059/trunk/Projects/Logic/Server/SysLogServer/Scr/ServerManager.cpp
+END
+SysLogServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/SysLogServer/Scr/SysLogServerMain.cpp
+END
+ServerLogNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/7240/trunk/Projects/Logic/Server/SysLogServer/Scr/ServerLogNetPacketProcesser.cpp
+END

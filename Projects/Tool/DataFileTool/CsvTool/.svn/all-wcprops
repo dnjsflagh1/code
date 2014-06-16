@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/90/trunk/Projects/Tool/DataFileTool/CsvTool
+END
+CsvTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvTool.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/stdafx.h
+END
+CsvToolDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvToolDlg.cpp
+END
+CsvToolDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvToolDlg.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/targetver.h
+END
+CsvTool.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvTool.ncb
+END
+CsvTool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvTool.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/stdafx.cpp
+END
+CsvTool.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvTool.vcproj
+END
+CsvTool.aps
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvTool.aps
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/ReadMe.txt
+END
+CsvTool.rc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/CsvTool.rc
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/89/trunk/Projects/Tool/DataFileTool/CsvTool/Resource.h
+END

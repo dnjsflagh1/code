@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics/Makefile.in
+END
+Makefile.metrics
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics/Makefile.metrics
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics/main.cpp
+END
+metrics.pro
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics/metrics.pro
+END
+metrics.pro.in
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics/metrics.pro.in
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/addon/doxmlparser/examples/metrics/Makefile
+END

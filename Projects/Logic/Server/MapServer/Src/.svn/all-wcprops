@@ -1,0 +1,755 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src
+END
+SSceneObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SSceneObjectFactory.cpp
+END
+TestNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7325/trunk/Projects/Logic/Server/MapServer/Src/TestNetPacketProcesser.cpp
+END
+ChatNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/ChatNetPacketProcesser.cpp
+END
+SSceneObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SSceneObject.cpp
+END
+SLogicCampInCampaign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SLogicCampInCampaign.cpp
+END
+SPlayerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8048/trunk/Projects/Logic/Server/MapServer/Src/SPlayerManager.cpp
+END
+PrintDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/PrintDialog.cpp
+END
+SBuilding.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SBuilding.cpp
+END
+SPlayerCharacterNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SPlayerCharacterNetPacketProcesser.cpp
+END
+SFightMainManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/5516/trunk/Projects/Logic/Server/MapServer/Src/SFightMainManager.cpp
+END
+STiroMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/STiroMapObject.cpp
+END
+SSkillObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SSkillObject.cpp
+END
+SMapManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/8019/trunk/Projects/Logic/Server/MapServer/Src/SMapManager.cpp
+END
+ServerStateNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/7909/trunk/Projects/Logic/Server/MapServer/Src/ServerStateNetPacketProcesser.cpp
+END
+SAIGuard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIGuard.cpp
+END
+SBuffManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7366/trunk/Projects/Logic/Server/MapServer/Src/SBuffManager.cpp
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/ServerManager.cpp
+END
+SPveNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SPveNetPacketProcesser.cpp
+END
+SPveMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SPveMapObject.cpp
+END
+SBattleBuildNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/SBattleBuildNetPacketProcesser.cpp
+END
+SAttributePacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAttributePacketProcesser.cpp
+END
+STroopNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/8064/trunk/Projects/Logic/Server/MapServer/Src/STroopNetPacketProcesser.cpp
+END
+SBattleScoreNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/MapServer/Src/SBattleScoreNetPacketProcesser.cpp
+END
+SSkillOwnManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7366/trunk/Projects/Logic/Server/MapServer/Src/SSkillOwnManager.cpp
+END
+SMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SMapObject.cpp
+END
+SAIKeepDistance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIKeepDistance.cpp
+END
+SPlaceMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SPlaceMapObject.cpp
+END
+SAIEscape.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7355/trunk/Projects/Logic/Server/MapServer/Src/SAIEscape.cpp
+END
+SMonsterNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SMonsterNetPacketProcesser.cpp
+END
+SHomeMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SHomeMapObject.cpp
+END
+SHomeMapManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7957/trunk/Projects/Logic/Server/MapServer/Src/SHomeMapManager.cpp
+END
+SWorldManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SWorldManager.cpp
+END
+SItemShopManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7292/trunk/Projects/Logic/Server/MapServer/Src/SItemShopManager.cpp
+END
+SLuaSkillSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/483/trunk/Projects/Logic/Server/MapServer/Src/SLuaSkillSystem.cpp
+END
+MGameTimeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/744/trunk/Projects/Logic/Server/MapServer/Src/MGameTimeSystem.cpp
+END
+SAISelectSkill.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/3549/trunk/Projects/Logic/Server/MapServer/Src/SAISelectSkill.cpp
+END
+SPlaceSceneObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SPlaceSceneObject.cpp
+END
+SHomeSceneObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SHomeSceneObject.cpp
+END
+SActionObjectManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/4369/trunk/Projects/Logic/Server/MapServer/Src/SActionObjectManager.cpp
+END
+SMonsterSceneManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SMonsterSceneManager.cpp
+END
+SSkillNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/8064/trunk/Projects/Logic/Server/MapServer/Src/SSkillNetPacketProcesser.cpp
+END
+SLuaCharacterForSkill.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/483/trunk/Projects/Logic/Server/MapServer/Src/SLuaCharacterForSkill.cpp
+END
+SLogicTroopInCampaign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SLogicTroopInCampaign.cpp
+END
+SPlayerObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/SPlayerObjectFactory.cpp
+END
+SHomeInstance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SHomeInstance.cpp
+END
+STiroSceneObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7957/trunk/Projects/Logic/Server/MapServer/Src/STiroSceneObject.cpp
+END
+SPveMapManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7957/trunk/Projects/Logic/Server/MapServer/Src/SPveMapManager.cpp
+END
+SAIManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/3673/trunk/Projects/Logic/Server/MapServer/Src/SAIManager.cpp
+END
+SBuffCharacterObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/SBuffCharacterObject.cpp
+END
+MapServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8048/trunk/Projects/Logic/Server/MapServer/Src/MapServerMain.cpp
+END
+SItemShop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7292/trunk/Projects/Logic/Server/MapServer/Src/SItemShop.cpp
+END
+SSceneGridManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SSceneGridManager.cpp
+END
+TimeNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/MapServer/Src/TimeNetPacketProcesser.cpp
+END
+SAtkInstance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SAtkInstance.cpp
+END
+SCampaignInRegionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SCampaignInRegionManager.cpp
+END
+SAttributeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/SAttributeSystem.cpp
+END
+SPlaceNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/MapServer/Src/SPlaceNetPacketProcesser.cpp
+END
+NetTranspondPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/NetTranspondPacketProcesser.cpp
+END
+LoginNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/LoginNetPacketProcesser.cpp
+END
+SItemPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SItemPacketProcesser.cpp
+END
+SFightHeartBeatManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/5516/trunk/Projects/Logic/Server/MapServer/Src/SFightHeartBeatManager.cpp
+END
+SPlayerNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SPlayerNetPacketProcesser.cpp
+END
+SCDManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7996/trunk/Projects/Logic/Server/MapServer/Src/SCDManager.cpp
+END
+SAIAttack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIAttack.cpp
+END
+SCharacterMoveToAction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SCharacterMoveToAction.cpp
+END
+SSkillUseManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7146/trunk/Projects/Logic/Server/MapServer/Src/SSkillUseManager.cpp
+END
+SGameObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SGameObjectFactory.cpp
+END
+SAIPursue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIPursue.cpp
+END
+SAIController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIController.cpp
+END
+SAIFightTrigger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIFightTrigger.cpp
+END
+BroadcastTask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2644/trunk/Projects/Logic/Server/MapServer/Src/BroadcastTask.cpp
+END
+ThreadTaskManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/5981/trunk/Projects/Logic/Server/MapServer/Src/ThreadTaskManager.cpp
+END
+STiroInstance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/STiroInstance.cpp
+END
+STroop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/STroop.cpp
+END
+SLogicArmyInCampaign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SLogicArmyInCampaign.cpp
+END
+SThirdPartCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SThirdPartCharacter.cpp
+END
+SAIRandomMove.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/7333/trunk/Projects/Logic/Server/MapServer/Src/SAIRandomMove.cpp
+END
+SPlayerCharacterSceneManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SPlayerCharacterSceneManager.cpp
+END
+SAIHateDetect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAIHateDetect.cpp
+END
+STeam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/MapServer/Src/STeam.cpp
+END
+SMonster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SMonster.cpp
+END
+SAIReturn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7333/trunk/Projects/Logic/Server/MapServer/Src/SAIReturn.cpp
+END
+SAI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/3506/trunk/Projects/Logic/Server/MapServer/Src/SAI.cpp
+END
+SHeartbeatManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SHeartbeatManager.cpp
+END
+SPlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SPlayer.cpp
+END
+SPveSceneObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SPveSceneObject.cpp
+END
+SBuffPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SBuffPacketProcesser.cpp
+END
+SPackNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7956/trunk/Projects/Logic/Server/MapServer/Src/SPackNetPacketProcesser.cpp
+END
+ShopPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7292/trunk/Projects/Logic/Server/MapServer/Src/ShopPacketProcesser.cpp
+END
+STiroMapManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7957/trunk/Projects/Logic/Server/MapServer/Src/STiroMapManager.cpp
+END
+SBuildingSceneManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SBuildingSceneManager.cpp
+END
+SLuaSkillObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/483/trunk/Projects/Logic/Server/MapServer/Src/SLuaSkillObject.cpp
+END
+SSceneObjectPtr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SSceneObjectPtr.cpp
+END
+SCDNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/MapServer/Src/SCDNetPacketProcesser.cpp
+END
+SPlaceMapManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SPlaceMapManager.cpp
+END
+JumpRegionTask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7408/trunk/Projects/Logic/Server/MapServer/Src/JumpRegionTask.cpp
+END
+EquipItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7408/trunk/Projects/Logic/Server/MapServer/Src/EquipItem.cpp
+END
+SPVEInstance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SPVEInstance.cpp
+END
+SCamp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SCamp.cpp
+END
+SysLogNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/MapServer/Src/SysLogNetPacketProcesser.cpp
+END
+BattleStatics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/1717/trunk/Projects/Logic/Server/MapServer/Src/BattleStatics.cpp
+END
+SThirdPartCharacterSceneManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SThirdPartCharacterSceneManager.cpp
+END
+MyListView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MGCode/!svn/ver/81/trunk/Projects/Logic/Server/MapServer/Src/MyListView.cpp
+END
+BattleScoreSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/1689/trunk/Projects/Logic/Server/MapServer/Src/BattleScoreSystem.cpp
+END
+DropItemManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/DropItemManager.cpp
+END
+SInstanceBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SInstanceBase.cpp
+END
+SJumpMapManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SJumpMapManager.cpp
+END
+GameJudge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7060/trunk/Projects/Logic/Server/MapServer/Src/GameJudge.cpp
+END
+SPlayerSceneManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SPlayerSceneManager.cpp
+END
+SActionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/3673/trunk/Projects/Logic/Server/MapServer/Src/SActionManager.cpp
+END
+SCampaignInRegion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8078/trunk/Projects/Logic/Server/MapServer/Src/SCampaignInRegion.cpp
+END
+SAIObjectManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/3673/trunk/Projects/Logic/Server/MapServer/Src/SAIObjectManager.cpp
+END
+SWorldNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/MapServer/Src/SWorldNetPacketProcesser.cpp
+END
+SLogicTroopGroupInCampaign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SLogicTroopGroupInCampaign.cpp
+END
+SCampSceneManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/8059/trunk/Projects/Logic/Server/MapServer/Src/SCampSceneManager.cpp
+END
+SGameObjectManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/5758/trunk/Projects/Logic/Server/MapServer/Src/SGameObjectManager.cpp
+END
+SCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SCharacter.cpp
+END
+SFightManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SFightManager.cpp
+END
+SWorldObjectFactoryManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/MGCode/!svn/ver/7957/trunk/Projects/Logic/Server/MapServer/Src/SWorldObjectFactoryManager.cpp
+END
+SMapNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/7957/trunk/Projects/Logic/Server/MapServer/Src/SMapNetPacketProcesser.cpp
+END
+SSceneGrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SSceneGrid.cpp
+END
+SCampaignNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SCampaignNetPacketProcesser.cpp
+END
+SRegionNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SRegionNetPacketProcesser.cpp
+END
+SPlayerCharacter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SPlayerCharacter.cpp
+END
+SAISeekHelp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/8075/trunk/Projects/Logic/Server/MapServer/Src/SAISeekHelp.cpp
+END

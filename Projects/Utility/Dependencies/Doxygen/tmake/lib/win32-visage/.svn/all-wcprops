@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib/win32-visage
+END
+app.t
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib/win32-visage/app.t
+END
+tmake.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib/win32-visage/tmake.conf
+END
+lib.t
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib/win32-visage/lib.t
+END
+subdirs.t
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib/win32-visage/subdirs.t
+END
+generic.t
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/2/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib/win32-visage/generic.t
+END

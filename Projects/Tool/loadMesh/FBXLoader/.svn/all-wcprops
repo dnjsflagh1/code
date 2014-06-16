@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader
+END
+FBXLoader.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/FBXLoader.vcxproj
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/main.cpp
+END
+FBXLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/FBXLoader.cpp
+END
+FBXLoader.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/FBXLoader.vcxproj.filters
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/ReadMe.txt
+END
+FBXLoader.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/FBXLoader.hpp
+END
+FBXLoader.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7490/trunk/Projects/Tool/loadMesh/FBXLoader/FBXLoader.vcxproj.user
+END

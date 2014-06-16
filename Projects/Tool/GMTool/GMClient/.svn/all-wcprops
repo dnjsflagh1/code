@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MGCode/!svn/ver/6325/trunk/Projects/Tool/GMTool/GMClient
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/6274/trunk/Projects/Tool/GMTool/GMClient/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/dllmain.cpp
+END
+GMClient.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/6323/trunk/Projects/Tool/GMTool/GMClient/GMClient.vcproj
+END
+GMClientMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/6274/trunk/Projects/Tool/GMTool/GMClient/GMClientMain.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMClient/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMClient/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/6152/trunk/Projects/Tool/GMTool/GMClient/ReadMe.txt
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/MallServer/Src
+END
+DbManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/MallServer/Src/DbManager.cpp
+END
+MallServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/MallServer/Src/MallServerMain.cpp
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/7059/trunk/Projects/Logic/Server/MallServer/Src/ServerManager.cpp
+END
+ServerNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/MallServer/Src/ServerNetPacketProcesser.cpp
+END

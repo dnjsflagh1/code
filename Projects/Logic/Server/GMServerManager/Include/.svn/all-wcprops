@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/7040/trunk/Projects/Logic/Server/GMServerManager/Include
+END
+GMServerManagerMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/Include/GMServerManagerMain.h
+END
+GMClientManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7040/trunk/Projects/Logic/Server/GMServerManager/Include/GMClientManager.h
+END
+GMServerManagerPreqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/MGCode/!svn/ver/6113/trunk/Projects/Logic/Server/GMServerManager/Include/GMServerManagerPreqs.h
+END
+ServerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/MGCode/!svn/ver/7040/trunk/Projects/Logic/Server/GMServerManager/Include/ServerManager.h
+END
+GMAccountNetPacketProcesser.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/MGCode/!svn/ver/6297/trunk/Projects/Logic/Server/GMServerManager/Include/GMAccountNetPacketProcesser.h
+END

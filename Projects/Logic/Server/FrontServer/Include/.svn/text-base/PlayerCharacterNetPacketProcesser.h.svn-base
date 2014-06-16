@@ -1,0 +1,97 @@
+/******************************************************************************/
+#ifndef _PLAYER_CHARACTER_NET_PACKET_PROCESSER_H_
+#define _PLAYER_CHARACTER_NET_PACKET_PROCESSER_H_
+/******************************************************************************/
+
+#include "PlayerCharacterNetPacket.h"
+#include "FrontServerPreqs.h"
+#include "CampaignNetPacket.h"
+/******************************************************************************/
+
+namespace MG
+{
+
+    /******************************************************************************/
+    //角色相关网络消息处理
+    /******************************************************************************/
+    class SPlayer;
+    /******************************************************************************/
+	class PlayerCharacterNetPacketProcesser
+	{
+	public:
+        SINGLETON_INSTANCE(PlayerCharacterNetPacketProcesser);
+		PlayerCharacterNetPacketProcesser();
+		~PlayerCharacterNetPacketProcesser();
+        
+        Bool	processClientPacket(I32 id, NetEventRecv* packet);
+		Bool	processLoginServerPacket(I32 id, NetEventRecv* packet);
+        Bool	processMapServerPacket(I32 id, NetEventRecv* packet);
+        
+	public:
+        
+        //-----------------------------------------------------------------------------------
+        // Client Packet Handle
+        //-----------------------------------------------------------------------------------
+
+		//当接受到角色跳地图
+		void onRecvPlayerCharacterJumpRegionFromClient( I32 id , PT_PLAYERCHARACTER_C2F_JUMP_REGION_DATA*data);
+
+		//跳指定MapServer的新手村
+		void onRecvPlayerCharacterJumpTiroRegionFromClient( I32 id , PT_PLAYERCHARACTER_C2F_JUMP_REGION_TIRO_DATA*data);
+
+		//当接受到角色跳回大地图
+		void onRecvPlayerCharacterJumpOutRegionFromClient( I32 id , PT_PLAYERCHARACTER_C2F_JUMP_OUT_REGION_DATA*data);
+
+		//角色跳回上一个地图
+		void onRecvPlayerCharacterJumpLastRegionFromClient( I32 id , PT_PLAYERCHARACTER_C2F_JUMP_LAST_REGION_DATA*data);
+		
+
+        //-----------------------------------------------------------------------------------
+        // Client Packet Send
+        //-----------------------------------------------------------------------------------
+
+
+        void sendAllPlayerCharacterSkillInfoInClanToClient(I32 id,  SClanPtr& clanPtr );
+
+        void sendPlayerCharacterSkillInfoToClient(I32 id, IdType characterId, SSkillOwnManager* skillOwnManager);
+        
+
+        //-----------------------------------------------------------------------------------
+        // MapServer Packet Handle
+        //-----------------------------------------------------------------------------------
+
+		//收到角色跳转信息
+		void onRecvPlayerCharacterJumpRegionFromMapServer(I32 id, PT_PLAYERCHARACTER_M2F_JUMP_REGION_DATA* data);
+
+
+        //-----------------------------------------------------------------------------------
+        // MapServer Packet Send
+        //-----------------------------------------------------------------------------------
+
+        //发送角色移动消息
+		//void sendPlayerCharacterMoveToMapServer(I32 id, PT_PLAYERCHARACTER_C2S_MOVE_POS_DATA* data );
+        /************************************************************************************************/
+		//新版本 跳地图 2012.12.01
+		void sendPlayerCharacterJumpToRegionNewVer(SPlayerCharacter* playerCharacter, REGION_OBJ_TYPE regionType, RegionIdType regionId, InstanceUIdType instanceUId, Int pointId = 0, NetIdType mapServerNetId = 0);
+	
+		void sendPlayerCharacterJumpRegionByMapServerNetIdNewVer(SPlayerCharacter* playerCharacter, NetIdType mapServerNetId, REGION_OBJ_TYPE regionType, RegionIdType regionId, InstanceUIdType instanceUId, Int pointId = 0);
+	
+		void sendPlayerCharacterJumpToEmptyRegionNewVer(AccountIdType accountId, PlayerCharacterIdType playerCharacterId, NetIdType mapServerNetId);
+
+		/************************************************************************************************/
+
+		//进入战场副本
+		void broadcastPlayerCharacterJumpToCampaignRegion(PlayerCharacterIdType playerCharacterId, PT_CAMPAIGN_T2F_START_JUMP_REGION_DATA* data);
+	
+		void sendPlayerCharacterJumpRegionToClient(I32 netId, ChatarcterJumpRegionResult result, PlayerCharacterIdType playerCharacterId, RegionIdType regionId, REGION_OBJ_TYPE regionType, InstanceUIdType instanceUId);
+
+		void sendPlayerCharacterrSkillInfoToMapServer(I32 mapserverNetid, IdType characterId, SSkillOwnManager* skillOwnManager );
+
+	protected:
+
+	};
+
+}
+
+
+#endif

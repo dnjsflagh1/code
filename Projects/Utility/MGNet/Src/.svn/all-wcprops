@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MGCode/!svn/ver/7850/trunk/Projects/Utility/MGNet/Src
+END
+Win32NetIocpData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/7457/trunk/Projects/Utility/MGNet/Src/Win32NetIocpData.cpp
+END
+Win32NetIocpDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/7850/trunk/Projects/Utility/MGNet/Src/Win32NetIocpDriver.cpp
+END
+NetManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MGCode/!svn/ver/6998/trunk/Projects/Utility/MGNet/Src/NetManager.cpp
+END
+Win32IocpNetUdpData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/1166/trunk/Projects/Utility/MGNet/Src/Win32IocpNetUdpData.cpp
+END
+Win32IocpNetUdpDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/6998/trunk/Projects/Utility/MGNet/Src/Win32IocpNetUdpDriver.cpp
+END

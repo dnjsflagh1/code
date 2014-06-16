@@ -1,0 +1,374 @@
+//***********************************************************************************************************
+#include "stdafx.h"
+#include "FrontServerPreqs.h"
+#include "ThreadTaskManager.h"
+#include "SWorldManager.h"
+#include "FrontServerMain.h"
+#include "LoginNetPacketProcesser.h"
+#include "LineUpNetPacketProcesser.h"
+//***********************************************************************************************************
+namespace MG
+{
+	//-----------------------------------------------------------------------------
+	ThreadTaskManager::ThreadTaskManager()
+	{
+		
+	}
+
+	//-----------------------------------------------------------------------------
+	ThreadTaskManager::~ThreadTaskManager()
+	{
+		
+	}
+
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::initialize()
+	{
+        // 线程任务
+		mClientTaskThread.create(&mClientTaskThread,102400);
+		mServerNormalTaskThread.create(&mServerNormalTaskThread,102400);
+        mServerNetTranspondSendTaskThread.create(&mServerNetTranspondSendTaskThread,102400);
+        mServerNetTranspondSaveTaskThread1.create(&mServerNetTranspondSaveTaskThread1,102400, THREAD_PRIORITY_ABOVE_NORMAL );
+
+		// 暂时屏蔽，开启需要开会讨论
+		mLogicHeartbeatThread.create(updateLogicHeartbeatThread,this);
+
+#ifdef _DEBUG
+		Thread::SetThreadName(mClientTaskThread.getThreadId(),"ThreadTaskManager::mClientTaskThread");
+		Thread::SetThreadName(mServerNormalTaskThread.getThreadId(),"ThreadTaskManager::mServerNormalTaskThread");
+		Thread::SetThreadName(mServerNetTranspondSendTaskThread.getThreadId(),"ThreadTaskManager::mServerNetTranspondSendTaskThread");
+		Thread::SetThreadName(mServerNetTranspondSaveTaskThread1.getThreadId(),"ThreadTaskManager::mServerNetTranspondSaveTaskThread1");
+		Thread::SetThreadName(mLogicHeartbeatThread.getThreadId(),"ThreadTaskManager::mLogicHeartbeatThread");
+#endif
+		return true;
+	}
+
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::unInitialize()
+	{
+        mServerNetTranspondSaveTaskThread1.destory();
+        mServerNetTranspondSendTaskThread.destory();
+		mClientTaskThread.destory();
+		mServerNormalTaskThread.destory();
+
+		//mLogicHeartbeatThread.destory();
+
+		return true;
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::updateLogicHeartbeatThread(Ptr ptr)
+	{
+		// TODO
+		// 注意线程数据同步。
+
+		//FUNDETECTION(__MG_FUNC__);
+		//FringeGameTimeSystem::getInstance().update();
+
+		OneThreadHandle* thd = (OneThreadHandle* )ptr;
+		if ( thd )
+		{
+			while( thd->isRun())
+			{
+				SWorldManager::getInstance().update();
+                Sleep(5);
+			}
+		}
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::addPrepareJoinGameTask( NetEventRecv* netEvent,U32 key /*= 0*/ )
+	{
+		netEvent->addLocker();
+
+		PrepareJoinGameTask* task = NULL;
+		mClientTaskCs.lock();
+		{
+			task = MG_POOL_NEW(mPrepareJoinGameTaskPool,PrepareJoinGameTask,(netEvent,key));
+		}
+		mClientTaskCs.unlock();
+
+		I32 count = mClientTaskThread.addTask(task);
+
+		///发送排队信息 
+
+		//LoginNetPacketProcesser::getInstance().sendLoginQueueInfoToClient(netEvent->getID(),line_up_busy_fc_account_login,count);
+		if (count > LineUpSettingInfo::line_up_busy_fc_account_login_start_count )
+		{
+			LineUpNetPacketProcesser::getInstance().sendLineUpInfoToClient(netEvent->getID(),line_up_busy_fc_account_login,count);
+		}
+		
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::freePrepareJoinGameTask( PrepareJoinGameTask* task )
+	{
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+		mClientTaskCs.lock();
+		if ( task )
+			MG_POOL_DELETE( mPrepareJoinGameTaskPool, task);
+		mClientTaskCs.unlock();
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::addCreateClanTask( NetEventRecv* netEvent,U32 key /*= 0*/ )
+	{
+		netEvent->addLocker();
+
+		CreateClanTask* task = NULL;
+		mClientTaskCs.lock();
+		{
+			task = MG_POOL_NEW(mCreateClanTaskPool,CreateClanTask,(netEvent,key));
+		}
+		mClientTaskCs.unlock();
+		I32 count = mClientTaskThread.addTask(task);
+		///发送排队信息 
+		if (count > LineUpSettingInfo::line_up_busy_fc_create_clan_start_count)
+		{
+			//LoginNetPacketProcesser::getInstance().sendLoginQueueInfoToClient(netEvent->getID(),line_up_busy_fc_create_clan,count);
+			LineUpNetPacketProcesser::getInstance().sendLineUpInfoToClient(netEvent->getID(),line_up_busy_fc_create_clan,count);
+		}
+		
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::freeCreateClanTask( CreateClanTask* task )
+	{
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+		mClientTaskCs.lock();
+		if ( task )
+			MG_POOL_DELETE( mCreateClanTaskPool, task);
+		mClientTaskCs.unlock();
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::addDeleteClanTask( I32 clientNetId,NetEventRecv* netEvent,U32 key /*= 0*/ )
+	{
+		netEvent->addLocker();
+
+		DeleteClanTask* task = NULL;
+		mClientTaskCs.lock();
+		{
+			task = MG_POOL_NEW(mDeleteClanTaskPool,DeleteClanTask,(clientNetId,netEvent,key));
+		}
+		mClientTaskCs.unlock();
+		I32 count = mClientTaskThread.addTask(task);
+		///发送排队信息 
+		//LoginNetPacketProcesser::getInstance().sendLoginQueueInfoToClient(netEvent->getID(),line_up_busy_fc_del_clan,count);
+		if (count > LineUpSettingInfo::line_up_busy_fc_del_clan_start_count )
+		{
+			LineUpNetPacketProcesser::getInstance().sendLineUpInfoToClient(netEvent->getID(),line_up_busy_fc_del_clan,count);
+		}
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::freeDeleteClanTask( DeleteClanTask* task )
+	{
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+		mClientTaskCs.lock();
+		if ( task )
+			MG_POOL_DELETE( mDeleteClanTaskPool, task);
+		mClientTaskCs.unlock();
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::addCreateGeneralTask( NetEventRecv* netEvent,I32 clientNetId,U32 key /*= 0*/ )
+	{
+		netEvent->addLocker();
+
+		CreateGeneralTask* task = NULL;
+		mClientTaskCs.lock();
+		{
+			task = MG_POOL_NEW(mCreateGeneralTaskPool,CreateGeneralTask,(netEvent,clientNetId,key));
+		}
+		mClientTaskCs.unlock();
+		I32 count = mClientTaskThread.addTask(task);
+		///发送排队信息 
+		//LoginNetPacketProcesser::getInstance().sendLoginQueueInfoToClient(netEvent->getID(),line_up_busy_fc_create_character,count);
+		if (count > LineUpSettingInfo::line_up_busy_fc_create_character_start_count )
+		{
+			LineUpNetPacketProcesser::getInstance().sendLineUpInfoToClient(netEvent->getID(),line_up_busy_fc_create_character,count);
+		}
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::freeCreateGeneralTask( CreateGeneralTask* task )
+	{
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+		mClientTaskCs.lock();
+		if ( task )
+			MG_POOL_DELETE( mCreateGeneralTaskPool, task);
+		mClientTaskCs.unlock();
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::addJoinGameTask( NetEventRecv* netEvent,U32 key /*= 0*/ )
+	{
+		netEvent->addLocker();
+
+		JoinGameTask* task = NULL;
+		mClientTaskCs.lock();
+		{
+			task = MG_POOL_NEW(mJoinGameTaskPool,JoinGameTask,(netEvent,key));
+		}
+		mClientTaskCs.unlock();
+		I32 count =mClientTaskThread.addTask(task);
+		///发送排队信息 
+		//LoginNetPacketProcesser::getInstance().sendLoginQueueInfoToClient(netEvent->getID(),line_up_busy_fc_join_game,count);
+		if (count > LineUpSettingInfo::line_up_busy_fc_join_game_start_count )
+		{
+			LineUpNetPacketProcesser::getInstance().sendLineUpInfoToClient(netEvent->getID(),line_up_busy_fc_join_game,count);
+		}
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::freeJoinGameTask( JoinGameTask* task )
+	{
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+		mClientTaskCs.lock();
+		if ( task )
+			MG_POOL_DELETE( mJoinGameTaskPool, task);
+		mClientTaskCs.unlock();
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::addServerNormalTask(NetEventRecv* netEvent, I32 serverNetId,U32 key /*= 0*/ )
+	{
+		netEvent->addLocker();
+
+		ServerNormalTask* task = NULL;
+		mServerNormalTaskCs.lock();
+		{
+			task = MG_POOL_NEW(mServerNormalTaskPool,ServerNormalTask,(netEvent,serverNetId,key));
+		}
+		mServerNormalTaskCs.unlock();
+		mServerNormalTaskThread.addTask(task);
+	}
+
+	//-----------------------------------------------------------------------------
+	void ThreadTaskManager::freeServerNormalTask( ServerNormalTask* task )
+	{
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+		mServerNormalTaskCs.lock();
+		if ( task )
+			MG_POOL_DELETE( mServerNormalTaskPool, task);
+		mServerNormalTaskCs.unlock();
+	}
+
+    //-----------------------------------------------------------------------------
+    void ThreadTaskManager::addServerNetTranspondSendTask(NetEventRecv* netEvent,I32 serverNetId,U32 key)
+    {
+		netEvent->addLocker();
+
+        ServerNetTranspondSendTask* task = NULL;
+
+        mServerNetTranspondSendTaskCs.lock();
+        {
+            task = MG_POOL_NEW(mServerNetTranspondSendTaskPool,ServerNetTranspondSendTask,(netEvent,serverNetId,key));
+        }
+        mServerNetTranspondSendTaskCs.unlock();
+
+        mServerNetTranspondSendTaskThread.addTask(task);
+    }
+    
+    //-----------------------------------------------------------------------------
+    void ThreadTaskManager::freeServerNetTranspondSendTask(ServerNetTranspondSendTask* task)
+    {
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+        mServerNetTranspondSendTaskCs.lock();
+        if ( task )
+            MG_POOL_DELETE( mServerNetTranspondSendTaskPool, task);
+        mServerNetTranspondSendTaskCs.unlock();
+    }
+
+    //-----------------------------------------------------------------------------
+    void ThreadTaskManager::addServerNetTranspondSaveTask(NetEventRecv* netEvent,I32 serverNetId,U32 key)
+    {
+        // 5线程
+
+		netEvent->addLocker();
+
+        ServerNetTranspondSaveTask* task = NULL;
+
+        mServerNetTranspondSaveTaskCs.lock();
+        {
+            task = MG_POOL_NEW(mServerNetTranspondSaveTaskPool,ServerNetTranspondSaveTask,(netEvent,serverNetId,key));
+        }
+        mServerNetTranspondSaveTaskCs.unlock();
+
+        mServerNetTranspondSaveTaskThread1.addTask(task);
+    }
+
+    //-----------------------------------------------------------------------------
+    void ThreadTaskManager::freeServerNetTranspondSaveTask(ServerNetTranspondSaveTask* task)
+    {
+        if ( task->mNetEvent->subLocker() <= 0 )
+            FrontServerMain::getInstance().freeEvent( task->mNetEvent );
+
+        mServerNetTranspondSaveTaskTempList.push_back( task );
+        Int tempCount = mServerNetTranspondSaveTaskTempList.size();
+
+        if ( mServerNetTranspondSaveTaskCs.tryLock() )
+        {
+            for ( UInt i=0; i<tempCount; i++ )
+            {
+                MG_POOL_DELETE( mServerNetTranspondSaveTaskPool, mServerNetTranspondSaveTaskTempList.back() );
+                mServerNetTranspondSaveTaskTempList.pop_back();
+            }
+
+            mServerNetTranspondSaveTaskCs.unlock();
+        }else
+        if ( tempCount > 10000 )
+        {
+            mServerNetTranspondSaveTaskCs.lock();
+            {
+                for ( UInt i=0; i<tempCount; i++ )
+                {
+                    MG_POOL_DELETE( mServerNetTranspondSaveTaskPool, mServerNetTranspondSaveTaskTempList.back() );
+                    mServerNetTranspondSaveTaskTempList.pop_back();
+                }
+            }
+            mServerNetTranspondSaveTaskCs.unlock();
+        }
+    }
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::removePrepareJoinGameTask( U32 key )
+	{
+		return mClientTaskThread.removeTask((U32)TTT_PREPAREJOINGAME, key);
+	}
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::removeCreateClanTask( U32 key )
+	{
+		return mClientTaskThread.removeTask((U32)TTT_CREATECLAN, key);
+	}
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::removeDeleteClanTask( U32 key )
+	{
+		return mClientTaskThread.removeTask((U32)TTT_DELETECLAN, key);
+	}
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::removeCreateGeneralTask( U32 key )
+	{
+		return mClientTaskThread.removeTask((U32)TTT_CREATEGENERAL, key);
+	}
+	//-----------------------------------------------------------------------------
+	Bool ThreadTaskManager::removeJoinGameTask( U32 key )
+	{
+		return mClientTaskThread.removeTask((U32)TTT_JOINGAMETASK, key);
+	}
+}
+//***********************************************************************************************************

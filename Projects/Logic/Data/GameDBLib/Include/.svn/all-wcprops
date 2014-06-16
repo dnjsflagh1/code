@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/GameDBLib/Include
+END
+PlaceDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/Include/PlaceDB.h
+END
+CDDBOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/Include/CDDBOp.h
+END
+CharacterLogInAndOut.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MGCode/!svn/ver/7239/trunk/Projects/Logic/Data/GameDBLib/Include/CharacterLogInAndOut.h
+END
+PlayerLogInAndOut.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/7239/trunk/Projects/Logic/Data/GameDBLib/Include/PlayerLogInAndOut.h
+END
+AccountDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/4855/trunk/Projects/Logic/Data/GameDBLib/Include/AccountDB.h
+END
+ClanDataBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/4726/trunk/Projects/Logic/Data/GameDBLib/Include/ClanDataBase.h
+END
+ItemDBOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/Include/ItemDBOp.h
+END
+LogAccountDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/7061/trunk/Projects/Logic/Data/GameDBLib/Include/LogAccountDB.h
+END
+TroopDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/Include/TroopDB.h
+END
+GMLogDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6253/trunk/Projects/Logic/Data/GameDBLib/Include/GMLogDB.h
+END
+PlayerCharacterDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MGCode/!svn/ver/6427/trunk/Projects/Logic/Data/GameDBLib/Include/PlayerCharacterDB.h
+END
+MapDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MGCode/!svn/ver/21/trunk/Projects/Logic/Data/GameDBLib/Include/MapDB.h
+END
+PlayerCharacterDBSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/GameDBLib/Include/PlayerCharacterDBSystem.h
+END
+SkillDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/2557/trunk/Projects/Logic/Data/GameDBLib/Include/SkillDB.h
+END
+GMAccountDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/6296/trunk/Projects/Logic/Data/GameDBLib/Include/GMAccountDB.h
+END
+CommonGameDBOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Data/GameDBLib/Include/CommonGameDBOp.h
+END
+ClanDBSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/8080/trunk/Projects/Logic/Data/GameDBLib/Include/ClanDBSystem.h
+END

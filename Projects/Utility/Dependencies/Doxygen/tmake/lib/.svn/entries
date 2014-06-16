@@ -1,0 +1,160 @@
+10
+
+dir
+8081
+https://192.168.1.222/svn/MGCode/trunk/Projects/Utility/Dependencies/Doxygen/tmake/lib
+https://192.168.1.222/svn/MGCode
+
+
+
+2012-06-06T08:56:59.197713Z
+2
+caiguangyi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b2c7a85-9ef0-4d4b-8450-bc75133c67ac
+
+qnx-g++
+dir
+
+dgux-g++
+dir
+
+win32-borland
+dir
+
+osf1-g++
+dir
+
+unix
+dir
+
+win32-symantec
+dir
+
+freebsd-g++
+dir
+
+solaris-g++
+dir
+
+linux-64
+dir
+
+netbsd-g++
+dir
+
+win32-watcom
+dir
+
+aix-g++
+dir
+
+bsdi-g++
+dir
+
+sco-g++
+dir
+
+hpux-g++
+dir
+
+solaris-cc
+dir
+
+macosx-c++
+dir
+
+ultrix-g++
+dir
+
+irix-dcc
+dir
+
+irix-64
+dir
+
+unixware7-g++
+dir
+
+hpux-cc
+dir
+
+win32-msvc
+dir
+
+linux-g++
+dir
+
+win32-g++
+dir
+
+win32-mingw
+dir
+
+sunos-g++
+dir
+
+irix-g++
+dir
+
+solaris-cc-64
+dir
+
+macosx-uni-c++
+dir
+
+solaris-cc-gcc
+dir
+
+m68k-atari-mint-g++
+dir
+
+beos-g++
+dir
+
+win32
+dir
+
+gnu-g++
+dir
+
+openbsd-g++
+dir
+
+aix-xlc
+dir
+
+osf1-cxx
+dir
+
+hpux-acc
+dir
+
+irix-n32
+dir
+
+irix-o32
+dir
+
+unixware-g++
+dir
+
+unixware7-cc
+dir
+
+win32-visage
+dir
+

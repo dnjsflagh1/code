@@ -1,0 +1,269 @@
+/******************************************************************************/
+#ifndef _GAMENETPACKET_H_
+#define _GAMENETPACKET_H_
+/******************************************************************************/
+
+#include "NetCommonGameStruct.h"
+#include "NetVec2.h"
+
+/******************************************************************************/
+
+//单个网络数据普通包最长长度    //1k   
+#define MG_GAME_NET_PACKET_NORMAL_MAX_SIZE      MG_NET_DEFAULT_SEND_BUFFER_SIZE
+//单个网络数据大型包最长长度    //10k   
+#define MG_GAME_NET_PACKET_BIG_MAX_SIZE         (MG_NET_DEFAULT_SEND_BUFFER_SIZE*10)
+
+// 默认发送数据缓存大小
+#define MG_NET_DEFAULT_SEND_BUFFER_SIZE	        1024
+// 默认接收数据缓存
+#define MG_NET_DEFAULT_RECV_BUFFER_SIZE	        1024*20
+
+
+/******************************************************************************/
+namespace MG
+{
+	/******************************************************************************/
+	//网络端类型
+	/******************************************************************************/
+	enum GameNetType
+	{
+		GNT_UNKOWN = 0,
+		GNT_CLIENT = 1,
+		GNT_LOGIN_SERVER = 2,
+		GNT_FRONT_SERVER = 3,
+		GNT_CENTER_SERVER = 4,
+		GNT_MAP_SERVER = 5,
+        GNT_SYSLOG_SERVER = 6,
+		GNT_CHAT_SERVER = 7,
+        GNT_MALL_SERVER = 8,
+		GNT_DB_SERVER = 9,
+		GNT_GM_SERVER = 10,
+		GNT_GM_SERVERMANAGER = 11,
+	};
+
+    /******************************************************************************/
+    //游戏包频道
+    /******************************************************************************/
+    enum GameNetPacketChannel
+    {
+		GNPC_UNKOWN,
+        GNPC_TEST,                  //测试相关
+        
+        //
+        GNPC_LOGIN,             	//登入相关
+		GNPC_SERVER_STATE,			//服务器状态
+        GNPC_PLAYER,            	//玩家相关  
+        
+        GNPC_PLAYER_CHARACTER,  	//玩家角色相关
+		GNPC_MONSTER,
+		GNPC_TROOP,					//军队相关
+        GNPC_ACTOR,             	//Actor相关
+        GNPC_NPC,
+        GNPC_ITEM,
+        GNPC_BUILDING,
+        GNPC_ARMY,
+        
+        GNPC_DISTRICT,
+        GNPC_WORLD,
+        GNPC_MAP,
+        GNPC_PLACE,
+        GNPC_REGION,
+
+		GNPC_CAMPAIGN,				//战斗相关
+		GNPC_BATTLE_SCORE,			//战斗统计
+		GNPC_PVE,					//PVE相关
+        
+        GNPC_QUEST,     			//任务相关
+        GNPC_CHAT,      			//聊天相关
+        GNPC_GUILD,   				//公会相关
+        GNPC_TRADE,     			//交易相关
+        GNPC_SHOP,                  //商店相关
+
+		GNPC_SKILL,					//与技能相关 
+        GNPC_SYSLOG,                //与日志系统相关
+        GNPC_ATTRIBUTE,             //与属性系统相关
+        GNPC_CD,                    //与CD相关（冷却时间）
+		GNPC_INSTANCE,				// 副本相关
+		GNPC_BUFF,					//与状态相关 
+		GNPC_GENERAL_RECRUIT,		//武将招募
+
+		GNPC_PACK,
+        
+        GNPC_NORMAL_MAX = 100,
+        
+        //
+		GNPC_NET_TRANSPOND = 112,
+		GNPC_TIME,					//时间系统相关
+		GNPC_DB,					//数据库操作
+        GNPC_LINE_UP,				// 排队
+
+		GNPC_GM_ACCOUNT = 150,		//GM登录相关
+    };
+    
+    /******************************************************************************/
+    //游戏包处理类型
+    /******************************************************************************/
+    enum GameNetPacketProcessMode
+    {
+        GNPPM_NORMAL  = 1,
+        GNPPM_UNIQUE  = 2,
+        GNPPM_DISCARDABLE = 4,
+    };
+
+#pragma pack (push)
+#pragma pack (1)
+
+    /******************************************************************************/
+    //游戏包头
+    /******************************************************************************/
+    struct GameNetPacketHeader
+    {
+        Byte channel;
+    };
+
+    /******************************************************************************/
+    //游戏包数据
+    /******************************************************************************/
+    struct GameNetPacketData : public GameNetPacketHeader
+    {
+        Byte    type;
+        Char8   data[1];
+    };
+    struct GameNetPacketData_INFO
+    {
+        static const Int headSize = sizeof(GameNetPacketData) - sizeof(Char8);
+    };
+
+    /******************************************************************************/
+    // 数据包基础信息描述
+    /******************************************************************************/
+    
+    // 网络包级别
+    enum GameNetPacketLevel
+    {
+        GPL_NONE                = 0,     
+        GPL_SYS                 = BIT(0),   // 系统的
+        GPL_LOGIC               = BIT(1),   // 逻辑的
+    };
+
+    // 网络包数据流向
+    enum GameNetPacketFlowType
+    {
+        GPFL_NONE= 0,     
+        GPFL_C2S,   // Client to Server
+        GPFL_S2C,   // Server to Server
+        GPFL_S2S,   // Server to Server
+		GPFL_S2S2C,	// Server to Server to Client
+		GPFL_C2S2S,	// Client to Server to Server
+    };
+    
+    // 网络包缓存替换级别
+    enum GameNetPacketReplaceLevel
+    {
+        GPRL_NONE   = 0,     
+        GPRL_SELF,      // 替换自己
+        GPRL_ALL,       // 替换所有
+    };
+    
+    // 网络包缓存丢弃级别
+    enum GameNetPacketDiscardLevel
+    {
+        GPDL_NONE   = 0, // 不被替换     
+        GPDL_HIGH,       // 缓存区到负荷的时候替换
+        GPDL_NORMAL,     // 缓存区有压力时候替换
+        GPDL_LOW,        // 随时可以替换
+    };
+
+    // 网络包缓存等待级别
+    enum GameNetPacketBlockWaitLevel
+    {
+        GPWL_NONE   = 0, // 不等待   
+        GPWL_SLEF,       // 等待自己的消息回应
+        GPWL_All,        // 等待所有的消息回应
+    };
+
+
+    // 信息描述
+    class GameNetPacketDataDescribe
+    {
+    public:
+
+        GameNetPacketDataDescribe()
+            :mChannel(0)
+            ,mType(0)
+            ,mBaseDataSize(0)
+            ,mLevel(GPL_NONE)
+            ,mFlow(GPFL_NONE)
+            ,mReplaceLevelInSendQueue(GPRL_NONE)
+            ,mReplaceIndexInSendQueue(0)
+            ,mReplaceLevelInRecvQueue(GPRL_NONE)
+            ,mReplaceIndexInRecvQueue(0)
+            ,mDiscardLevelInSendQueue(GPDL_NONE)
+            ,mDiscardLevelInRecvQueue(GPDL_NONE)
+            ,mBlockWaitLevelInSendQueue(GPWL_NONE)
+            ,mBlockWaitMaxTimeInSendQueue(0)         
+            ,mBlockWaitReplyChannelInSendQueue(0)
+            ,mBlockWaitReplyTypeInSendQueue(0)
+            ,mBlockWaitLevelInRecvQueue(GPWL_NONE)
+            ,mBlockWaitMaxTimeInRecvQueue(0)         
+            ,mBlockWaitReplyChannelInRecvQueue(0)
+            ,mBlockWaitReplyTypeInRecvQueue(0)
+        {
+        }
+
+        // 得到等级
+        const GameNetPacketLevel&   getLevel(){return mLevel;}
+        // 得到频道
+        const Byte&                 getChannel(){return mChannel;}
+        // 得到类型
+        const Byte&                 getType(){return mType;}
+        // 得到基本数据结构大小
+        const Int&                  getBaseDataSize(){return mBaseDataSize;}
+
+        // 验证数据的有效性(大小和内容合法性)
+        virtual Bool                checkDataValid( GameNetPacketData* data, I32 dataLen )
+        {
+            if ( data->channel != mChannel )
+                return false;
+            if ( data->type != mType )
+                return false;
+            if ( dataLen != mBaseDataSize )
+                return false;
+            return true;
+        }
+        
+    protected:
+
+        Byte                        mChannel;
+        Byte                        mType;
+        Int                         mBaseDataSize;
+
+        GameNetPacketLevel          mLevel;
+        GameNetPacketFlowType       mFlow;
+
+        GameNetPacketReplaceLevel   mReplaceLevelInSendQueue;
+        Int                         mReplaceIndexInSendQueue;
+        GameNetPacketReplaceLevel   mReplaceLevelInRecvQueue;
+        Int                         mReplaceIndexInRecvQueue;
+
+        GameNetPacketDiscardLevel   mDiscardLevelInSendQueue;
+        GameNetPacketDiscardLevel   mDiscardLevelInRecvQueue;
+
+        GameNetPacketBlockWaitLevel mBlockWaitLevelInSendQueue;
+        Int                         mBlockWaitMaxTimeInSendQueue;
+        Byte                        mBlockWaitReplyChannelInSendQueue;            
+        Byte                        mBlockWaitReplyTypeInSendQueue;
+
+        GameNetPacketBlockWaitLevel mBlockWaitLevelInRecvQueue;  
+        Int                         mBlockWaitMaxTimeInRecvQueue;  
+        Byte                        mBlockWaitReplyChannelInRecvQueue;              
+        Byte                        mBlockWaitReplyTypeInRecvQueue;  
+    };
+    
+#pragma pack (pop)
+
+}
+
+/******************************************************************************/
+
+#endif

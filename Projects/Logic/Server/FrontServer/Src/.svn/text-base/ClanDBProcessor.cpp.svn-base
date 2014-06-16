@@ -1,0 +1,76 @@
+/******************************************************************************/
+#include "stdafx.h"
+#include "ClanDBProcessor.h"
+#include "SClan.h"
+#include "ItemDBProcessor.h"
+#include "QuestDBProcessor.h"
+#include "PlayerItem.h"
+#include "ClanQuestObject.h"
+/******************************************************************************/
+namespace MG
+{
+
+    //-----------------------------------------------------------------------------
+    ClanDBProcessor::ClanDBProcessor()
+    {
+    }
+
+    //-----------------------------------------------------------------------------
+    ClanDBProcessor::~ClanDBProcessor()
+    {
+    }
+
+    //-----------------------------------------------------------------------------
+    void ClanDBProcessor::loadAndCreateAllClanInPlayer( SPlayerPtr& playerPtr )
+    {
+        // 只负责加载数据,不要牵涉登入条件判断
+		std::vector<ClanData>					clanDataList;
+		std::vector<dbDoingClanQuestObject>		doingQuestData;
+		std::vector<FinishedClanQuestObject>	finishedQuestData; 
+		std::vector<ItemRecord>					recordList; 
+
+        // 读取氏族一次
+		ClanDBSystem::getClanDataBase(
+			FrontServerMain::getInstance().getDBDriver()
+			,playerPtr->getAccountID()
+			, clanDataList
+			, doingQuestData
+			, finishedQuestData
+			, recordList
+			);
+
+        // 创建氏族
+        SClanPtr clanPtr;
+
+		std::vector<ClanData>::iterator beginIter = clanDataList.begin();
+		std::vector<ClanData>::iterator endIter = clanDataList.end();
+		while (beginIter != endIter)
+		{
+			// 增加一个氏族
+			playerPtr->addClan( clanPtr, *beginIter );
+
+			//加载氏族任务信息。
+			QuestDBProcessor::getInstance().loadQuestInClan( clanPtr, doingQuestData, finishedQuestData );
+			//加载氏族道具信息。
+			ItemDBProcessor::getInstance().loadItemRecordInClan( clanPtr, recordList );
+
+			++beginIter;
+		}  
+    }
+	//-----------------------------------------------------------------------------
+	void ClanDBProcessor::updateClanDataInfo( const ClanData* _clandata )
+	{
+		ClanDBSystem::updateClanDataBase(
+			FrontServerMain::getInstance().getDBDriver(),
+			_clandata
+			);
+	}
+	//-----------------------------------------------------------------------------
+	MG::Bool ClanDBProcessor::insertClanDataInfo( const ClanData* _clandata )
+	{
+		ClanDBSystem::insertClanDataBase(
+			FrontServerMain::getInstance().getDBDriver(),
+			_clandata
+			);
+	}
+}

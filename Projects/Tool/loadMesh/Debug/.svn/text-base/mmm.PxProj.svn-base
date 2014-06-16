@@ -1,0 +1,17 @@
+<PhysicsPlugin>
+    <ExporterSettings ExportPhysXScene="true" PhysXSceneFileFormat=".nxb" ExportAPEXClothing="false" APEXClothingFileFormat="apx" APEXClothingExportCtp="true" APEXClothingExportCtw="true" APEXReverseWinding="false" APEXClothingAddHulls="true" APEXClothingOmitMeshSubpartName="false" />
+    <GraphicsExport File="mmm.fbx" />
+    <PhysicsExport SDK="2.8.5" PhysXScene="mmm.nxb" />
+    <ClothingTool SDK="unknown" CTP="" />
+    <SceneParameters>
+        <AnimationRange Start="0" End="100" FrameRate="30" FrameSubStepCount="3" />
+        <LengthUnit Type="centimeters" />
+        <GroundPlane Enabled="true" Direction="0 0 1" Height="0.000000" ContactShellDepth="-1.000000" />
+        <Gravity Enabled="true" Value="0 0 -9.81" />
+        <Simulation SolverIteration="30" SimulationLoop="Continue Simulation" LastFrameMode="Continue Simulation" />
+    </SceneParameters>
+    <SceneObjects>
+        <RigidBody Attach="groundPlane" Type="Static" Position="0 0 0" SwitchEnabled="false" SwitchAtFrame="0" Velocity="0 0 0" Spin="0 0 0" />
+        <RigidBody Attach="Cone001" Type="Dynamic" Position="27.0155 -16.674 0" SwitchEnabled="false" SwitchAtFrame="0" Velocity="0 0 0" Spin="0 0 0" />
+    </SceneObjects>
+</PhysicsPlugin>

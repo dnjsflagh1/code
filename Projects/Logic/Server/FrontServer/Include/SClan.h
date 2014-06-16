@@ -1,0 +1,182 @@
+/******************************************************************************/
+#ifndef _SCLAN_H_
+#define _SCLAN_H_
+/******************************************************************************/
+#include "FrontServerPreqs.h"
+#include "Clan.h"
+#include "SItemManager.h"
+#include "SBuffManager.h"
+#include "SPlayerCharacter.h"
+#include "SClanQuestManager.h"
+#include "GeneralRecruitSystem.h"
+#include "SGameObjectFactory.h"
+#include "IDBuilderManager.h"
+
+/******************************************************************************/
+namespace MG
+{
+    /******************************************************************************/
+    //家族对象
+    //主要管理家族下的角色
+	/******************************************************************************/
+    class SClan : public Clan, public IDObject
+    {
+    public:
+
+        SClan();
+        virtual	~SClan();
+
+	public:  
+
+        //-----------------------------------------------------------------------------------
+        // Main
+        //-----------------------------------------------------------------------------------
+
+        virtual Bool                    initialize( ClanData& clanData );
+        virtual Bool                    unInitialize();
+
+        virtual void                    update(Flt delta);
+
+        virtual void                    clear();
+
+        //-----------------------------------------------------------------------------------
+        // Debug
+        //-----------------------------------------------------------------------------------
+
+        //打印信息
+        void                            print();
+
+
+		//------------------------------------------------------------------------------------
+		//	PlayerCharactor
+		//------------------------------------------------------------------------------------
+
+        Bool                            addPlayerCharacter( SPlayerCharacterPtr& charPtr, PlayerCharacterData& charData );
+        void                            removePlayerCharacter(PlayerCharacterIdType charId);
+        Bool                            getPlayerCharacter(SPlayerCharacterPtr& charPtr, PlayerCharacterIdType charId);
+        Bool                            hasPlayerCharacter(PlayerCharacterIdType charId);
+        Bool                            hasPlayerCharacter();
+        I32                             getPlayerCharacterCount();
+        void                            removeAllPlayerCharacter();
+
+		//主武将
+        Bool                            getMainPlayerCharacter( SPlayerCharacterPtr& charPtr );
+        void                            setMainPlayerCharacter( PlayerCharacterIdType charId );
+		Bool                			checkMainGenreal();
+	
+		//军师
+		Bool							getWiseGenreal( SPlayerCharacterPtr& charPtr );
+		void                            setWiseGenreal( PlayerCharacterIdType charId );
+		Bool                			checkWiseGenreal();
+
+		//统领
+		Bool							getCommanderGenreal( SPlayerCharacterPtr& charPtr );
+		void                            setCommanderGenreal( PlayerCharacterIdType charId );
+		Bool                			checkCommanderGenreal();
+
+		//当前地图武将
+		Bool							getCurGenreal( SPlayerCharacterPtr& charPtr );
+		void                            setCurGenreal( PlayerCharacterIdType charId );
+		Bool                			checkCurGenreal();
+
+        //------------------------------------------------------------------------------------
+        //	Item
+        //------------------------------------------------------------------------------------
+
+		SItemManager*					getItemManager();
+
+        //------------------------------------------------------------------------------------
+        //	Buff
+        //------------------------------------------------------------------------------------
+		SBuffManager*					getSBuffManager();
+
+		//-----------------------------------------------------------------------------------
+		// GeneralRecruit
+		//-----------------------------------------------------------------------------------
+
+		GeneralRecruitSystem*           getGeneralRecruitSystem();
+
+		//-----------------------------------------------------------------------------------
+		// Quest
+		//-----------------------------------------------------------------------------------
+
+		// 家族任务管理器
+		SClanQuestManager*	            getQuestManager();
+
+
+		//2014.06.01
+		SPlayer* getParentPlayer(){ return mParentPlayer;};
+		void setParentPlayer(SPlayer* _player){ mParentPlayer = _player;};
+
+		NetIdType getClientNetId();
+		
+	private:
+        // 角色
+        SPlayerCharacterFactory                                 mPlayerCharacterFactory;
+        std::map<PlayerCharacterIdType,SPlayerCharacterPtr>     mPlayerCharacterMap;
+        RWLocker                                                mPlayerCharacterMapCs;
+	
+		// 物品管理器
+        SItemManager						mItemManager;	
+		
+		//buff管理器
+		SBuffManager						mSBuffManager;
+
+		// 家族任务管理器
+		SClanQuestManager					mQuestManager;
+
+		//武将招募系统
+		GeneralRecruitSystem				mGeneralRecruitSystem;
+
+		//角色ID生产管理器
+		IDBuilderManager					mCharacterIDBuilderManager;
+	
+		SPlayer*							mParentPlayer;
+    };
+
+
+    /******************************************************************************/
+    //Clan的智能指针
+    /******************************************************************************/
+    class SClanPtr : public SharedPtr<SClan> 
+    {
+        friend class SClanFactory;
+
+    protected:
+
+        SClanFactory* mFactory;
+
+    public:
+
+        virtual ~SClanPtr() { release(); }
+        SClanPtr() : SharedPtr<SClan>(),mFactory(NULL){}
+        explicit SClanPtr(SClan* rep) : SharedPtr<SClan>(rep),mFactory(NULL){}
+        SClanPtr(const SClanPtr& r) : SharedPtr<SClan>(r),mFactory(r.mFactory) {} 
+
+        SClanPtr& operator=(const SClanPtr& r) 
+        {
+            if (pRep == r.pRep)
+                return *this;
+
+            SClanPtr tmp(r);
+            if ( isNull() == false )
+            {
+                tmp.mFactory = mFactory;
+            }
+
+            swap(tmp);
+
+            mFactory = r.mFactory;
+
+            return *this;
+        }
+
+    protected:
+
+        virtual void    destroy(void);
+
+    };
+
+
+}
+#endif

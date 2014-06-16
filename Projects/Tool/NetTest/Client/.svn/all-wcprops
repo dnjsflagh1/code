@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/2078/trunk/Projects/Tool/NetTest/Client
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/stdafx.h
+END
+Client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/Client.cpp
+END
+Client.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/Client.vcproj
+END
+Client.aps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/Client.aps
+END
+Client.rc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/Client.rc
+END
+Client.suo
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/Client.suo
+END
+Client.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/Client.h
+END
+ClientDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/ClientDlg.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/stdafx.cpp
+END
+ClientDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/ClientDlg.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/ReadMe.txt
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/2077/trunk/Projects/Tool/NetTest/Client/resource.h
+END

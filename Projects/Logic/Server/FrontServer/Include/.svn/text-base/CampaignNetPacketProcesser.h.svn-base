@@ -1,0 +1,117 @@
+/******************************************************************************/
+#ifndef _CAMPAIGNNETPACKETPROCESSER_H_
+#define _CAMPAIGNNETPACKETPROCESSER_H_
+/******************************************************************************/
+
+
+#include "FrontServerPreqs.h"
+#include "CampaignNetPacket.h"
+#include "SPlayerPtr.h"
+/******************************************************************************/
+namespace MG
+{
+
+	class CampaignNetPacketProcesser
+	{
+	public:
+		SINGLETON_INSTANCE(CampaignNetPacketProcesser);
+		CampaignNetPacketProcesser();
+		~CampaignNetPacketProcesser();
+
+		Bool	processMapServerPacket(I32 id, NetEventRecv* packet);
+		Bool	processCenterServerPacket(I32 id, NetEventRecv* packet);
+		Bool	processClientPacket(I32 id, NetEventRecv* packet);
+		
+
+
+		/******************************************************************************/
+		//MapServer 收到的消息
+		void    onRecvCampaignCreateFromClient( I32 id, PT_CAMPAIGN_C2F_CREATE_DATA* data );
+		//void	onRecvCampaignCreateFromCenterServer(I32 id , PT_CAMPAIGN_T2F_CREATE_DATA* data);
+		void	onRecvCampaignChangeCampControlFromCenterServer(I32 id , PT_CAMPAIGN_T2F_CHANGE_CAMP_CONTROL_DATA* data);
+		//void	onRecvCampaignEnterFromCenterServer(I32 id , PT_CAMPAIGN_T2F_ENTER_DATA* data);
+
+		void	sendCampaignCreateToCenterServer(PT_CAMPAIGN_C2F_CREATE_DATA* data,SClan* clan, SPlayer* player);
+		//void	sendCampaignCreateToClient(NetIdType clientNetID, PT_CAMPAIGN_T2F_CREATE_DATA* data);
+
+
+		//void	onRecvCampaignErrorFromCenterServer(I32 id , PT_CAMPAIGN_T2F_ERROR_DATA* data);
+		//void	sendCampaignErrorToClient(NetIdType clientNetID, PT_CAMPAIGN_T2F_ERROR_DATA* data);
+		
+		void    onRecvClientCampaignChangeCampControl( I32 id, PT_CAMPAIGN_C2F_CHANGE_CAMP_CONTROL_DATA* data );
+
+		void    onRecvClientCampaignTroopControllerList( I32 id, PT_CAMPAIGN_C2F_TROOP_CONTROLLER_LIST_DATA* data );
+		
+		void    onRecvClientCampaignEndManual( I32 id, PT_CAMPAIGN_C2F_END_MANUAL_DATA* data );
+
+		void    onRecvClientCampaignEndScore( I32 id, PT_CAMPAIGN_C2F_END_SCORE_DATA* data );
+
+
+		/******************************************************************************/
+		//CenterServer 收到的消息
+		void	onRecvCampaignMemberListFromCenterServer(I32 id , PT_CAMPAIGN_T2F_MEMBER_LIST_DATA* data);
+		void	onRecvCampaignEnterAttackFromCenterServer(I32 id , PT_CAMPAIGN_T2F_ENTER_ATTACK_DATA* data);
+		void	onRecvCampaignEnterDefenseFromCenterServer(I32 id , PT_CAMPAIGN_T2F_ENTER_DEFENSE_DATA* data);
+		void	onRecvCampaignStartFromCenterServer(I32 id , PT_CAMPAIGN_T2F_START_DATA* data);
+		void	onRecvCampaignStartJumpRegionFromCenterServer(I32 id , PT_CAMPAIGN_T2F_START_JUMP_REGION_DATA* data);
+		void	onRecvCampaignEndFromCenterServer(I32 id , PT_CAMPAIGN_T2F_END_DATA* data);
+		void	onRecvCampaignCreateCampByControlerFromCenterServer(I32 id , PT_CAMPAIGN_T2F_CREATE_CAMP_BY_CONTROLER_DATA* data);
+		void	onRecvCampaignChangeCampOwnerByControlerFromCenterServer(I32 id , PT_CAMPAIGN_T2F_CHANGE_CAMP_OWNER_DATA* data);
+		void	onRecvCampaignTroopControllerListFromCenterServer(I32 id , PT_CAMPAIGN_T2F_TROOP_CONTROLLER_LIST_DATA* data);
+		void	onRecvCampaignLeaveInCampaignFromCenterServer(I32 id , PT_CAMPAIGN_T2F_LEAVE_IN_CAMPAIGN_DATA* data);
+
+
+		void	sendCampaignStartToCenterServer(PT_CAMPAIGN_C2F_START_DATA* data, SPlayerPtr player);
+		void	sendCampaignStartToMapServer(NetIdType mapServerNetId, PT_CAMPAIGN_T2F_START_DATA* data);
+		void	sendCampaignListToCenterServer(NetIdType clientNetID);
+
+
+
+
+		//void    onRecvMapServerCampaignCreate( I32 id, PT_CAMPAIGN_M2F_CREATE_DATA* data );
+		//void    onRecvMapServerCampaignEnter( I32 id, PT_CAMPAIGN_SC_ENTER_DATA* data );
+
+		
+
+		/******************************************************************************/
+		void    onRecvCampaignListFromClient( I32 id, PT_CAMPAIGN_C2F_CAMPAIGN_LIST_DATA* data );
+		
+		/******************************************************************************/
+		//发给Client
+		void	sendCampaignErrorToClient(NetIdType clientNetID, CAMPAIGN_ERROR error);
+
+		void	sendCampaignLeaveInCampaignToClient(NetIdType clientNetID, CampaignIdType campaignId);
+		/******************************************************************************/
+		//发给CenterServer
+		//void	sendCampaignEnterToCenterServer(NetIdType clientNetId, PT_CAMPAIGN_C2F_ENTER_ATTACK_DATA* data, SPlayer* myPlayer);
+
+		void	sendCampaignDisconnectToCenterServer(SPlayerPtr player);
+
+
+		/******************************************************************************/
+
+
+
+
+		/******************************************************************************/
+		//Client 接收
+		void    onRecvClientCampaignEnterFromClient( I32 id, PT_CAMPAIGN_C2F_ENTER_ATTACK_DATA* data );
+		void    onRecvClientCampaignEnterDefenseFromClient( I32 id, PT_CAMPAIGN_C2F_ENTER_DEFENSE_DATA* data );
+
+		/******************************************************************************/
+		//void    onRecvClientCampaignJoinStandBy( I32 id, PT_CAMPAIGN_C2F_JOIN_STANDBY_DATA* data );
+		//void    onRecvClientCampaignJoinStandByMySelf( I32 id, PT_CAMPAIGN_C2F_JOIN_STANDBY_MYSELF_DATA* data );
+		void    onRecvClientCampaignReadyMySelf( I32 id, PT_CAMPAIGN_C2F_READY_MYSELF_DATA* data );
+		//void    onRecvClientCampaignJoinWaiting( I32 id, PT_CAMPAIGN_C2F_JOIN_WATING_DATA* data );
+		//void    onRecvClientCampaignReady( I32 id, PT_CAMPAIGN_C2F_READY_DATA* data );
+		void    onRecvClientCampaignLeave( I32 id, PT_CAMPAIGN_C2F_LEAVE_DATA* data );
+		
+		void    onRecvClientCampaignLeaveCampaign( I32 id, PT_CAMPAIGN_C2F_LEAVE_IN_CAMPAIGN_DATA* data );
+	
+		void    onRecvClientCampaignStart( I32 id, PT_CAMPAIGN_C2F_START_DATA* data );
+		//void    onRecvClientCampaignKick( I32 id, PT_CAMPAIGN_C2F_KICK_CLAN_DATA* data );
+		
+	};
+}
+
+#endif	//_CAMPAIGNNETPACKETPROCESSER_H_

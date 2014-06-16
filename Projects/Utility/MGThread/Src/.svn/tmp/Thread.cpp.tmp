@@ -1,0 +1,293 @@
+/******************************************************************************/
+#include "stdafx.h"
+#include "Thread.h"
+#include "ThreadPool.h"
+#include "Task.h"
+/******************************************************************************/
+
+namespace MG
+{
+
+    //-------------------------------------------------------------------------------
+	Thread::Thread( ThreadPool *threadPool ):mThreadPool(threadPool),mFreeFlag(true)
+	{
+		mHandle = CreateThread(0,0,threadProc,this,0,(unsigned long*)(&mThreadId));
+		DYNAMIC_ASSERT(mHandle);
+		if( mHandle == NULL)
+		{
+			throw;
+		}
+		mThreadPool->mCurr++;
+		mThreadPool->mFree++;
+	}
+
+    //-------------------------------------------------------------------------------
+	Thread::~Thread()
+	{
+		//closehandle 放在线程中处理	
+	}
+
+    //-------------------------------------------------------------------------------
+	DWORD WINAPI Thread::threadProc( LPVOID thd )
+	{
+
+		Thread* tempThread = (Thread*)thd;
+		ThreadPool* pool = tempThread->getPool();
+		SetThreadPriority(GetCurrentThread(),pool->mPriority);
+		pool->threadExcute(tempThread);
+		SetThreadPriority(GetCurrentThread(),THREAD_PRIORITY_NORMAL);
+		return 0;
+	}
+
+    //-------------------------------------------------------------------------------
+	Ptr Thread::getHandle()
+	{
+		return mHandle;
+	}
+
+    //-------------------------------------------------------------------------------
+	U32 Thread::getThreadID()
+	{
+		return mThreadId;
+	}
+
+    //-------------------------------------------------------------------------------
+	ThreadPool * Thread::getPool()
+	{
+		return mThreadPool;
+	}
+
+    //-------------------------------------------------------------------------------
+	void ThreadQueue::addThread( Thread* thd )
+	{
+		thd->mLast	= 0;
+		thd->mNext	= mThreadQueue;
+		if(mThreadQueue)
+		{
+			mThreadQueue->mLast = thd;
+		}
+		mThreadQueue = thd;
+	}
+
+    //-------------------------------------------------------------------------------
+	void ThreadQueue::delThread( Thread* thd )
+	{
+		if(thd->mNext)
+		{
+			thd->mNext->mLast = thd->mLast;
+		}
+		if(thd->mLast)
+		{
+			thd->mLast->mNext = thd->mNext;
+		}
+		if(mThreadQueue ==thd)
+		{
+			mThreadQueue = thd->mNext;
+		}
+	}
+
+    //-------------------------------------------------------------------------------
+	ThreadQueue::ThreadQueue():mThreadQueue(NULL)
+	{
+		if( mLockPool == NULL || mLockUpdate == NULL)
+		{
+			DYNAMIC_ASSERT(false);
+			throw;
+		}
+	}
+
+    //-------------------------------------------------------------------------------
+    OneThreadHandle::OneThreadHandle()
+        :mHandle(NULL),
+        mCallback(NULL),
+        mPtr(NULL)
+    {
+        
+    }
+
+    //-------------------------------------------------------------------------------
+    OneThreadHandle::~OneThreadHandle()
+    {
+        destory();
+    }
+
+    //-------------------------------------------------------------------------------
+    Bool OneThreadHandle::create(void (*callback)(Ptr),Ptr ptr)
+    {
+        destory();
+        mCallback = callback;
+        mPtr = ptr;
+        mHandle = CreateThread( NULL, 0, threadFunction, (LPVOID)this, 0, NULL );
+		if (mHandle > 0)
+		{
+			mIsRun = true;
+			return true;
+		}
+		else
+		{
+			mIsRun = false;
+		}
+        return false;
+    }
+
+    //-------------------------------------------------------------------------------
+    Bool OneThreadHandle::destory()
+    {
+        if ( mHandle )
+        {
+			mIsRun = false;
+			if(mHandle)
+			{
+				Sleep(10);
+				CloseHandle(mHandle);
+				mHandle = NULL;
+				Sleep(5);
+			}
+        }
+        return true;
+    }
+
+    //-------------------------------------------------------------------------------
+    DWORD API OneThreadHandle::threadFunction(Ptr p)
+    {
+        OneThreadHandle* mgr = (OneThreadHandle*)p;
+        if (mgr)
+        {
+            mgr->mCallback(p);
+			 mgr->mHandle = NULL;
+        }
+		ExitThread( 0 );
+        return 0;
+    }
+	//-------------------------------------------------------------------------------
+	void* OneThreadHandle::getParam()
+	{
+		return mPtr;
+	}
+	//-------------------------------------------------------------------------------
+	Bool OneThreadHandle::isRun()
+	{
+		return mIsRun;
+	}
+	//-------------------------------------------------------------------------------
+	MG::Ptr OneThreadHandle::getHandle()
+	{
+		return mHandle;
+	}
+
+	//===============================================================================
+	MG::Bool ModeTaskThread::create( Ptr ptr,I32 maxTaskCount )
+	{
+		destory();
+		mPtr = ptr;
+		mTaskQueue = new ModeTaskQueue(maxTaskCount);
+		mHandle = CreateThread( NULL, 0, threadFunction, (LPVOID)this, 0, NULL );
+		if (mHandle > 0 && mTaskQueue)
+		{
+			mIsRun = true;
+			return true;
+		}
+		else
+		{
+			mIsRun = false;
+		}
+		return false;
+	}
+
+	// TODO: 须修改，做同步
+	void ModeTaskThread::destory()
+	{
+		if (mTaskQueue)
+		{
+			delete mTaskQueue;
+			mTaskQueue = NULL;
+		}
+		if ( mHandle )
+		{
+			mIsRun = false;
+			if(mHandle)
+			{
+				Sleep(10);
+				CloseHandle(mHandle);
+				mHandle = NULL;
+				Sleep(5);
+			}
+		}
+	}
+
+	void* ModeTaskThread::getParam()
+	{
+		return mPtr;
+	}
+
+	Bool ModeTaskThread::isRun()
+	{
+		return mIsRun;
+	}
+
+	Ptr ModeTaskThread::getHandle()
+	{
+		return mHandle;
+	}
+
+	Bool ModeTaskThread::addTask( ModeTask* task )
+	{
+		if (mTaskQueue)
+		{
+			return mTaskQueue->addTask(task);
+		}
+		return false;
+	}
+
+	I32 ModeTaskThread::getCurrTaskCount()
+	{
+		if (mTaskQueue)
+		{
+			return mTaskQueue->getTaskCount();
+		}
+		return 0;
+	}
+
+	DWORD API ModeTaskThread::threadFunction( Ptr p )
+	{
+		ModeTaskThread* modeThread = (ModeTaskThread*)p; 
+		if (modeThread)
+		{
+			ModeTask* modeTask = NULL;
+			while(modeThread->mIsRun)
+			{
+				modeTask = modeThread->getTask();
+				if (modeTask)
+				{
+					modeTask->process();
+					modeTask->free();
+				}
+				else
+				{
+					Sleep(5);
+				}
+			}
+		}
+		ExitThread(0);
+		return 0;
+	}
+
+	ModeTask* ModeTaskThread::getTask()
+	{
+		if (mTaskQueue)
+		{
+			return mTaskQueue->getTask();
+		}
+		return NULL;
+	}
+
+	ModeTaskThread::ModeTaskThread()
+	{
+		
+	}
+
+	ModeTaskThread::~ModeTaskThread()
+	{
+
+	}
+}

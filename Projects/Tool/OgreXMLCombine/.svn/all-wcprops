@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MGCode/!svn/ver/6894/trunk/Projects/Tool/OgreXMLCombine
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MGCode/!svn/ver/6124/trunk/Projects/Tool/OgreXMLCombine/stdafx.h
+END
+tinyxmlerror.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/tinyxmlerror.cpp
+END
+tinystr.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/tinystr.h
+END
+tinyxmlparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/tinyxmlparser.cpp
+END
+tinyxml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/tinyxml.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/stdafx.cpp
+END
+tinyxml.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/tinyxml.h
+END
+OgreXMLCombine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6894/trunk/Projects/Tool/OgreXMLCombine/OgreXMLCombine.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/ReadMe.txt
+END
+generator.bat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MGCode/!svn/ver/6472/trunk/Projects/Tool/OgreXMLCombine/generator.bat
+END
+OgreXMLCombine.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MGCode/!svn/ver/6124/trunk/Projects/Tool/OgreXMLCombine/OgreXMLCombine.vcproj
+END
+tinystr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MGCode/!svn/ver/3621/trunk/Projects/Tool/OgreXMLCombine/tinystr.cpp
+END
+MyXMLConverter.exe
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MGCode/!svn/ver/6473/trunk/Projects/Tool/OgreXMLCombine/MyXMLConverter.exe
+END

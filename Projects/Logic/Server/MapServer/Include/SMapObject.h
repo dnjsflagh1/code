@@ -1,0 +1,68 @@
+
+/******************************************************************************/
+
+#ifndef _S_MAPOBJECT_H_
+#define _S_MAPOBJECT_H_
+
+/******************************************************************************/
+
+#include "MapServerPreqs.h"
+#include "DistrictList.h"
+#include "SceneFileLoader.h"
+
+/******************************************************************************/
+
+namespace MG
+{
+    /******************************************************************************/
+    //  某个地图管理器
+    //  主要用于管理一个地图的所有相关场景对象
+    /******************************************************************************/
+    class SMapObject	//对应 SBigRegionObject
+    {
+    public:
+
+        SMapObject(RegionObjectData* regionData);
+        virtual ~SMapObject();
+
+        //-----------------------------------------------------------------------------------
+        // Main
+        //-----------------------------------------------------------------------------------
+
+        virtual Bool                initialize(){return 0;}
+        virtual Bool                unInitialize(){return 0;}
+        virtual void                clear(){return ;}
+        virtual void                update(Flt delta){return ;}
+
+        //-----------------------------------------------------------------------------------
+        // Base Data
+        //-----------------------------------------------------------------------------------
+
+		virtual SInstanceBase*      getInstanceBase() {return NULL;}
+		
+		virtual	DistrictIdType		getDistrictId()				= NULL;		//绑定的政区ID
+		virtual DistrictRankType	getDistrictRankType()		= NULL;		//政区的类型
+		virtual RegionIdType		getRegionId()				= NULL;
+
+		RegionObjectData*			getRegionData();
+        //-----------------------------------------------------------------------------------
+        // Scene
+        // 基本由子类完成
+        //-----------------------------------------------------------------------------------
+
+
+    private:
+		//副本信息
+		RegionObjectData*			mRegionData;
+
+        SceneFileObject             mSceneFileObject;
+        
+
+	private:
+		//SMapObject();
+    };
+
+
+}
+
+#endif	

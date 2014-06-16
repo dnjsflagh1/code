@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/CenterServer/Src
+END
+SPlaceObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/CenterServer/Src/SPlaceObject.cpp
+END
+CenterGameTimeSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/CenterServer/Src/CenterGameTimeSystem.cpp
+END
+ServerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/CenterServer/Src/ServerManager.cpp
+END
+SPveNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/CenterServer/Src/SPveNetPacketProcesser.cpp
+END
+SPveMember.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2933/trunk/Projects/Logic/Server/CenterServer/Src/SPveMember.cpp
+END
+SWorldManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MGCode/!svn/ver/4503/trunk/Projects/Logic/Server/CenterServer/Src/SWorldManager.cpp
+END
+SysLogNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/CenterServer/Src/SysLogNetPacketProcesser.cpp
+END
+SPveManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2852/trunk/Projects/Logic/Server/CenterServer/Src/SPveManager.cpp
+END
+SPveRoom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MGCode/!svn/ver/3150/trunk/Projects/Logic/Server/CenterServer/Src/SPveRoom.cpp
+END
+PrintDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/5458/trunk/Projects/Logic/Server/CenterServer/Src/PrintDialog.cpp
+END
+MyListView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MGCode/!svn/ver/737/trunk/Projects/Logic/Server/CenterServer/Src/MyListView.cpp
+END
+CenterServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/7969/trunk/Projects/Logic/Server/CenterServer/Src/CenterServerMain.cpp
+END
+DbManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/CenterServer/Src/DbManager.cpp
+END
+SAreaObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/CenterServer/Src/SAreaObject.cpp
+END
+TimeNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/MGCode/!svn/ver/744/trunk/Projects/Logic/Server/CenterServer/Src/TimeNetPacketProcesser.cpp
+END
+SMapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2547/trunk/Projects/Logic/Server/CenterServer/Src/SMapObject.cpp
+END
+SCampaignNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/MGCode/!svn/ver/7618/trunk/Projects/Logic/Server/CenterServer/Src/SCampaignNetPacketProcesser.cpp
+END
+SRegionObjectManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MGCode/!svn/ver/4181/trunk/Projects/Logic/Server/CenterServer/Src/SRegionObjectManager.cpp
+END
+ClientNetTranspondPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/MGCode/!svn/ver/7605/trunk/Projects/Logic/Server/CenterServer/Src/ClientNetTranspondPacketProcesser.cpp
+END
+ServerStateNetPacketProcesser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/CenterServer/Src/ServerStateNetPacketProcesser.cpp
+END
+SRegionObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MGCode/!svn/ver/2/trunk/Projects/Logic/Server/CenterServer/Src/SRegionObject.cpp
+END
+SCampaignManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MGCode/!svn/ver/5570/trunk/Projects/Logic/Server/CenterServer/Src/SCampaignManager.cpp
+END
